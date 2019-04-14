@@ -1,1 +1,1 @@
-* [Basic_commands](Zyxel/Basic_commands.md)
+[Basic_commands](Basic_commands.md)

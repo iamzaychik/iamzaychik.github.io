@@ -1,1 +1,1 @@
-* [Reset_password](Elastix/Reset_password.md)
+[Reset_password](Reset_password.md)

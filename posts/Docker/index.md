@@ -1,1 +1,1 @@
-* [Cheatsheet](Docker/Cheatsheet.md)
+[Cheatsheet](Cheatsheet.md)

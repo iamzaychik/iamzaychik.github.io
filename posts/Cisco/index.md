@@ -1,1 +1,1 @@
-* [Basic](Cisco/Basic.md)
+[Basic](Basic.md)

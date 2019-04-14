@@ -1,2 +1,2 @@
-* [Errors](Radius/Errors.md)
-* [Counters](Radius/Counters.md)
+[Errors](Errors.md)
+[Counters](Counters.md)

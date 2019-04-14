@@ -1,3 +1,3 @@
-* [Встановлюємо_UniFi_controller](Raspberry_Pi/Встановлюємо_UniFi_controller.md)
-* [HDMI_hotplug](Raspberry_Pi/HDMI_hotplug.md)
-* [Install_PHP_7](Raspberry_Pi/Install_PHP_7.md)
+[HDMI_hotplug](HDMI_hotplug.md)
+[Install_PHP_7](Install_PHP_7.md)
+[Install_UniFi_controller](Install_UniFi_controller.md)

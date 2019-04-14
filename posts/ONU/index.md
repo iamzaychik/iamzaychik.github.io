@@ -1,1 +1,1 @@
-* [Upgrade_firmware](ONU/Upgrade_firmware.md)
+[Upgrade_firmware](Upgrade_firmware.md)

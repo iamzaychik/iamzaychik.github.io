@@ -1,2 +1,2 @@
-* [IPTV](DD-WRT/IPTV.md)
-* [Настройка_маршрутизації](DD-WRT/Настройка_маршрутизації.md)
+[Routing](Routing.md)
+[IPTV](IPTV.md)

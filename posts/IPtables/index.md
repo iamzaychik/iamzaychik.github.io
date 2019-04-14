@@ -1,2 +1,2 @@
-* [Example](IPtables/Example.md)
-* [Port_forwarding](IPtables/Port_forwarding.md)
+[Example](Example.md)
+[Port_forwarding](Port_forwarding.md)

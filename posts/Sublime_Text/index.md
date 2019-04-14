@@ -1,1 +1,1 @@
-* [Видалити_пусті_рядки](Sublime_Text/Видалити_пусті_рядки.md)
+[Delete_empty_lines](Delete_empty_lines.md)

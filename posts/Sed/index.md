@@ -1,1 +1,1 @@
-* [Comment_and_uncomment_line_in_file](Sed/Comment_and_uncomment_line_in_file.md)
+[Comment_and_uncomment_line_in_file](Comment_and_uncomment_line_in_file.md)

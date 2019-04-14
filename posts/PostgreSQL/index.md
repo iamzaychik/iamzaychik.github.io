@@ -1,2 +1,2 @@
-* [Cheatsheet](PostgreSQL/Cheatsheet.md)
-* [pg_dump_version_mismatch](PostgreSQL/pg_dump_version_mismatch.md)
+[pg_dump_version_mismatch](pg_dump_version_mismatch.md)
+[Cheatsheet](Cheatsheet.md)

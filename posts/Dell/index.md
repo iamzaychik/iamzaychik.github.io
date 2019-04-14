@@ -1,3 +1,3 @@
-* [Configuring_LACP_between_OpenIndiana_and_a_Dell_Force10_switch](Dell/Configuring_LACP_between_OpenIndiana_and_a_Dell_Force10_switch.md)
-* [Force10](Dell/Force10.Reset_password.md)
-* [Force10_S4810](Dell/Force10_S4810.Initial_Configuration.md)
+[Configuring_LACP_between_OpenIndiana_and_a_Dell_Force10_switch](Configuring_LACP_between_OpenIndiana_and_a_Dell_Force10_switch.md)
+[Force10](Force10.Reset_password.md)
+[Force10_S4810](Force10_S4810.Initial_Configuration.md)

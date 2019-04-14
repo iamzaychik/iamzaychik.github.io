@@ -1,1 +1,1 @@
-* [Cheatsheet](PHP/Cheatsheet.md)
+[Cheatsheet](Cheatsheet.md)

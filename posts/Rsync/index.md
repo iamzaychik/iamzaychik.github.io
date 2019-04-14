@@ -1,1 +1,1 @@
-* [Cheatsheet](Rsync/Cheatsheet.md)
+[Cheatsheet](Cheatsheet.md)

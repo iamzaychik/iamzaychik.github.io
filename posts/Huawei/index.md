@@ -1,2 +1,2 @@
-* [S2326TP-EI_MVR](Huawei/S2326TP-EI_MVR.md)
-* [Basic](Huawei/Basic.md)
+[S2326TP-EI_MVR](S2326TP-EI_MVR.md)
+[Basic](Basic.md)
