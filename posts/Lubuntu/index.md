@@ -1,2 +1,5 @@
 [Unmute_with_mediakey_failed](Unmute_with_mediakey_failed.md)
 [Підключення_до_принтера_HP](Підключення_до_принтера_HP.md)
+* [Unmute_with_mediakey_failed](Unmute_with_mediakey_failed.md)
+* [Підключення_до_принтера_HP](Підключення_до_принтера_HP.md)
+* [index](index.md)
