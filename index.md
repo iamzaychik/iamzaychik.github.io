@@ -1,5 +1,3 @@
-Title: Categories
-
 -----
 
 * [Alcatel](posts/Alcatel)
