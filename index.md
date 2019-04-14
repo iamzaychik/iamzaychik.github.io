@@ -2,6 +2,8 @@
 layout: home
 ---
 
+
+[Link title]({{ site.baseurl }}{% link AWS/Ask_password_for_ubuntu_user_sudo.md %})
 -----
 
 * [Alcatel](posts/Alcatel)
