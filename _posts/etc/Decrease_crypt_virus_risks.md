@@ -1,4 +1,4 @@
-Title: Зменшуємо ризик запустити вірус-шифрувальник
+Title: Decrease crypt virus risks
 Pub date: 21.03.2017
 Category: Windows, 
 

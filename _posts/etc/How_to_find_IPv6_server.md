@@ -1,4 +1,4 @@
-Title: Як знайти по IPv6 і роздерти
+Title: How to find IPv6 server
 Pub date: 15.06.2015
 Category: Network, 
 

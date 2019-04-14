@@ -1,4 +1,4 @@
-Title: Windows. Міняємо зображення на logon screen
+Title: Change logon screen
 Pub date: 03.06.2015
 Category: Windows, 
 
