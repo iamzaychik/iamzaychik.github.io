@@ -1,7 +1,5 @@
 ---
 title: AWS. Ask password for ubuntu user sudo
-date:   <%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>
-categories: jekyll update
 ---
 
 -----
