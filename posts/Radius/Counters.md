@@ -60,7 +60,7 @@ reply-name = Session-Timeout
 sqlmod-inst = sql
 key = User-Name
 reset = never
-query = "SELECT ifnull(sum(time_to_sec(timediff(acctstoptime,acctstarttime))),0) FROM radacct WHERE username like '%{%k}'"
+query = "SELECT ifnull(sum(time_to_sec(timediff(acctstoptime,acctstarttime))),0) FROM radacct WHERE username like '%{ %k}'"
 }`
 
 Подключить модуль в секции authorize
