@@ -1,5 +1,3 @@
-[Routing](Routing.md)
-[IPTV](IPTV.md)
 * [index](index.md)
 * [Routing](Routing.md)
 * [IPTV](IPTV.md)

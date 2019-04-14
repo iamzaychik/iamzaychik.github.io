@@ -1,5 +1,3 @@
-[Errors](Errors.md)
-[Counters](Counters.md)
 * [Errors](Errors.md)
 * [index](index.md)
 * [Counters](Counters.md)
