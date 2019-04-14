@@ -6,7 +6,7 @@ _Говоримо і показуємо. В кращих традиціях Ле
 -----
 
 1.Добавить в /etc/apt/sources.list
-`sudo sh -c 'echo "deb http://ua.archive.ubuntu.com/ubuntu/ precise main universe" &gt;&gt; /etc/apt/sources.list'`
+`sudo sh -c 'echo "deb http://ua.archive.ubuntu.com/ubuntu/ precise main universe" >> /etc/apt/sources.list'`
 
 2.Затем апдейтимся и ставим пакет принудительно из нужного репозитория
 `apt-get update &amp;&amp; apt-get install -t precise twinkle`

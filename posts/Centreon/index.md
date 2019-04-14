@@ -1,1 +1,1 @@
-[PHP_Warning_Cannot_stat_license_file](Centreon/PHP_Warning_Cannot_stat_license_file.md)
+* [PHP_Warning_Cannot_stat_license_file](Centreon/PHP_Warning_Cannot_stat_license_file.md)

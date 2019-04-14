@@ -1,4 +1,4 @@
-Title: Ubuntu. Принтер друкує тільки першу сторінку
+Title: Printing only first page
 Pub date: 26.07.2017
 Category: Ubuntu, 
 
@@ -15,7 +15,7 @@ _ Саме його автоматичне завантаження привод
 `rmmod usblp`
 
 **3. Забороняємо автоматично завантажувати модуль:**
-`echo "blacklist usblp" &gt;&gt; /etc/modprobe.d/blacklist`
+`echo "blacklist usblp" >> /etc/modprobe.d/blacklist`
 
 -----
 

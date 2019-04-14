@@ -1,4 +1,4 @@
-Title: Cisco. Basic commands
+Title: Cisco. Basic
 Pub date: 23.02.2015
 Category: Cisco, 
 

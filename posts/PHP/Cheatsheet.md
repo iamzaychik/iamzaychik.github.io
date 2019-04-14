@@ -1,4 +1,4 @@
-Title: PHP. Шпаргалка
+Title: PHP. Cheatsheet
 Pub date: 01.04.2016
 Category: PHP, 
 

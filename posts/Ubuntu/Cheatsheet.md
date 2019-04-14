@@ -1,4 +1,4 @@
-Title: Ubuntu. Шпаргалка
+Title: Ubuntu. Cheatsheet
 Pub date: 17.12.2015
 Category: Ubuntu, 
 
@@ -135,7 +135,7 @@ echo $name;`
 **Файли, пошук**
 
 **Вивести рядки, які є унікальнимиу файлі:**
-`sort input.txt | uniq -u &gt; output.txt`
+`sort input.txt | uniq -u > output.txt`
 
 **Пошук файлів по вмісту:**
 `grep -rl 'text' /path`
@@ -144,7 +144,7 @@ echo $name;`
 `grep 'text' -P -R -I -l * | xargs sed -i 's/text/replace/g'`
 
 **Пошук файлів в дереві каталогів по типу і запис їх імен у файл (включно зі шляхом):**
-`find /path -iname *.mp3 -print &gt; /path/file.txt`
+`find /path -iname *.mp3 -print > /path/file.txt`
 
 **Видалити файли/папки, які старіші, ніж 14 днів :**
 `find /mnt -type f -mtime +14 -print0 | xargs -0 rm -rf`
@@ -176,9 +176,9 @@ zip -P password -r folder.zip folder - видобути`
 
 **Оператори порівняння:**
 `-lt (&lt; )`
-`-gt (&gt;)`
+`-gt (>)`
 `-le (&lt; =)`
-`-ge (&gt;=)`
+`-ge (>=)`
 `-eq (==)`
 `-ne (!=)`
 
@@ -192,7 +192,7 @@ zip -P password -r folder.zip folder - видобути`
 `Срд Май 11 09:48:13 EEST 2016`
 
 **dmesg timestamp convert:**
-`dmesg|perl -pE '/\[\s*(\d+\.\d+)\]/; $t=scalar localtime time-$1/100; s/\[\s*(\d+\.\d+)\]/[$t]/;' `
+`dmesg|perl -pE '/\[\s*(\d+\.\d+)\]/; $t=scalar localtime time-$1/100; s/\[\s*(\d+\.\d+)\]/[$t]/;'`
 
 -----
 

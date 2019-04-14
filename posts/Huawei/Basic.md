@@ -97,10 +97,10 @@ snmp-agent sys-info location ******`
 
 **Порт**
 Помилки на порту:
-`SW1-Q2326&gt; display interface-statistics Ethernet 0/0/1`
+`SW1-Q2326> display interface-statistics Ethernet 0/0/1`
 
 Очищаємо помилки:
-`SW1-Q2326&gt; reset counters interface Ethernet 0/0/1`
+`SW1-Q2326> reset counters interface Ethernet 0/0/1`
 
 -----
 **Налаштування часу**

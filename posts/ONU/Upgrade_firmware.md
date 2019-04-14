@@ -62,8 +62,8 @@ Category: Onu,
 **BDCOM p1501c**
 `ONU(config)# debug`
 `ONU(config-debug)# legacy`
-`onu-&gt;tftp firmware download 1023.zblob 10.0.0.2`
-`onu-&gt;exit`
+`onu->tftp firmware download 1023.zblob 10.0.0.2`
+`onu->exit`
 `ONU(config-debug)# exit`
 `ONU(config)# exit`
 `ONU# reset`

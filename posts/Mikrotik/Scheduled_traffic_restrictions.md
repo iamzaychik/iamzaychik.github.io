@@ -1,4 +1,4 @@
-Title: Mikrotik. Обмеження трафіка по розкладу
+Title: Scheduled traffic restrictions
 Pub date: 06.02.2017
 Category: Mikrotik, 
 

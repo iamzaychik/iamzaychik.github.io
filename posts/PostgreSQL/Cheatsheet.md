@@ -1,4 +1,4 @@
-Title: PostgreSQL. Шпаргалка
+Title: PostgreSQL. Cheatsheet
 Pub date: 30.01.2018
 Category: PostgreSQL, 
 

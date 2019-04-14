@@ -1,4 +1,4 @@
-Title: Ubuntu. Пасивний FTP
+Title: Passive FTP
 Pub date: 19.04.2016
 Category: Iptables, Ubuntu, 
 

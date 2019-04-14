@@ -1,1 +1,1 @@
-[Monitored_partitions](SNMPD/Monitored_partitions.md)
+* [Monitored_partitions](SNMPD/Monitored_partitions.md)

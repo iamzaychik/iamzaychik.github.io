@@ -1,4 +1,4 @@
-Title: Python. Шпаргалка
+Title: Python. Cheatsheet
 Pub date: 07.12.2016
 Category: Python, 
 
@@ -58,7 +58,7 @@ os.remove('name1') # удалить`
 `#!/usr/bin/python3
 import time
 def countdown(count):
-while (count &gt;= 0):
+while (count >= 0):
 print("Time left:", count, "sec")
 count -= 1
 time.sleep(1)

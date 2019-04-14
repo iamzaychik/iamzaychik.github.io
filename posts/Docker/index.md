@@ -1,1 +1,1 @@
-[Шпаргалка](Docker/Шпаргалка.md)
+* [Cheatsheet](Docker/Cheatsheet.md)

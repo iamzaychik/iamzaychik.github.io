@@ -1,4 +1,4 @@
-Title: CentOS. Шпаргалка
+Title: CentOS. Cheatsheet
 Pub date: 04.07.2017
 Category: CentOS, 
 
@@ -12,7 +12,7 @@ Category: CentOS,
 `lsmod | grep 8021q`
 
 3. Для того, щоб додати модуль в автозавантаження при старті системи, потрібно створити в папці /etc/modules-load.d файл в форматі ім'я_модуля.conf:
-`echo 8021q &gt;&gt; /etc/modules-load.d/8021q.conf`
+`echo 8021q >> /etc/modules-load.d/8021q.conf`
 
 -----
 

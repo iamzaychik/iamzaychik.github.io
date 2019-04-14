@@ -1,4 +1,4 @@
-Title: Настройка маршрутизації для DD-WRT
+Title: Routing
 Pub date: 24.12.2015
 Category: DD-WRT, 
 
@@ -6,15 +6,15 @@ _В цій прошивці роутер за замовчуванням має 
 
 -----
 
-1. Заходимо на веб-інтерфейс, на вкладці "Setup-&gt;Basic Setup" вибираємо Connection Type - PPPoE.
+1. Заходимо на веб-інтерфейс, на вкладці "Setup->Basic Setup" вибираємо Connection Type - PPPoE.
 
 2. Вводимо username/password, отримані від провайдера. Натискаємо кнопку "Save":
 <img class="wp-image-142 size-full aligncenter" src="https://zaychik.info/wp-content/uploads/basic-setup1.png" width="1024" height="648" />
 
-3. Далі йдемо на вкладку Status-&gt;Sys-Info і запам'ятовуємо WAN MAC!
+3. Далі йдемо на вкладку Status->Sys-Info і запам'ятовуємо WAN MAC!
 <img class="wp-image-143 size-full aligncenter" src="https://zaychik.info/wp-content/uploads/dd_wrtsystem_info_125.jpg" width="811" height="285" />
 
-4. На вкладці Administration-&gt;Commands пишемо команду:
+4. На вкладці Administration->Commands пишемо команду:
 `ifconfig`
 
 5. В отриманому списку знаходимо інтерфейс з нашим WAN MAC і запам'ятовуємо ім'я інтерфейсу (в моєму випадку - vlan1)
@@ -34,7 +34,7 @@ iptables -A FORWARD -d 192.168.1.0/24 -j ACCEPT
 iptables -t nat -A POSTROUTING -o vlan1 -s 192.168.1.0/24 -j MASQUERADE`
 
 [*] Натискаємо кнопку "Save Firewall"!
-[*] Потім "Managment---&gt;Reboot Router"
+[*] Потім "Managment--->Reboot Router"
 
 **Увага! Роутер будет завантажуватися трошки довше, ніж звичайно!**.
 [*] Налаштовуємо Wireless на свій розсуд.

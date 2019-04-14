@@ -29,18 +29,18 @@ ifconfig vlan2 up`
 route add -net 91.105.204.0 netmask 255.255.255.0   gw 10.10.***.5
 sleep 60
 /jffs/udpxy -a 192.168.1.1 -p 8080
-echo 2 &gt;/proc/sys/net/ipv4/conf/all/force_igmp_version
+echo 2 >/proc/sys/net/ipv4/conf/all/force_igmp_version
 route add -net 224.0.0.0/4 dev vlan2
-echo "quickleave" &gt; /tmp/igmprt.conf
-echo "phyint vlan2 upstream ratelimit 0 threshold 1" &gt;&gt; /tmp/igmprt.conf
-echo "phyint br0 downstream ratelimit 0 threshold 1" &gt;&gt; /tmp/igmprt.conf
-echo "phyint br0:0 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint eth0 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint eth1 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint etherip0 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint vlan0 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint vlan1 disabled" &gt;&gt; /tmp/igmprt.conf
-echo "phyint lo disabled" &gt;&gt; /tmp/igmprt.conf
+echo "quickleave" > /tmp/igmprt.conf
+echo "phyint vlan2 upstream ratelimit 0 threshold 1" >> /tmp/igmprt.conf
+echo "phyint br0 downstream ratelimit 0 threshold 1" >> /tmp/igmprt.conf
+echo "phyint br0:0 disabled" >> /tmp/igmprt.conf
+echo "phyint eth0 disabled" >> /tmp/igmprt.conf
+echo "phyint eth1 disabled" >> /tmp/igmprt.conf
+echo "phyint etherip0 disabled" >> /tmp/igmprt.conf
+echo "phyint vlan0 disabled" >> /tmp/igmprt.conf
+echo "phyint vlan1 disabled" >> /tmp/igmprt.conf
+echo "phyint lo disabled" >> /tmp/igmprt.conf
 igmprt /tmp/igmprt.conf`
 
 І жмемо Save startup.

@@ -1,2 +1,2 @@
-[Rdesktop](RDP/Rdesktop.md)
-[Remmina](RDP/Remmina.md)
+* [Rdesktop](RDP/Rdesktop.md)
+* [Remmina](RDP/Remmina.md)

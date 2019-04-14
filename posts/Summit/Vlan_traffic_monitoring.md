@@ -1,4 +1,4 @@
-Title: Summit. Моніторимо трафік у влані
+Title: Vlan traffic monitoring
 Pub date: 28.07.2015
 Category: Summit, 
 
@@ -14,7 +14,7 @@ As soon you have enabled VLAN statistics on a VLAN /port combination you can col
 
 You can use below command for vlan statistics
 
-<b>configure ports </b>[<i>port_list</i>|all] <b>monitor vlan </b><i>vlan_name </i>{<b>rx-only </b>| <b>tx-only</b>}
+**configure ports ** [_port_list_ | _all_] **monitor vlan **vlan_name **{_rx-only_ | _tx-only_}
 
 But another point to be noted is , vlan statistics will occupy your ACL slice so configuring too many ports can lead to in-sufficient resources . While implementing have a check on your ACL slice resources.
 

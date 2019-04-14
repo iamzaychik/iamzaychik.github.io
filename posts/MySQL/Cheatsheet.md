@@ -1,4 +1,4 @@
-Title: MySQL. Шпаргалка
+Title: MySQL. Cheatsheet
 Pub date: 10.06.2015
 Category: MySQL, 
 
@@ -34,7 +34,7 @@ Category: MySQL,
 `FLUSH PRIVILEGES;`
 
 **Зробити резервну копію бази:**
-`mysqldump -u USER -p -f mydatabase &gt; /path/to/backup/dump.sql`
+`mysqldump -u USER -p -f mydatabase > /path/to/backup/dump.sql`
 
 **Відновити базу з резервної копії**
 `mysql -u USER -p < /path/to/backup/dump.sql DB_NAME`
@@ -61,7 +61,7 @@ Category: MySQL,
 `UPDATE `wp_posts` SET `post_date`=NOW() WHERE `post_date` LIKE '0000%'`
 
 **Пошук дублікатів:**
-`SELECT mac, COUNT(mac) AS cnt FROM leases GROUP BY mac HAVING ( COUNT(mac) &gt; 1 )`
+`SELECT mac, COUNT(mac) AS cnt FROM leases GROUP BY mac HAVING ( COUNT(mac) > 1 )`
 
 **Очистка значень в стовпці:**
 `UPDATE table SET column = '';`

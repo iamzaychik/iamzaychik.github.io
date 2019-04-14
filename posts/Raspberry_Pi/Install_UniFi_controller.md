@@ -1,9 +1,9 @@
-Title: Raspberry Pi. Встановлюємо UniFi controller
+Title: Install UniFi controller
 Pub date: 15.05.2017
 Category: Raspberry Pi, 
 
 **1. Додаємо UniFi репозиторій, ключ до нього і оновлюємося:**
-`echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/ubnt.list &gt; /dev/null`
+`echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/ubnt.list > /dev/null`
 `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50`
 `sudo apt-get update`
 
@@ -13,7 +13,7 @@ _Встановлення займає деякий час, але проход�
 Також будуть встановлені такі пакети, як MongoDB and OpenJDK Java 7._
 
 **3. Вимкнемо запуск дефолтної бази MongoDB:**
-`echo 'ENABLE_MONGODB=no' | sudo tee -a /etc/mongodb.conf &gt; /dev/null`
+`echo 'ENABLE_MONGODB=no' | sudo tee -a /etc/mongodb.conf > /dev/null`
 _Якщо цього не зробити, то у нас буде запущено дві копії MongoDB - дефолтна та та, що використовується UniFi._
 
 **4. Оновлюємо Snappy Java Library:**

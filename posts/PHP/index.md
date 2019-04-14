@@ -1,1 +1,1 @@
-[Шпаргалка](PHP/Шпаргалка.md)
+* [Cheatsheet](PHP/Cheatsheet.md)

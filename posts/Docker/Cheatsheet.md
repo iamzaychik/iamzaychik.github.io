@@ -1,4 +1,4 @@
-Title: Docker. Шпаргалка
+Title: Docker. Cheatsheet
 Pub date: 13.06.2018
 Category: Docker, 
 

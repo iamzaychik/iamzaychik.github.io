@@ -1,4 +1,4 @@
-Title: Rsync. Шпаргалка
+Title: Rsync. Cheatsheet
 Pub date: 29.09.2018
 Category: Rsync, 
 

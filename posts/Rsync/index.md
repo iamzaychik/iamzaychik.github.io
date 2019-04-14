@@ -1,1 +1,1 @@
-[Шпаргалка](Rsync/Шпаргалка.md)
+* [Cheatsheet](Rsync/Cheatsheet.md)
