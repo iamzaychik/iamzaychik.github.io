@@ -30,6 +30,6 @@ _Не допустимо супостата до комісарського ті
 
 -----
 
-<a href="http://skeletor.org.ua/?p=3706" target="_blank">Пишуть люди</a>
+* <a href="http://skeletor.org.ua/?p=3706" target="_blank">Пишуть люди</a>
 
 -----

@@ -23,5 +23,5 @@ _Сікретнічаємо сікрєти од всього світу._
 `$ unset HISTFILE`
 
 -----
-<a href="http://www.shellhacks.com/ru/Kak-Ochistit-Istoriyu-Komand-v-BASH" target="_blank">Пишуть люди</a>
+* <a href="http://www.shellhacks.com/ru/Kak-Ochistit-Istoriyu-Komand-v-BASH" target="_blank">Пишуть люди</a>
 -----

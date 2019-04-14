@@ -25,7 +25,7 @@ sendmail_msp_queue_enable="NO"`
 
 -----
 
-<a href="https://guruway.wordpress.com/2010/03/11/freebsd-%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-sendmail/">Пишуть люди</a>
+* <a href="https://guruway.wordpress.com/2010/03/11/freebsd-%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-sendmail/">Пишуть люди</a>
 
 -----
 

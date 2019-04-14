@@ -15,5 +15,5 @@ _Говоримо і показуємо. В кращих традиціях Ле
 `sudo echo 'twinkle hold' | sudo dpkg --set-selections`
 
 -----
-<a title="Пишуть люди" href="http://mecht.ru/2014/09/01/twinkle-%D0%B2-ubuntu-14-04/" target="_blank">Пишуть люди</a>
+* <a title="Пишуть люди" href="http://mecht.ru/2014/09/01/twinkle-%D0%B2-ubuntu-14-04/" target="_blank">Пишуть люди</a>
 -----

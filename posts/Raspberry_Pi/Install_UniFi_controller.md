@@ -31,6 +31,6 @@ _Це усуне ряд проблем з старими версіями Raspbe
 
 -----
 
-<a href="http://www.lowefamily.com.au/2016/06/02/installing-ubiquiti-unifi-controller-5-on-raspberry-pi/3/">Пишуть люди</a>
+* <a href="http://www.lowefamily.com.au/2016/06/02/installing-ubiquiti-unifi-controller-5-on-raspberry-pi/3/">Пишуть люди</a>
 
 -----

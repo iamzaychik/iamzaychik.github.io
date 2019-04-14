@@ -21,8 +21,8 @@ HPLIP включает в себя следующее:
 </ul>
 
 
-На <a href="https://hplipopensource.com/hplip-web/index.html">официальном сайте</a> **HPLIP** доступна самая последняя версия (2.8.12), которая на настоящий момент поддерживает более 1,536 моделей принтеров.
-Для того, чтобы определить, поддерживает ли **HPLIP** модель вашего принтера HP, перейдите по этой <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">ссылке</a>.
+На * <a href="https://hplipopensource.com/hplip-web/index.html">официальном сайте</a> **HPLIP** доступна самая последняя версия (2.8.12), которая на настоящий момент поддерживает более 1,536 моделей принтеров.
+Для того, чтобы определить, поддерживает ли **HPLIP** модель вашего принтера HP, перейдите по этой * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">ссылке</a>.
 После того, как вы нашли и выбрали модель своего принтера в списке поддерживаемых **HPLIP** принтеров, обратите внимание на строчку с рекомендованной версией **HPLIP** (_requires HPLIP version_ …). В ней указана _минимальная версия_ **HPLIP**, которую необходимо установить для корректной работы вашего устройства HP.
 Для того, чтобы посмотреть какая версия системы **HPLIP** установлена у вас, выполните в командной строке:
 **dpkg -l hplip**
@@ -47,5 +47,5 @@ HPLIP включает в себя следующее:
 В Lubuntu идем в Системные\Принтеры и добавляем сетевой принтер.
 
 -----
-<a href="http://linuxway.ru/poleznoe/ustanovka-printera-hp-v-linux-ubuntu/" target="_blank">Пишуть люди</a>
+* <a href="http://linuxway.ru/poleznoe/ustanovka-printera-hp-v-linux-ubuntu/" target="_blank">Пишуть люди</a>
 -----

@@ -9,7 +9,7 @@ _Отвергая законы природы
 
 -----
 
-<a href="http://www.python.org/dev/peps/pep-0008/">PEP8</a> - это стилевые правила для кода на языке Python.
+* <a href="http://www.python.org/dev/peps/pep-0008/">PEP8</a> - это стилевые правила для кода на языке Python.
 <ul>
  	*используйте 4 пробела для отступа и не используйте табы, не смешивайте их
  	*максимальная длина строки 79 символов; для разрыва строки используйте отступы или бэкслеш
@@ -66,6 +66,6 @@ countdown(10)`
 
 -----
 
-<a href="http://rukeba.com/by-the-way/pep8-korotko-i-po-russki/">Пишуть люди</a>
+* <a href="http://rukeba.com/by-the-way/pep8-korotko-i-po-russki/">Пишуть люди</a>
 
 -----

@@ -8,5 +8,5 @@ Category: Sublime Text,
 4. Поле Replace With залишаємо пустим
 5. Натискаємо Replace All
 -----
-<a href="http://blogo-daru.ru/2015/10/07/kak-udalit-pustye-strochki-v-kode-napisannom-v-sublimetext/">Пишуть люди</a>
+* <a href="http://blogo-daru.ru/2015/10/07/kak-udalit-pustye-strochki-v-kode-napisannom-v-sublimetext/">Пишуть люди</a>
 -----

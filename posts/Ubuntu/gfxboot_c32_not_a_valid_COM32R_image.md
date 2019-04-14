@@ -13,7 +13,7 @@ _Шіт хеппенс, товариші!_
 
 -----
 
-<a href="http://askubuntu.com/questions/486602/ubuntu-14-04-lts-live-usb-boot-error-gfxboot-c32not-a-valid-com32r-image">аск.убунту</a>
+* <a href="http://askubuntu.com/questions/486602/ubuntu-14-04-lts-live-usb-boot-error-gfxboot-c32not-a-valid-com32r-image">аск.убунту</a>
 
 -----
 

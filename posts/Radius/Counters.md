@@ -69,6 +69,6 @@ query = "SELECT ifnull(sum(time_to_sec(timediff(acctstoptime,acctstarttime))),0)
 
 -----
 
-<a title="Пишуть люди" href="https://bevice.ru/" target="_blank">Розумний дядько, честь і хвала</a>
+* <a title="Пишуть люди" href="https://bevice.ru/" target="_blank">Розумний дядько, честь і хвала</a>
 
 -----

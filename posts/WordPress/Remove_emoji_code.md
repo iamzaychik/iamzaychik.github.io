@@ -15,5 +15,5 @@ remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );`
 
 -----
-<a href="http://www.denisbouquet.com/remove-wordpress-emoji-code/" target="_blank">Пишуть люди</a>
+* <a href="http://www.denisbouquet.com/remove-wordpress-emoji-code/" target="_blank">Пишуть люди</a>
 -----

@@ -158,5 +158,5 @@ R1(config-router)#passive-interface default Выключить динамиче�
 а потом на некоторых включить:
 R1(config-router)#no passive-interface s 0/0/0
 -----
-<a title="Пишуть люди" href="http://network.xsp.ru/4_10.php">Всякі команди</a>
+* <a title="Пишуть люди" href="http://network.xsp.ru/4_10.php">Всякі команди</a>
 -----

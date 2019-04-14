@@ -1,2 +1,2 @@
-* [Counters](Counters.md)
 * [Errors](Errors.md)
+* [Counters](Counters.md)

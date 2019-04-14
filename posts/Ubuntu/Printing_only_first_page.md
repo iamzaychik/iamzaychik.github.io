@@ -19,6 +19,6 @@ _ Саме його автоматичне завантаження привод
 
 -----
 
-<a href="http://forum.ubuntu.ru/index.php?topic=290261.0">Пишуть люди</a>
+* <a href="http://forum.ubuntu.ru/index.php?topic=290261.0">Пишуть люди</a>
 
 -----

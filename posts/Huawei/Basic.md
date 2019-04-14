@@ -22,7 +22,7 @@ _Свят свят свят. Спаси, о Сотона, від цього го
 14. Знову бачимо "BOOTROM MENU";
 15. Вводимо цифру, яка відповідає пункту **Reboot**;
 
-<a href="http://muff.kiev.ua/content/huawei-s2326-sbros-v-defolt">Пишуть люди</a>
+* <a href="http://muff.kiev.ua/content/huawei-s2326-sbros-v-defolt">Пишуть люди</a>
 
 -----
 **Download configuration via tftp:**
@@ -118,6 +118,6 @@ snmp-agent sys-info location ******`
 `clock daylight-saving-time Kyiv repeating 03:00 last sat Mar 04:00 last sat Oct 1`
 -----
 
-<a title="Пишуть люди" href="http://udatov.blogspot.com/2012/10/800x600-normal-0-false-false-false-ru-x_15.html" target="_blank">Прошивка</a>
-<a href="http://it-donnet.ru/quidway2326/" target="_blank">Настройка</a>
+* <a title="Пишуть люди" href="http://udatov.blogspot.com/2012/10/800x600-normal-0-false-false-false-ru-x_15.html" target="_blank">Прошивка</a>
+* <a href="http://it-donnet.ru/quidway2326/" target="_blank">Настройка</a>
 -----

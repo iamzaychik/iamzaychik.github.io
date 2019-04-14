@@ -245,6 +245,6 @@ Signal Strength Range в интервале -77..120, что позволяет 
 
 -----
 
-<a title="Пишуть люди" href="http://www.lanmart.ru/blogs/mikrotik-hotspot" target="_blank" rel="noopener">Все детально пишуть пацани.</a>
+* <a title="Пишуть люди" href="http://www.lanmart.ru/blogs/mikrotik-hotspot" target="_blank" rel="noopener">Все детально пишуть пацани.</a>
 
 -----

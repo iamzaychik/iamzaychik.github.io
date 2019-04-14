@@ -8,6 +8,6 @@ Category: Ubuntu,
 
 -----
 
-<a href="http://bit.ly/2BpM5uc" target="_blank" rel="noopener">Для більш детального вивчення.</a>
+* <a href="http://bit.ly/2BpM5uc" target="_blank" rel="noopener">Для більш детального вивчення.</a>
 
 -----

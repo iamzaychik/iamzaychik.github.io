@@ -33,7 +33,7 @@ password:zhongxing`
 -----
 
 **Reset password from SNMP**
-1. Ідемо <a href="ftp://91.206.19.52/frimware/ZTE/" target="_blank">сюди</a>, качаємо архів мібів, Або понятно куди, там вже скачано.
+1. Ідемо * <a href="ftp://91.206.19.52/frimware/ZTE/" target="_blank">сюди</a>, качаємо архів мібів, Або понятно куди, там вже скачано.
 2. Беремо чудофайл ES2900E.mib, вкидаємо в mibbrowser
 3. Шукаємо loginUser/userTable
 4. Робимо йому Table View

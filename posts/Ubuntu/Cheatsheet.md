@@ -115,7 +115,7 @@ w ...to write the changes.`
 `name="$(whoami)";
 echo $name;`
 
-<a href="http://nsk.lug.ru/system/10-seconds-guide-to-bash-shell/">10 секундное руководство по Bash</a>
+* <a href="http://nsk.lug.ru/system/10-seconds-guide-to-bash-shell/">10 секундное руководство по Bash</a>
 
 -----
 
@@ -220,6 +220,6 @@ _-R - давати права рекурсивно
 `find /var/www/nextcloud/ -type f -print0 | sudo xargs -0 chmod 0644`
 `find /var/www/nextcloud/ -type d -print0 | sudo xargs -0 chmod 0755`
 
-<a href="http://www.woodwolf.ru/76/">Про права</a>
+* <a href="http://www.woodwolf.ru/76/">Про права</a>
 
 -----

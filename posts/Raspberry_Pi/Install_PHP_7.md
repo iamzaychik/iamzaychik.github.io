@@ -22,6 +22,6 @@ Category: Raspberry Pi,
 
 -----
 
-<a href="http://www.ramoonus.nl/2016/07/17/install-php-7-raspberry-pi/">Пишуть люди</a>
+* <a href="http://www.ramoonus.nl/2016/07/17/install-php-7-raspberry-pi/">Пишуть люди</a>
 
 -----

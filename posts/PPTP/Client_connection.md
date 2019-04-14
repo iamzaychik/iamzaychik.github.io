@@ -35,6 +35,6 @@ ipparam $TUNNEL`
 
 -----
 
-<a href="https://interface31.ru/tech_it/2013/07/nastroyka-pptp-podklyucheniya-v-ubuntu-server.html">Пишуть люди</a>
+* <a href="https://interface31.ru/tech_it/2013/07/nastroyka-pptp-podklyucheniya-v-ubuntu-server.html">Пишуть люди</a>
 
 -----

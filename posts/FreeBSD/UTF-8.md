@@ -26,5 +26,5 @@ Category: FreeBSD,
 `setenv LC_ALL ru_RU.UTF-8`
 
 -----
-<a title="Пишуть люди" href="http://dazmalab.ru/?p=201" target="_blank">Пишуть люди</a>
+* <a title="Пишуть люди" href="http://dazmalab.ru/?p=201" target="_blank">Пишуть люди</a>
 -----

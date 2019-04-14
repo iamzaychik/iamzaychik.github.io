@@ -1,4 +1,4 @@
-Title: Summit. Трансляція VLAN. Дубль 2
+Title: Translate VLAN 2
 Pub date: 30.08.2015
 Category: Summit, 
 

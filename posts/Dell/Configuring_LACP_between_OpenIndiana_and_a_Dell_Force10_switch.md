@@ -4,7 +4,7 @@ Category: Dell,
 
 <div class="entry-content">
 
-Link aggregation is a method of bundling interfaces together to act as one for increased bandwith and/or failover. One of most used protocols, next to a couple of proprietary ones, for controlling such a channel bond is **LACP</strong>, the <a href="http://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol">Link Aggregation Control Protocol</a>.
+Link aggregation is a method of bundling interfaces together to act as one for increased bandwith and/or failover. One of most used protocols, next to a couple of proprietary ones, for controlling such a channel bond is **LACP</strong>, the * <a href="http://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol">Link Aggregation Control Protocol</a>.
 
 <h2>1. Configuring LACP on Dell S4810</h2>
 Let’s assume, we want to bond two 10G Ethernet ports together, namely **TenGigabitEthernet 0/32</strong> and **TenGigabitEthernet 0/33</strong>
@@ -72,7 +72,7 @@ L   9    L2L3  down         00:00:00`
 First, disable the **NWAM</strong> (Network Auto Magic) service:
 <div>
 <div id="highlighter_255906" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -92,7 +92,7 @@ First, disable the **NWAM</strong> (Network Auto Magic) service:
 To **list the available physical ports</strong>, use `dladm`
 <div>
 <div id="highlighter_778897" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -121,10 +121,10 @@ To **list the available physical ports</strong>, use `dladm`
 </table>
 </div>
 </div>
-To create an aggregate device with **two links</strong> (`myri10ge0` and `myri10ge1`) in **LACP mode</strong> (`-L active`) with and <a href="http://docs.oracle.com/cd/E19253-01/816-4554/fpjvl/index.html">L2 failover policy</a> (Determines the outgoing link by hashing the MAC (L2) header of each packet), run:
+To create an aggregate device with **two links</strong> (`myri10ge0` and `myri10ge1`) in **LACP mode</strong> (`-L active`) with and * <a href="http://docs.oracle.com/cd/E19253-01/816-4554/fpjvl/index.html">L2 failover policy</a> (Determines the outgoing link by hashing the MAC (L2) header of each packet), run:
 <div>
 <div id="highlighter_916088" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -142,7 +142,7 @@ To create an aggregate device with **two links</strong> (`myri10ge0` and `myri10
 You can use `dladm show-aggr` to see the **current state</strong>:
 <div>
 <div id="highlighter_384042" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -164,7 +164,7 @@ You can use `dladm show-aggr` to see the **current state</strong>:
 Next, **create an interface</strong> `aggr1`:
 <div>
 <div id="highlighter_890121" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -192,7 +192,7 @@ Next, **create an interface</strong> `aggr1`:
 You should now see that the LACP link is established on the layer 2 switch:
 <div>
 <div id="highlighter_820689" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
@@ -220,7 +220,7 @@ You should now see that the LACP link is established on the layer 2 switch:
 The last thing left to do is to **create an IP address</strong> on top of the `aggr1` interface:
 <div>
 <div id="highlighter_451142" class="syntaxhighlighter bash">
-<div class="toolbar"><a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
+<div class="toolbar">* <a class="toolbar_item command_help help" href="https://possiblelossofprecision.net/?p=1937#">?</a></div>
 <table border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>

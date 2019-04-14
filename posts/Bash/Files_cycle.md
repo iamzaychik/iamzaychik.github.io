@@ -29,5 +29,5 @@ done`
 `find /etc -type f -print0 | xargs -0 wc -l`
 
 -----
-<a href="http://tt.erinome.net/2013/03/468">Пишуть люди</a>
+* <a href="http://tt.erinome.net/2013/03/468">Пишуть люди</a>
 -----

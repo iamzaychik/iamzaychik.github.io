@@ -8,9 +8,9 @@ Category: Alcatel OS 6850/E,
 
 
 
-1. <a href="http://support.alcadis.nl/downloads/Alcatel-Lucent/OmniSwitch/OS6850%20-%20EOS/" target="_blank">Скачай</a> прошивку, бляць!
+1. * <a href="http://support.alcadis.nl/downloads/Alcatel-Lucent/OmniSwitch/OS6850%20-%20EOS/" target="_blank">Скачай</a> прошивку, бляць!
 
-2. Налаштуй <a href="https://zaychik.info/alcatel/">менеджмент-інтерфейс</a> на Alcatel та увімкни ftp:
+2. Налаштуй * <a href="https://zaychik.info/alcatel/">менеджмент-інтерфейс</a> на Alcatel та увімкни ftp:
 `ip service ftp
 aaa authentication ftp local`
 

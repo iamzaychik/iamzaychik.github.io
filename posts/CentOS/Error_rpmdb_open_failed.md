@@ -13,6 +13,6 @@ Category: CentOS,
 **Перевіряємо:**
 `yum update`
 
-<a href="https://www.ostechnix.com/solve-error-rpmdb-open-failed-error-centos/">Пишуть люди</a>
+* <a href="https://www.ostechnix.com/solve-error-rpmdb-open-failed-error-centos/">Пишуть люди</a>
 
 -----

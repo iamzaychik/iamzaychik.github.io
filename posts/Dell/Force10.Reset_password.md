@@ -19,5 +19,5 @@ _Релакс, тейк іт ізі!_
  	*Перезавантажуємо комутатор для перевірки: `reload `(FTOS command line);
 </ol>
 -----
-<a href="http://blog.igics.com/2014/05/recovering-from-forgotten-password-on.html">Пишуть люди</a>
+* <a href="http://blog.igics.com/2014/05/recovering-from-forgotten-password-on.html">Пишуть люди</a>
 -----

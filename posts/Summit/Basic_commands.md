@@ -56,6 +56,6 @@ configure snmpv3 delete target-params all`
 `show licenses`
 -----
 
-<a href="http://netwild.ru/base_config-extreme/">Базовая конфигурация</a>
-<a title="Пишуть люди" href="http://xgu.ru/wiki/ExtremeXOS" target="_blank">ExtremeOS on Xgu</a>
+* <a href="http://netwild.ru/base_config-extreme/">Базовая конфигурация</a>
+* <a title="Пишуть люди" href="http://xgu.ru/wiki/ExtremeXOS" target="_blank">ExtremeOS on Xgu</a>
 -----

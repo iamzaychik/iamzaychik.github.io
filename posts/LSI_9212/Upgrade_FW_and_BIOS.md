@@ -6,7 +6,7 @@ _LSI 9212 - контролер 6Гбіт SAS HBA з чотирма портам�
 
 -----
 
-**1. Завантажуємо останню версію <a href="https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=">Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows</a>**
+**1. Завантажуємо останню версію * <a href="https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=">Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows</a>**
 
 **2. За допомогою Rufus робимо флешку з DOS**
 
@@ -37,6 +37,6 @@ _Або sas2flsh -o -f 214i4et.bin -b mptsas2.rom_
 
 -----
 
-<a href="http://nobrix.ru/firmware_lsi">Пишуть люди</a>
+* <a href="http://nobrix.ru/firmware_lsi">Пишуть люди</a>
 
 -----

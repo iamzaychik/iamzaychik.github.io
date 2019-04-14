@@ -33,6 +33,6 @@ Category: CentOS,
 **To list all services:**
 `systemctl list-unit-files`
 
-<a href="https://www.cyberciti.biz/faq/check-running-services-in-rhel-redhat-fedora-centoslinux/">Пишуть люди</a>
+* <a href="https://www.cyberciti.biz/faq/check-running-services-in-rhel-redhat-fedora-centoslinux/">Пишуть люди</a>
 
 -----

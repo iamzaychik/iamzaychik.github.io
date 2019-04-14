@@ -19,6 +19,6 @@ _Специфіка роботи HDMI в Raspberry PI така, що він пр
 
 -----
 
-<a href="http://blog.mivia.dk/solved-hdmi-working-raspberry-pi/">Пишуть люди</a>
+* <a href="http://blog.mivia.dk/solved-hdmi-working-raspberry-pi/">Пишуть люди</a>
 
 -----
