@@ -1,6 +1,5 @@
 ---
 
-layout: post
 Title: AWS. Ask password for ubuntu user sudo
 Pub date: 23.09.2018
 Category: AWS, 
@@ -16,4 +15,5 @@ Category: AWS,
 2. Змінюємо налаштування cloud провайдера:
 `cat /etc/sudoers.d/90-cloud-init-users`
 `ubuntu ALL=(ALL) ALL`
+
 -----
