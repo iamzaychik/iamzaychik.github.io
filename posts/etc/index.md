@@ -1,3 +1,4 @@
+* [All cast](All_cast.gif)
 * [Awk](Awk.md)
 * [Decrease crypt virus risks](Decrease_crypt_virus_risks.md)
 * [Gluster FS](Gluster_FS.md)
@@ -5,4 +6,4 @@
 * [Knockd](Knockd.md)
 * [List of default Router Passwords and IP addresses](List_of_default_Router_Passwords_and_IP_addresses.pdf)
 * [TFTPD-HPA](TFTPD-HPA.md)
-* [Youtube traffic usage](Youtube_traffic_usage.md)
+* [Youtube traffic usage](Youtube_traffic_usage.jpg)
