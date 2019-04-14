@@ -1,3 +1,8 @@
+layout: default
+Title: Categories
+
+-----
+
 * [Alcatel](posts/Alcatel)
 * [Apache](posts/Apache)
 * [AWS](posts/AWS)
@@ -56,3 +61,5 @@
 * [WordPress](posts/WordPress)
 * [Zte](posts/Zte)
 * [Zyxel](posts/Zyxel)
+
+-----
