@@ -1,10 +1,11 @@
 ---
-
-Title: AWS. Ask password for ubuntu user sudo
-Pub date: 23.09.2018
-Category: AWS, 
-
+layout: post
+title: AWS. Ask password for ubuntu user sudo
+date:   <%= Time.now.strftime('%Y-%m-%d %H:%M:%S %z') %>
+categories: jekyll update
 ---
+
+-----
 
 **Для того, щоб при підвищенні привілеїв при використанні sudo з користувача ubuntu потрібно було вводити пароль:**
 
