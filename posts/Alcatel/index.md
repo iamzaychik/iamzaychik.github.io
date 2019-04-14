@@ -1,7 +1,0 @@
-* [Configuration via TFTP](Configuration_via_TFTP.md)
-* [Update firmware](Update_firmware.md)
-* [Reset password](Reset_password.md)
-* [Basic commands](Basic_commands.md)
-* [IPoE](IPoE.md)
-* [Reset to default](Reset_to_default.md)
-* [Link aggregation](Link_aggregation.md)
