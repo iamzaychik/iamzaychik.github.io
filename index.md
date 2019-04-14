@@ -1,9 +1,3 @@
----
-layout: home
----
-
-
-[Link title]({{ site.baseurl }})
 -----
 
 * [Alcatel](posts/Alcatel)
