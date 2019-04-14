@@ -2,7 +2,7 @@
 
 find posts/ -name "index.md" -type f -exec rm {} \;
 
-find posts/ -type f | sed 's/posts\///g' > files
+find posts/ -type f | sed 's/posts\///g' | sort > files
 
 input="files"
 while IFS= read -r var
