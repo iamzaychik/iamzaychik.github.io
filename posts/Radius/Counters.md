@@ -28,7 +28,7 @@ reply-name = Mikrotik-Xmit-Limit
 sqlmod-inst = sql
 key = User-Name
 reset = never
-query = "SELECT ifnull(SUM(acctoutputoctets),0) FROM radacct WHERE username='%{%k}'"
+query = "SELECT ifnull(SUM(acctoutputoctets),0) FROM radacct WHERE username='%{ %k}'"
 }`
 
 здесь:
