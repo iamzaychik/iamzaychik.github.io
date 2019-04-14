@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Basic_commands](Basic_commands.md)
+* [Basic commands](Basic_commands.md)

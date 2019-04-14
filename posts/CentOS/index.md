@@ -1,5 +1,4 @@
-* [index](index.md)
-* [CactiEZ_install_mc](CactiEZ_install_mc.md)
-* [Add_local_mibs](Add_local_mibs.md)
+* [CactiEZ install mc](CactiEZ_install_mc.md)
+* [Add local mibs](Add_local_mibs.md)
 * [Cheatsheet](Cheatsheet.md)
-* [Error_rpmdb_open_failed](Error_rpmdb_open_failed.md)
+* [Error rpmdb open failed](Error_rpmdb_open_failed.md)

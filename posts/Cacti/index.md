@@ -1,2 +1,1 @@
-* [Time_format](Time_format.md)
-* [index](index.md)
+* [Time format](Time_format.md)

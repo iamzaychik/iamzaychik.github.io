@@ -1,3 +1,2 @@
-* [Get_directory_two_levels_up](Get_directory_two_levels_up.md)
-* [index](index.md)
+* [Get directory two levels up](Get_directory_two_levels_up.md)
 * [Cheatsheet](Cheatsheet.md)

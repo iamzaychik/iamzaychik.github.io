@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Monitored_partitions](Monitored_partitions.md)
+* [Monitored partitions](Monitored_partitions.md)

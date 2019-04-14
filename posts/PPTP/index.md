@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Client_connection](Client_connection.md)
+* [Client connection](Client_connection.md)

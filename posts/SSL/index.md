@@ -1,4 +1,3 @@
-* [Create_CSR_record](Create_CSR_record..md)
-* [dhparam_generation](dhparam_generation.md)
-* [index](index.md)
-* [How_to_put_together](How_to_put_together.md)
+* [Create CSR record](Create_CSR_record..md)
+* [dhparam generation](dhparam_generation.md)
+* [How to put together](How_to_put_together.md)

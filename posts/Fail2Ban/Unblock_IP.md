@@ -1,4 +1,4 @@
-Title: Fail2Ban. Розблокування IP
+Title: Unblock IP
 Pub date: 20.04.2017
 Category: Fail2Ban, 
 

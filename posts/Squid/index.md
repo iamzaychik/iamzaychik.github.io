@@ -1,2 +1,1 @@
-* [Several_interfaces](Several_interfaces.md)
-* [index](index.md)
+* [Several interfaces](Several_interfaces.md)

@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Reset_password](Reset_password.md)
+* [Reset password](Reset_password.md)

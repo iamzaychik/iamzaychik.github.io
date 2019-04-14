@@ -1,3 +1,2 @@
-* [index](index.md)
-* [pg_dump_version_mismatch](pg_dump_version_mismatch.md)
+* [pg dump version mismatch](pg_dump_version_mismatch.md)
 * [Cheatsheet](Cheatsheet.md)

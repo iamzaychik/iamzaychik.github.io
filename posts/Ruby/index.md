@@ -1,2 +1,1 @@
-* [Show_rails_version](Show_rails_version.md)
-* [index](index.md)
+* [Show rails version](Show_rails_version.md)

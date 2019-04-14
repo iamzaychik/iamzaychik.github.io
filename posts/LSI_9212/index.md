@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Upgrade_FW_and_BIOS](Upgrade_FW_and_BIOS.md)
+* [Upgrade FW and BIOS](Upgrade_FW_and_BIOS.md)

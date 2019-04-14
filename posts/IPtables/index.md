@@ -1,3 +1,2 @@
 * [Example](Example.md)
-* [index](index.md)
-* [Port_forwarding](Port_forwarding.md)
+* [Port forwarding](Port_forwarding.md)

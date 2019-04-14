@@ -1,2 +1,1 @@
-* [index](index.md)
-* [Common_troubleshooting](Common_troubleshooting.md)
+* [Common troubleshooting](Common_troubleshooting.md)
