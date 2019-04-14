@@ -64,4 +64,3 @@ qualified-next-hop xe-0/0/0.482;`
 
 -----
 
-&nbsp;

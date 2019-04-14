@@ -7,13 +7,13 @@ _Корисні трюки і функції._
 **Отримати текст між заданими значеннями:**
 `function GetBetween($content, $start, $end)
 {
-&nbsp;$r = explode($start, $content);
-&nbsp;if (isset($r[1]))
-&nbsp; {
-&nbsp;&nbsp; $r = explode($end, $r[1]);
-&nbsp;&nbsp; return $r[0];
-&nbsp; }
-&nbsp; return '';
+$r = explode($start, $content);
+if (isset($r[1]))
+ {
+ $r = explode($end, $r[1]);
+ return $r[0];
+ }
+ return '';
 }`
 
 **Дізнатися, від якого користувача виконується скрипт:**

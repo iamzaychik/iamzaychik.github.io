@@ -17,4 +17,3 @@ add_action( 'wp_enqueue_scripts', 'my_jquery_scripts' );`
 
 -----
 
-&nbsp;

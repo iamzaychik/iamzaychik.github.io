@@ -19,9 +19,9 @@ _ Шоб вам пусто було._
 
 Чтобы сконфигурировать виртуальные хосты на базе имен, нам понадобиться раскомментировать дериктиву **NameVirtualHost** с аргументом * (шаблон, означающий "все имена хостов"), за которым следует столько разных блоков **&lt;VirtualHost *:80>**, сколько нам нужно.
 
-&nbsp;
+
 <pre>NameVirtualHost *:80</pre>
-&nbsp;
+
 <pre>&lt;VirtualHost *:80>
     ServerAdmin username1@example.com
     DocumentRoot /home/username1/www/user1domain.ru

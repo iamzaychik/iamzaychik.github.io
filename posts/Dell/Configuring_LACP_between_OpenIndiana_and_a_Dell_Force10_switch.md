@@ -239,6 +239,6 @@ Again, depending on your topology, you might want to **add/edit you default rout
 
 -----
 
-&nbsp;
+
 
 <footer class="entry-meta"></footer>

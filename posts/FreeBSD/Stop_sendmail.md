@@ -1,4 +1,4 @@
-Title: FreeBSD. Зупинка sendmail
+Title: Stop sendmail
 Pub date: 06.05.2016
 Category: FreeBSD, 
 
@@ -29,4 +29,3 @@ sendmail_msp_queue_enable="NO"`
 
 -----
 
-&nbsp;
