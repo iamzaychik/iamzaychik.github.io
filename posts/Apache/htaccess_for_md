@@ -1,0 +1,19 @@
+Title: Apache. htaccess for WordPress
+Pub date: 06.07.2017
+Category: Apache, Wordpress, 
+
+**1. Вмикаємо механізм mod_rewrite:**
+`RewriteEngine On`
+
+**2. Примусове перенаправлення на https:**
+`RewriteCond %{HTTPS} off`
+`RewriteRule (.*) https://zaychik.info/$1 [R,L]`
+
+**3. Підтримка permalinks:**
+`RewriteBase /`
+`RewriteRule ^index\.php$ - [L]`
+`RewriteCond %{REQUEST_FILENAME} !-f`
+`RewriteCond %{REQUEST_FILENAME} !-d`
+`RewriteRule . /index.php [L]`
+
+-----
