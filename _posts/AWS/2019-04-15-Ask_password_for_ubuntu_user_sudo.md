@@ -4,6 +4,7 @@ layout: post
 Title: AWS. Ask password for ubuntu user sudo
 Pub date: 23.09.2018
 Category: AWS, 
+{{ page.date | date: "%b %d, %Y" }}
 
 ---
 
