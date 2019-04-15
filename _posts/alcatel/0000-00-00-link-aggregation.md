@@ -6,8 +6,8 @@ date: 2019-04-15
 
 -----
 
-(https://en.wikipedia.org/wiki/Link_Aggregation_Control_Protocol)
-`LAG -  Link Aggregation Group`
+* [LACP](https://en.wikipedia.org/wiki/Link_Aggregation_Control_Protocol)
+* `LAG - Link Aggregation Group`
 
 -----
 
