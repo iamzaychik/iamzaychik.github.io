@@ -9,9 +9,11 @@ date: 2019-04-15
 # Ports
 
 * Показати всі:
+
 `show interfaces port`
 
 * Показати конкретний:
+
 `show interfaces 1/1 port`
 
 * Розширений статус:
