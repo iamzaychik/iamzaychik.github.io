@@ -7,6 +7,6 @@ layout: home
 
 # Categories
 
-{% for category in site.categories %}
+{% for post in site.posts %}
   * {{ post.title }} - {{ post.date }}
 {% endfor %}
