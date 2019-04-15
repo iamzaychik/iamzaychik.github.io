@@ -19,5 +19,4 @@ show_repository: false
 
 
 collections:
-  - test:
-      output: true
+  - test
