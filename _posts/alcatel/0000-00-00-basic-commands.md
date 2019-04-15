@@ -6,17 +6,19 @@ date: 2019-04-15
 
 -----
 
-* [Ports](##Ports)
-* [VLAN](##VLAN)
-* [IP](##IP)
-* [SNMP](##SNMP)
-* [NTP](##NTP)
-* [Stacking](##Stacking)
-* [System](##System)
+* [Ports](###Ports)
+* [ports](#ports)
+* [VLAN](###VLAN)
+* [IP](###IP)
+* [SNMP](###SNMP)
+* [NTP](###NTP)
+* [Stacking](###Stacking)
+* [System](###System)
 
 -----
 
-## Ports
+### Ports
+#ports
 
 * Show all:     
 ```
@@ -60,7 +62,7 @@ interfaces 1/1 no l2 statistics
 
 -----
 
-## VLAN
+### VLAN
 
 * Show all:          
 ```
@@ -124,7 +126,7 @@ mac-address-table 11:11:11:11:11:11 1/25 111
 
 -----
 
-## IP
+### IP
 
 * Show interfaces:  
 ```
@@ -138,7 +140,7 @@ ip interface Management address 111.111.111.111 mask 255.255.255.0 vlan 111 no f
 
 -----
 
-## SNMP:
+### SNMP:
 
 * Start service:         
 ```
@@ -170,7 +172,7 @@ snmp station A.B.C.D 162 "snmp]v2 enable
 
 -----
 
-## NTP
+### NTP
 
 * Start service:
 ```
@@ -190,7 +192,7 @@ system daylight savings time enable
 
 -----
 
-## Stacking
+### Stacking
 
 * Status:            
 ```
@@ -209,7 +211,7 @@ stack set slot 1 saved-mode os6850
 
 -----
 
-## System
+### System
 
 **If you get Out Of Memory error - delete K2diag.img from working/ and certified/.**
 
@@ -260,7 +262,7 @@ reload working no rollback-timeout
 
 -----
 
-## Links
+### Links
 
 * [Habr](http://habrahabr.ru/sandbox/64738/)
 * [Basic 1](http://it-notepad.ru/%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%BF%D1%80%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-%D1%81-alcatel.html)
