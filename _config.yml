@@ -10,7 +10,7 @@ google_analytics: false
 show_downloads: false
 show_repository: false
 
-permalink: none
+permalink: "/:title"
 
 categories:
   - Alcatel
