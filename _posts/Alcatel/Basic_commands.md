@@ -5,73 +5,56 @@ date: 2019-04-15
 ---
 
 -----
-**Порт**
-Показати всі:
-`show interfaces port`
 
-Показати конкретний:
-`show interfaces 1/1 port`
+# Ports
 
-Розширений статус:
-`show interfaces 1/1`
+* Показати всі: `show interfaces port`
 
-Вкл/викл:
-`interfaces 1/1 admin up/down`
+* Показати конкретний: `show interfaces 1/1 port`
 
-Підписати:
-`interfaces 1/1 alias dl:new:port:alias`
+* Розширений статус: `show interfaces 1/1`
 
-Подивитися маки:
-`show mac-address-table 1/1`
+* Вкл/викл: `interfaces 1/1 admin up/down`
 
-Помилки на порту:
-`show interfaces 1/1 counters errors `
+* Підписати: `interfaces 1/1 alias dl:new:port:alias`
 
-Очистити статистику:
-`interfaces 1/1 no l2 statistics`
+* Подивитися маки: `show mac-address-table 1/1`
+
+* Помилки на порту: `show interfaces 1/1 counters errors `
+
+* Очистити статистику: `interfaces 1/1 no l2 statistics`
 
 -----
 
-**VLAN**
-Показати всі:
-`show vlan`
+# VLAN
 
-Показати конкретний:
-`show vlan 111`
+* Показати всі: `show vlan`
 
-Показати влани на порту:
-`show vlan port 1/1`
+* Показати конкретний: `show vlan 111`
 
-Створити:
-`vlan 111 1x1 stp disable flat stp disable name new_vlan`
+* Показати влани на порту: `show vlan port 1/1`
 
-Видалити:
-`no vlan 111`
+* Створити: `vlan 111 1x1 stp disable flat stp disable name new_vlan`
 
-Видати в тегованому вигляді:
-`vlan 111 802.1q 1/1`
+* Видалити: `no vlan 111`
 
-Прибрати тегований:
-`vlan 111 no 802.1q 1/1`
+* Видати в тегованому вигляді: `vlan 111 802.1q 1/1`
 
-Видати в нетегованому вигляді:
-`vlan 111 port default 1/1`
+* Прибрати тегований: `vlan 111 no 802.1q 1/1`
 
-Прибрати нетегований:
-`vlan 111 no port default 1/1`
+* Видати в нетегованому вигляді: `vlan 111 port default 1/1`
 
-Вкл/викл:
-`vlan 111 enable/disable`
+* Прибрати нетегований: `vlan 111 no port default 1/1`
 
-Подивитися маки у влані:
-`show mac-address-table 111`
+* Вкл/викл: `vlan 111 enable/disable`
 
-Вказати мак наса для влана на аплінкові:
-`mac-address-table 11:11:11:11:11:11 1/25 111 `
+* Подивитися маки у влані: `show mac-address-table 111`
+
+* Вказати мак наса для влана на аплінкові: `mac-address-table 11:11:11:11:11:11 1/25 111 `
 
 -----
 
-**IP**
+# IP
 Список IP комутатора:
 `show ip interface`
 
@@ -80,7 +63,7 @@ date: 2019-04-15
 
 -----
 
-**SNMP:**
+# SNMP:
 Запустити сервіс:
 `ip service snmp`
 
@@ -101,60 +84,51 @@ date: 2019-04-15
 
 -----
 
-**NTP**
-Запустити службу:
-`ntp client enable`
+# NTP
 
-Вказати сервер часу:
-`ntp server 111.111.111.111 prefer `
+* Запустити службу: `ntp client enable`
 
-Встановити часовий пояс:
-`system timezone eet
-system daylight savings time enable`
+* Вказати сервер часу: `ntp server 111.111.111.111 prefer `
 
------
-
-**Stacking**
-Статус стека:
-`show stack topology`
-
-Перейменувати слот 2 в слот 4:
-`stack set slot 2 saved-slot 4`
-
-Перевести комутатор 6850Е в режим 6850:
-`stack set slot 1 saved-mode os6850`
+* Встановити часовий пояс:
+```
+system timezone eet
+system daylight savings time enable
+```
 
 -----
 
-**System**
+# Stacking
+
+* Статус стека: `show stack topology`
+
+* Перейменувати слот 2 в слот 4: `stack set slot 2 saved-slot 4`
+
+* Перевести комутатор 6850Е в режим 6850: `stack set slot 1 saved-mode os6850`
+
+-----
+
+# System
+
 **Якщо на виникає помилка нехватки пам'яті - видалити файл K2diag.img в папках working і certified.**
 
-Подивитися конфіг:
-`show configuration snapshot `
+* Подивитися конфіг: `show configuration snapshot `
 
-Подивитися навантаження на процесор:
-`show health all cpu`
+* Подивитися навантаження на процесор: `show health all cpu`
 
-Логи:
-`show log swlog`
+* Логи: `show log swlog`
 
-Активні служби:
-`show ip service`
+* Активні служби: `show ip service`
 
-Створити користувача:
-`user admin password qwerty read-write all`
+* Створити користувача: `user admin password qwerty read-write all`
 
-Подивитися мак комутатора:
-`show chassis`
+* Подивитися мак комутатора: `show chassis`
 
-Перезавантаження:
-`reload working no rollback-timeout `
+* Перезавантаження: `reload working no rollback-timeout `
 
-Зберегти конфіг:
-write memory
+* Зберегти конфіг: `write memory`
 
-Скопіювати конфігурацію в резервний конфіг і синхронізувати стек:
-`copy working certified flash-synchro`
+* Скопіювати конфігурацію в резервний конфіг і синхронізувати стек: `copy working certified flash-synchro`
 
 -----
 
