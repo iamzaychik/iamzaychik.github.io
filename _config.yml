@@ -18,7 +18,7 @@ show_downloads: false
 show_repository: false
 
 
-#collections:
-#  - posts:
-#      output: true
-#      path: /:collection/:path/
+collections:
+  - test:
+      output: true
+      path: /:collection/:path/
