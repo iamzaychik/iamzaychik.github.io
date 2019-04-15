@@ -1,6 +1,6 @@
 ---
 title: Basic commands
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

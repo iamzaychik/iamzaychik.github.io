@@ -1,6 +1,6 @@
 ---
 title: Get script selfname without extension
-categories: Bash
+category: Bash
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Basic
-categories: Juniper
+category: Juniper
 date: 2019-04-15
 ---
 

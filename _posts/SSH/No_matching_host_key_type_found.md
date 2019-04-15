@@ -1,6 +1,6 @@
 ---
 title: No matching host key type found
-categories: SSH
+category: SSH
 date: 2019-04-15
 ---
 

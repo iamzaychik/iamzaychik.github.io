@@ -1,6 +1,6 @@
 ---
 title: Monitored partitions
-categories: SNMPD
+category: SNMPD
 date: 2019-04-15
 ---
 

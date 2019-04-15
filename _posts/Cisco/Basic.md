@@ -1,6 +1,6 @@
 ---
 title: Basic
-categories: Cisco
+category: Cisco
 date: 2019-04-15
 ---
 

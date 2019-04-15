@@ -1,6 +1,6 @@
 ---
 title: Exec script after IP assign
-categories: ISC_DHCP
+category: ISC_DHCP
 date: 2019-04-15
 ---
 

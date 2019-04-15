@@ -1,6 +1,6 @@
 ---
 title: Touchpad support
-categories: Chromium
+category: Chromium
 date: 2019-04-15
 ---
 

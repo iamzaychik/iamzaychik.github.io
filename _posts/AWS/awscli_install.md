@@ -1,6 +1,6 @@
 ---
 title: aws-cli install
-categories: AWS
+category: AWS
 date: 2019-04-15
 ---
 

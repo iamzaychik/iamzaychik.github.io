@@ -1,6 +1,6 @@
 ---
 title: Error rpmdb open failed
-categories: CentOS
+category: CentOS
 date: 2019-04-15
 ---
 

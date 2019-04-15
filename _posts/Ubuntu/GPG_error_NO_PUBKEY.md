@@ -1,6 +1,6 @@
 ---
 title: GPG error NO PUBKEY
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

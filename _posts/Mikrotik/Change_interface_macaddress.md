@@ -1,6 +1,6 @@
 ---
 title: Change interface mac-address
-categories: Mikrotik
+category: Mikrotik
 date: 2019-04-15
 ---
 

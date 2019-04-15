@@ -1,6 +1,6 @@
 ---
 title: Table storage engine for TABLE doesnt have this option
-categories: MySQL
+category: MySQL
 date: 2019-04-15
 ---
 

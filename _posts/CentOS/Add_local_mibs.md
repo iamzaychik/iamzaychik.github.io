@@ -1,6 +1,6 @@
 ---
 title: Add local mibs
-categories: CentOS
+category: CentOS
 date: 2019-04-15
 ---
 

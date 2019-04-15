@@ -1,6 +1,6 @@
 ---
 title: Get free SSL cert
-categories: Lets_Encrypt
+category: Lets_Encrypt
 date: 2019-04-15
 ---
 

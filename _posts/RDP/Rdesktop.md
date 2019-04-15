@@ -1,6 +1,6 @@
 ---
 title: Rdesktop
-categories: RDP
+category: RDP
 date: 2019-04-15
 ---
 

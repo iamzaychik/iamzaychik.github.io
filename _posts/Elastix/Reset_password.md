@@ -1,6 +1,6 @@
 ---
 title: Reset password
-categories: Elastix
+category: Elastix
 date: 2019-04-15
 ---
 

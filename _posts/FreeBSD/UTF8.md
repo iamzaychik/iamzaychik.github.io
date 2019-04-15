@@ -1,6 +1,6 @@
 ---
 title: UTF-8
-categories: FreeBSD
+category: FreeBSD
 date: 2019-04-15
 ---
 

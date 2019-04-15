@@ -1,6 +1,6 @@
 ---
 title: Password auth for IP
-categories: Nginx
+category: Nginx
 date: 2019-04-15
 ---
 

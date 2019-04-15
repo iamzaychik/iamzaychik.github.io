@@ -1,6 +1,6 @@
 ---
 title: Flashplayer update
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

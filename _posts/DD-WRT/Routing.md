@@ -1,6 +1,6 @@
 ---
 title: Routing
-categories: DD-WRT
+category: DD-WRT
 date: 2019-04-15
 ---
 

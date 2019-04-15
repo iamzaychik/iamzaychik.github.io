@@ -1,6 +1,6 @@
 ---
 title: TFTPD-HPA
-categories: etc
+category: etc
 date: 2019-04-15
 ---
 

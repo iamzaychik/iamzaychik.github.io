@@ -1,6 +1,6 @@
 ---
 title: Cheatsheet
-categories: PostgreSQL
+category: PostgreSQL
 date: 2019-04-15
 ---
 

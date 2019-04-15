@@ -1,6 +1,6 @@
 ---
 title: gfxboot c32 not a valid COM32R image
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

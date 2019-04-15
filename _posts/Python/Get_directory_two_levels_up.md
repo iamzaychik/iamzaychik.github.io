@@ -1,6 +1,6 @@
 ---
 title: Get directory two levels up
-categories: Python
+category: Python
 date: 2019-04-15
 ---
 

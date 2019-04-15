@@ -1,6 +1,6 @@
 ---
 title: Duplicate entry for key PRIMARY
-categories: Nagios
+category: Nagios
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Check HTTP status code
-categories: cURL
+category: cURL
 date: 2019-04-15
 ---
 

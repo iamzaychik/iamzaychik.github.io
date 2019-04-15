@@ -1,6 +1,6 @@
 ---
 title: Upgrade firmware
-categories: ONU
+category: ONU
 date: 2019-04-15
 ---
 

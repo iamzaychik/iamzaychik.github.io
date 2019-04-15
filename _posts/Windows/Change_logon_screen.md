@@ -1,6 +1,6 @@
 ---
 title: Change logon screen
-categories: Windows
+category: Windows
 date: 2019-04-15
 ---
 

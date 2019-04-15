@@ -1,6 +1,6 @@
 ---
 title: PHP 7 0 on 14
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

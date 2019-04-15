@@ -1,6 +1,6 @@
 ---
 title: Archivers
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Restrict ingress-egress
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

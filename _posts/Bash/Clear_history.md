@@ -1,6 +1,6 @@
 ---
 title: Clear history
-categories: Bash
+category: Bash
 date: 2019-04-15
 ---
 

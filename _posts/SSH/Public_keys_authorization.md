@@ -1,6 +1,6 @@
 ---
 title: Public keys authorization
-categories: SSH
+category: SSH
 date: 2019-04-15
 ---
 

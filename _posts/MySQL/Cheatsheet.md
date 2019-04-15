@@ -1,6 +1,6 @@
 ---
 title: Cheatsheet
-categories: MySQL
+category: MySQL
 date: 2019-04-15
 ---
 

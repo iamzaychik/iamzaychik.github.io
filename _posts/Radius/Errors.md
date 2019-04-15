@@ -1,6 +1,6 @@
 ---
 title: Errors
-categories: Radius
+category: Radius
 date: 2019-04-15
 ---
 

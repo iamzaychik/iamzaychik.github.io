@@ -1,6 +1,6 @@
 ---
 title: Common troubleshooting
-categories: Postfix
+category: Postfix
 date: 2019-04-15
 ---
 

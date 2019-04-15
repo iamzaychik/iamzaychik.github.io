@@ -1,6 +1,6 @@
 ---
 title: Tilda 1 and tilda 0 at ctrl-v
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

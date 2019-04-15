@@ -1,6 +1,6 @@
 ---
 title: Several interfaces
-categories: Squid
+category: Squid
 date: 2019-04-15
 ---
 

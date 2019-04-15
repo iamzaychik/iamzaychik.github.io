@@ -1,6 +1,6 @@
 ---
 title: Winbox passwords
-categories: Mikrotik
+category: Mikrotik
 date: 2019-04-15
 ---
 

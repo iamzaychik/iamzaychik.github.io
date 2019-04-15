@@ -1,6 +1,6 @@
 ---
 title: Force10
-categories: Dell
+category: Dell
 date: 2019-04-15
 ---
 

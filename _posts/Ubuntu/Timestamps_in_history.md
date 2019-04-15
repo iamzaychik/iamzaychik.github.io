@@ -1,6 +1,6 @@
 ---
 title: Timestamps in history
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

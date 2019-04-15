@@ -1,6 +1,6 @@
 ---
 title: Basic commands
-categories: Zte
+category: Zte
 date: 2019-04-15
 ---
 

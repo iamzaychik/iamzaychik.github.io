@@ -1,6 +1,6 @@
 ---
 title: Configuration via SNMP and TFTP
-categories: Dlink
+category: Dlink
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Get client IP behind routing
-categories: Nginx
+category: Nginx
 date: 2019-04-15
 ---
 

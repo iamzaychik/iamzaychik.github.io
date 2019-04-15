@@ -1,6 +1,6 @@
 ---
 title: htaccess for md
-categories: Apache
+category: Apache
 date: 2019-04-15
 ---
 

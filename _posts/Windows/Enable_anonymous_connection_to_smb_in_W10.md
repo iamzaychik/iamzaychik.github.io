@@ -1,6 +1,6 @@
 ---
 title: Enable anonymous connection to smb in W10
-categories: Windows
+category: Windows
 date: 2019-04-15
 ---
 

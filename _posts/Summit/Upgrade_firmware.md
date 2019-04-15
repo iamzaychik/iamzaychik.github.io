@@ -1,6 +1,6 @@
 ---
 title: Upgrade firmware
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

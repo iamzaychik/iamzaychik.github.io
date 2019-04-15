@@ -1,6 +1,6 @@
 ---
 title: IPoE
-categories: Alcatel
+category: Alcatel
 date: 2019-04-15
 ---
 

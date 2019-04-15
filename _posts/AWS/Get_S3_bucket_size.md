@@ -1,6 +1,6 @@
 ---
 title: Get S3 bucket size
-categories: AWS
+category: AWS
 date: 2019-04-15
 ---
 

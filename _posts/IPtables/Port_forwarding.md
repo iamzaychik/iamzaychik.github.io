@@ -1,6 +1,6 @@
 ---
 title: Port forwarding
-categories: IPtables
+category: IPtables
 date: 2019-04-15
 ---
 

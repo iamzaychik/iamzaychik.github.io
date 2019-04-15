@@ -1,6 +1,6 @@
 ---
 title: Block ads
-categories: Skype
+category: Skype
 date: 2019-04-15
 ---
 

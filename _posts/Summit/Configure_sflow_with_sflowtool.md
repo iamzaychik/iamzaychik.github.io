@@ -1,6 +1,6 @@
 ---
 title: Configure sflow with sflowtool
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: HDMI hotplug
-categories: Raspberry_Pi
+category: Raspberry_Pi
 date: 2019-04-15
 ---
 

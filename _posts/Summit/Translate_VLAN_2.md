@@ -1,6 +1,6 @@
 ---
 title: Translate VLAN 2
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

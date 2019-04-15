@@ -1,6 +1,6 @@
 ---
 title: Example
-categories: IPtables
+category: IPtables
 date: 2019-04-15
 ---
 

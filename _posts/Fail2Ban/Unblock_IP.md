@@ -1,6 +1,6 @@
 ---
 title: Unblock IP
-categories: Fail2Ban
+category: Fail2Ban
 date: 2019-04-15
 ---
 

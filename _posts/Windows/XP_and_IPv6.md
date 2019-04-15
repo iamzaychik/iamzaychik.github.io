@@ -1,6 +1,6 @@
 ---
 title: XP and IPv6
-categories: Windows
+category: Windows
 date: 2019-04-15
 ---
 

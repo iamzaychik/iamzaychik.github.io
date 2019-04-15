@@ -1,6 +1,6 @@
 ---
 title: PHP Warning Cannot stat license file
-categories: Centreon
+category: Centreon
 date: 2019-04-15
 ---
 

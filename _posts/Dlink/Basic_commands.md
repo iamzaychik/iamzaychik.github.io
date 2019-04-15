@@ -1,6 +1,6 @@
 ---
 title: Basic commands
-categories: Dlink
+category: Dlink
 date: 2019-04-15
 ---
 

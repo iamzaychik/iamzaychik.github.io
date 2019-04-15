@@ -1,6 +1,6 @@
 ---
 title: DDOS DNS prevention
-categories: Mikrotik
+category: Mikrotik
 date: 2019-04-15
 ---
 

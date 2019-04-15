@@ -1,6 +1,6 @@
 ---
 title: Configure Wi-Fi Hotspot
-categories: Mikrotik
+category: Mikrotik
 date: 2019-04-15
 ---
 

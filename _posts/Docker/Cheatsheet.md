@@ -1,6 +1,6 @@
 ---
 title: Cheatsheet
-categories: Docker
+category: Docker
 date: 2019-04-15
 ---
 

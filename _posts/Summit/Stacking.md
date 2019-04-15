@@ -1,6 +1,6 @@
 ---
 title: Stacking
-categories: Summit
+category: Summit
 date: 2019-04-15
 ---
 

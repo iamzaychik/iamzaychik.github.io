@@ -1,6 +1,6 @@
 ---
 title: S2326TP-EI MVR
-categories: Huawei
+category: Huawei
 date: 2019-04-15
 ---
 

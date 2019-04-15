@@ -1,6 +1,6 @@
 ---
 title: Show rails version
-categories: Ruby
+category: Ruby
 date: 2019-04-15
 ---
 

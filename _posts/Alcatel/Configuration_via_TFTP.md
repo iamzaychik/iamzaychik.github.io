@@ -1,6 +1,6 @@
 ---
 title: Configuration via TFTP
-categories: Alcatel
+category: Alcatel
 date: 2019-04-15
 ---
 

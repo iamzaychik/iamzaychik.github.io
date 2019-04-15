@@ -1,6 +1,6 @@
 ---
 title: Virtual hosts
-categories: Apache
+category: Apache
 date: 2019-04-15
 ---
 

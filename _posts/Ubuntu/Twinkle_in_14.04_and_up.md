@@ -1,6 +1,6 @@
 ---
 title: Twinkle in 14
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

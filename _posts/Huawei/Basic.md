@@ -1,6 +1,6 @@
 ---
 title: Basic
-categories: Huawei
+category: Huawei
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Install 802 1q VLAN
-categories: Ubuntu
+category: Ubuntu
 date: 2019-04-15
 ---
 

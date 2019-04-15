@@ -1,6 +1,6 @@
 ---
 title: BDCOM OLT
-categories: BDCOM
+category: BDCOM
 date: 2019-04-15
 ---
 

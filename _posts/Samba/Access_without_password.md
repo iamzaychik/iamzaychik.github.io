@@ -1,6 +1,6 @@
 ---
 title: Access without password
-categories: Samba
+category: Samba
 date: 2019-04-15
 ---
 

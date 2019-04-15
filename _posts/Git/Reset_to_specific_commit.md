@@ -1,6 +1,6 @@
 ---
 title: Reset to specific commit
-categories: Git
+category: Git
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Copy subfolders from remote server
-categories: SCP
+category: SCP
 date: 2019-04-15
 ---
 

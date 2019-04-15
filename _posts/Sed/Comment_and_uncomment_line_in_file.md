@@ -1,6 +1,6 @@
 ---
 title: Comment and uncomment line in file
-categories: Sed
+category: Sed
 date: 2019-04-15
 ---
 

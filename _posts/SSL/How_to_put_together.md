@@ -1,6 +1,6 @@
 ---
 title: How to put together
-categories: SSL
+category: SSL
 date: 2019-04-15
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Ping service failed
-categories: Nagios
+category: Nagios
 date: 2019-04-15
 ---
 

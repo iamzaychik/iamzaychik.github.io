@@ -1,6 +1,6 @@
 ---
 title: Cheatsheet
-categories: PHP
+category: PHP
 date: 2019-04-15
 ---
 

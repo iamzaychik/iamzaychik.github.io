@@ -1,6 +1,6 @@
 ---
 title: CactiEZ install mc
-categories: CentOS
+category: CentOS
 date: 2019-04-15
 ---
 

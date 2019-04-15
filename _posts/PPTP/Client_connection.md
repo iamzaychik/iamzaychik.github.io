@@ -1,6 +1,6 @@
 ---
 title: Client connection
-categories: PPTP
+category: PPTP
 date: 2019-04-15
 ---
 

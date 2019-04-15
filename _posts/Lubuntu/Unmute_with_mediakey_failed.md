@@ -1,6 +1,6 @@
 ---
 title: Unmute with mediakey failed
-categories: Lubuntu
+category: Lubuntu
 date: 2019-04-15
 ---
 

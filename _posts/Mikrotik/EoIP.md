@@ -1,6 +1,6 @@
 ---
 title: EoIP
-categories: Mikrotik
+category: Mikrotik
 date: 2019-04-15
 ---
 
