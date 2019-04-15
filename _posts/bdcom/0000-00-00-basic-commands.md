@@ -15,14 +15,17 @@ date: 2019-04-15
 
 **Базова інформація про ONU:**
 `show epon int epoN 0/1:1 onu ctc basic-info`
+
 -----
 
 **ONU settings database:**
 `show run db-llid`
+
 -----
 
 **Очистка помилок на портах:**
 `clear mib`
+
 -----
 
 **Відв’язати ону:**
@@ -33,6 +36,7 @@ date: 2019-04-15
 
 **Tagged/untagged VLAN (vlan xxxx untagged, vlan yyy tagged):**
 `epon onu port 1 ctc vlan mode trunk xxxx yyy`
+
 -----
 
 **Темплейти**
@@ -53,6 +57,7 @@ epon onu-config-template PON1
 
 **Видаляємо темплейт:**
 `no epon onu-config-template`
+
 -----
 
 **Швидкість**
@@ -63,6 +68,7 @@ epon onu-config-template PON1
 **Знімаємо обмеження швидкості з порта прихода:**
 `epon sla upstream pir 1000000 cir 950000`
 `epon sla downstream pir 1000000 cir 950000`
+
 -----
 
 **Оптичний сигнал**
@@ -71,6 +77,7 @@ epon onu-config-template PON1
 
 **Зі сторони ONU:**
 `show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis`
+
 -----
 
 **Дозволити трафік між ONU в межах одного PON:**
@@ -79,6 +86,7 @@ gepon_xxxx_config# interface EPON 0/1
 gepon_xxxx_config_epon0/1# epon inner-onu-switch
 gepon_xxxx_config_epon0/1# exit
 gepon_xxxx_config# write`
+
 -----
 
 **Перезавантаження OLT по SNMP:**
@@ -91,14 +99,12 @@ gepon_xxxx_config# write`
 `copy tftp:startup-config flash XXX.XXX.XXX.XXX [ENTER]`
 **Завантажити на TFTP:**
 `copy flash:startup-config tftp XXX.XXX.XXX.XXX [ENTER]`
+
 -----
 
+* [P3310B manual](/assets/pdf/bdcom/p3310b-manual-rus.pdf)
 * <a href="http://incosoft.ua/novosti/test-of-compatibility-onu-fora-na-1001c-with-olt-bdcom-p3310b.html">Тестимо онушку</a>
-
-* <a href="https://zaychik.info/wp-content/uploads/P3310B_Manual_Rus.pdf" target="_blank" rel="noopener">Мануальчик. RTFM!</a>
-
 * <a title="Пишуть люди" href="https://www.dropbox.com/sh/xwbmgzj2y26mstv/AAA9r-WYHVT0e8FKKwhVFfV_a?dl=0" target="_blank" rel="noopener">UA.PON Dropbox</a>
-
 * <a title="Пишуть люди" href="http://linuxsnippets.net/ru/snippet/%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8-%D0%BF%D0%BE-gpongepon-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-olt-bdcom-p3310b" target="_blank" rel="noopener">Люди врубають все глобально</a>
 
 -----
