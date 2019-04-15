@@ -102,6 +102,6 @@ system daylight savings time enable
 * [Basic 2](http://www.latouche.info/admin/user_guides/omniswitch.html)
 * [Basic 3](http://aboutnetworkblog.blogspot.com/2013/05/alcatel-omniswitch.html)
 
-https://i.ua
+https://i.ua/
 
 -----
