@@ -6,9 +6,68 @@ baseurl: "/"
 url: "https://zaychik.tk"
 email: "zaychik.info@gmail.com"
 github_username: iamzaychik
-show_downloads: false
 google_analytics: false
+show_downloads: false
 show_repository: false
 
-exclude:
-  - rebuild_indexes.sh
+permalink: "/:title"
+
+categories:
+  - Alcatel
+  - Apache
+  - AWS
+  - Bash
+  - BDCOM
+  - Cacti
+  - CentOS
+  - Centreon
+  - Chromium
+  - Cisco
+  - cURL
+  - DD-WRT
+  - Dell
+  - Dlink
+  - Docker
+  - Elastix
+  - etc
+  - Fail2Ban
+  - FreeBSD
+  - Git
+  - Huawei
+  - IPtables
+  - ISC_DHCP
+  - Juniper
+  - Lets_Encrypt
+  - LSI_9212
+  - Lubuntu
+  - Mikrotik
+  - MySQL
+  - Nagios
+  - NetAgent_MiniGo_DP801
+  - Nginx
+  - ONU
+  - PHP
+  - Postfix
+  - PostgreSQL
+  - PPTP
+  - Python
+  - Radius
+  - Raspberry_Pi
+  - RDP
+  - Rsync
+  - Ruby
+  - Samba
+  - SCP
+  - Sed
+  - Skype
+  - SNMPD
+  - Squid
+  - SSH
+  - SSL
+  - Sublime_Text
+  - Summit
+  - Ubuntu
+  - Windows
+  - WordPress
+  - Zte
+  - Zyxel
