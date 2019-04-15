@@ -13,7 +13,7 @@ layout: home
 {% endcomment %}
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
-{% assign sorted_posts = category[1] | sort: 'title' %}
+{% assign sorted_posts = category[1] | sort_natural: 'title' %}
 <h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</H2>
 <ul>
   {% for post in sorted_posts %}
