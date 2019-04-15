@@ -6,23 +6,17 @@ date: 2019-04-15
 
 -----
 
-* [Ports](###Ports)
-* [ports1](#ports1)
-* [ports2](#ports2)
-* [ports3](#ports3)
-* [VLAN](###VLAN)
-* [IP](###IP)
-* [SNMP](###SNMP)
-* [NTP](###NTP)
-* [Stacking](###Stacking)
-* [System](###System)
+* [Ports](#Ports)
+* [VLAN](#VLAN)
+* [IP](#IP)
+* [SNMP](#SNMP)
+* [NTP](#NTP)
+* [Stacking](#Stacking)
+* [System](#System)
 
 -----
 
 ### Ports
-# ports1
-##ports2
-### ports3
 
 * Show all:     
 ```
