@@ -1,5 +1,5 @@
 ---
-title: Захист від DDoS атак на DNS
+title: DDOS DNS prevention
 ---
 
 _Anonymous на вас нема, шакали!_
