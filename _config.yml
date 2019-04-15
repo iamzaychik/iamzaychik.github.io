@@ -21,3 +21,4 @@ show_repository: false
 collections:
   - posts:
       output: true
+      path: /:collection/:path/
