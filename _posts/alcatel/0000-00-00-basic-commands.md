@@ -37,7 +37,7 @@ date: 2019-04-15
 -----
 
 # IP
-* Switch interfaces: `show ip interface`
+* Show interfaces:   `show ip interface`
 * Set MNG interface: `ip interface Management address 111.111.111.111 mask 255.255.255.0 vlan 111 no forward`
 
 -----
@@ -97,9 +97,11 @@ system daylight savings time enable
 
 -----
 
-* [Хабр пише](http://habrahabr.ru/sandbox/64738/)
-* [Базові команди 1](http://it-notepad.ru/%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%BF%D1%80%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-%D1%81-alcatel.html)
-* [Базові команди 2](http://www.latouche.info/admin/user_guides/omniswitch.html)
-* [Базові команди 3](http://aboutnetworkblog.blogspot.com/2013/05/alcatel-omniswitch.html)
+* [Habr](http://habrahabr.ru/sandbox/64738/)
+* [Basic 1](http://it-notepad.ru/%D0%B1%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D0%BF%D1%80%D0%B8-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5-%D1%81-alcatel.html)
+* [Basic 2](http://www.latouche.info/admin/user_guides/omniswitch.html)
+* [Basic 3](http://aboutnetworkblog.blogspot.com/2013/05/alcatel-omniswitch.html)
+
+https://i.ua
 
 -----
