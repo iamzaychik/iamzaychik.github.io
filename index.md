@@ -6,6 +6,6 @@ layout: home
 -----
 
 # Пости тут
-* [Posts](_posts)
+* [Posts](posts)
 
 -----
