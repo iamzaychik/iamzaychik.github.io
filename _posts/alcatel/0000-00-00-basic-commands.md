@@ -9,13 +9,13 @@ date: 2019-04-15
 # Ports
 
 * Показати всі:
- `show interfaces port`
+`show interfaces port`
 
 * Показати конкретний:
- `show interfaces 1/1 port`
+`show interfaces 1/1 port`
 
 * Розширений статус:
- `show interfaces 1/1`
+`show interfaces 1/1`
 
 * Вкл/викл:
  `interfaces 1/1 admin up/down`
