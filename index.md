@@ -1,6 +1,5 @@
 ---
-title: Головна
-layout: home
+title: Home
 ---
 
 -----
