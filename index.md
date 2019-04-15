@@ -5,7 +5,7 @@ layout: home
 
 -----
 
-# Йо
+# Пости тут
 * [Posts](posts)
 
 -----
