@@ -13,6 +13,11 @@ show_repository: false
 #permalink: "/:title"
 permalink: none
 
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
 categories:
   - Alcatel
   - Apache
