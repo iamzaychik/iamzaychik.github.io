@@ -1,5 +1,5 @@
 ---
-title: htaccess for Wordpress
+title: Htaccess for Wordpress
 category: Apache
 date: 2019-04-15
 ---
