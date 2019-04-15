@@ -6,8 +6,6 @@ date: 2019-04-15
 
 -----
 
-{{ post.title }}
-
 * Find needed commit:
 ```
 git log 
