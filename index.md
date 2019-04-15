@@ -6,10 +6,6 @@ layout: home
 -----
 
 # Пости тут
-* [Posts](posts)
-
------
-
 
 {% for post in site.posts %}
 <article>
