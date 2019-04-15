@@ -6,6 +6,7 @@ baseurl: "/"
 url: "https://zaychik.tk"
 email: "zaychik.info@gmail.com"
 github_username: iamzaychik
+show_downloads: true
 
 exclude:
   - rebuild_indexes.sh
