@@ -4,9 +4,22 @@ category: Git
 date: 2019-04-15
 ---
 
-**Щоб видалити всі комміти до потрібного, потрібно дізнатися його id, після чого:**
-**а) Відкотити непотрібні комміти:**
-`git reset &lt;id> --hard `
-**б) Запушити зміни в репозиторій**
-`git push origin HEAD --force`
+-----
+
+* Find needed commit:
+```
+git log 
+```
+
+* Rollback unwanted commits:
+```
+git reset --hard <SOME-COMMIT>
+git reset --soft HEAD@{1}
+```
+
+* Push changes to repo:
+```
+git push origin HEAD --force
+```
+
 -----
