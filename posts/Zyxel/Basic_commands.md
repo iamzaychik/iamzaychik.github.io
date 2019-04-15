@@ -1,6 +1,6 @@
-Title: Zyxel. Basic commands
-Pub date: 24.02.2015
-Category: Zyxel, 
+---
+title: Basic commands
+---
 
 _Стільний, модний, молодіжний, кисломолочний. Робиш і радуєшся._
 -----

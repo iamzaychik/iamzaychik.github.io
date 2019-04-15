@@ -1,6 +1,6 @@
-Title: Ubuntu. gfxboot.c32:not a valid COM32R image
-Pub date: 20.07.2016
-Category: Ubuntu, 
+---
+title: gfxboot c32 not a valid COM32R image
+---
 
 _Шіт хеппенс, товариші!_
 

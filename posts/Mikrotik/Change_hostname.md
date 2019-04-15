@@ -1,6 +1,6 @@
-Title: Mikrotik. Change hostname
-Pub date: 25.05.2016
-Category: Mikrotik, 
+---
+title: Change hostname
+---
 
 _Подвійне життя з Мікротиною Роутербодчою._
 

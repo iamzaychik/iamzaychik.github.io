@@ -1,6 +1,6 @@
-Title: Raspberry Pi. Install PHP 7
-Pub date: 14.06.2017
-Category: Raspberry Pi, 
+---
+title: Install PHP 7
+---
 
 **1. Редагуємо список репозиторіїв:**
 `mcedit /etc/apt/sources.list`

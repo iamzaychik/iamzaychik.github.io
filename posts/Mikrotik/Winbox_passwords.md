@@ -1,6 +1,6 @@
-Title: Mikrotik. Winbox passwords
-Pub date: 29.11.2016
-Category: Mikrotik, 
+---
+title: Winbox passwords
+---
 
 _Хитрий Winbox і паролі у відкритому вигляді. Драма._
 -----

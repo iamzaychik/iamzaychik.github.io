@@ -1,6 +1,6 @@
-Title: Alcatel. Reset password
-Pub date: 28.04.2015
-Category: Alcatel OS 6850/E, 
+---
+title: Reset password
+---
 
 _Як повернути втрачене, маючи консольний доступ._
 

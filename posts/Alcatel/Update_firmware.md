@@ -1,6 +1,6 @@
-Title: Alcatel. Update firmware
-Pub date: 13.05.2015
-Category: Alcatel OS 6850/E, 
+---
+title: Update firmware
+---
 
 [caption id="attachment_565" align="aligncenter" width="512"]<img class="wp-image-565 size-full" src="https://zaychik.info/wp-content/uploads/bleat.jpg" alt="bleat" width="512" height="317" /> Онови прошивку, бляць![/caption]
 

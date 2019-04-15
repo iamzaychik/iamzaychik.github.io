@@ -1,6 +1,6 @@
-Title: Unblock IP
-Pub date: 20.04.2017
-Category: Fail2Ban, 
+---
+title: Unblock IP
+---
 
 У версіях до v0.8.8:
 `fail2ban-client get YOURJAILNAMEHERE actionunban IPADDRESSHERE`

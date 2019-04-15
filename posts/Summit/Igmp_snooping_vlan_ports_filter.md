@@ -1,6 +1,6 @@
-Title: Summit. Igmp snooping vlan ports filter
-Pub date: 27.09.2016
-Category: Summit, 
+---
+title: Igmp snooping vlan ports filter
+---
 
 _Юз зе форс, Люк!
 І буде тобі фільтрація мультикасту на портах._

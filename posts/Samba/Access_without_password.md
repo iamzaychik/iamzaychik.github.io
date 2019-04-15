@@ -1,6 +1,6 @@
-Title: Samba. Access without password
-Pub date: 22.02.2016
-Category: Samba, 
+---
+title: Access without password
+---
 
 _Старость не радость.
 Все забув, треба записати.

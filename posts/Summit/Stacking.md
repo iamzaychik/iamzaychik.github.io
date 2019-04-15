@@ -1,6 +1,6 @@
-Title: Summit. Stacking
-Pub date: 31.03.2015
-Category: Summit, 
+---
+title: Stacking
+---
 
 _Треба правильно підключитися, щоб не було бум шака лака. А вже потім все інше, ага._
 

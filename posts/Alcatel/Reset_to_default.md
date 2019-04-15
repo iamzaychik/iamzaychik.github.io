@@ -1,6 +1,6 @@
-Title: Alcatel. Reset to default
-Pub date: 24.06.2015
-Category: Alcatel OS 6850/E, 
+---
+title: Reset to default
+---
 
 _Почнемо ж своє життя із чистого конфіга._
 

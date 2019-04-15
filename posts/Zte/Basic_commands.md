@@ -1,6 +1,6 @@
-Title: Zte. Basic commands
-Pub date: 24.02.2015
-Category: ZTE, 
+---
+title: Basic commands
+---
 
 _Чого тільки не придумають Жонг Сінг і компанія, ой вей._
 -----

@@ -1,6 +1,6 @@
-Title: FreeBSD. UTF-8
-Pub date: 23.03.2015
-Category: FreeBSD, 
+---
+title: UTF-8
+---
 
 **1. Дописуємо у /etc/rc.conf:**
 `font8x14="cp866-8x14"`

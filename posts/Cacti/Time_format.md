@@ -1,6 +1,6 @@
-Title: Cacti. Time format
-Pub date: 23.10.2015
-Category: Cacti, 
+---
+title: Time format
+---
 
 _Міняємо на зрозумілий формат оте, шо там написано._
 -----

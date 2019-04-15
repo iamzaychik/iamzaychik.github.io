@@ -1,6 +1,6 @@
-Title: Install UniFi controller
-Pub date: 15.05.2017
-Category: Raspberry Pi, 
+---
+title: Install UniFi controller
+---
 
 **1. Додаємо UniFi репозиторій, ключ до нього і оновлюємося:**
 `echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/ubnt.list > /dev/null`

@@ -1,6 +1,6 @@
-Title: Alcatel. Configuration via TFTP
-Pub date: 17.07.2015
-Category: Alcatel OS 6850/E, 
+---
+title: Configuration via TFTP
+---
 
 _Злив, залив, сів, сидиш, щастя._
 

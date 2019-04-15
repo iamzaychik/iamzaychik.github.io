@@ -1,6 +1,6 @@
-Title: CentOS. CactiEZ install mc
-Pub date: 25.09.2015
-Category: CentOS, 
+---
+title: CactiEZ install mc
+---
 
 _Це просто скайрім, посони!_
 

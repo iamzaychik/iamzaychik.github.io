@@ -1,6 +1,6 @@
-Title: Mikrotik. EoIP
-Pub date: 09.07.2015
-Category: Mikrotik, 
+---
+title: EoIP
+---
 
 _Ганяємо трафік через тунелі._
 -----

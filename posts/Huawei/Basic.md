@@ -1,6 +1,6 @@
-Title: Huawei. Basic commands
-Pub date: 24.02.2015
-Category: Huawei S2326-TP, 
+---
+title: Basic
+---
 
 _Свят свят свят. Спаси, о Сотона, від цього горя._
 -----

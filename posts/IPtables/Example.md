@@ -1,6 +1,6 @@
-Title: Iptables. Example
-Pub date: 09.01.2018
-Category: Iptables, 
+---
+title: Example
+---
 
 **Створюємо файл /etc/iptables.rules, в ньому пишемо:**
 `*filter`

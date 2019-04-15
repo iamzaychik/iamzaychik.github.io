@@ -1,6 +1,6 @@
-Title: Nginx. 98: Address already in use
-Pub date: 13.05.2016
-Category: Nginx, 
+---
+title: 98 Address already in use
+---
 
 _Лікуємо дивний баг нжинкса, при якому він не розказує нікому про бійцівський клюб._
 

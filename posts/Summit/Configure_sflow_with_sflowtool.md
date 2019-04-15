@@ -1,6 +1,6 @@
-Title: Summit. Настройка sflow з використанням sflowtool
-Pub date: 08.09.2016
-Category: Summit, 
+---
+title: Configure sflow with sflowtool
+---
 
 **Налаштування комутатора.**
 **1. Описуємо колектор. Це сервер, на якому встановлено sflowtool. Його налаштування буде розглянуто в кінці статті.**

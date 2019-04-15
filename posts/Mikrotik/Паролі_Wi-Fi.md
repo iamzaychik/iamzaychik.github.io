@@ -1,6 +1,6 @@
-Title: Mikrotik. Паролі Wi-Fi
-Pub date: 28.03.2017
-Category: Mikrotik, 
+---
+title: Паролі Wi-Fi
+---
 
 Для того, щоб дізнатися паролі від Wi-Fi мереж, вводимо в терміналі:
 `/interface wireless export`

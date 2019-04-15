@@ -1,6 +1,14 @@
+---
+title: index
+---
+
+-----
+
 * [Battery Capacity](Battery_Capacity.md)
 * [Change logon screen](Change_logon_screen.md)
 * [Disable hibernate](Disable_hibernate.md)
 * [Enable anonymous connection to smb in W10](Enable_anonymous_connection_to_smb_in_W10.md)
 * [Install Skype on LTSB edition](Install_Skype_on_LTSB_edition.md)
-* [XP and IPv6](XP and IPv6.md)
+* [XP and IPv6](XP_and_IPv6.md)
+
+-----

@@ -1,6 +1,6 @@
-Title: Huawei S2326TP-EI. MVR
-Pub date: 10.06.2016
-Category: Huawei S2326-TP, 
+---
+title: S2326TP-EI MVR
+---
 
 _Ворог в пилюці, скотиняка._
 -----

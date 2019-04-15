@@ -1,6 +1,6 @@
-Title: PPTP. Client connection
-Pub date: 19.09.2016
-Category: PPTP, Ubuntu, 
+---
+title: Client connection
+---
 
 _Сікундою конектимося до віпіена з бубунти!_
 -----

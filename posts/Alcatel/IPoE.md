@@ -1,6 +1,6 @@
-Title: Alcatel. IPoE
-Pub date: 24.03.2015
-Category: Alcatel OS 6850/E, 
+---
+title: IPoE
+---
 
 _В цьому нелегкому ділі все починається з сапа._
 

@@ -1,6 +1,6 @@
-Title: Windows. Battery Capacity
-Pub date: 05.11.2015
-Category: Windows, 
+---
+title: Battery Capacity
+---
 
 _Скільки часу можна шукати паштет в гуглі?
 Довго чи коротко ми випобіждаємо ракалів?

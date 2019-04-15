@@ -1,6 +1,6 @@
-Title: Summit. Basic commands
-Pub date: 17.03.2015
-Category: Summit, 
+---
+title: Basic commands
+---
 
 <ul>
  	*show ports **:** information detail - детальна інформація порта

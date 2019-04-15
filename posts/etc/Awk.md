@@ -1,6 +1,6 @@
-Title: Awk
-Pub date: 26.07.2017
-Category: Awk, 
+---
+title: Awk
+---
 
 **Вивести всі стовпці:**
 `awk '{print $0}'`

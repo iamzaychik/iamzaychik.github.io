@@ -1,6 +1,6 @@
-Title: Bash. Clear history
-Pub date: 22.12.2015
-Category: Bash, 
+---
+title: Clear history
+---
 
 _Сікретнічаємо сікрєти од всього світу._
 -----

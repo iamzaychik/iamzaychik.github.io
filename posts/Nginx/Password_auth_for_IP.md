@@ -1,6 +1,6 @@
-Title: Nginx. Авторизація по парольчику для зовнішніх IP
-Pub date: 11.01.2016
-Category: Nginx, 
+---
+title: Password auth for IP
+---
 
 _Не допустимо супостата до комісарського тіла!_
 -----

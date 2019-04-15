@@ -1,6 +1,6 @@
-Title: Translate VLAN
-Pub date: 28.07.2015
-Category: Summit, 
+---
+title: Translate VLAN
+---
 
 _Міліцію в поліцію, почту в мочту, маму в папу, мєдвєдя в пєдвєдя._
 -----

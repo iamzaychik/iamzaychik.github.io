@@ -1,6 +1,6 @@
-Title: SSL. How to put together
-Pub date: 01.02.2018
-Category: SSL, 
+---
+title: How to put together
+---
 
 **SSL сертифікати мають таку структуру:**
 1. **BUNDLE** складається з:

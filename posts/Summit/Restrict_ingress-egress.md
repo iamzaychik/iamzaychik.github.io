@@ -1,6 +1,6 @@
-Title: Summit. Обмеження ingress-egress
-Pub date: 22.08.2016
-Category: Summit, 
+---
+title: Restrict ingress-egress
+---
 
 _Обрізання невірним!_
 -----

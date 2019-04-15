@@ -1,6 +1,6 @@
-Title: Mikrotik. Recover admin password
-Pub date: 29.09.2018
-Category: Mikrotik, 
+---
+title: Recover admin password
+---
 
 * <a href="https://aacable.wordpress.com/2012/01/14/howto-recover-mikrotik-admin-account-forgotten-password/">Пишуть люди</a>
 -----

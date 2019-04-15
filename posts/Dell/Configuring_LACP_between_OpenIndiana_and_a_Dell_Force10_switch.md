@@ -1,6 +1,6 @@
-Title: Dell. Configuring LACP between OpenIndiana and a Dell Force10 switch
-Pub date: 24.07.2015
-Category: Dell, 
+---
+title: Configuring LACP between OpenIndiana and a Dell Force10 switch
+---
 
 <div class="entry-content">
 

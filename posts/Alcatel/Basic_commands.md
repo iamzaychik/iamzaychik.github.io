@@ -1,6 +1,6 @@
-Title: Alcatel. Basic commands
-Pub date: 23.02.2015
-Category: Alcatel OS 6850/E, 
+---
+title: Basic commands
+---
 
 **Порт**
 Показати всі:

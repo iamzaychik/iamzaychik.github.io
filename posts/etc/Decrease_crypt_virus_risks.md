@@ -1,6 +1,6 @@
-Title: Decrease crypt virus risks
-Pub date: 21.03.2017
-Category: Windows, 
+---
+title: Decrease crypt virus risks
+---
 
 _Змінюємо асоціювання потенціально небезпечних файлів, щоб при запуску вони відкривалися для перегляду, як txt._
 -----

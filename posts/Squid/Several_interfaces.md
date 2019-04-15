@@ -1,6 +1,6 @@
-Title: Squid. Several interfaces
-Pub date: 10.05.2016
-Category: Squid, 
+---
+title: Several interfaces
+---
 
 _Коли один чайник наливає в багато чашок - це добре._
 _Але коли один Squid дає тобі багато різних IP - це геть прекрасно!_

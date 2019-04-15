@@ -1,6 +1,6 @@
-Title: CentOS. Error: rpmdb open failed
-Pub date: 22.10.2018
-Category: CentOS, 
+---
+title: Error rpmdb open failed
+---
 
 **Якщо при виконанні `yum update` маємо помилку Error: rpmdb open failed:**
 

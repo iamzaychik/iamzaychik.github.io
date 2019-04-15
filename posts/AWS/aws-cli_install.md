@@ -1,6 +1,6 @@
-Title: AWS. aws-cli install
-Pub date: 23.09.2018
-Category: AWS, aws-cli, Ubuntu, 
+---
+title: aws-cli install
+---
 
 **Для того, щоб встановити aws-cli в Ubuntu:**
 `apt install python3-pip`

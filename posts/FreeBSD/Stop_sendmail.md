@@ -1,6 +1,6 @@
-Title: Stop sendmail
-Pub date: 06.05.2016
-Category: FreeBSD, 
+---
+title: Stop sendmail
+---
 
 _Якби Вернон Дурслі, дядько Гаррі Поттера, був системним адміністратором, то спершу відключив би поштовий агент sendmail._
 -----

@@ -1,6 +1,6 @@
-Title: SSH. No matching host key type found
-Pub date: 23.08.2017
-Category: SSH, 
+---
+title: No matching host key type found
+---
 
 _Чума на обидва ваші будинки!_
 -----

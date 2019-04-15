@@ -1,6 +1,6 @@
-Title: Printing only first page
-Pub date: 26.07.2017
-Category: Ubuntu, 
+---
+title: Printing only first page
+---
 
 _Вся річ у тому, що Ubuntu завантажує для usb принтерів модуль ядра usblp.ko_
 _ Він необхідний для роботи багатьох принтерів, наприклад Canon LBP серії та інших._

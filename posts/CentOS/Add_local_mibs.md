@@ -1,6 +1,6 @@
-Title: CentOS. Add local mibs
-Pub date: 01.02.2016
-Category: CentOS, 
+---
+title: Add local mibs
+---
 
 Як нам треба додати свої міби в систему, щоб користуватися таким собі транслейтом або просто так, то:
 1. кидаємо їх в папку `/usr/share/snmp/mibs`

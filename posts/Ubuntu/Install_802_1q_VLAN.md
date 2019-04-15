@@ -1,6 +1,6 @@
-Title: Ubuntu. Install 802.1q VLAN
-Pub date: 17.03.2015
-Category: Ubuntu, 
+---
+title: Install 802 1q VLAN
+---
 
 _Добавляємо міліони вланів собі в комп’ютер, щоб було ісключітільно і все робило._
 

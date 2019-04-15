@@ -1,6 +1,6 @@
-Title: Dlink. Basic commands
-Pub date: 17.03.2015
-Category: Dlink, 
+---
+title: Basic commands
+---
 
 * <a title="Пишуть люди" href="http://www.skleroznik.in.ua/2013/08/17/nastrojka-vlan-na-kommutatorax-d-link/" target="_blank" rel="noopener">Пишуть люди</a>
 

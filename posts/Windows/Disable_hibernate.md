@@ -1,6 +1,6 @@
-Title: Windows. Disable hibernate
-Pub date: 10.04.2017
-Category: Windows, 
+---
+title: Disable hibernate
+---
 
 Для того, щоб вимкнути гібернацію у Windows 10, потрібно ввести в командному рядку:
 `powercfg -h off`

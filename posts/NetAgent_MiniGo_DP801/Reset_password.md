@@ -1,6 +1,6 @@
-Title: NetAgent MiniGo DP801. Reset password
-Pub date: 12.11.2015
-Category: Network equipment, 
+---
+title: Reset password
+---
 
 _Паролим парольчики на платку упсіка. Бо дорога._
 

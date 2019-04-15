@@ -1,6 +1,6 @@
-Title: Raspberry Pi. HDMI hotplug
-Pub date: 04.05.2017
-Category: Raspberry Pi, 
+---
+title: HDMI hotplug
+---
 
 _Специфіка роботи HDMI в Raspberry PI така, що він працює тільки в тому разі, якщо був підключений перед запуском пристрою._
 

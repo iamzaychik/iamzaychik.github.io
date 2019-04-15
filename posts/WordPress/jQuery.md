@@ -1,6 +1,6 @@
-Title: WordPress. jQuery
-Pub date: 14.09.2015
-Category: Wordpress, 
+---
+title: jQuery
+---
 
 _Підключаємо цей кінський jQuery для сумісності версій.
 Пишіть человєчєські тєми, упиряки, бо накол всіх сікундою!_

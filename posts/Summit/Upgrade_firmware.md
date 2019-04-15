@@ -1,6 +1,6 @@
-Title: Summit. Upgrade firmware
-Pub date: 24.02.2015
-Category: Summit, 
+---
+title: Upgrade firmware
+---
 
 _Невозбранно зашиваємо самміт._
 -----

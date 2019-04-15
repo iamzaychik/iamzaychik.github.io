@@ -1,6 +1,6 @@
-Title: Dell. Force10. Reset password
-Pub date: 04.07.2016
-Category: Dell, 
+---
+title: Force10
+---
 
 _Релакс, тейк іт ізі!_
 -----

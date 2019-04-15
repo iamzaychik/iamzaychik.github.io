@@ -1,6 +1,6 @@
-Title: Change logon screen
-Pub date: 03.06.2015
-Category: Windows, 
+---
+title: Change logon screen
+---
 
 _Спочатку вибери шось гарненьке, %юзернейм%!_
 

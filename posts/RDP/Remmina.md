@@ -1,6 +1,6 @@
-Title: RDP. Remmina
-Pub date: 17.03.2015
-Category: Bash, Ubuntu, 
+---
+title: Remmina
+---
 
 _Бувають дні, коли реміна не ремінить геть ніразу._
 _ Сердиться на сертифікати._

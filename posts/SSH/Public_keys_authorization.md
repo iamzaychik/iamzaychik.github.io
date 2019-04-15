@@ -1,6 +1,6 @@
-Title: SSH. Public keys authorization
-Pub date: 20.07.2016
-Category: SSH, 
+---
+title: Public keys authorization
+---
 
 _Безпарольний доступ, по нашому._
 -----

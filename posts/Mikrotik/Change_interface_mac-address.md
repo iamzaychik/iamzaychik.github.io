@@ -1,6 +1,6 @@
-Title: Mikrotik. Change interface mac-address
-Pub date: 25.05.2016
-Category: Mikrotik, 
+---
+title: Change interface mac-address
+---
 
 _Міняємо маки на доляри. І навпаки._
 -----

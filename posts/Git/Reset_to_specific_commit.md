@@ -1,6 +1,6 @@
-Title: Git. Reset to specific commit
-Pub date: 19.12.2017
-Category: Git, 
+---
+title: Reset to specific commit
+---
 
 **Щоб видалити всі комміти до потрібного, потрібно дізнатися його id, після чого:**
 **а) Відкотити непотрібні комміти:**

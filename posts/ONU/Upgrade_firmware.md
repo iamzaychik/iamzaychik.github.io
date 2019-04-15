@@ -1,6 +1,6 @@
-Title: ONU. Upgrade firmware
-Pub date: 03.03.2015
-Category: Onu, 
+---
+title: Upgrade firmware
+---
 
 <h4>Оновлення за допомогою OLT:</h4>
 **1. Для відображення процесу:**

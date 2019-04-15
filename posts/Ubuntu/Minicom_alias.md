@@ -1,6 +1,6 @@
-Title: Ubuntu. Minicom alias
-Pub date: 29.11.2016
-Category: Minicom, 
+---
+title: Minicom alias
+---
 
 Запуск minicom з перехідником rs-232 to usb.
 -----

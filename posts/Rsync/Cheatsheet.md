@@ -1,6 +1,6 @@
-Title: Rsync. Cheatsheet
-Pub date: 29.09.2018
-Category: Rsync, 
+---
+title: Cheatsheet
+---
 
 **From local to remote:**
 `rsync -chavzP --stats -e "ssh -p SSH_PORT" LOCAL_PATH SSH_USER@SERVER_IP:REMOTE_PATH`

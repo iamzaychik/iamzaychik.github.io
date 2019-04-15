@@ -1,6 +1,6 @@
-Title: Cisco. Basic
-Pub date: 23.02.2015
-Category: Cisco, 
+---
+title: Basic
+---
 
 **Створити користувача:**
 `username admin secret 1234`

@@ -1,6 +1,6 @@
-Title: Routing
-Pub date: 24.12.2015
-Category: DD-WRT, 
+---
+title: Routing
+---
 
 _В цій прошивці роутер за замовчуванням має адресу 192.168.1.1_
 

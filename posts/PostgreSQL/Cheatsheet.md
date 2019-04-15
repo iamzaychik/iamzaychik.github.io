@@ -1,6 +1,6 @@
-Title: PostgreSQL. Cheatsheet
-Pub date: 30.01.2018
-Category: PostgreSQL, 
+---
+title: Cheatsheet
+---
 
 **Backup:**
 `pg_dump -h DB_HOST -p 5432 -U DB_USER -f dump.sql DB_NAME`

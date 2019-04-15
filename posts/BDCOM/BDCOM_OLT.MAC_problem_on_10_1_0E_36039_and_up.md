@@ -1,6 +1,6 @@
-Title: BDCOM OLT. MAC problem on 10.1.0E_36039 and up
-Pub date: 21.09.2017
-Category: BDCOM, 
+---
+title: BDCOM OLT
+---
 
 **Починаючи з версії прошивки 10.1.0E_36039, всі mac-адреси, що відповідають маскам, які вказані нижче, будуть відкинуті PON інтерфейсом.**
 `X2:XX:XX:XX:XX:XX	Local Administered`

@@ -1,6 +1,6 @@
-Title: CentOS. Cheatsheet
-Pub date: 04.07.2017
-Category: CentOS, 
+---
+title: Cheatsheet
+---
 
 -----
 

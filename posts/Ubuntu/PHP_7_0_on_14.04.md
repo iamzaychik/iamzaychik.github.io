@@ -1,6 +1,6 @@
-Title: Ubuntu. PHP 7.0 on 14.04
-Pub date: 11.09.2017
-Category: Ubuntu, 
+---
+title: PHP 7 0 on 14
+---
 
 **Щоб встановити PHP версії 7.0 на Ubuntu 14.04 потрібно:**
 **1. Додати репозиторій**

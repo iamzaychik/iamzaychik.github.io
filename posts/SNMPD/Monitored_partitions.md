@@ -1,6 +1,6 @@
-Title: SNMPD. Monitored partitions
-Pub date: 25.11.2016
-Category: SNMP, 
+---
+title: Monitored partitions
+---
 
 Щоби мати по snmp інформацію про заповненість дисків, маємо на хості у файл `/etc/snmp/snmpd.conf` вписати таке:
 `includeAllDisks`

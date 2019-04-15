@@ -1,6 +1,6 @@
-Title: Ubuntu. Autologin on 16.04+
-Pub date: 15.06.2017
-Category: Ubuntu, 
+---
+title: Autologin on 16 04
+---
 
 **1. Створюємо файл конфігурації:**
 `mkdir /etc/systemd/system/getty@tty1.service.d`

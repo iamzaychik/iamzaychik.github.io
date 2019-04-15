@@ -1,6 +1,6 @@
-Title: MySQL. Cheatsheet
-Pub date: 10.06.2015
-Category: MySQL, 
+---
+title: Cheatsheet
+---
 
 **Створити базу даних:**
 `CREATE DATABASE dbname;`

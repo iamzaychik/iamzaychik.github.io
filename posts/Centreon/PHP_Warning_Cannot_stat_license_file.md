@@ -1,6 +1,6 @@
-Title: Centreon. PHP Warning: Cannot stat license file
-Pub date: 14.08.2017
-Category: Centreon, 
+---
+title: PHP Warning Cannot stat license file
+---
 
 **Якшо в логах clapi маємо багато помилок:**
 `"PHP Warning: Cannot stat license file"`

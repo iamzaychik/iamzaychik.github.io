@@ -1,6 +1,6 @@
-Title: SCP. Copy subfolders from remote server
-Pub date: 19.12.2017
-Category: SCP, 
+---
+title: Copy subfolders from remote server
+---
 
 **Щоб скопіювати з віддаленого сервера файли в певній папці:**
 `scp -i SSH_PRIVATE_KEY -P SSH_PORT -r LOCAL_PATH SSH_USER@SERVER_IP:REMOTE_PATH`

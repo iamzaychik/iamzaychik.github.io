@@ -1,6 +1,6 @@
-Title: How to find IPv6 server
-Pub date: 15.06.2015
-Category: Network, 
+---
+title: How to find IPv6 server
+---
 
 1. Беремо адресу IPv6. Наприклад: 2002:6de3:7f56:d:a0da:d165:afa8:9d8e;
 2. Йдемо на * <a href="http://www.gestioip.net/cgi-bin/subnet_calculator.cgi">гарний сайт</a>;

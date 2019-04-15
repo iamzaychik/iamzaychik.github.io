@@ -1,6 +1,6 @@
-Title: DD-WRT. IPTV
-Pub date: 09.04.2015
-Category: DD-WRT, 
+---
+title: IPTV
+---
 
 <img class="aligncenter wp-image-1344 size-full" src="https://zaychik.info/wp-content/uploads/IPTV.jpg" width="617" height="407" />
 

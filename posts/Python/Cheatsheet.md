@@ -1,6 +1,6 @@
-Title: Python. Cheatsheet
-Pub date: 07.12.2016
-Category: Python, 
+---
+title: Cheatsheet
+---
 
 _Отвергая законы природы
 Стоит у перил моста

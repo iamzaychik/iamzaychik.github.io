@@ -1,6 +1,6 @@
-Title: WordPress. Remove emoji code
-Pub date: 02.02.2016
-Category: Wordpress, 
+---
+title: Remove emoji code
+---
 
 _Заводи стоять, а вони емодзі постять.
 Повбивав би._

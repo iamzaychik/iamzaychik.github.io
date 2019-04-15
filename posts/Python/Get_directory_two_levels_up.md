@@ -1,6 +1,6 @@
-Title: Python. Get directory two levels up
-Pub date: 09.01.2018
-Category: Python, 
+---
+title: Get directory two levels up
+---
 
 **Для того, щоб отримати шлях директорії, яка розташована на два рівні вище потрібного файла, потрібно:**
 

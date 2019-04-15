@@ -1,6 +1,6 @@
-Title: Apache. Virtual hosts
-Pub date: 05.02.2016
-Category: Apache, 
+---
+title: Virtual hosts
+---
 
 _Срані індєйци і мої витікші мозги._
 _ Шоб вам пусто було._

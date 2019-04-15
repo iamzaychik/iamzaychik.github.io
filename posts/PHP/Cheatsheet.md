@@ -1,6 +1,6 @@
-Title: PHP. Cheatsheet
-Pub date: 01.04.2016
-Category: PHP, 
+---
+title: Cheatsheet
+---
 
 _Корисні трюки і функції._
 -----

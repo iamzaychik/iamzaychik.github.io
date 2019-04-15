@@ -1,6 +1,6 @@
-Title: Ruby. Show rails version
-Pub date: 29.09.2018
-Category: Ruby/Rails, 
+---
+title: Show rails version
+---
 
 **Для того, щоб дізнатися, яку версію rails використовує проект:**
 `cd PROJECT_PATH`

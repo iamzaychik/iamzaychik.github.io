@@ -1,6 +1,6 @@
-Title: Postfix. Common troubleshooting
-Pub date: 22.10.2018
-Category: Postfix, 
+---
+title: Common troubleshooting
+---
 
 **Fix Google IPv6 issue:**
 `inet_protocols=ipv4`

@@ -1,6 +1,6 @@
-Title: Ubuntu. Cheatsheet
-Pub date: 17.12.2015
-Category: Ubuntu, 
+---
+title: Cheatsheet
+---
 
 _Треба все класти в сухий і прохолодний бложик.
 І довгими зимніми вечорами перечитувати._

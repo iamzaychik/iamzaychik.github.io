@@ -1,6 +1,6 @@
-Title: Docker. Cheatsheet
-Pub date: 13.06.2018
-Category: Docker, 
+---
+title: Cheatsheet
+---
 
 **Вивід історії імейджа в розширеному вигляді:**
 `docker history --no-trunc alpine:latest`

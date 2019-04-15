@@ -1,6 +1,6 @@
-Title: IPtables. Port forwarding
-Pub date: 10.05.2016
-Category: Iptables, 
+---
+title: Port forwarding
+---
 
 _Натимо нат і одночасно прокидаємо порт для RDP._
 

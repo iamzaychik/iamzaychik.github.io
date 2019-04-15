@@ -1,6 +1,6 @@
-Title: Ubuntu. Sudo without password
-Pub date: 20.07.2016
-Category: Ubuntu, 
+---
+title: Sudo without password
+---
 
 _Не можна просто так взяти, і вісудо!_
 -----

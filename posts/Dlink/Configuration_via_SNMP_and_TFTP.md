@@ -1,6 +1,6 @@
-Title: Dlink. Configuration via SNMP &#038; TFTP
-Pub date: 05.08.2015
-Category: Dlink, 
+---
+title: Configuration via SNMP and TFTP
+---
 
 _Сидиш собі красівий і нарядний, а на длінках 3200 пароль адміна не підходить. Отут тобі і на. І вже SNMP спішить на допомогу._
 -----

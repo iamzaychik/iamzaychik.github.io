@@ -1,3 +1,6 @@
+---
+title: index
+---
 * [Захист від DDoS атак на DNS](Захист_від_DDoS_атак_на_DNS.md)
 * [Паролі Wi-Fi](Паролі_Wi-Fi.md)
 * [Change hostname](Change_hostname.md)

@@ -1,6 +1,6 @@
-Title: Juniper. Static client on dynamic interfaces
-Pub date: 19.02.2016
-Category: Juniper, 
+---
+title: Static client on dynamic interfaces
+---
 
 _Всьо не так і всьо не то, коли твоя дівчина - пальто._
 _Або як зробить странне, коли люди його хотять._

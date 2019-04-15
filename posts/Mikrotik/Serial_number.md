@@ -1,6 +1,6 @@
-Title: Mikrotik. Serial number
-Pub date: 28.11.2016
-Category: Mikrotik, 
+---
+title: Serial number
+---
 
 _Інвентаризація - мать порядка!_
 

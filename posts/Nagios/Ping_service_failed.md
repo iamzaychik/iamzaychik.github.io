@@ -1,6 +1,6 @@
-Title: Nagios. Ping service failed
-Pub date: 14.08.2017
-Category: Centreon, Nagios, 
+---
+title: Ping service failed
+---
 
 **Якшо сервіс Ping видає помилку:**
 `check_icmp: Failed to obtain ICMP socket: Operation not permitted`

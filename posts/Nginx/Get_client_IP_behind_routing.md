@@ -1,6 +1,6 @@
-Title: Nginx. Get client IP behind routing
-Pub date: 23.07.2018
-Category: Nginx, 
+---
+title: Get client IP behind routing
+---
 
 **Вказуємо адреси для Nginx, які передають нам правильну адресу користувача і встановлюємо відповідний хедер:**
 `real_ip_header X-Forwarded-For;

@@ -1,6 +1,6 @@
-Title: RDP. Rdesktop
-Pub date: 17.03.2015
-Category: Ubuntu, 
+---
+title: Rdesktop
+---
 
 _Голому королю - голий консольний клієнт RDP._
 -----

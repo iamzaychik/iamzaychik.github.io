@@ -1,6 +1,6 @@
-Title: Ubuntu. UnicodeEncodeError
-Pub date: 26.07.2017
-Category: Ubuntu, 
+---
+title: UnicodeEncodeError
+---
 
 **Якщо при оновленні версії Ubuntu з'являється помилка:**
 `UnicodeEncodeError: 'ascii' codec can't encode character '\xab' in position 170: ordinal not in range(128)`

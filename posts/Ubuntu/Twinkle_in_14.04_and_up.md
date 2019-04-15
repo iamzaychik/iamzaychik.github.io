@@ -1,6 +1,6 @@
-Title: Twinkle in Ubuntu 14.04 and up
-Pub date: 25.02.2015
-Category: Ubuntu, 
+---
+title: Twinkle in 14
+---
 
 _Говоримо і показуємо. В кращих традиціях Левітана._
 -----

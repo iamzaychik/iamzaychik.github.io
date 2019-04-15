@@ -1,6 +1,6 @@
-Title: LSI 9212. Upgrade FW &#038; BIOS
-Pub date: 14.06.2017
-Category: LSI, 
+---
+title: Upgrade FW and BIOS
+---
 
 _LSI 9212 - контролер 6Гбіт SAS HBA з чотирма портами._
 

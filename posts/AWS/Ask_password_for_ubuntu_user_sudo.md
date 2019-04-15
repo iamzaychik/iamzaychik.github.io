@@ -1,5 +1,5 @@
 ---
-title: AWS. Ask password for ubuntu user sudo
+title: Ask password for ubuntu user sudo
 ---
 
 -----

@@ -1,6 +1,6 @@
-Title: Translate VLAN 2
-Pub date: 30.08.2015
-Category: Summit, 
+---
+title: Translate VLAN 2
+---
 
 The example in the following figure configures a basic VLAN translation network. This network provides VLAN translation between four member VLANs and a single translation VLAN.
 -----

@@ -1,6 +1,6 @@
-Title: Passive FTP
-Pub date: 19.04.2016
-Category: Iptables, Ubuntu, 
+---
+title: Passive FTP
+---
 
 _Настроїш, буває, фаєрвол, а виявляється, що все працювало геть не так, як було задумано..._
 -----

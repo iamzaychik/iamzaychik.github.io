@@ -1,6 +1,6 @@
-Title: Ubuntu. Flashplayer update
-Pub date: 31.03.2016
-Category: Flashplayer, Ubuntu, 
+---
+title: Flashplayer update
+---
 
 _Де вже той ваш ХТМЛ5, га?_
 -----

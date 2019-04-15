@@ -1,6 +1,6 @@
-Title: Vlan traffic monitoring
-Pub date: 28.07.2015
-Category: Summit, 
+---
+title: Vlan traffic monitoring
+---
 
 _Потім оподатковуємо і маємо профіт та повагу._
 -----

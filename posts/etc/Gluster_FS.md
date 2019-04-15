@@ -1,6 +1,6 @@
-Title: Gluster FS
-Pub date: 25.10.2016
-Category: Ubuntu, 
+---
+title: Gluster FS
+---
 
 # Distributed-replicated
 `gluster volume create test replica 4 server1:/mnt/storage/1 server1:/mnt/storage/2 server3:/mnt/storage/1 server3:/mnt/storage/2 force`

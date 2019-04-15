@@ -1,6 +1,6 @@
-Title: Elastix. Reset password
-Pub date: 30.03.2017
-Category: Asterisk, 
+---
+title: Reset password
+---
 
 **Для того, щоб змінити пароль для доступу в web-інтерфейс Elastix &lt; 3.0:**
 1. Заходимо на сервер через ssh;

@@ -1,6 +1,6 @@
-Title: Scheduled traffic restrictions
-Pub date: 06.02.2017
-Category: Mikrotik, 
+---
+title: Scheduled traffic restrictions
+---
 
 Консольний варіант додати правило:
 `/ip firewall filter

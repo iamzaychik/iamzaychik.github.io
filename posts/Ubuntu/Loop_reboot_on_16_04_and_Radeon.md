@@ -1,6 +1,6 @@
-Title: Ubuntu. Loop reboot on 16.04 and Radeon
-Pub date: 21.08.2017
-Category: Ubuntu, 
+---
+title: Loop reboot on 16 04 and Radeon
+---
 
 **Якщо у вас інтегрована відеокарта Radeon і система постійно перезавантажується, то потрібно зробити наступне:**
 

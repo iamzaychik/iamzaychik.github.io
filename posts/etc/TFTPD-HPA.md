@@ -1,6 +1,6 @@
-Title: TFTPD-HPA
-Pub date: 04.08.2016
-Category: TFTP, 
+---
+title: TFTPD-HPA
+---
 
 _Сікундою встановлюємо собі tftp-server._
 
