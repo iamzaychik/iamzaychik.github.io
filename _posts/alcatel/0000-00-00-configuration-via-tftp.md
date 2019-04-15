@@ -4,41 +4,62 @@ category: Alcatel
 date: 2019-04-15
 ---
 
-_Злив, залив, сів, сидиш, щастя._
+-----
+
+* [Save](#save)
+* [Restore](#restore)
 
 -----
 
-**Збереження конфігурації:**
+### Save
 
-1. Дивимося список файлів в папці working:
-`-> ls working`
+* List files from `working/`:
+```
+-> ls working
+```
 
-2. Заливаємо файл налаштувань boot.cfg на tftp-server:
-`-> tftp ***.***.***.*** put source-file working/boot.cfg destination-file boot.cfg`
+* Upload config file `boot.cfg` to tftp-server:
+```
+-> tftp ***.***.***.*** put source-file working/boot.cfg destination-file boot.cfg
+```
 
-3. Дивимося список файлів в папці network:
-`-> ls network`
+* List files from `network/`:
+```
+-> ls network
+```
 
-4. Заливаємо файл з даними корустувачів userTable5 на tftp-server:
-`-> tftp ***.***.***.*** put source-file network/userTable5 destination-file userTable5`
+* Upload users file `userTable5` to tftp-server:
+```
+-> tftp ***.***.***.*** put source-file network/userTable5 destination-file userTable5
+```
 
 -----
 
-**Відновлення конфігурації:**
+### Restore
 
-1. Видаляємо поточний boot.cfg:
-`-> delete working/boot.cfg`
+* Remove current `boot.cfg`:
+```
+-> delete working/boot.cfg
+```
 
-2. Завантажуємо нові налаштування:
-`-> tftp ***.***.***.*** get source-file boot.cfg destination-file working/boot.cfg`
+* Download new configuration:
+```
+-> tftp ***.***.***.*** get source-file boot.cfg destination-file working/boot.cfg
+```
 
-3. Видаляємо поточний userTable:
+* Remove current `userTable5`:
+```
 -> delete network/userTable5
+```
 
-4. Завантажуємо нову базу користувачів:
-`-> tftp ***.***.***.*** get source-file userTable5 destination-file network/userTable5`
+* Download new users configuration:
+```
+-> tftp ***.***.***.*** get source-file userTable5 destination-file network/userTable5
+```
 
-5. Перезавантажуємо комутатор з новими налаштуваннями:
-`-> reload working no rollback-timeout`
+* Reboot switch with new configuration:
+```
+-> reload working no rollback-timeout
+```
 
 -----
