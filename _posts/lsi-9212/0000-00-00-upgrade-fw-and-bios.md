@@ -1,6 +1,6 @@
 ---
-title: Upgrade FW and BIOS
-category: LSI_9212
+title: Upgrade FW and BIOS 9212
+category: LSI
 date: 2019-04-15
 ---
 

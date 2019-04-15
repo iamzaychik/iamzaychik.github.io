@@ -1,6 +1,6 @@
 ---
 title: Delete empty lines
-category: Sublime_Text
+category: Sublime Text
 date: 2019-04-15
 ---
 

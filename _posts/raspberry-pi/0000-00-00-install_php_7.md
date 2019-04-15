@@ -1,6 +1,6 @@
 ---
 title: Install PHP 7
-category: Raspberry_Pi
+category: Raspberry Pi
 date: 2019-04-15
 ---
 
