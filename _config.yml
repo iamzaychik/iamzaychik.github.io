@@ -8,6 +8,7 @@ email: "zaychik.info@gmail.com"
 github_username: iamzaychik
 show_downloads: false
 google_analytics: false
+show_repository: false
 
 exclude:
   - rebuild_indexes.sh
