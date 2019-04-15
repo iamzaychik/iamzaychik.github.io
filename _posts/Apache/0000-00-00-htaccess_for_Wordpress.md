@@ -1,5 +1,5 @@
 ---
-title: htaccess for md
+title: htaccess for Wordpress
 category: Apache
 date: 2019-04-15
 ---

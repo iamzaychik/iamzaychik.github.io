@@ -4,8 +4,6 @@ category: Dlink
 date: 2019-04-15
 ---
 
-* <a title="Пишуть люди" href="http://www.skleroznik.in.ua/2013/08/17/nastrojka-vlan-na-kommutatorax-d-link/" target="_blank" rel="noopener">Пишуть люди</a>
-
 -----
 
 `config vlan default delete 1-26 - удалить влан default с портов
@@ -16,6 +14,13 @@ config vlan 2101 add tagged 25-26   - выдать влан 2101 в таге �
 show error ports xx - дивимося помилки
 clear counters ports xx - очистка помилок`
 -----
+
 **Файл конфігурції для бекапа:**
 `c:/config.cfg`
+
+-----
+
+* [P3310B manual](/assets/pdf/bdcom/p3310b_manual_rus.pdf)
+* <a title="Пишуть люди" href="http://www.skleroznik.in.ua/2013/08/17/nastrojka-vlan-na-kommutatorax-d-link/" target="_blank" rel="noopener">Пишуть люди</a>
+
 -----
