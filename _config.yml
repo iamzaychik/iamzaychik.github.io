@@ -19,5 +19,5 @@ show_repository: false
 
 
 collections:
-  tests:
+  posts:
     output: true
