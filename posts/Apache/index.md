@@ -1,5 +1,2 @@
----
-title: index
----
-* [htaccess for md](htaccess_for_md)
+* [htaccess for Wordpress](htaccess_for_Wordpress.md)
 * [Virtual hosts](Virtual_hosts.md)

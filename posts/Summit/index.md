@@ -1,6 +1,3 @@
----
-title: index
----
 * [Basic commands](Basic_commands.md)
 * [Configure sflow with sflowtool](Configure_sflow_with_sflowtool.md)
 * [Igmp snooping vlan ports filter](Igmp_snooping_vlan_ports_filter.md)

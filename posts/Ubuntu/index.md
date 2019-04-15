@@ -1,6 +1,3 @@
----
-title: index
----
 * [Archivers](Archivers.md)
 * [Autologin on 16 04](Autologin_on_16_04.md)
 * [Cheatsheet](Cheatsheet.md)

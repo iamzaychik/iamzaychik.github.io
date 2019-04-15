@@ -1,6 +1,3 @@
----
-title: index
----
 * [Add local mibs](Add_local_mibs.md)
 * [CactiEZ install mc](CactiEZ_install_mc.md)
 * [Cheatsheet](Cheatsheet.md)

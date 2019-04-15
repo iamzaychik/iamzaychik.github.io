@@ -1,6 +1,3 @@
----
-title: index
----
 * [All cast](All_cast.gif)
 * [Awk](Awk.md)
 * [Decrease crypt virus risks](Decrease_crypt_virus_risks.md)

@@ -1,6 +1,3 @@
----
-title: index
----
 * [Basic commands](Basic_commands.md)
 * [Configuration via TFTP](Configuration_via_TFTP.md)
 * [IPoE](IPoE.md)
