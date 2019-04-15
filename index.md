@@ -7,11 +7,13 @@ layout: home
 
 # Categories
 
-{% for category in site.categories %}
-  <h3>{{ category[0] }}</h3>
-  <ul>
-    {% for post in category[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% assign sorted_cats = site.categories | sort %}
+{% for category in sorted_cats %}
+{% assign sorted_posts = category[1] | reversed %}
+<h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</H2>
+<ul>
+  {% for post in sorted_posts %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endfor %}
