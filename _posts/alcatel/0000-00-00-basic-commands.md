@@ -8,14 +8,29 @@ date: 2019-04-15
 
 # Ports
 
-* Показати всі: `show interfaces port`
-* Показати конкретний: `show interfaces 1/1 port`
-* Розширений статус: `show interfaces 1/1`
-* Вкл/викл: `interfaces 1/1 admin up/down`
-* Підписати: `interfaces 1/1 alias dl:new:port:alias`
-* Подивитися маки: `show mac-address-table 1/1`
-* Помилки на порту: `show interfaces 1/1 counters errors `
-* Очистити статистику: `interfaces 1/1 no l2 statistics`
+* Показати всі:
+ `show interfaces port`
+
+* Показати конкретний:
+ `show interfaces 1/1 port`
+
+* Розширений статус:
+ `show interfaces 1/1`
+
+* Вкл/викл:
+ `interfaces 1/1 admin up/down`
+
+* Підписати:
+ `interfaces 1/1 alias dl:new:port:alias`
+
+* Подивитися маки:
+ `show mac-address-table 1/1`
+
+* Помилки на порту:
+ `show interfaces 1/1 counters errors `
+
+* Очистити статистику:
+ `interfaces 1/1 no l2 statistics`
 
 -----
 
