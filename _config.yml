@@ -16,8 +16,3 @@ permalink: none
 google_analytics: false
 show_downloads: false
 show_repository: false
-
-
-collections:
-  posts:
-    output: true
