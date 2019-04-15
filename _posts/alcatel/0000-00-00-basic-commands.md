@@ -6,7 +6,7 @@ date: 2019-04-15
 
 -----
 
-* [Ports](#Ports)
+* [Ports](#ports)
 * [VLAN](#VLAN)
 * [IP](#IP)
 * [SNMP](#SNMP)
@@ -16,7 +16,7 @@ date: 2019-04-15
 
 -----
 
-### Ports
+### ports
 
 * Show all:     
 ```
