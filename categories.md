@@ -4,12 +4,6 @@ title: Categories
 
 -----
 
-{% comment %}
-#
-# Change date order by adding '| reversed'
-# To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
-#
-{% endcomment %}
 {% assign sorted_cats = site.categories | sort_natural %}
 {% for category in sorted_cats %}
 {% assign sorted_posts = category[1] | sort_natural: 'title' %}
