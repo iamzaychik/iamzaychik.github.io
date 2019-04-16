@@ -4,7 +4,9 @@ category: Windows
 date: 2019-04-15
 ---
 
-Для того, щоб вимкнути гібернацію у Windows 10, потрібно ввести в командному рядку:
-`powercfg -h off`
-Це вимкне можливість перевести систему в сплячий режим та опцію швидкого запуску, а також видалить файл hiberfil.sys з жорсткого диска.
+-----
+
+1. Win + R -> `powercfg -h off`
+2. You can now close the "Command Prompt" window, and you should find that the `hiberfil.sys` file has disappeared.
+
 -----
