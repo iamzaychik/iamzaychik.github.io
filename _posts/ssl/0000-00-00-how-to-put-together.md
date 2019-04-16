@@ -8,9 +8,9 @@ date: 2019-04-15
 
 SSL certificates structure:
 * BUNDLE:
- * intermediate-1
- * intermediate-N
- * root
+  * intermediate-1
+  * intermediate-N
+  * root
 * CHAIN:
   * cert
   * bundle
