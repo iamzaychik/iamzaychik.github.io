@@ -1,6 +1,6 @@
 ---
 title: How to find IPv6 server
-category: etc
+category: Windows
 date: 2019-04-15
 ---
 

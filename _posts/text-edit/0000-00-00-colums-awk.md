@@ -1,6 +1,6 @@
 ---
-title: Awk
-category: etc
+title: Columns awk
+category: Text edit
 date: 2019-04-15
 ---
 

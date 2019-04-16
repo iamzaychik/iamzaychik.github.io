@@ -1,6 +1,6 @@
 ---
 title: Decrease crypt virus risks
-category: etc
+category: Windows
 date: 2019-04-15
 ---
 

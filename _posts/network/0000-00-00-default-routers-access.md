@@ -1,6 +1,6 @@
 ---
 title: Default routers access
-category: etc
+category: Network
 date: 2019-04-15
 ---
 

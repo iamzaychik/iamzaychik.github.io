@@ -1,6 +1,6 @@
 ---
 title: Youtube traffic usage
-category: etc
+category: Network
 date: 2019-04-15
 ---
 
