@@ -4,26 +4,37 @@ category: Bash
 date: 2019-04-15
 ---
 
-_Сікретнічаємо сікрєти од всього світу._
 -----
 
-Повністю видалити історію Bash:
-`$ history -cw`
--c Очистити файл
--w Внести команди поточної сесії у файл
+* Clear history for current session:
+```bash
+$ history -r
+```
 
-Видалити конкретний рядок:
-`$ history -dw 352`
+* Completely clear history:
+```bash
+$ history -cw
+-c - clear file
+-w - append current session commands to file
+```
 
-Очистка історії команд поточної сесії:
-`$ history -r`
+* Remove specific line:
+```bash
+$ history -dw 352
+```
 
-Не зберігати команду:
-`$ пробіл команда`
+* Don't save command: 
+```bash
+$ <SPACE> <COMMAND>
+```
 
-Не зберігати всі команди поточної сесії:
-`$ unset HISTFILE`
+* Don't save commands for current session:
+```bash
+$ unset HISTFILE
+```
 
 -----
-* <a href="http://www.shellhacks.com/ru/Kak-Ochistit-Istoriyu-Komand-v-BASH" target="_blank">Пишуть люди</a>
+
+[Source](http://www.shellhacks.com/ru/Kak-Ochistit-Istoriyu-Komand-v-BASH)
+
 -----

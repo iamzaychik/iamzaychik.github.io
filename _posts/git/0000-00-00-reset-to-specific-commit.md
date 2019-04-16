@@ -7,19 +7,19 @@ date: 2019-04-15
 -----
 
 * Find needed commit:
-```
-git log 
+```bash
+$ git log 
 ```
 
 * Rollback unwanted commits:
-```
-git reset --hard <SOME-COMMIT>
-git reset --soft HEAD@{1}
+```bash
+$ git reset --hard <SOME-COMMIT>
+$ git reset --soft HEAD@{1}
 ```
 
 * Push changes to repo:
-```
-git push origin HEAD --force
+```bash
+$ git push origin HEAD --force
 ```
 
 -----

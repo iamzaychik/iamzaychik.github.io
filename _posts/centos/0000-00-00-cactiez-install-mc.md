@@ -4,11 +4,10 @@ category: CentOS
 date: 2019-04-15
 ---
 
-_Це просто скайрім, посони!_
-
 -----
 
-`yum --noplugins --disablerepo \* --enablerepo base,updates,extras install mc
-`
+```bash
+$ yum --noplugins --disablerepo \* --enablerepo base,updates,extras install mc
+```
 
 -----

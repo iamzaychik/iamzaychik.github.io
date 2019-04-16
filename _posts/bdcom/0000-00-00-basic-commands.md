@@ -6,42 +6,80 @@ date: 2019-04-15
 
 -----
 
-**Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням, необхідно підключитися через консольний порт і при завантаженні комутатора натиснути комбінацію Ctrl+P.**.
+* [ONU](#onu)
+* [VLAN](#vlan)
+* [Ports](#ports)
+* [Templates](#templates)
+* [Speed](#speed)
+* [Optic diagnostics](#optic-diagnostics) 
+* [SNMP](#snmp)
+* [TFTP](#tftp)
 
 -----
 
-**Дивимося активні онушки:**
-`show epon active-onu interface epON 0/1 1`
-
-**Базова інформація про ONU:**
-`show epon int epoN 0/1:1 onu ctc basic-info`
+* Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням, необхідно підключитися через консольний порт і при завантаженні комутатора натиснути комбінацію Ctrl+P.
 
 -----
 
-**ONU settings database:**
-`show run db-llid`
+### ONU
+
+* List active:
+```
+show epon active-onu interface epON 0/1 1
+```
+
+* Get basic info:
+```
+show epon int epoN 0/1:1 onu ctc basic-info
+```
+
+* Settings database:
+```
+show run db-llid
+```
+
+* Deregister:
+```
+gepon_xxxx#config
+gepon_xxxx_config#interface epon 0/1
+gepon_xxxx_config_epon0/1#no epon bind-onu mac xxxx.xxxx.xxxx
+```
+
+* Enable traffic between ONU's in one PON:
+
+```
+gepon_xxxx# config
+gepon_xxxx_config# interface EPON 0/1
+gepon_xxxx_config_epon0/1# epon inner-onu-switch
+gepon_xxxx_config_epon0/1# exit
+gepon_xxxx_config# write
+```
 
 -----
 
-**Очистка помилок на портах:**
-`clear mib`
+### VLAN
+
+* Tagged and untagged on the same port (xxxx - untagged, yyy - tagged):
+```
+epon onu port 1 ctc vlan mode trunk xxxx yyy
+```
 
 -----
 
-**Відв’язати ону:**
-`gepon_xxxx#config`
-`gepon_xxxx_config#interface epon 0/1`
-`gepon_xxxx_config_epon0/1#no epon bind-onu mac xxxx.xxxx.xxxx`
------
+### Ports
 
-**Tagged/untagged VLAN (vlan xxxx untagged, vlan yyy tagged):**
-`epon onu port 1 ctc vlan mode trunk xxxx yyy`
+* Clear errors:
+```
+gepon_xxxx_config#clear mib
+```
 
 -----
 
-**Темплейти**
-**Створюємо темплейт:**
-`gepon_xxxx#config
+### Templates
+
+* Create:
+```
+gepon_xxxx#config
 epon onu-config-template PON1
  cmd-sequence 1 spanning-tree guard loop
  cmd-sequence 2 epon onu all-port ctc vlan mode tag 1
@@ -50,61 +88,77 @@ epon onu-config-template PON1
  cmd-sequence 5 epon onu all-port ctc mcst tag-stripe enable
  cmd-sequence 6 epon onu all-port ctc mcst mc-vlan add 35
  cmd-sequence 7 switchport port-security dynamic maximum 2
- cmd-sequence 8 switchport port-security mode dynamic`
+ cmd-sequence 8 switchport port-security mode dynamic
+```
 
-**Назначаємо темплейт на якусь одну ону:**
-`epon pre-config-template xxxxxx binded-onu-llid xx`
+* Remove:
+```
+no epon onu-config-template
+```
 
-**Видаляємо темплейт:**
-`no epon onu-config-template`
-
------
-
-**Швидкість**
-**Обмежуємо нехарошим людям швидкість доступу до порнохаба:**
-`epon onu port 1 ctc rate-limit 512 egress`
-`epon onu port 1 ctc rate-limit 512 ingress`
-
-**Знімаємо обмеження швидкості з порта прихода:**
-`epon sla upstream pir 1000000 cir 950000`
-`epon sla downstream pir 1000000 cir 950000`
+* Bind to ONU:
+```
+epon pre-config-template xxxxxx binded-onu-llid xx
+```
 
 -----
 
-**Оптичний сигнал**
-**Зі сторони OLT:**
-`show epon optical-transceiver-diagnosis interface epon 0/x`
+### Speed
+* Restrict speed to 512/512 Kbps:
 
-**Зі сторони ONU:**
-`show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis`
+```
+epon onu port 1 ctc rate-limit 512 egress
+epon onu port 1 ctc rate-limit 512 ingress
+```
 
------
-
-**Дозволити трафік між ONU в межах одного PON:**
-`gepon_xxxx# config
-gepon_xxxx_config# interface EPON 0/1
-gepon_xxxx_config_epon0/1# epon inner-onu-switch
-gepon_xxxx_config_epon0/1# exit
-gepon_xxxx_config# write`
+* Remove restriction from UL port:
+```
+epon sla upstream pir 1000000 cir 950000
+epon sla downstream pir 1000000 cir 950000
+```
 
 -----
 
-**Перезавантаження OLT по SNMP:**
-`.1.3.6.1.4.1.3320.9.184.7.0`
+### Optic diagnostics
+
+* From OLT:
+```
+show epon optical-transceiver-diagnosis interface epon 0/x
+```
+
+* From ONU:
+```
+show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis
+```
 
 -----
 
-**TFTP**
-**Завантажити на OLT:**
-`copy tftp:startup-config flash XXX.XXX.XXX.XXX [ENTER]`
-**Завантажити на TFTP:**
-`copy flash:startup-config tftp XXX.XXX.XXX.XXX [ENTER]`
+### SNMP
+
+* Reboot OLT:
+```
+.1.3.6.1.4.1.3320.9.184.7.0
+```
 
 -----
 
+### TFTP
+
+* Download to OLT:
+```
+copy tftp:startup-config flash XXX.XXX.XXX.XXX [ENTER]
+```
+
+* Upload to TFTP:
+```
+copy flash:startup-config tftp XXX.XXX.XXX.XXX [ENTER]
+```
+
+-----
+
+* [BDCOM basic](http://linuxsnippets.net/ru/snippet/%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8-%D0%BF%D0%BE-gpongepon-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-olt-bdcom-p3310b)
 * [P3310B manual](/assets/pdf/bdcom/p3310b-manual-rus.pdf)
-* <a href="http://incosoft.ua/novosti/test-of-compatibility-onu-fora-na-1001c-with-olt-bdcom-p3310b.html">Тестимо онушку</a>
-* <a title="Пишуть люди" href="https://www.dropbox.com/sh/xwbmgzj2y26mstv/AAA9r-WYHVT0e8FKKwhVFfV_a?dl=0" target="_blank" rel="noopener">UA.PON Dropbox</a>
-* <a title="Пишуть люди" href="http://linuxsnippets.net/ru/snippet/%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8-%D0%BF%D0%BE-gpongepon-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-olt-bdcom-p3310b" target="_blank" rel="noopener">Люди врубають все глобально</a>
+* [ONU tests](http://incosoft.ua/novosti/test-of-compatibility-onu-fora-na-1001c-with-olt-bdcom-p3310b.html)
+* [UA.PON Dropbox](https://www.dropbox.com/sh/xwbmgzj2y26mstv/AAA9r-WYHVT0e8FKKwhVFfV_a?dl=0)
 
 -----

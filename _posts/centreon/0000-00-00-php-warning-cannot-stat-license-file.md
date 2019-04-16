@@ -1,15 +1,16 @@
 ---
-title: PHP Warning Cannot stat license file
+title: PHP Warning "Cannot stat license file"
 category: Centreon
 date: 2019-04-15
 ---
 
-**Якшо в логах clapi маємо багато помилок:**
-`"PHP Warning: Cannot stat license file"`
+**When clapi logs contains `"PHP Warning: Cannot stat license file"`**
 
-**Відкриваємо:**
-`mcedit /etc/php.d/zendguard.ini`
+-----
 
-**І видаляємо рядок:**
-`/usr/share/centreon/www/modules/centreon-pp-manager/license`
+From `/etc/php.d/zendguard.ini` remove/comment line:
+```bash
+/usr/share/centreon/www/modules/centreon-pp-manager/license
+```
+
 -----
