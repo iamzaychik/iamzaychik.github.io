@@ -4,10 +4,12 @@ category: etc
 date: 2019-04-15
 ---
 
-1. Беремо адресу IPv6. Наприклад: 2002:6de3:7f56:d:a0da:d165:afa8:9d8e;
-2. Йдемо на * <a href="http://www.gestioip.net/cgi-bin/subnet_calculator.cgi">гарний сайт</a>;
-3. Вибираємо IPv6, вставляємо в текстове поле нашу адресу;
-4. Жмемо Calculate;
-5. Бачимо конвертований IP 109.227.127.86.
+-----
+
+1. Get IPv6. i.e. `2002:0808:0808::0808:0808`
+2. Go to [site](http://www.gestioip.net/cgi-bin/subnet_calculator.cgi)
+3. Select IPv6 and insert your address.
+4. Press `Calculate`
+5. Get converted IP `8.8.8.8`
 
 -----

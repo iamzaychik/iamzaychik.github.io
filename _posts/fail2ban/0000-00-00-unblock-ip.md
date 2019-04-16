@@ -4,10 +4,14 @@ category: Fail2Ban
 date: 2019-04-15
 ---
 
-У версіях до v0.8.8:
-`fail2ban-client get YOURJAILNAMEHERE actionunban IPADDRESSHERE`
+* Before v0.8.8:
+```bash
+$ fail2ban-client get <JAILNAME> actionunban <IP>
+```
 
-У версії v0.8.8 і новіших:
-`fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE`
+* Version v0.8.8 and up:
+```bash
+$ fail2ban-client set <JAILNAME> unbanip <IP>
+```
 
 -----
