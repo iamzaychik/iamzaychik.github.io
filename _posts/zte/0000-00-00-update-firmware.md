@@ -6,14 +6,16 @@ date: 2019-04-15
 
 -----
 
+**<FW>=`kernel.z` for SI-series, `zImage` for E-series**
+
+-----
+
 * Via telnet:
 ```bash
 conf tffs
 cd /img
-remove zImage (E-серія)
-remove kernel.z (SI-серія)
-tftp ***.***.***.*** download zImage (E-серія)
-tftp ***.***.***.*** download kernel.z (SI-серія)
+remove <FW>
+tftp <SERVER_IP> download <FW>
 exit
 reboot
 ```
@@ -26,16 +28,16 @@ After boot wait for `Press any key to stop auto-boot...` and press any key:
 [ZXR10 Boot]: c
 boot location [0:Net,1:Flash] : 1
 actport : 1
-serverip : 10.40.91.3
+serverip : <SERVER_IP>
 netmask : 255.255.255.0
-ipaddr : 10.40.91.4
-bootfile : /img/zImage
+ipaddr : <SWITCH_IP>
+bootfile : /img/<FW>
 username : tftp_user
 password : tftp_password
 MAC : 00:22:93:65:36:64
 [ZXR10 Boot]: zte
 [BootManager]:cd /img
-[BootManager]: ftp get zImage
+[BootManager]: ftp get <FW>
 [BootManager]:reboot
 ```
 
