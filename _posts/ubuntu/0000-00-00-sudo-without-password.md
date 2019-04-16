@@ -4,17 +4,16 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
-_Не можна просто так взяти, і вісудо!_
 -----
-1. Православно редагуємо файл /etc/sudoers :
-`root@client1:~# visudo`
 
-2. Вставляємо:
-`user1 ALL=(ALL:ALL) NOPASSWD:ALL`
+* Start editing sudoers:
+```bash
+$ sudo visudo
+```
 
-3. Але додавати користувача треба в самий кінець файла, бо рядки:
-`%admin ALL=(ALL) ALL
-%sudo   ALL=(ALL:ALL) ALL`
+* Insert at the end of the file:
+```bash
+<USER> ALL=(ALL:ALL) NOPASSWD:ALL
+```
 
-ламають нам всю хатку, якщо наш запис над ними!
 -----

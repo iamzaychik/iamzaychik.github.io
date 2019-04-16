@@ -4,6 +4,10 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
-**Для того, щоб у історії команд терміналу виводилися мітки часу, у файл .bashrc додаємо:**
-`export HISTTIMEFORMAT="%d/%m/%y %T`
+-----
+
+```bash
+$ echo 'export HISTTIMEFORMAT="%d/%m/%y %T' > ~/.bashrc
+```
+
 -----

@@ -4,12 +4,12 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
-**Інколи, при копіюванні та послідуючій вставці в термінал до скопійованого додаються символи 1 та 0 з тільдою.**
-** Щоб прибрати це, виконуємо в терміналі:**
-`$ printf "\e[?2004l"`
+```bash
+$ echo 'printf "\e[?2004l"' >> ~/.bashrc
+```
 
 -----
 
-* <a href="http://bit.ly/2BpM5uc" target="_blank" rel="noopener">Для більш детального вивчення.</a>
+[Source](https://askubuntu.com/questions/662222/why-bracketed-paste-mode-is-enabled-sporadically-in-my-terminal-screen)
 
 -----
