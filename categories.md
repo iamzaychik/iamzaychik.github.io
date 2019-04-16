@@ -4,7 +4,13 @@ title: Categories
 
 -----
 
-{% assign sorted_cats = site.categories | sort_natural %}
+{% comment %}
+#
+# Change date order by adding '| reversed'
+# To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
+#
+{% endcomment %}
+{% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
 {% assign sorted_posts = category[1] | sort_natural: 'title' %}
 <h2 id="{{category[0] | uri_escape | downcase }}">{{ category[0] }}</h2>
