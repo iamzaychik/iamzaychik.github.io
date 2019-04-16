@@ -4,11 +4,11 @@ category: Samba
 date: 2019-04-15
 ---
 
-_Старость не радость.
-Все забув, треба записати.
-Бо цьому вашому інтернеті одні безтолочі._
 -----
-`[global]
+
+```bash
+$ cat /etc/smb.conf
+[global]
 security = user
 map to guest = Bad User
 browseable = yes
@@ -17,5 +17,7 @@ guest account = nobody
 path = /root/ultramalvines
 browseable = yes
 writeable = yes
-guest ok = yes`
+guest ok = yes
+```
+
 -----

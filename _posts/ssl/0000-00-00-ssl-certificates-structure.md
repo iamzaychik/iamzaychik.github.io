@@ -1,12 +1,11 @@
 ---
-title: How to put together
+title: SSL certificates structure
 category: SSL
 date: 2019-04-15
 ---
 
 -----
 
-**SSL certificates structure**
 * BUNDLE:
   * intermediate-1
   * intermediate-N

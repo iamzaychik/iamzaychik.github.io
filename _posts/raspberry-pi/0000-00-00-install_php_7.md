@@ -24,6 +24,6 @@ date: 2019-04-15
 
 -----
 
-* <a href="http://www.ramoonus.nl/2016/07/17/install-php-7-raspberry-pi/">Пишуть люди</a>
+[Source](http://www.ramoonus.nl/2016/07/17/install-php-7-raspberry-pi)
 
 -----

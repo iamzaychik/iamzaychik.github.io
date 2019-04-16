@@ -4,13 +4,16 @@ category: SSH
 date: 2019-04-15
 ---
 
-_Чума на обидва ваші будинки!_
 -----
 
-При підключенні до деяких пристроїв по ssh можемо отримати таку помилку:
-`Unable to negotiate with XX.XXX.XX.XX: no matching host key type found. Their offer: ssh-dss`
+**Issue when connecting via ssh:**
+```bash
+Unable to negotiate with A.B.C.D: no matching host key type found. Their offer: ssh-dss
+```
 
-Це зв'язано з оновленнями протоколів безпеки, в яких DSA за замовчуванням заборонено.
-Якщо маємо таку біду, то підключатися треба так:
-`ssh -oHostKeyAlgorithms=+ssh-dss user@host`
+**Regarding to security reasons with disabled dss. Use:**
+```bash
+$ ssh -oHostKeyAlgorithms=+ssh-dss <USER>@<A.B.C.D>
+```
+
 -----

@@ -4,15 +4,22 @@ category: Rsync
 date: 2019-04-15
 ---
 
-**From local to remote:**
-`rsync -chavzP --stats -e "ssh -p SSH_PORT" LOCAL_PATH SSH_USER@SERVER_IP:REMOTE_PATH`
+-----
 
-**From remote to local:**
-`rsync -chavzP --stats -e "ssh -p SSH_PORT" SSH_USER@SERVER_IP:REMOTE_PATH LOCAL_PATH`
+* From local to remote:
+```bash
+$ rsync -chavzP --stats -e "ssh -p <SSH_PORT>" <LOCAL_PATH> <SSH_USER>@<SERVER_IP>:<REMOTE_PATH>
+```
+
+* From remote to local:
+```bash
+$ rsync -chavzP --stats -e "ssh -p SSH_PORT" <SSH_USER>@<SERVER_IP>:<REMOTE_PATH> <LOCAL_PATH>
+```
 
 -----
 
-`-a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+```
+-a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
 -v, --verbose               increase verbosity
 -z, --compress              compress file data during the transfer
 --partial
@@ -20,6 +27,7 @@ By default, rsync will delete any partially transferred file if the transfer is 
 --progress
 This option tells rsync to print information showing the progress of the transfer. This gives a bored user something to watch. Implies --verbose if it wasn't already specified.
 -P
-The -P option is equivalent to --partial --progress. Its purpose is to make it much easier to specify these two options for a long transfer that may be interrupted.`
+The -P option is equivalent to --partial --progress. Its purpose is to make it much easier to specify these two options for a long transfer that may be interrupted.
+```
 
 -----

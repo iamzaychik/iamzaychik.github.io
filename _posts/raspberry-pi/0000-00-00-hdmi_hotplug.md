@@ -4,23 +4,20 @@ category: Raspberry Pi
 date: 2019-04-15
 ---
 
-_Специфіка роботи HDMI в Raspberry PI така, що він працює тільки в тому разі, якщо був підключений перед запуском пристрою._
+-----
+
+* Edit `/boot/config.txt`
+* Change HDMI settings:
+```bash
+# Allow HDMI hotplug
+hdmi_force_hotplug=1
+
+# Allow HDMI as sound output 
+hdmi_drive=2
+```
 
 -----
 
-Для того, аби підключати монітор тоді, коли нам заманеться:
-**1. Відкриваємо файл конфігурації завантаження:**
-`mcedit /boot/config.txt`
-
-``**2. Змінюємо значення налаштувань в таких рядках:**
-`# Дозволити "гаряче" підключення монітора`
-`hdmi_force_hotplug=1`
-
-`# Виводити звук через HDMI`
-`hdmi_drive=2`
-
------
-
-* <a href="http://blog.mivia.dk/solved-hdmi-working-raspberry-pi/">Пишуть люди</a>
+[Source](http://blog.mivia.dk/solved-hdmi-working-raspberry-pi)
 
 -----
