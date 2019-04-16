@@ -6,7 +6,15 @@ date: 2019-04-15
 
 -----
 
-**`FW`=`kernel.z` for SI-series, `zImage` for E-series**
+* SI-series:
+```bash
+<FW>=kernel.z
+```
+
+* E-series:
+```bash
+<FW>=zImage
+```
 
 -----
 
