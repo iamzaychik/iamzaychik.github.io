@@ -8,12 +8,12 @@ date: 2019-04-15
 
 * SI-series:
 ```bash
-<FW>=kernel.z
+FW=kernel.z
 ```
 
 * E-series:
 ```bash
-<FW>=zImage
+FW=zImage
 ```
 
 -----
