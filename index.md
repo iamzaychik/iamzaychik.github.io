@@ -4,6 +4,6 @@ title: Home
 
 -----
 
-* [Wiki](/categories)
+* [Categories](/categories)
 
 -----
