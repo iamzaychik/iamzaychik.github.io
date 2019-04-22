@@ -4,34 +4,39 @@ category: Nginx
 date: 2019-04-15
 ---
 
-_Не допустимо супостата до комісарського тіла!_
 -----
 
+**Enable basic auth:**
+```bash
+server
+{
+	# Title for auth window
+    auth_basic "Closed site";
+    # Path to file with user:password in MD5
+    auth_basic_user_file /etc/nginx/users;
+}
 
-Если вам нужно исключить для определёных IP auth_basic, то эта статья для вас. Замечу, что данный метод позволяет исключить только по IP, а не по другим признакам. Для этого в nginx’e есть модуль satisfy. Ниже выдержка из документации:
+$ cat /etc/nginx/users
+john:$apr1$IHaD0/..$N9ne/Bqnh8.MyOtvKU56j1
+```
 
-`синтаксис: satisfy all | any;
-умолчание: satisfy all;
-контекст: http, server, location`
+-----
 
-Разрешает доступ, если оба (all) или хотя бы один (any) из модулей ngx_http_access_module и ngx_http_auth_basic_module разрешают доступ.
-
-**Пример реализации**:
-
-`server
+**Disable basic auth for some IPs ([satisfy](https://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy) module):**
+```bash
+server
 {
     satisfy any;
-    allow 10.10.10.10;
-    allow 127.0.0.1;
+    allow 203.0.113.1;
+    allow 203.0.113.2;
     deny all;
-    auth_basic "closed site";
-    auth_basic_user_file /usr/local/.htpasswd;
-}`
-
-Если зайти с хоста 10.10.10.10 то запрос пароля выводится не будет и нас пустит.
+    auth_basic "Closed site";
+    auth_basic_user_file /etc/nginx/users;
+}
+```
 
 -----
 
-* <a href="http://skeletor.org.ua/?p=3706" target="_blank">Пишуть люди</a>
+[Source](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
 
 -----

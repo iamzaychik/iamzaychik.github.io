@@ -1,6 +1,6 @@
 ---
 title: Clear history
-category: Bash
+category: Ubuntu
 date: 2019-04-15
 ---
 
