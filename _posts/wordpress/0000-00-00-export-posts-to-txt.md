@@ -1,6 +1,6 @@
 ---
 title: Export posts to txt
-category: Wordpress
+category: WordPress
 date: 2019-04-22
 ---
 
