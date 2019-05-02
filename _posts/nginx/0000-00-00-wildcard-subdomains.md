@@ -44,7 +44,7 @@ server
         proxy_cache_bypass $http_upgrade;
 
         proxy_read_timeout 30;
-  set $target $subdomain;
+        set $target $subdomain;
         proxy_pass http://127.0.0.1:8081/$target/;
     }
 

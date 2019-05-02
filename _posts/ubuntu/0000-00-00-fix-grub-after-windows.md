@@ -16,7 +16,7 @@ date: 2019-05-02
 
 4. Run Ubuntu from LiveCD or LiveUSB and install boot-repair.
 
-* To install boot-repair, open up a terminal by pressing Ctrl+Alt+T and type the following commands:
+  * To install boot-repair, open up a terminal by pressing Ctrl+Alt+T and type the following commands:
 ```bash
 $ sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
 $ sudo apt-get install -y boot-repair && boot-repair
