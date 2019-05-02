@@ -11,16 +11,22 @@ _ Саме його автоматичне завантаження привод
 
 -----
 **1. Після підключення принтера:**
-`lsmod | grep usblp`
+```bash
+$ lsmod | grep usblp
+```
 
 **2. Якщо модуль завантажений - примусово відключаємо його:**
-`rmmod usblp`
+```bash
+$ rmmod usblp
+```
 
 **3. Забороняємо автоматично завантажувати модуль:**
-`echo "blacklist usblp" >> /etc/modprobe.d/blacklist`
+```bash
+$ echo "blacklist usblp" >> /etc/modprobe.d/blacklist
+```
 
 -----
 
-* <a href="http://forum.ubuntu.ru/index.php?topic=290261.0">Пишуть люди</a>
+[Source](http://forum.ubuntu.ru/index.php?topic=290261.0)
 
 -----
