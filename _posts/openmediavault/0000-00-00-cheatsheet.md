@@ -6,14 +6,14 @@ date: 2019-04-15
 
 -----
 
-*Install extra plugins:*
+**Install extra plugins:**
 ```bash
 $ wget -O - http://omv-extras.org/install | bash
 ```
 
 -----
 
-*Disable beeper:*
+**Disable beeper:**
 ```bash
 $ systemctl stop openmediavault-beep-down
 $ systemctl disable openmediavault-beep-down
@@ -24,7 +24,7 @@ $ systemctl disable openmediavault-beep-up
 
 -----
 
-*Error during update/install:*
+**Error during update/install:**
 ```bash
 Traceback (most recent call last):
   File "/usr/lib/python3.5/weakref.py", line 117, in remove
