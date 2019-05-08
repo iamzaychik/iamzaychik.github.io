@@ -4,11 +4,9 @@ category: Mikrotik
 date: 2019-04-15
 ---
 
-_Інвентаризація - мать порядка!_
-
 -----
 
-```
+```bash
 [admin@MikroTik] > system route print
 routerboard: yes
 model: 450G
