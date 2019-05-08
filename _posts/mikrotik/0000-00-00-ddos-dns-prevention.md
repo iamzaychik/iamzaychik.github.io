@@ -6,8 +6,8 @@ date: 2019-04-15
 
 -----
 
-* ![1](/assets/mikrotik/1-close-port-53.png)
-* ![2](/assets/mikrotik/2-close-port-53.png)
+* ![](/assets/img/mikrotik/1-close-port-53.png)
+* ![](/assets/img/mikrotik/2-close-port-53.png)
 
 **Checking:**
 ```bash
