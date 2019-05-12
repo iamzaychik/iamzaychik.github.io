@@ -7,7 +7,7 @@ layout: no-date
 
 <ul class="posts">
 {% for post in site.posts %}
-  <li>&laquo; <a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }}</span></li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> | <span>{{ post.date | date_to_string }}</span></li>
 {% endfor %}
 </ul>
 
