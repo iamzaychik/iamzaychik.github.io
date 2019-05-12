@@ -10,12 +10,10 @@ layout: no-date
   {% if currentdate != thedate %}
   <ul>
       <h2>{{ currentdate }}</h2>
-  </ul>
-    {% capture thedate %}{{currentdate}}{% endcapture %} 
+      {% capture thedate %}{{currentdate}}{% endcapture %} 
   {% endif %}
-    <ul>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </ul>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  </ul>
 {% endfor %}
 
 -----
