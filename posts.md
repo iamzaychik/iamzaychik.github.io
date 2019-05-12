@@ -5,13 +5,10 @@ layout: no-date
 
 -----
 
+<ul class="posts">
 {% for post in site.posts %}
-  {% assign currentdate = post.date | date: "%Y%m%d" %}
-  {% if currentdate != date %}
-    <li id="{{currentdate}}">{{ currentdate }}</li>
-    {% assign date = currentdate %} 
-  {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li>&laquo; <a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }}</span></li>
 {% endfor %}
+</ul>
 
 -----
