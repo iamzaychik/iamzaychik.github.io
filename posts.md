@@ -6,12 +6,12 @@ layout: no-date
 -----
 
 {% for post in site.posts %}
-  {% capture currentdate %}{{post.date | date: "%A, %B %d, %Y"}}{% endcapture %}
-  {% if currentdate != thedate %}
-      <h2>{{ currentdate }}</h2>
-      {% capture thedate %}{{currentdate}}{% endcapture %} 
+  {% assign currentdate = post.date | date: "%Y%m%d" %}
+  {% if currentdate != date %}
+    <li id="{{currentdate}}">{{ currentdate }}</li>
+    {% assign date = currentdate %} 
   {% endif %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
 -----
