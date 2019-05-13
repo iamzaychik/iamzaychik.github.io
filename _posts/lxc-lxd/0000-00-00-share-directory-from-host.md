@@ -6,10 +6,10 @@ date: 2019-05-12
 
 -----
 
-* Create directory:
+* Create directory on the host:
 ```bash
-$ mkdir /home/ubuntu/share
-$ chmod 777 /home/ubuntu/share
+$ mkdir /mnt/share
+$ chmod 777 /mnt/share
 ```
 
 * Add shared directory to container config:
