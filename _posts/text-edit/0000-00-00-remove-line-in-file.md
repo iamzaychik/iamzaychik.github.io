@@ -9,9 +9,6 @@ date: 2019-04-22
 * Delete first or header line:
 ```bash
 $ sed 'Nd' file.text
-```
-
-```bash
 $ sed '1d' file
 ```
 

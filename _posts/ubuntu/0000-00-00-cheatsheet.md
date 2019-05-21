@@ -6,56 +6,79 @@ date: 2019-04-15
 
 -----
 
-**Система**
+### System
 
-**Інформація про версію системи:**
-`cat /etc/*-release`
-`lsb_release -a`
-`cat /proc/version`
+* OS version:
+```bash
+$ cat /etc/*-release
+$ lsb_release -a
+$ cat /proc/version
+```
 
-**Інформація про версію ядра і розрядність системи:**
-`uname -a`
+* Core version, architecture:
+```bash
+$ uname -a
+```
 
-**Автозавантаження сервісів:**
-`apt install sysv-rc-conf`
+* Autostart:
+```bash
+$ apt install sysv-rc-conf
+```
 
-**Встановити відсутній пакет ifconfig:**
-`apt install net-tools`
+* Install ifconfig:
+```bash
+$ apt install net-tools
+```
 
-**Встановити утиліту ping:**
-`apt install inetutils-ping`
+* Install ping:
+```bash
+$ apt install inetutils-ping
+```
 
-**Timezone configuration:**
-`dpkg-reconfigure tzdata`
-`ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime`
+* Timezone configuration:
+```bash
+$ dpkg-reconfigure tzdata
+$ ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime
+```
 
-**Видалити старі ядра:**
-`apt purge $(dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | head -n -1) -y`
+* Remove old cores:
+```bash
+$ apt purge $(dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | head -n -1) -y
+```
 
-**Дізнатися свій зовнішній IP з консолі:**
-`wget -O - -q icanhazip.com`
+* How to get external IP:
+```bash
+$ wget -O - -q icanhazip.com
+```
 
-**Додати користувача Squid:**
-`htpasswd /etc/squid3/users $1`
+* Add user to sudoers:
+```bash
+$ usermod -aG sudo,adm  USER
+OR
+$ gpasswd -a USER sudo
+```
 
-**Дозволити користувачу використання sudo:**
-`usermod -aG sudo,adm  USER`
-`gpasswd -a USER sudo`
+* List users in group:
+```bash
+$ getent group GROUPNAME| awk -F: '{print $4}'
+```
 
-**Дізнатися користувачів, які входять в групу:**
-`getent group GROUPNAME| awk -F: '{print $4}'`
+* Create swap:
+```bash
+$ fallocate -l 2G /swapfile
+$ chmod 600 /swapfile
+$ mkswap /swapfile
+$ swapon /swapfile
 
-**Створити swap:**
-`fallocate -l 2G /swapfile`
-`chmod 600 /swapfile`
-`mkswap /swapfile`
-`swapon /swapfile`
 
-`mcedit /etc/fstab`
-`/swapfile none swap sw 0 0`
+$ echo "/swapfile none swap sw 0 0" >> /etc/fstab
+```
 
-**Для перегляду console output в інтерактивному режимі:**
-`watch -n 5 'ps -aux | sort -nrk 4 | head'`
+
+* Interactive console output:
+```bash
+watch -n 5 'ps -aux | sort -nrk 4 | head'
+```
 
 -----
 
