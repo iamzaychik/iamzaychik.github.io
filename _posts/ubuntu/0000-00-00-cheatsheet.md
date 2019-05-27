@@ -25,16 +25,6 @@ $ uname -a
 $ apt install sysv-rc-conf
 ```
 
-* Install ifconfig:
-```bash
-$ apt install net-tools
-```
-
-* Install ping:
-```bash
-$ apt install inetutils-ping
-```
-
 * Timezone configuration:
 ```bash
 $ dpkg-reconfigure tzdata
@@ -44,11 +34,6 @@ $ ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 * Remove old cores:
 ```bash
 $ apt purge $(dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | head -n -1) -y
-```
-
-* How to get external IP:
-```bash
-$ wget -O - -q icanhazip.com
 ```
 
 * Add user to sudoers:
@@ -138,19 +123,6 @@ echo $name;`
 
 -----
 
-**Upload/Download:**
-
-**FTP Download:**
-`fetch ftp://user:password@A.B.C.D:21/path/to/file/file.ext`
-
-**FTP Upload:**
-`curl -T file.ext -u user:password ftp://A.B.C.D/path/to/file/file.ext`
-
-**Завантажити всі файли зі сторінки, які мають розширення mp3:**
-`wget -r -l1 -t1 -nd -N -np -A.mp3 -erobots=off http://site.address/page`
-
------
-
 **Файли, пошук**
 
 **Вивести рядки, які є унікальнимиу файлі:**
@@ -176,20 +148,6 @@ of – де створити файл;
 bs – розмір блоку даних, які будуть записані за один раз;
 count – кількість блоків даних;
 розмір файла = bs*count_
-
-**Архівація файлів з паролем:**
-
-`zip -er folder.zip file - архівувати
-zip -P password -r folder.zip folder - видобути`
-
-`
-```This will prompt you for a password. Give it, and that will create a password-protected zip file from that folder.**``**
-<ul>
- 	***`-e`** enables encryption for your zip file. This is what makes it ask for the password.
- 	***`-r`** makes the command recursive, meaning that all the files inside the folder will be added to the zip file.
- 	***`folder.zip`** is the name of the output file.
- 	***`folder`** is the folder you want to zip.
-</ul>
 
 -----
 
