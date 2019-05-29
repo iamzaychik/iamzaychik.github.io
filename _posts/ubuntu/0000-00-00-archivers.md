@@ -13,10 +13,11 @@ $ sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar 
 
 * Archive with password:
 ```bash
-# Archive
 $ zip -er folder.zip file
+```
 
-# Unarchive
+* Unarchive with password:
+```bash
 $ zip -P password -r folder.zip folder
 ```
 

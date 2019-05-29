@@ -6,29 +6,9 @@ date: 2019-04-15
 
 -----
 
-### System
-
-* OS version:
-```bash
-$ cat /etc/*-release
-$ lsb_release -a
-$ cat /proc/version
-```
-
-* Core version, architecture:
-```bash
-$ uname -a
-```
-
 * Autostart:
 ```bash
 $ apt install sysv-rc-conf
-```
-
-* Timezone configuration:
-```bash
-$ dpkg-reconfigure tzdata
-$ ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 ```
 
 * Remove old cores:
@@ -46,15 +26,6 @@ $ gpasswd -a USER sudo
 * List users in group:
 ```bash
 $ getent group GROUPNAME| awk -F: '{print $4}'
-```
-
-* Create swap:
-```bash
-$ fallocate -l 2G /swapfile
-$ chmod 600 /swapfile
-$ mkswap /swapfile
-$ swapon /swapfile
-$ echo "/swapfile none swap sw 0 0" >> /etc/fstab
 ```
 
 * Interactive console output:
@@ -110,19 +81,6 @@ w ...to write the changes.`
 
 -----
 
-**Bash**
-
-**Вивести значення, які співпадають в масивах:**
-`echo ${Array1[@]} ${Array2[@]} | tr ' ' '\n' | sort | uniq -d`
-
-**Вивести користувача, від якого запущений файл:**
-`name="$(whoami)";
-echo $name;`
-
-* <a href="http://nsk.lug.ru/system/10-seconds-guide-to-bash-shell/">10 секундное руководство по Bash</a>
-
------
-
 **Файли, пошук**
 
 **Вивести рядки, які є унікальнимиу файлі:**
@@ -148,28 +106,6 @@ of – де створити файл;
 bs – розмір блоку даних, які будуть записані за один раз;
 count – кількість блоків даних;
 розмір файла = bs*count_
-
------
-
-**Оператори порівняння:**
-`-lt (&lt; )`
-`-gt (>)`
-`-le (&lt; =)`
-`-ge (>=)`
-`-eq (==)`
-`-ne (!=)`
-
------
-
-**Логи**
-
-**Dmesg**
-**Unix timestamp convert:**
-`$ date -d@1462949293`
-`Срд Май 11 09:48:13 EEST 2016`
-
-**dmesg timestamp convert:**
-`dmesg|perl -pE '/\[\s*(\d+\.\d+)\]/; $t=scalar localtime time-$1/100; s/\[\s*(\d+\.\d+)\]/[$t]/;'`
 
 -----
 
