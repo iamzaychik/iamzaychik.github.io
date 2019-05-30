@@ -19,8 +19,8 @@ server
     listen 443 ssl http2;
     server_name ~^(?<subdomain>.+)\.example\.com$;
 
-    ssl_certificate /etc/letsencrypt/live/starlight.example.com/fullchain.pem;  #managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/starlight.example.com/privkey.pem; #managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/client.example.com/fullchain.pem;  #managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/client.example.com/privkey.pem; #managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf;  #managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;  #managed by Certbot
 
