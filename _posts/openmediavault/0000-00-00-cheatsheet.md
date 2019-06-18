@@ -51,3 +51,11 @@ _atomic_removal(d, wr.key)
 ```
 
 -----
+
+*No execution of EXE-files:*
+```bash
+# add to SMB/CIFS extra options
+acl allow execute always = yes
+```
+
+-----
