@@ -112,9 +112,14 @@ configure snmp add trapreceiver xxx.xxx.xxx.xxx community ******
 
 -----
 
-**Pending AAA Authentication:**
-Потрібно ввести в рядку логіна `REBOOT AS MASTER-CAPABLE`
-Свіч перезавантажиться і можна буде зайти під логіном admin і без пароля.
+### Pending AAA Authentication
+
+* Enter in the login prompt:
+```bash
+REBOOT AS MASTER-CAPABLE
+```
+
+* After reboot, login as `admin` without password
 
 -----
 
