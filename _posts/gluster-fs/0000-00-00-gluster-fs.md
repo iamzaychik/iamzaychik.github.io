@@ -7,7 +7,6 @@ date: 2019-04-15
 -----
 
 * Distributed-replicated:
-
 ```bash
 $ gluster volume create test replica 4 server1:/mnt/storage/1 server1:/mnt/storage/2 server3:/mnt/storage/1 server3:/mnt/storage/2 force
 ```
