@@ -1,6 +1,6 @@
 ---
 title: Configure downlink
-category: Zte
+category: ZTE
 date: 2019-04-15
 ---
 

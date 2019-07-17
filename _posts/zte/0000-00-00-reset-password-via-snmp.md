@@ -1,6 +1,6 @@
 ---
 title: Reset password via SNMP
-category: Zte
+category: ZTE
 date: 2019-04-15
 ---
 
