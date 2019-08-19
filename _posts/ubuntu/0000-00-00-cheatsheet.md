@@ -59,11 +59,13 @@ watch -n 5 'ps -aux | sort -nrk 4 | head'
 3. Відкриваємо редактор дисків:
 `fdisk /dev/sdx`
 4. Вводимо потрібне:
-`d ...to delete the current partition
+```bash
+d ...to delete the current partition
 n ...to create a new partition
 p ...to specify it as a PRIMARY partition
 1 ...to set it as the 1ST primary partition
-w ...to write the changes.`
+w ...to write the changes.
+```
 5. Перевіряємо, чи розділ створився:
 `fdisk -l`
 6. Форматуємо:
