@@ -6,6 +6,8 @@ date: 2019-10-10
 
 -----
 
+* Flush dns cache:
+
 ```bash
 $ sudo systemd-resolve --flush-caches
 ```
@@ -16,7 +18,10 @@ $ sudo systemd-resolve --flush-caches
 $ sudo systemctl restart systemd-resolved
 ```
 
+-----
+
 * Check status:
+
 ```bash
 $ sudo systemd-resolve --statistics
 ```
