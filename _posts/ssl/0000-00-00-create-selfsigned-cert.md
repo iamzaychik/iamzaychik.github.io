@@ -1,7 +1,7 @@
 ---
 title: Create selfsigned cert
 category: SSL
-date: 2019-111-11
+date: 2019-11-11
 ---
 
 -----
