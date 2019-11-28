@@ -57,19 +57,34 @@ watch -n 5 'ps -aux | sort -nrk 4 | head'
 
 -----
 
+* Dirs by used space
+```bash
+$ du -sch .[!.]* * |sort -rh | head -5
+```
+
+-----
+
 **HARDWARE**
 
-**Інформація про встановлені жорсткі диски:**
-`lsblk -io KNAME,TYPE,SIZE,MODEL`
+**HDD info:**
+```bash
+$ lsblk -io KNAME,TYPE,SIZE,MODEL
+```
 
-**Додавання нового диску:**
-1. Створюємо папку для монтування:
-`mkdir /data`
-2. Знаходимо ідентифікатор нашого диска:
-`fdisk -l`
-3. Відкриваємо редактор дисків:
-`fdisk /dev/sdx`
-4. Вводимо потрібне:
+**Mount new disk:**
+1. Create folder:
+```bash
+$ mkdir /data
+```
+2. Find HDD identifier:
+```bash
+$ fdisk -l
+```
+3. Open disk editor:
+```bash
+$ fdisk /dev/sdx
+```
+4. Select needed option:
 ```bash
 d ...to delete the current partition
 n ...to create a new partition
@@ -77,22 +92,34 @@ p ...to specify it as a PRIMARY partition
 1 ...to set it as the 1ST primary partition
 w ...to write the changes.
 ```
-5. Перевіряємо, чи розділ створився:
-`fdisk -l`
-6. Форматуємо:
-`mkfs.ext4 /dev/sdx1`
-7. Знаходимо ідентифікатор розділу:
-`blkid`
-8. Додаємо запис в /etc/fstab для автомонтування:
-`UUID=XXXXX-XXXXX-XXX /data ext4  defaults 0 2`
-9. Монтуємо:
-`mount -a`
-10. Перевіряємо:
-`df -h`
+5. Check new partition:
+```bash
+$ fdisk -l
+```
+6. Format partition:
+```bash
+$ mkfs.ext4 /dev/sdx1
+```
+7. Find partition identifier:
+```bash
+$ blkid
+```
+8. Add partition to /etc/fstab for mount at boot:
+```bash
+UUID=XXXXX-XXXXX-XXX /data ext4  defaults 0 2
+```
+9. Mount:
+```bash
+$ mount -a
+```
+10. Check mounts:
+```bash
+$ df -h
+```
 
 -----
 
-**Відновлення втраченого пароля:**
+**Restore lost password:**
 1. При завантаженні зажимаємо Shift, в меню вибору пунктів завантаження жмемо E для редагування
 2. В кінці рядка kernel дописуємо:
 `init=/bin/bash`
@@ -130,33 +157,5 @@ of – де створити файл;
 bs – розмір блоку даних, які будуть записані за один раз;
 count – кількість блоків даних;
 розмір файла = bs*count_
-
------
-
-**Права**
-
-**Встановити права доступу на запис у папку та на всі підпапки і файли:**
-`chmod -R 755 /home/user`
-_-R - давати права рекурсивно
-Перша цифра - права користувача
-Друга - права групи
-Третя - права інших
-7 - rwx - читати, писати, виконувати
-6 - rw- - читати, писати
-5 - r-x - читати, виконувати
-4 - r-- - читати
-3 - -wx - писати, виконувати
-2 - -w- - писати
-1 - --x - виконувати
-0 - --- - неможливо виконувати дії_
-
-**Для зміни власника файлів чи папок використовуємо chown:**
-`chown -R user:users /home/user`
-
-**Змінити права для всіх файлів і папок окремо:**
-`find /var/www/nextcloud/ -type f -print0 | sudo xargs -0 chmod 0644`
-`find /var/www/nextcloud/ -type d -print0 | sudo xargs -0 chmod 0755`
-
-* <a href="http://www.woodwolf.ru/76/">Про права</a>
 
 -----
