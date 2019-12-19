@@ -1,0 +1,56 @@
+---
+title: Docker-compose install
+category: Redmine
+date: 2019-12-19
+---
+
+-----
+
+```bash
+version: '3.4'
+
+services:
+
+  redmine_app:
+    container_name: redmine_app
+    image: redmine:3.4.7
+    restart: always
+    environment:
+      REDMINE_DB_MYSQL: redmine_db
+      REDMINE_DB_DATABASE: redmine
+      REDMINE_DB_USER: root
+      REDMINE_DB_PASSWORD: PASSWORD_HERE
+      REDMINE_PLUGINS_MIGRATE: 1
+    volumes:
+      - ./volumes/app/config/configuration.yml:/usr/src/redmine/config/configuration.yml
+      - ./volumes/app/files:/usr/src/redmine/files
+      - ./volumes/app/plugins:/usr/src/redmine/plugins
+      - ./volumes/app/log:/usr/src/redmine/log
+      - ./volumes/app/gnupg:/home/redmine/.gnupg
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 8001:3000
+    healthcheck:
+      test: "wget -q --spider -t 1 http://localhost:3000/login || exit 1" 
+      timeout: 20s
+      retries: 10
+    depends_on:
+      - redmine_db
+
+  redmine_db:
+    container_name: redmine_db
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: PASSWORD_HERE
+      MYSQL_DATABASE: redmine
+    volumes:
+      - ./volumes/db/mysql:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+```
+
+-----
