@@ -1,7 +1,7 @@
 ---
 title: SMTP configuration
 category: Redmine
-date: 2019-12-19
+date: 2019-12-20
 ---
 
 -----
