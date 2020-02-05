@@ -17,7 +17,7 @@ production:
       openssl_verify_mode: 'none'
       address: "mail.example.com" #"smtp.gmail.com"
       port: 587 #25
-      domain: "nordicresults.com" #"smtp.gmail.com"
+      domain: "example.com" #"smtp.gmail.com"
       authentication: login
       user_name: "redmine@example.com"
       password: "PASSWORD_HERE"
