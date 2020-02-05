@@ -6,7 +6,7 @@ date: 2019-12-19
 
 -----
 
-```bash
+```yaml
 production:
 
   email_delivery:

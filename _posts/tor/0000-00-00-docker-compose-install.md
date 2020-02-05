@@ -6,9 +6,10 @@ date: 2020-02-05
 
 -----
 
-* docker-compose.yml
+* docker-compose.yml:
+
 ```yaml
-version: "3"
+version: '3.4'
 services:
   tor:
     restart: always
@@ -18,7 +19,8 @@ services:
       - 127.0.0.1:9050:9050
 ```
 
-* Dockerfile
+* Dockerfile:
+
 ```bash
 FROM alpine:latest
 
@@ -30,7 +32,8 @@ ADD torrc /etc/tor/torrc
 CMD ["/usr/bin/tor"]
 ```
 
-* torrc
+* torrc:
+
 ```bash
 SocksPort 0.0.0.0:9050
 ExcludeExitNodes {ru}, {ua}, {by}

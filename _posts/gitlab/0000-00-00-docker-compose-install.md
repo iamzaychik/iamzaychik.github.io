@@ -6,7 +6,7 @@ date: 2019-12-19
 
 -----
 
-```bash
+```yaml
 version: '3.4'
 
 services:
