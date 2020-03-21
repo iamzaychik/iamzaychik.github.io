@@ -6,10 +6,12 @@ date: 2020-03-21
 
 -----
 
-* Setup `jq`:
+* Setup parser:
 ```bash
 $ sudo apt install jq
+```
 
+```bash
 $ brew install jq
 ```
 
