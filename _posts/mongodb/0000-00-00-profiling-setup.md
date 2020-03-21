@@ -6,22 +6,22 @@ date: 2020-03-21
 
 -----
 * Check current profiling:
-```sql
+```bash
 db.getProfilingStatus()
 ```
 
 * Enable profiling for all queries:
-```sql
+```bash
 db.setProfilingLevel(2)
 ```
 
 * Enable profiling for queries longer that `slowms` value:
-```sql
+```bash
 db.setProfilingLevel(1, { slowms: 1 })
 ```
 
 * Disable profiling:
-```sql
+```bash
 db.setProfilingLevel(0)
 ```
 
