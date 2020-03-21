@@ -8,10 +8,9 @@ date: 2020-03-21
 
 * Setup parser:
 ```bash
+# Ubuntu
 $ sudo apt install jq
-```
-
-```bash
+# Mac
 $ brew install jq
 ```
 
