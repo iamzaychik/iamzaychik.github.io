@@ -1,17 +1,11 @@
 ---
-title: Cheatsheet
+title: Who runs script
 category: Bash
 date: 2019-05-29
 ---
 
 -----
 
-* Intersecting values in two arrays:
-```bash
-echo ${Array1[@]} ${Array2[@]} | tr ' ' '\n' | sort | uniq -d
-```
-
-* Which user run script:
 ```bash
 name="$(whoami)";
 echo $name;

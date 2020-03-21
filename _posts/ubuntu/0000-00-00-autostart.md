@@ -1,5 +1,5 @@
 ---
-title: Log rotate status
+title: Autostart
 category: Ubuntu
 date: 2019-04-15
 ---
@@ -7,7 +7,7 @@ date: 2019-04-15
 -----
 
 ```bash
-$ cat /var/lib/logrotate/status
+$ apt install sysv-rc-conf
 ```
 
 -----

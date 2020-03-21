@@ -8,7 +8,7 @@ date: 2019-04-15
 
 * При необхідності перебрати всі файли в будь-якому каталозі і виконати над ними якісь дії, можна скористуватися простим циклом:
 ```bash
-for file in /etc/config/*;do wc -l $file; stat -c %s $file; done
+$ for file in /etc/config/*;do wc -l $file; stat -c %s $file; done
 ```
 
 -----
