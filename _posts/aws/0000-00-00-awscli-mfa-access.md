@@ -7,6 +7,7 @@ date: 2020-03-21
 -----
 
 * Setup `jq`:
+
 ```bash
 $ sudo apt install jq
 
@@ -18,6 +19,7 @@ $ brew install jq
 * Login to AWS admin console and get your MFA ARN from account security settings
 
 * Create script for get temp profile and insert you MFA ARN:
+
 ```bash
 #!/bin/bash
 
@@ -40,6 +42,7 @@ fi
 ```
 
 * Add execution permissions for script:
+
 ```bash
 $ chmod +x get_mfa.sh
 ```
