@@ -19,6 +19,7 @@ $ brew install jq
 * Login to AWS admin console and get your MFA ARN from account security settings
 
 * Create script for get temp profile and insert you MFA ARN:
+
 ```bash
 #!/bin/bash
 
