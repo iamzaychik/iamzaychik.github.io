@@ -6,12 +6,12 @@ date: 2019-04-15
 
 -----
 
-* Start editing sudoers:
+1. Start editing sudoers:
 ```bash
 $ sudo visudo
 ```
 
-* Insert at the end of the file:
+2. Insert at the end of the file:
 ```bash
 <USER> ALL=(ALL:ALL) NOPASSWD:ALL
 ```
