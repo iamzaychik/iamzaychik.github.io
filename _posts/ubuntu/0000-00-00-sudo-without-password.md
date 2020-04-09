@@ -13,7 +13,7 @@ $ sudo visudo
 
 2. Insert at the end of the file:
 ```bash
-<USER> ALL=(ALL:ALL) NOPASSWD:ALL
+YOUR_USER ALL=(ALL:ALL) NOPASSWD:ALL
 ```
 
 -----
