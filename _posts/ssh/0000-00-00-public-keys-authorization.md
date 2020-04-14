@@ -9,6 +9,7 @@ date: 2019-04-15
 1. Generate own ssh-key:
 ```bash
 $ ssh-keygen -t rsa -b 4096
+$ ssh-keygen -t rsa -b 4096 -C johndoe@indiana.edu (with email specified)
 Your public key has been saved in /home/user/.ssh/id_rsa.pub.
 ```
 
