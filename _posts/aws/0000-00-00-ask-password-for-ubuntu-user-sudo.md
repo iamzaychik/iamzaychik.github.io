@@ -6,7 +6,7 @@ date: 2019-04-15
 
 -----
 
-<li><a href="/categories#{{ category | uri_escape | downcase }}">{{ category }}</a></li>
+<li><a href="/categories#{{ page.category | uri_escape | downcase }}">{{ page.category }}</a></li>
 
 -----
 
