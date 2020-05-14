@@ -18,22 +18,18 @@ layout: no-date
 
 {% assign sorted_cats = site.categories | sort %}
 
-<ul>
 {% for category in sorted_cats %}
-    <a href="#{{ category[0] | uri_escape | downcase }}">{{ category[0] }}</a>
+    <li><a href="#{{ category[0] | uri_escape | downcase }}">{{ category[0] }}</a></li>
 {% endfor %}
-</ul>
 
 -----
 
 {% for category in sorted_cats %}
-{% assign sorted_posts = category[1] | sort_natural: 'title' %}
+    {% assign sorted_posts = category[1] | sort_natural: 'title' %}
     <h3 id="{{category[0] | uri_escape | downcase }}">{{ category[0] }}</h3>
-    <ul>
-        {% for post in sorted_posts %}
-            <a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a>
-        {% endfor %}
-    </ul>
+    {% for post in sorted_posts %}
+        <li><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 {% endfor %}
 
 
