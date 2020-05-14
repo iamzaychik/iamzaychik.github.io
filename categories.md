@@ -31,7 +31,7 @@ layout: no-date
     {% assign sorted_posts = category[1] | sort_natural: 'title' %}
     <h3 id="{{category[0] | uri_escape | downcase }}">{{ category[0] }}</h3>
     {% for post in sorted_posts %}
-        <li><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a></li>
+        <li><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 {% endfor %}
 </ul>
