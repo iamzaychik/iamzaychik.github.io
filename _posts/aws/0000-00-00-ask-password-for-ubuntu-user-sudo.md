@@ -6,10 +6,6 @@ date: 2019-04-15
 
 -----
 
-<a href="/categories#{{ page.category | uri_escape | downcase }}">Return to category {{ page.category }}</a>
-
------
-
 **AWS instances not asking password, when users escalating to `root` using `sudo`**
 
 -----
