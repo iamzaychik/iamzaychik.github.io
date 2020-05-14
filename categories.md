@@ -19,7 +19,7 @@ layout: no-date
 {% assign sorted_cats = site.categories | sort %}
 
 {% for category in sorted_cats %}
-    <li><a href="#{{category[0] | uri_escape | downcase }}">{{ category[0] }}</a>
+    <a href="#{{category[0] | uri_escape | downcase }}">{{ category[0] }}</a>
 {% endfor %}
 
 {% for category in sorted_cats %}
