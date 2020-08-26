@@ -8,7 +8,7 @@ date: 2019-04-15
 
 * Show detailed image history:
 ```bash
-docker history --no-trunc alpine:latest
+$ docker history --no-trunc alpine:latest
 ```
 
 -----
@@ -16,6 +16,15 @@ docker history --no-trunc alpine:latest
 * Healthcheck in the Dockerfile:
 ```bash
 HEALTHCHECK CMD curl --fail http://localhost:80 || exit 1
+```
+
+* Logs rotation
+```yaml
+logging:
+        driver: "json-file"
+        options:
+            max-file: "5"
+            max-size: "500m"
 ```
 
 -----
