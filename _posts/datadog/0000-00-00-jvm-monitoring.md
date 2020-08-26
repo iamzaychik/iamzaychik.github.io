@@ -7,13 +7,11 @@ date: 2020-08-26
 -----
 
 * Enable jxm console for service:
-
 ```bash
 -Dcom.sun.management.jmxremote -Djava.rmi.server.hostname=127.0.0.1 -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
 ```
 
 * Add agent listener:
-
 ```bash
 $ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
  instances:
@@ -31,6 +29,7 @@ $ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
 -----
 
 [Source flags](https://stackoverflow.com/a/856882)
+
 [Source agent](https://docs.datadoghq.com/integrations/java/?tab=host)
 
 -----
