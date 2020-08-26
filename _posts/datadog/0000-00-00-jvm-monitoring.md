@@ -26,7 +26,6 @@ $ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
 
     rmi_connection_timeout: 20
     rmi_client_timeout: 15000
-
 ```
 
 -----
