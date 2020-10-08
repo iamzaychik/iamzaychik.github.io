@@ -18,9 +18,9 @@ services:
       context: .
       dockerfile: Dockerfile_minimal
     ports:
-      - 6112:6112/tcp
-      - 6112:6112/udp
-      - 6200:6200/tcp
+      - "6112:6112/tcp"
+      - "6112:6112/udp"
+      - "6200:6200/tcp"
     volumes:
       - ./pvpgn/:/usr/local/var/pvpgn/
 ```
