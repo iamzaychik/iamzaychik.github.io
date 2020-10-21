@@ -6,45 +6,73 @@ date: 2019-04-15
 
 -----
 
-**Створити базу даних:**
+* If you want to work with db, which contains dot - quote it:
+```bash
+``db.name``.
+```
+
+-----
+
+* Drop all databases:
+```bash
+$ echo "SET FOREIGN_KEY_CHECKS = 0;" > ./temp.sql
+$ mysqldump --add-drop-table --no-data -u root -p db_name | grep 'DROP TABLE' >> ./temp.sql
+$ echo "SET FOREIGN_KEY_CHECKS = 1;" >> ./temp.sql
+$ mysql -u root -p db_name < ./temp.sql
+```
+
+-----
+
+* Create database:
 ```sql
 CREATE DATABASE dbname;
 ```
 
-**Щоб працювати з базою, назва якої містить крапку, потрібно взяти її в лапки:**
-``db.name``.
+-----
 
-**Створити користувача:**
+* Create user:
 ```sql
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
 
-**Дати користувачу всі права на базу:**
+-----
+
+* Give permissions to the user:
 ```sql
 GRANT ALL PRIVILEGES ON dbname . * TO 'user'@'localhost';
 ```
 
-**Перечитати права користувачів:**
+-----
+
+* Update permissions of all users:
 ```sql
 FLUSH PRIVILEGES;
 ```
 
-**Видалити користувача:**
+-----
+
+* Remove user:
 ```sql
 DROP USER 'user'@'localhost';
 ```
 
-**Показати користувачів:**
+-----
+
+* Show users:
 ```sql
 SELECT User,Host FROM mysql.user;
 ```
 
-**Показати права користувачів:**
+-----
+
+* Show permissions:
 ```sql
 SHOW GRANTS;
 ```
 
-**Перевстановити пароль root:**
+-----
+
+* Reset password for root user:
 ```sql
 DROP USER 'root'@'localhost';
 DROP USER 'root'@'127.0.0.1';
@@ -53,74 +81,90 @@ GRANT ALL PRIVILEGES ON * . * TO 'root'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
-**Зробити резервну копію бази:**
+-----
+
+* Backup db:
 ```bash
 $ mysqldump -u USER -p -f mydatabase > /path/to/backup/dump.sql
 ```
 
-**Відновити базу з резервної копії**
+* Restore db:
 ```bash
 $ mysql -u USER -p < /path/to/backup/dump.sql DB_NAME
 ```
 
-**Зробити резервну копію всіх баз:**
+* Backup all dbs:
 ```bash
 $ mysqldump -u root -p --all-databases > alldb.sql
 ```
 
-**Відновити  всі бази з резервної копії**
+Restore all dbs:
 ```bash
 mysql -u root -p < alldb.sql
 ```
 
-**Перевірити і відремонтувати всі бази:**
+-----
+
+* Repair dbs:
 ```bash
 $ mysqlcheck -u root -p --auto-repair --all-databases
 ```
 
-**Помилка "Table in use":**
-1. Переходимо в папку з базою:
+-----
+
+* `Table In Use` error:
+1. Go to database dir:
 ```bash
 $ cd /var/lib/mysql/mydatabase
 ````
-2. Ремонтуємо таблицю, до якої відсутній доступ:
+2. Repair it:
 ```bash
 $ myisamchk --safe-recover mytable
 ```
 
-**Заміна значень в таблиці:**
+-----
+
+* Replacing values:
 ```sql
 UPDATE mytable SET value = REPLACE(value, "xxx", "yyy");
 ```
 
-**Заміна неправильних дат в постах Wordpress на поточну дату:**
+-----
+
+* Replace wrong dates for current date for WordPress:
 ```sql
 UPDATE `wp_posts` SET `post_date`=NOW() WHERE `post_date` LIKE '0000%'
 ```
 
-**Пошук дублікатів:**
+-----
+
+* Check duplicates:
 ```sql
 SELECT mac, COUNT(mac) AS cnt FROM leases GROUP BY mac HAVING ( COUNT(mac) > 1 )
 ```
 
-**Очистка значень в стовпці:**
+-----
+
+* Clear column values:
 ```sql
 UPDATE table SET column = '';
-```
-OR
-```sql
+
+# OR
+
 UPDATE table SET column = NULL;
 ```
 
-**Як краще зберігати в базі IP:**
+-----
+
+* How to store IPs:
 ```sql
 ip int(10) unsigned NOT NULL
 ```
 
-Зберігати IP-адресу в MySQL найзручніше у типі INT. Причому, обов'язково UNSIGNED (беззнаковий), щоб адреси вище 127 могли вміститися в ці 4 байти.
+If you are only going to support IPv4 addresses then your datatype in MySQL can be an UNSIGNED INT which only uses 4 bytes of storage (to keep addresses 127+)
+To store the individual octets you would only need to use UNSIGNED TINYINT datatypes, not SMALLINTS, which would use up 1 byte each of storage.
+Both methods would use similar storage with perhaps slightly more for separate fields for some overhead.
 
-Тип INT більш зручніший для зберігання IP-адрес у порівнянні з CHAR(15) з двух причин:
-1. Потребує менше пам'яті (4 байти INT проти 15 байтів CHAR). Як результат, таблиця займає менше місця на жорсткому диску, а швидкість виконання запитів росте внаслідок зменшення індексу.
-2. Зручно робити вибірки по діапазонах чисел та масках, а також робити сортування (маємо звичайне сортування чисел)._
+[Source](https://stackoverflow.com/questions/1108918/how-to-store-an-ip-in-mysql)
 
 -----
