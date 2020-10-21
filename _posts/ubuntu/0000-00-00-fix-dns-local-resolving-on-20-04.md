@@ -18,7 +18,6 @@ $ nano /etc/NetworkManager/NetworkManager.conf:
 [main]
 dns=default
 rc-manager=resolvconf
-
 ```
 
 -----
