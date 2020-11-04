@@ -36,7 +36,7 @@ $ sudo apt-get install network-manager-l2tp-gnome
 echo "
 function vpn_on()
 {
-    nmcli c up $1
+    nmcli c up \$1
 #    sudo ip route add 192.168.10.1 dev ppp0
     sudo ip route add 172.16.0.0/12 dev ppp0
     sudo ip route add 10.0.0.0/8 dev ppp0
