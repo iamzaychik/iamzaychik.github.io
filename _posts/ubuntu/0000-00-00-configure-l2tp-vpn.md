@@ -40,7 +40,7 @@ function vpn_on()
 #    sudo ip route add 192.168.10.1 dev ppp0
     sudo ip route add 172.16.0.0/12 dev ppp0
     sudo ip route add 10.0.0.0/8 dev ppp0
-    sudo ip route add 192.168.248.0/21 dev ppp0
+    sudo ip route add 192.168.240.0/20 dev ppp0
 }
 
 function vpn_off()
