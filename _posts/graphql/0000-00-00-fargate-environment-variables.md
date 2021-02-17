@@ -6,9 +6,16 @@ date: 2021-02-17
 
 -----
 
-**HASURA_GRAPHQL_ENABLE_CONSOLE** (true) - Enable the Hasura Console (served by the server on / and /console) (default: false)
-**HASURA_GRAPHQL_ENABLE_TELEMETRY** (false) - Enable anonymous telemetry (default: true)
-**HASURA_GRAPHQL_DATABASE_URL** - Postgres database URL. Example: postgres://admin:mypass@mydomain.com:5432/mydb
+```bash
+# Enable the Hasura Console (served by the server on / and /console) (default: false)
+HASURA_GRAPHQL_ENABLE_CONSOLE - true
+
+# Enable anonymous telemetry (default: true)
+HASURA_GRAPHQL_ENABLE_TELEMETRY - false
+
+# Postgres database URL. Example: postgres://admin:mypass@mydomain.com:5432/mydb
+HASURA_GRAPHQL_DATABASE_URL
+```
 
 -----
 
