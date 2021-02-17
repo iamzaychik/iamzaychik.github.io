@@ -8,7 +8,7 @@ date: 2019-04-15
 
 * Find needed commit:
 ```bash
-$ git log 
+$ git log
 ```
 
 * Rollback unwanted commits:

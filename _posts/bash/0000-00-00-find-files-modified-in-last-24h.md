@@ -14,6 +14,9 @@ $ find /<directory> -newermt "1 day ago" -ls
 $ find /<directory> -newermt "yesterday" -ls
 
 $ find /<directory> -mtime -1 -ls
+
+# Print only filenames
+$ find /<directory> -type f -printf "%f\n"
 ```
 
 -----
