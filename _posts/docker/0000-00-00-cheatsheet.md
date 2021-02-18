@@ -53,6 +53,9 @@ services:
           cpus: '0.5'
           memory: 150M
 ```
+
+-----
+
 [Source](https://stackoverflow.com/a/61427151)
 
 -----
