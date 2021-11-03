@@ -24,3 +24,7 @@ $ curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
 ```
 
 -----
+
+[Source](https://stackoverflow.com/a/22625150)
+
+-----
