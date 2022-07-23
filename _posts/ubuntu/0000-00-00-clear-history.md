@@ -23,7 +23,7 @@ $ history -cw
 $ history -dw 352
 ```
 
-* Don't save command: 
+* Don't save command:
 ```bash
 $ <SPACE> <COMMAND>
 ```
