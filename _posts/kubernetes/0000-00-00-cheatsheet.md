@@ -26,3 +26,11 @@ $ kubectl scale --replicas 0 deployment application-deployment
 ```
 
 -----
+
+* Show resources usage across the nodes:
+```bash
+$ kubectl top nodes
+```
+
+-----
+
