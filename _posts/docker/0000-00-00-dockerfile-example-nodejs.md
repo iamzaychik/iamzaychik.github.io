@@ -6,7 +6,7 @@ date: 2023-02-06
 
 -----
 
-```bash
+```docker
 FROM node:12
 
 WORKDIR /usr/src/app

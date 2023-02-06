@@ -6,7 +6,7 @@ date: 2023-02-06
 
 -----
 
-```bash
+```docker
 FROM golang:1.9.0-alpine3.6 as builder
 
 WORKDIR /go/src/source.domain.com/user/project/

@@ -6,7 +6,7 @@ date: 2023-02-06
 
 -----
 
-```bash
+```docker
 FROM python:3.7-alpine
 
 WORKDIR /app
