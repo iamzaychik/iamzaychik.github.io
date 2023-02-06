@@ -56,7 +56,6 @@ RUN apt-get clean && \
     apt-get autoclean -y && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /etc/nginx/sites*
-
 ```
 
 -----
