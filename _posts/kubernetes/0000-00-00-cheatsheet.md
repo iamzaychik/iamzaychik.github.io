@@ -6,6 +6,13 @@ date: 2023-02-05
 
 -----
 
+* Add config for new cluster to system env:
+```bash
+$ aws eks --region example_region update-kubeconfig --name cluster_name
+```
+
+-----
+
 * Show events sorted by timestamp:
 ```bash
 $ kubectl get events --sort-by='.metadata.creationTimestamp' -A
