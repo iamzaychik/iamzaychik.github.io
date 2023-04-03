@@ -8,7 +8,7 @@ date: 2023-02-05
 
 * Add config for new cluster to system env:
 ```bash
-$ aws eks --region {{example_region}} update-kubeconfig --name {{cluster_name}}
+$ aws eks --region <example_region> update-kubeconfig --name <cluster_name>
 ```
 
 -----
@@ -43,7 +43,7 @@ $ kubectl logs -f -l app=application
 
 * Scale application deployment to needed replicas count:
 ```bash
-$ kubectl scale --replicas 0 deployment {{deployment}}
+$ kubectl scale --replicas 0 deployment <deployment}>
 ```
 
 -----
@@ -57,7 +57,7 @@ $ kubectl top nodes
 
 * Remove pod stucked in Terminating status:
 ```bash
-$ kubectl delete pod {{pod_name}} --grace-period=0 --force --namespace {{namespace}}
+$ kubectl delete pod <pod_name> --grace-period=0 --force --namespace <namespace>
 ```
 
 -----
