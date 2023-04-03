@@ -55,3 +55,9 @@ $ kubectl top nodes
 
 -----
 
+* Remove pod stucked in Terminating status:
+```bash
+$ kubectl delete pod {{pod_name}} --grace-period=0 --force --namespace {{namespace}}
+```
+
+-----
