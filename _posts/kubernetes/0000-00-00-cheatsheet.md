@@ -6,9 +6,19 @@ date: 2023-02-05
 
 -----
 
-* Add config for new cluster to system env:
+* Cluster contexts:
 ```bash
+# Check current contexts
+$ kubectl config get-contexts
+
+# Add EKS cluster credentials
 $ aws eks --region <example_region> update-kubeconfig --name <cluster_name>
+
+# Delete context using kubectl
+$ kubectl config delete-context <context-name>
+
+# Delete context using aws-cli
+$ aws eks update-kubeconfig --name <cluster-name> --unset
 ```
 
 -----
