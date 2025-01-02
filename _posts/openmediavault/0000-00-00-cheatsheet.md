@@ -59,3 +59,19 @@ acl allow execute always = yes
 ```
 
 -----
+
+*Samba service additional options:*
+```bash
+access based share enum = yes
+aio read size = 1
+aio write size = 1
+getwd cache = yes
+max protocol = SMB3
+min protocol = SMB2
+socket options = TCP_NODELAY IPTOS_LOWDELAY
+strict allocate = yes
+use sendfile = yes
+write cache size = 524288
+```
+
+-----
