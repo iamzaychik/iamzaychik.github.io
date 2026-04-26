@@ -4,9 +4,9 @@ category: Python
 date: 2019-04-15
 ---
 
-**Для того, щоб отримати шлях директорії, яка розташована на два рівні вище потрібного файла, потрібно:**
+* Get path for directory located two levels up:
 
-```python
+```python3
 import os.path as path
 import sys
 
