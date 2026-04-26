@@ -6,7 +6,7 @@ date: 2019-04-15
 
 * Get path for directory located two levels up:
 
-```python3
+```bash
 import os.path as path
 import sys
 
