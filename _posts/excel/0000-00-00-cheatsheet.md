@@ -1,3 +1,13 @@
+---
+title: Cheatsheet
+category: Excel
+date: 2026-04-24
+---
+
+-----
+
+* Open only needed hidden rows:
+```bash
 Відкрийте ваш файл Excel.
 Натисніть Alt + F11, щоб відкрити редактор VBA.
 В редакторі VBA створіть новий модуль:
@@ -10,8 +20,15 @@ Sub UnhideRows317and318()
 End Sub
 
 Натисніть F5 або виберіть Run для виконання коду.
+```
 
---------------------------------
+-----
 
+
+* Insert current date dynamically:
+```bash
 Ctrl f9
 { DATE \@ "yyyy" }
+```
+
+-----
