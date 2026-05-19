@@ -7,6 +7,7 @@ date: 2026-04-24
 -----
 
 * Open only needed hidden rows:
+
 ```bash
 Відкрийте ваш файл Excel.
 Натисніть Alt + F11, щоб відкрити редактор VBA.
@@ -26,6 +27,7 @@ End Sub
 
 
 * Insert current date dynamically:
+
 ```bash
 Ctrl f9
 { DATE \@ "yyyy" }
