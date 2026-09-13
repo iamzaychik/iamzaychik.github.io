@@ -1,7 +1,5 @@
 ---
 
-```bash
-# Hello, %user%!
-```
+Hello, %user%!
 
 ---
