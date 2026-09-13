@@ -43,11 +43,11 @@ configure vlan *** tag *** - вішаємо id на влан
 ```
 
 ```bash
-configure vlan  *** add ports **:** tagged/untagged - видаємо влан
+configure vlan  *** add ports **:** tagged/untagged - видаємо влан
 ```
 
 ```bash
-configure vlan  *** delete ports **:** - прибираємо влан
+configure vlan  *** delete ports **:** - прибираємо влан
 ```
 
 ```bash

@@ -29,7 +29,7 @@ Jan 1 01:27:23 %OLT: Interface EPON0/1:1's CTC OAM extension negotiated successf
 Switch# epon commit-onu-image-update int epon 0/*:*
 ```
 
-5. Так закінчується процес підтвердження:
+5. Так закінчується процес підтвердження:
 ```
 Jan 1 01:28:58 Commit image request/response successful
 Jan 1 01:28:58 Commit onu image update successfully on EPON0/*:*!
@@ -42,7 +42,7 @@ Switch# delete uImage
 
 7. Завантажуємо новий файл прошивки з tftp-сервера:
 ```
-Switch# copy tftp flash *.*.*.*
+Switch# copy tftp flash *.*.*.*
 Source file name[]?jffs2_fs.tar.gz
 Destination file name[jffs2_fs.tar.gz]?
 ```

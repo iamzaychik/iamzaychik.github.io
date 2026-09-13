@@ -14,7 +14,7 @@ date: 2019-04-15
 * Продовжуємо завантаження системи: `boot `(uBoot);
 * В конфігурації за замовчуванням аутентифікацію відключено;
 * Переходимо в EXEC-mode: `en `(FTOS command line);
-* Завантажуємо startup-config: `copy startup-config running-config` (FTOS command line);
+* Завантажуємо startup-config: `copy startup-config running-config` (FTOS command line);
 * Тепер можна додати нового користувача або змінити дані старого;
 * Зберігаємо конфігурацію: `copy running-config startup-config `(FTOS command line);
 * Перезавантажуємо комутатор для перевірки: `reload `(FTOS command line);

@@ -17,7 +17,7 @@ $ passwd ubuntu
 
 2. Change cloud provider settings:
 ```bash
-$ cat /etc/sudoers.d/90-cloud-init-users
+$ cat /etc/sudoers.d/90-cloud-init-users
 ubuntu ALL=(ALL) ALL
 ```
 

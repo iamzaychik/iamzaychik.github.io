@@ -18,7 +18,7 @@ date: 2019-04-15
 
 4. After reboot:
 ```
-login:    admin
+login:    admin
 password: switch
 ```
 

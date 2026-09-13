@@ -151,7 +151,7 @@ UPDATE table SET column = '';
 
 # OR
 
-UPDATE table SET column = NULL;
+UPDATE table SET column = NULL;
 ```
 
 -----

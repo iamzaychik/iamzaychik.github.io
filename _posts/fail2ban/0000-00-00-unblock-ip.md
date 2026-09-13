@@ -4,7 +4,7 @@ category: Fail2Ban
 date: 2019-04-15
 ---
 
-* Before v0.8.8:
+* Before v0.8.8:
 ```bash
 $ fail2ban-client get <JAILNAME> actionunban <IP>
 ```

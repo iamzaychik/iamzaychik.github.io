@@ -24,7 +24,7 @@ $ brew install jq
 
 read -p 'Enter the code from Google Auth:' token_code
 
-if [[ -z ${token-code} ]]; then
+if [[ -z ${token_code} ]]; then
     echo 'No code entered!'
 else
     serial_number='arn:aws:iam::<YOUR_MFA_ARN>'

@@ -6,90 +6,88 @@ date: 2026-04-24
 
 -----
 
-```bash
-## Containers:
+### Containers:
 
- - Containers should be ephemeral.
- - Use a .dockerignore file.
- - Use multi-stage builds.
- - Avoid installing unnecessary packages.
- - Each container should have only one concern.
- - Minimize the number of layers.
- - Sort multi-line arguments.
- - Build cache.
- - Don’t trust arbitrary base images.
- - Use small base image.
- - Use the builder pattern.
+* Containers should be ephemeral.
+* Use a `.dockerignore` file.
+* Use multi-stage builds.
+* Avoid installing unnecessary packages.
+* Each container should have only one concern.
+* Minimize the number of layers.
+* Sort multi-line arguments.
+* Build cache.
+* Don’t trust arbitrary base images.
+* Use a small base image.
+* Use the builder pattern.
 
-## Inside Container:
+### Inside Container:
 
- - Use non-root user inside container.
- - Make the file system read only.
- - One process per container.
- - Don’t restart on failure, crash cleanly instead.
- - Log to stdout & stdderr
- - Add dumb-init to prevent zombie processes.
+* Use a non-root user inside a container.
+* Make the file system read-only.
+* One process per container.
+* Don’t restart on failure; crash cleanly instead.
+* Log to `stdout` and `stderr`.
+* Add `dumb-init` to prevent zombie processes.
 
-## Deployment:
+### Deployment:
 
- - Use the “record” option for easier rollbacks.
- - Use plenty of descriptive labels.
- - Use sidecar containers for proxies , watchers etc.
- - Don’t use sidecar for bootstrapping.
- - Use init container instead.
- - Don’t Use latest or no tag.
- - Readness & liveness probes are your friends.
+* Use the “record” option for easier rollbacks.
+* Use plenty of descriptive labels.
+* Use sidecar containers for proxies, watchers, etc.
+* Don’t use a sidecar for bootstrapping.
+* Use an init container instead.
+* Don’t use `latest` or omit a tag.
+* Readiness and liveness probes are your friends.
 
-## Security Best Practices:
+### Security Best Practices:
 
- - Ensure That Images Are Free of Vulnerabilities.
- - Ensure That Only Authorized Images are Used in Your Environment.
- - Limit Direct Access to Kubernetes Nodes.
- - Create Administrative Boundaries between Resources.
- - Define Resource Quota.
- - Implement Network Segmentation.
- - Apply Security Context to Your Pods and Containers.
- - Log Everything.
- - Integrate Security into your CI/CD pipeline
- - Implement Continuous Security Vulnerability Scanning
- - Regularly Apply Security Updates to Your Environment.
- - Use private registries to store your approved images.
- - Make sure you only push approved images to these registries
+* Ensure that images are free of vulnerabilities.
+* Ensure that only authorized images are used in your environment.
+* Limit direct access to Kubernetes nodes.
+* Create administrative boundaries between resources.
+* Define resource quotas.
+* Implement network segmentation.
+* Apply a security context to your pods and containers.
+* Log everything.
+* Integrate security into your CI/CD pipeline.
+* Implement continuous security vulnerability scanning.
+* Regularly apply security updates to your environment.
+* Use private registries to store approved images.
+* Make sure you only push approved images to these registries.
 
-## Services:
+### Services:
 
- - Don’t always use type: LoadBalancer
- - Ingress is great
- - Type: NodePort is good enough.
- - Use static IP, they are free.
- - Map external service to internal ones.
+* Don’t always use `type: LoadBalancer`.
+* Ingress is great.
+* `type: NodePort` is good enough.
+* Use static IPs; they are free.
+* Map external services to internal ones.
 
-## Application architecture:
+### Application architecture:
 
- - Use helmchart
- - ALL downstream dependencies are unreliable.
- - Make sure you micro-service aren’t too micro.
- - Use service mesh.
+* Use a Helm chart.
+* All downstream dependencies are unreliable.
+* Make sure your microservices aren’t too micro.
+* Use a service mesh.
 
-## Cluster Management:
+### Cluster Management:
 
- - Use Google container engine
- - Resources, anti-afinity & scheduling.
- - Use Namespace to split up your cluster.
- - Role base access control.
- - Unleash the chaos monkey.
- - Limit SSH access to Kubernetes nodes, Ask users to use “kubectl exec”
- - Create administrative boundaries between resources.
- - Implement Network segmentation.
+* Use Google Container Engine.
+* Resources, anti-affinity, and scheduling.
+* Use namespaces to split up your cluster.
+* Role-based access control.
+* Unleash the chaos monkey.
+* Limit SSH access to Kubernetes nodes; ask users to use `kubectl exec`.
+* Create administrative boundaries between resources.
+* Implement network segmentation.
 
-## Monitoring and visibility:
+### Monitoring and visibility:
 
- - Cluster-based logging
- - Log container activity into a central log hub.
- - Use Fluentd agent on each node
- - Ingested logs using Google Stackdriver Logging
- - Elasticsearch Viewed with Kibana.
-```
+* Cluster-based logging.
+* Log container activity into a central log hub.
+* Use a Fluentd agent on each node.
+* Ingest logs using Google Stackdriver Logging.
+* View Elasticsearch logs with Kibana.
 
 -----
 

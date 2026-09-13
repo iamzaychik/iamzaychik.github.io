@@ -11,7 +11,7 @@ date: 2019-04-15
 * [emerg]: bind() to 0.0.0.0:80 failed (98: Address already in use)
 ```
 
-1. Kill proccess, which using port:
+1. Kill the process using the port:
 ```bash
 $ sudo fuser -k 80/tcp
  ```

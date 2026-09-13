@@ -13,7 +13,7 @@ Let’s assume, we want to bond two 10G Ethernet ports together, namely **TenGig
 
 `S4810(conf)#interface range tengigabitethernet 0/32 , tengigabitethernet 0/33
 S4810(conf-if-range-te-0/32,te-0/33)#port-channel-protocol LACP
-S4810(conf-if-range-te-0/32,te-0/33-lacp)#  port-channel 9 mode active
+S4810(conf-if-range-te-0/32,te-0/33-lacp)#  port-channel 9 mode active
 S4810(conf-if-range-te-0/32,te-0/33-lacp)#show conf
 !
 interface TenGigabitEthernet 0/32
@@ -66,8 +66,8 @@ Of course, depending on the actual network topology, your mileage might vary her
 Note that the port-channel will stay in a ‘down’ state until it can exchange LACPDUs with the remote end:
 `S4810(conf)#do show interfaces port-channel 9 brief
 Codes: L - LACP Port-channel
-LAG  Mode  Status       Uptime      Ports
-L   9    L2L3  down         00:00:00`
+LAG  Mode  Status       Uptime      Ports
+L   9    L2L3  down         00:00:00`
 <div class="line number1 index0 alt2"></div>
 </div>
 <h2>2. Configuring LACP on OpenIndiana</h2>
@@ -110,13 +110,13 @@ To **list the available physical ports</strong>, use `dladm`
 <td class="code">
 <div class="container">
 <div class="line number1 index0 alt2"><code class="bash plain">root@Server47:~`<code class="bash comments"># dladm show-phys`</div>
-<div class="line number2 index1 alt1"><code class="bash plain">LINK         MEDIA                STATE      SPEED  DUPLEX    DEVICE`</div>
-<div class="line number3 index2 alt2"><code class="bash plain">myri10ge1    Ethernet             down       10000  full      myri10ge1`</div>
-<div class="line number4 index3 alt1"><code class="bash plain">myri10ge0    Ethernet             down       10000  full      myri10ge0`</div>
-<div class="line number5 index4 alt2"><code class="bash plain">bnx2         Ethernet             down       0      unknown   bnx2`</div>
-<div class="line number6 index5 alt1"><code class="bash plain">bnx0         Ethernet             up         1000   full      bnx0`</div>
-<div class="line number7 index6 alt2"><code class="bash plain">bnx1         Ethernet             down       0      unknown   bnx1`</div>
-<div class="line number8 index7 alt1"><code class="bash plain">bnx3         Ethernet             down       0      unknown   bnx3`</div>
+<div class="line number2 index1 alt1"><code class="bash plain">LINK         MEDIA                STATE      SPEED  DUPLEX    DEVICE`</div>
+<div class="line number3 index2 alt2"><code class="bash plain">myri10ge1    Ethernet             down       10000  full      myri10ge1`</div>
+<div class="line number4 index3 alt1"><code class="bash plain">myri10ge0    Ethernet             down       10000  full      myri10ge0`</div>
+<div class="line number5 index4 alt2"><code class="bash plain">bnx2         Ethernet             down       0      unknown   bnx2`</div>
+<div class="line number6 index5 alt1"><code class="bash plain">bnx0         Ethernet             up         1000   full      bnx0`</div>
+<div class="line number7 index6 alt2"><code class="bash plain">bnx1         Ethernet             down       0      unknown   bnx1`</div>
+<div class="line number8 index7 alt1"><code class="bash plain">bnx3         Ethernet             down       0      unknown   bnx3`</div>
 </div></td>
 </tr>
 </tbody>
@@ -155,8 +155,8 @@ You can use `dladm show-aggr` to see the **current state</strong>:
 <td class="code">
 <div class="container">
 <div class="line number1 index0 alt2"><code class="bash plain">root@Server47:~`<code class="bash comments"># dladm show-aggr`</div>
-<div class="line number2 index1 alt1"><code class="bash plain">LINK            POLICY   ADDRPOLICY           LACPACTIVITY  LACPTIMER   FLAGS`</div>
-<div class="line number3 index2 alt2"><code class="bash plain">aggr1           L2       auto                 active        short       -----`</div>
+<div class="line number2 index1 alt1"><code class="bash plain">LINK            POLICY   ADDRPOLICY           LACPACTIVITY  LACPTIMER   FLAGS`</div>
+<div class="line number3 index2 alt2"><code class="bash plain">aggr1           L2       auto                 active        short       -----`</div>
 </div></td>
 </tr>
 </tbody>
@@ -181,10 +181,10 @@ Next, **create an interface</strong> `aggr1`:
 <div class="container">
 <div class="line number1 index0 alt2"><code class="bash plain">root@Server47:~`<code class="bash comments"># ipadm create-if aggr1`</div>
 <div class="line number2 index1 alt1"><code class="bash plain">root@Server47:~`<code class="bash comments"># ipadm show-if`</div>
-<div class="line number3 index2 alt2"><code class="bash plain">IFNAME     STATE    CURRENT      PERSISTENT`</div>
-<div class="line number4 index3 alt1"><code class="bash plain">lo0        ok       -m-`<code class="bash functions">v`<code class="bash plain">------46 ---`</div>
-<div class="line number5 index4 alt2"><code class="bash plain">bnx0       ok       bm--------46 -46`</div>
-<div class="line number6 index5 alt1"><code class="bash plain">aggr1      down     bm--------46 -46`</div>
+<div class="line number3 index2 alt2"><code class="bash plain">IFNAME     STATE    CURRENT      PERSISTENT`</div>
+<div class="line number4 index3 alt1"><code class="bash plain">lo0        ok       -m-`<code class="bash functions">v`<code class="bash plain">------46 ---`</div>
+<div class="line number5 index4 alt2"><code class="bash plain">bnx0       ok       bm--------46 -46`</div>
+<div class="line number6 index5 alt1"><code class="bash plain">aggr1      down     bm--------46 -46`</div>
 </div></td>
 </tr>
 </tbody>
@@ -210,9 +210,9 @@ You should now see that the LACP link is established on the layer 2 switch:
 <div class="line number1 index0 alt2"><code class="bash plain">S4810(conf)`<code class="bash comments">#do show interfaces port-channel 9 brief`</div>
 <div class="line number2 index1 alt1"><code class="bash plain">Codes: L - LACP Port-channel`</div>
 <div class="line number3 index2 alt2"></div>
-<div class="line number4 index3 alt1"><code class="bash spaces">    `<code class="bash plain">LAG  Mode  Status       Uptime      Ports          `</div>
-<div class="line number5 index4 alt2"><code class="bash plain">L   9    L2L3  up           00:00:00    Te 0`<code class="bash plain">/32`    <code class="bash plain">(Up)`</div>
-<div class="line number6 index5 alt1"><code class="bash spaces">                                        `<code class="bash plain">Te 0`<code class="bash plain">/33`    <code class="bash plain">(Up)`</div>
+<div class="line number4 index3 alt1"><code class="bash spaces">    `<code class="bash plain">LAG  Mode  Status       Uptime      Ports          `</div>
+<div class="line number5 index4 alt2"><code class="bash plain">L   9    L2L3  up           00:00:00    Te 0`<code class="bash plain">/32`    <code class="bash plain">(Up)`</div>
+<div class="line number6 index5 alt1"><code class="bash spaces">                                        `<code class="bash plain">Te 0`<code class="bash plain">/33`    <code class="bash plain">(Up)`</div>
 </div></td>
 </tr>
 </tbody>
