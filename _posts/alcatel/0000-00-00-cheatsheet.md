@@ -25,6 +25,7 @@ show interfaces port
 ```
 
 * Show port 1/1:
+
 ```text
 show interfaces 1/1 port
 ```
@@ -136,6 +137,7 @@ show mac-address-table 111
 ```
 
 * Bind NAS mac on UL:
+
 ```text
 mac-address-table 11:11:11:11:11:11 1/25 111
 ```
@@ -241,8 +243,7 @@ stack set slot 1 saved-mode os6850
 ---
 
 ### System
-
-*If you get `Out Of Memory` error - delete `K2diag.img` from `working/` and `certified/`.*
+If you get `Out Of Memory` error - delete `K2diag.img` from `working/` and `certified/`.
 
 * Show config:
 
