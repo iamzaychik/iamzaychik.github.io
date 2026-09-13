@@ -1,7 +1,3 @@
----
-
 ## Forest Notes
 
 Hello, %user%!
-
----
