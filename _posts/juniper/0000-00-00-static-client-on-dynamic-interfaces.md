@@ -65,4 +65,3 @@ route xxx.xxx.xxx.xxx/xx {
 qualified-next-hop xe-0/0/0.482;`
 
 -----
-
