@@ -4,7 +4,7 @@ category: Slack
 date: 2019-11-29
 ---
 
------
+---
 
 * Light Blue:
 ```bash
@@ -38,8 +38,8 @@ CMYK:       4 33 99 0
 Pantone:    PMS 143 C
 ```
 
------
+---
 
 [Source](https://usbrandcolors.com/slack-colors/)
 
------
+---

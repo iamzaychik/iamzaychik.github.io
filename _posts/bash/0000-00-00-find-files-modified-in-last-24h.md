@@ -4,7 +4,7 @@ category: Bash
 date: 2020-03-21
 ---
 
------
+---
 
 ```bash
 $ find /<directory> -newermt "-24 hours" -ls
@@ -19,4 +19,4 @@ $ find /<directory> -mtime -1 -ls
 $ find /<directory> -type f -printf "%f\n"
 ```
 
------
+---

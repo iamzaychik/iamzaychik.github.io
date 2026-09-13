@@ -4,7 +4,7 @@ category: GitLab
 date: 2019-12-19
 ---
 
------
+---
 
 *Use apt-get install gitlab-ce=x.xx.x-ce.x to install the right update, then:*
 
@@ -20,4 +20,4 @@ Install the version 10.0.0 (10.0.0-ce.0)
 Install the version 10.8.3 (10.8.3-ce.0)
 ```
 
------
+---

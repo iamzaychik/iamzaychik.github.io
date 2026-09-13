@@ -4,7 +4,7 @@ category: ClamAV
 date: 2026-04-24
 ---
 
------
+---
 
 ```bash
 # Add Epel repository to download ClamAV in your Amazon Linux.
@@ -54,8 +54,8 @@ antivirus_can_scan_system –&gt; on
 antivirus_use_jit –&gt; off
 ```
 
------
+---
 
 [Source](https://devopsmyway.com/install-clamav-on-amazon-linuxec2/)
 
------
+---

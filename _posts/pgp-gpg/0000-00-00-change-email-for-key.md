@@ -4,9 +4,9 @@ category: PGP, GPG
 date: 2019-05-10
 ---
 
------
+---
 
-**You cannot delete keys nor modify UIDs for keys uploaded to PGP key servers.**
+*You cannot delete keys nor modify UIDs for keys uploaded to PGP key servers.*
 
 * To change your email, you must add a new UID:
 ```bash
@@ -46,4 +46,4 @@ gpg> save
 $ gpg --keyserver hkp://pgp.mit.edu --send-keys <keyID>
 ```
 
------
+---

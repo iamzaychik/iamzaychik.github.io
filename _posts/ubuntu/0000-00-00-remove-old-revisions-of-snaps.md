@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 ```bash
 # CLOSE ALL SNAPS BEFORE RUNNING THIS
@@ -16,4 +16,4 @@ LANG=C snap list --all | awk '/disabled/{print $1, $3}' |
     done
 ```
 
------
+---

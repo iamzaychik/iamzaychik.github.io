@@ -4,7 +4,7 @@ category: Gluster FS
 date: 2019-04-15
 ---
 
------
+---
 
 * Distributed-replicated:
 ```bash
@@ -21,4 +21,4 @@ server1:/dis-rep /mnt/extended glusterfs defaults,_netdev,backup-volfile-servers
 localhost:data /data glusterfs defaults,_netdev 0 0
 ```
 
------
+---

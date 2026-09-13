@@ -4,7 +4,7 @@ category: AWS
 date: 2026-04-24
 ---
 
------
+---
 
 ```bash
 1. Go to `EMR -> Create Cluster`
@@ -26,4 +26,4 @@ date: 2026-04-24
 17. Ports to open for user access: `22, 8998, 8088`
 ```
 
------
+---

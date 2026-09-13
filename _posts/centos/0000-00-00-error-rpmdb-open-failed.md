@@ -4,27 +4,30 @@ category: CentOS
 date: 2019-04-15
 ---
 
-**`Error: rpmdb open failed` when trying to `yum update`**
+*`Error: rpmdb open failed` when trying to `yum update`*
 
------
+---
 
 * Backup rpm database:
-```
-mv /var/lib/rpm/__db* /tmp
+
+```bash
+$ mv /var/lib/rpm/__db* /tmp
 ```
 
 * Clear packages cache:
-```
-yum clean all
+
+```bash
+$ yum clean all
 ```
 
 * Check:
+
+```bash
+$ yum update
 ```
-yum update
-```
 
------
+---
 
-* [Source](https://www.ostechnix.com/solve-error-rpmdb-open-failed-error-centos)
+[Source](https://www.ostechnix.com/solve-error-rpmdb-open-failed-error-centos)
 
------
+---

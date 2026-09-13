@@ -26,8 +26,8 @@ FROM information_schema.TABLES
 ORDER BY (data_length + index_length) DESC;
 ```
 
------
+---
 
 [Source](https://stackoverflow.com/a/9620273)
 
------
+---

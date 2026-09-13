@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-05-29
 ---
 
------
+---
 
 * First:
 ```bash
@@ -16,4 +16,4 @@ $ dpkg-reconfigure tzdata
 $ ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 ```
 
------
+---

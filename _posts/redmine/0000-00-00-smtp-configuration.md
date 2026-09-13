@@ -4,7 +4,7 @@ category: Redmine
 date: 2019-12-20
 ---
 
------
+---
 
 ```yaml
 production:
@@ -23,4 +23,4 @@ production:
       password: "PASSWORD_HERE"
 ```
 
------
+---

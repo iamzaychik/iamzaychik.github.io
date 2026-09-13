@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-05-29
 ---
 
------
+---
 
 * Unix timestamp convert:
 ```bash
@@ -17,4 +17,4 @@ Wed May 11 02:48:13 EDT 2016
 $ dmesg | perl -pE '/\[\s*(\d+\.\d+)\]/; $t=scalar localtime time-$1/100; s/\[\s*(\d+\.\d+)\]/[$t]/;'
 ```
 
------
+---

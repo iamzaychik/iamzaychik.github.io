@@ -4,7 +4,7 @@ category: ZTE
 date: 2019-04-15
 ---
 
------
+---
 
 * SI-series:
 ```bash
@@ -19,4 +19,4 @@ set qos traffic-limit fe-port [ 1-24 ] data-rate 10000
 set qos traffic-shaping fe-port [ 1-24 ] data-rate 10000 burst-size 64
 ```
 
------
+---

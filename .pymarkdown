@@ -1,0 +1,87 @@
+{
+  // Не обмежуємо довжину рядків.
+  "plugins": {
+
+    // Заголовки у форматі #, ##, ###.
+    // TODO: set Codex to rewrite headers.
+    "MD003": {
+      "enabled": false,
+      "style": "atx"
+    },
+
+    // Маркери невпорядкованого списку.
+    // set Codex to rewrite unordered lists.
+    "MD004": {
+      "enabled": false,
+      "style": "dash"
+    },
+
+    // Відступ вкладених невпорядкованих списків.
+    "MD007": {
+      "enabled": true,
+      "indent": 2
+    },
+
+    // Не перевіряємо нумерацію впорядкованих списків.
+    // set Codex to rewrite ordered lists.
+    "MD029": {
+      "enabled": false,
+      "style": "one"
+    },
+
+    // Не перевіряємо довжину рядка.
+    "MD013": {
+      "enabled": false
+    },
+
+    // Не перевіряємо $ перед Bash-командами.
+    "MD014": {
+      "enabled": false
+    },
+
+    // Не перевіряємо blank lines навколо заголовків.
+    // set Codex to add blank lines around headers.
+    "MD022": {
+      "enabled": false
+    },
+
+    // Jekyll title використовується замість H1 у Markdown.
+    "MD025": {
+      "enabled": true
+    },
+
+    // Дозволяємо пунктуацію наприкінці заголовків.
+    "MD026": {
+      "enabled": true
+    },
+
+    // Тимчасово не перевіряємо blank lines навколо code fences.
+    // set Codex to add blank lines around code.
+    "MD031": {
+      "enabled": false
+    },
+
+    // Тимчасово не перевіряємо blank lines навколо lists.
+    // set Codex to add blank lines around lists.
+    "MD032": {
+      "enabled": false
+    },
+
+    // HTML у блозі не використовується.
+    // TODO: set Codex to rewrite HTML stuff.
+    "MD033": {
+      "enabled": false
+    },
+
+    // Кожен fenced code block має мати мову.
+    "MD040": {
+      "enabled": true
+    },
+
+    // Jekyll має YAML front matter перед заголовками.
+    // TODO: set Codex to remove first line.
+    "MD041": {
+      "enabled": false
+    }
+  }
+}

@@ -4,7 +4,7 @@ category: RDP
 date: 2019-04-15
 ---
 
------
+---
 
 ```bash
 #!/bin/bash
@@ -14,4 +14,4 @@ rm $HOME/.freerdp/known_hosts
 remmina
 ```
 
------
+---

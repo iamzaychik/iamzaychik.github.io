@@ -4,10 +4,10 @@ category: GitLab
 date: 2019-12-19
 ---
 
------
+---
 
 ```bash
 $ chown -R registry:registry /var/opt/gitlab/gitlab-rails/shared/registry/docker/registry
 ```
 
------
+---

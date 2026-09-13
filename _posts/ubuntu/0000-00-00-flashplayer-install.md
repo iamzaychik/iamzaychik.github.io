@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 ### Install via apt
 
@@ -14,7 +14,7 @@ $ apt update
 $ apt install adobe-flashplugin
 ```
 
------
+---
 
 ### Manual install
 
@@ -73,4 +73,4 @@ function main
 select_browser
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: Docker
 date: 2020-05-13
 ---
 
------
+---
 
 ```yaml
 version: "2.2"
@@ -14,8 +14,8 @@ services:
     command: ["postgres", "-c", "log_statement=all", "-c", "log_destination=stderr"]
 ```
 
------
+---
 
 [Source](https://stackoverflow.com/a/59313245)
 
------
+---

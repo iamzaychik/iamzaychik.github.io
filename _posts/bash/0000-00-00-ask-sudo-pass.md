@@ -4,7 +4,7 @@ category: Bash
 date: 2019-08-27
 ---
 
------
+---
 
 ```bash
 if [ $EUID != 0 ]; then
@@ -13,4 +13,4 @@ if [ $EUID != 0 ]; then
 fi
 ```
 
------
+---

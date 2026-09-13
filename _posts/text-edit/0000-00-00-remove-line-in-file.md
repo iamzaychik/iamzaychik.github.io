@@ -4,7 +4,7 @@ category: Text edit
 date: 2019-04-22
 ---
 
------
+---
 
 * Delete first or header line:
 ```bash
@@ -22,8 +22,8 @@ $ sed '2d' file
 $ sed '$d' file
 ```
 
------
+---
 
 [Source](https://www.folkstalk.com/2013/03/sed-remove-lines-file-unix-examples.html)
 
------
+---

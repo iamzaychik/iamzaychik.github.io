@@ -4,14 +4,14 @@ category: MySQL
 date: 2019-04-15
 ---
 
------
+---
 
 * If you want to work with db, which contains dot - quote it:
 ```bash
 ``db.name``.
 ```
 
------
+---
 
 * Drop all databases:
 ```bash
@@ -21,56 +21,56 @@ $ echo "SET FOREIGN_KEY_CHECKS = 1;" >> ./temp.sql
 $ mysql -u root -p db_name < ./temp.sql
 ```
 
------
+---
 
 * Create database:
 ```sql
 CREATE DATABASE dbname;
 ```
 
------
+---
 
 * Create user:
 ```sql
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
 
------
+---
 
 * Give permissions to the user:
 ```sql
 GRANT ALL PRIVILEGES ON dbname . * TO 'user'@'localhost';
 ```
 
------
+---
 
 * Update permissions of all users:
 ```sql
 FLUSH PRIVILEGES;
 ```
 
------
+---
 
 * Remove user:
 ```sql
 DROP USER 'user'@'localhost';
 ```
 
------
+---
 
 * Show users:
 ```sql
 SELECT User,Host FROM mysql.user;
 ```
 
------
+---
 
 * Show permissions:
 ```sql
 SHOW GRANTS;
 ```
 
------
+---
 
 * Reset password for root user:
 ```sql
@@ -81,7 +81,7 @@ GRANT ALL PRIVILEGES ON * . * TO 'root'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
------
+---
 
 * Backup db:
 ```bash
@@ -103,14 +103,14 @@ Restore all dbs:
 mysql -u root -p < alldb.sql
 ```
 
------
+---
 
 * Repair dbs:
 ```bash
 $ mysqlcheck -u root -p --auto-repair --all-databases
 ```
 
------
+---
 
 * `Table In Use` error:
 1. Go to database dir:
@@ -122,28 +122,28 @@ $ cd /var/lib/mysql/mydatabase
 $ myisamchk --safe-recover mytable
 ```
 
------
+---
 
 * Replacing values:
 ```sql
 UPDATE mytable SET value = REPLACE(value, "xxx", "yyy");
 ```
 
------
+---
 
 * Replace wrong dates for current date for WordPress:
 ```sql
 UPDATE `wp_posts` SET `post_date`=NOW() WHERE `post_date` LIKE '0000%'
 ```
 
------
+---
 
 * Check duplicates:
 ```sql
 SELECT mac, COUNT(mac) AS cnt FROM leases GROUP BY mac HAVING ( COUNT(mac) > 1 )
 ```
 
------
+---
 
 * Clear column values:
 ```sql
@@ -154,7 +154,7 @@ UPDATE table SET column = '';
 UPDATE table SET column = NULL;
 ```
 
------
+---
 
 * How to store IPs:
 ```sql
@@ -167,4 +167,4 @@ Both methods would use similar storage with perhaps slightly more for separate f
 
 [Source](https://stackoverflow.com/questions/1108918/how-to-store-an-ip-in-mysql)
 
------
+---

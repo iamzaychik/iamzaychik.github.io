@@ -4,7 +4,7 @@ category: SSHFS
 date: 2019-05-12
 ---
 
------
+---
 
 * Install
 ```bash
@@ -27,4 +27,4 @@ $ sshfs ubuntu@192.0.2.1:/home/ubuntu /mnt/sshfs
 $ fusermount -u /mnt/sshfs
 ```
 
------
+---

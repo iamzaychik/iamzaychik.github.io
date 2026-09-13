@@ -4,7 +4,7 @@ category: MacOS
 date: 2020-10-21
 ---
 
------
+---
 
 * Choose Apple menu > System Preferences > Network.
 * Click the Add button (the '+' sign in the bottom left corner) > click the Interface drop-down menu > VPN.
@@ -13,4 +13,4 @@ date: 2020-10-21
 * Click Authentication Settings, then enter the information you received via LastPass (Password and Shared Secret).
 * Click OK, then click Connect.
 
------
+---

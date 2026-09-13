@@ -4,7 +4,9 @@ category: Squid
 date: 2019-04-15
 ---
 
------
+---
+
+* After login to proxy user will have IP, which used for connection
 
 ```bash
 acl ip1 myip 111.111.111.111
@@ -15,9 +17,4 @@ tcp_outgoing_address 111.111.111.111 ip1
 tcp_outgoing_address 111.111.111.112 ip2
 tcp_outgoing_address 111.111.111.113 ip3
 ```
-
------
-
-**After login to proxy user will have IP, which used for connection**
-
------
+---

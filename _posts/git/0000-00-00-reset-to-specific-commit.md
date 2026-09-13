@@ -4,7 +4,7 @@ category: Git
 date: 2019-04-15
 ---
 
------
+---
 
 * Find needed commit:
 ```bash
@@ -22,4 +22,4 @@ $ git reset --soft HEAD@{1}
 $ git push origin HEAD --force
 ```
 
------
+---

@@ -4,43 +4,49 @@ category: ZTE
 date: 2019-04-15
 ---
 
------
+---
 
 1. After boot wait for `Press any key to stop auto-boot...` and press any key:
-```bash
+
+```txt
 [ZXR10 Boot]:zte
 [Password]zxr10
 ```
 
 2. List files:
-```bash
+
+```txt
 [BootManager]:ls
 ```
 
 3. Remove configuration files:
 
 * SI-series:
-```bash
+
+```txt
 [BootManager]:del running.cfg
 [BootManager]:del startcfg.txt
 ```
 
 * E-series:
-```bash
+
+```txt
 [BootManager]:cd cfg
 [BootManager]:ls
 [BootManager]:rm startrun.dat
 ```
 
 4. Reboot:
-```bash
+
+```txt
 [BootManager]:reboot
 ```
 
 5. After reboot:
-```bash
+
+```txt
 login:admin
 password:zhongxing
 ```
 
------
+---

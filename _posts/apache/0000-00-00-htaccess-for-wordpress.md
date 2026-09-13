@@ -4,7 +4,7 @@ category: Apache
 date: 2019-04-15
 ---
 
------
+---
 
 ```bash
 <IfModule mod_rewrite.c>
@@ -26,4 +26,4 @@ RewriteRule . /index.php [L]
 # END WordPress
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-11-11
 ---
 
------
+---
 
 * Install packages:
 ```bash
@@ -28,8 +28,8 @@ $ sudo service bluetooth start
 $ sudo apt-get install blueman
 ```
 
------
+---
 
 [Source](https://www.maketecheasier.com/setup-bluetooth-in-linux/)
 
------
+---

@@ -4,7 +4,7 @@ category: Docker-compose
 date: 2020-02-05
 ---
 
------
+---
 
 ```yaml
 version: '3.4'
@@ -25,7 +25,7 @@ services:
       - ./pvpgn/:/usr/local/var/pvpgn/
 ```
 
------
+---
 
 ```bash
 FROM ubuntu:18.04
@@ -51,4 +51,4 @@ RUN apt-get clean && \
 CMD ["bnetd", "-f"]
 ```
 
------
+---

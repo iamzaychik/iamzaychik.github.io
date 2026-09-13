@@ -4,7 +4,7 @@ category: Docker
 date: 2023-02-06
 ---
 
------
+---
 
 ```docker
 FROM ruby:2.3 as builder
@@ -58,4 +58,4 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /etc/nginx/sites*
 ```
 
------
+---

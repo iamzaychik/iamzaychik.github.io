@@ -4,8 +4,8 @@ category: Dlink
 date: 2019-04-15
 ---
 
------
+---
 
-![](/assets/pdf/dlink/reboot-via-snmp.pdf)
+![reboot-via-snmp](/assets/pdf/dlink/reboot-via-snmp.pdf)
 
------
+---

@@ -4,7 +4,7 @@ category: AWS
 date: 2022-07-23
 ---
 
------
+---
 
 ```bash
 $ sudo yum -y install gcc make # install GCC compiler
@@ -24,8 +24,8 @@ $ redis-server
 $ redis-cli
 ```
 
------
+---
 
 [Source](https://gist.github.com/todgru/14768fb2d8a82ab3f436#gistcomment-3582604)
 
------
+---

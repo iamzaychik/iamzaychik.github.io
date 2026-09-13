@@ -4,7 +4,7 @@ category: Mikrotik
 date: 2019-04-15
 ---
 
------
+---
 
 ```bash
 /ip firewall filter
@@ -12,4 +12,4 @@ add action=drop chain=input comment="Restrict access to Internet for %user% from
 13h-15h59m59s,sun,mon,tue,wed,thu,fri,sat
 ```
 
------
+---

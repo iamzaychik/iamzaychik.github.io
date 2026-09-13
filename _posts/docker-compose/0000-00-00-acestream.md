@@ -4,7 +4,7 @@ category: Docker-compose
 date: 2020-02-05
 ---
 
------
+---
 
 ```yaml
 version: '3.4'
@@ -23,15 +23,15 @@ services:
       - "8621:8621"
 ```
 
------
+---
 
-**UI:**
+*UI:*
 ```bash
 http://your_server_ip/webui/app/SZGHqCMt/server
 ```
 
------
+---
 
 [Source](https://hub.docker.com/r/coresystem/acestream)
 
------
+---

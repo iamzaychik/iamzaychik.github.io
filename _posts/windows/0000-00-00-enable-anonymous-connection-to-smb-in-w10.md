@@ -4,17 +4,18 @@ category: Windows
 date: 2019-04-15
 ---
 
------
+---
 
-**Manual**
+* Manual:
+
 ```bash
-
 HKLM\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters\AllowInsecureGuestAuth -> 1
 ```
 
------
+---
 
-**Create enable_samba.reg**
+* Create enable_samba.reg:
+
 ```bash
 Windows Registry Editor Version 5.00
 
@@ -22,4 +23,4 @@ Windows Registry Editor Version 5.00
 "AllowInsecureGuestAuth"=dword:00000001
 ```
 
------
+---

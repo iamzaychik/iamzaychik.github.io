@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 1. Create folder:
 ```bash
@@ -51,4 +51,4 @@ $ mount -a
 $ df -h
 ```
 
------
+---

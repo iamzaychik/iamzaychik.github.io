@@ -4,61 +4,70 @@ category: BDCOM
 date: 2019-04-15
 ---
 
------
+---
 
 ### From OLT
 
 1. Для відображення процесу:
-```
+
+```text
 Switch# terminal monitor
 ```
 
 2. Завантажуємо firmware:
-```
+
+```text
 Switch# epon update onu image uImage int epon 0/*:*
 ```
 
 3. Так закінчується процес завантаження:
-```
+
+```text
 Jan 1 01:27:20 %OLT: Interface EPON0/1:1's OAM Operational Status: Operational
 Jan 1 01:27:23 %OLT: Interface EPON0/1:1's CTC OAM extension negotiated successfully!
 ```
 
 4. Підтверджуємо оновлення прошивки:
-```
+
+```text
 Switch# epon commit-onu-image-update int epon 0/*:*
 ```
 
 5. Так закінчується процес підтвердження:
-```
+
+```text
 Jan 1 01:28:58 Commit image request/response successful
 Jan 1 01:28:58 Commit onu image update successfully on EPON0/*:*!
 ```
 
 6. Видаляємо стару прошивку для звільнення місця:
-```
+
+```text
 Switch# delete uImage
 ```
 
 7. Завантажуємо новий файл прошивки з tftp-сервера:
-```
+
+```text
 Switch# copy tftp flash *.*.*.*
 Source file name[]?jffs2_fs.tar.gz
 Destination file name[jffs2_fs.tar.gz]?
 ```
 
 8. Оновлюємо:
-```
+
+```text
 Switch# epon update onu image jffs2_fs.tar.gz int epon 0/*:*
 Switch# epon commit-onu-image-update int epon 0/*:*
 ```
 
------
+---
 
 ### Manually
 
-Configure FileZilla FTP server:
-```
+* Configure FileZilla FTP server:
+
+```text
 username=a
 password=a
 home_folder=D:/upload
@@ -69,16 +78,17 @@ your_ip=10.0.0.2
 2. place the firmware into the d:/upload
 3. from the putty:
 
------
+---
 
 * [FORA](#fora)
 * [BDCOM p1501c](#bdcom-p1501c)
 * [BDCOM 3024](#bdcom-3024)
 
------
+---
 
 ### FORA
-```
+
+```text
 # cd /tmp
 # wget ftp://a:a@10.0.0.2/uImage
 # flashcp -v uImage /dev/mtd1
@@ -88,10 +98,11 @@ your_ip=10.0.0.2
 # reboot
 ```
 
------
+---
 
 ### BDCOM p1501c
-```
+
+```text
 ONU(config)# debug
 ONU(config-debug)# legacy
 onu->tftp firmware download 1023.zblob 10.0.0.2
@@ -101,15 +112,15 @@ ONU(config)# exit
 ONU# reset
 ```
 
------
+---
 
 ### BDCOM 3024
 
-```
+```text
 telnet 10.0.0.10 2323
 onu# sys
 onu(sys)# tftp firmware download 1109.bin 10.0.0.2
 onu(sys)# tftp uboot download 1004boot.bin 10.0.0.2
 ```
 
------
+---

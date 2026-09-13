@@ -4,7 +4,7 @@ category: Java
 date: 2020-08-26
 ---
 
------
+---
 
 ```bash
 -XX:+PrintGCDetails
@@ -17,4 +17,4 @@ date: 2020-08-26
 -Xloggc:./log/gc.%t.log
 ```
 
------
+---

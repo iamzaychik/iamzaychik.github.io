@@ -3,11 +3,11 @@ title: Posts
 layout: no-date
 ---
 
------
+---
 
 * [Categories](/categories)
 
------
+---
 
 <ul class="posts">
 {% for post in site.posts %}
@@ -15,4 +15,4 @@ layout: no-date
 {% endfor %}
 </ul>
 
------
+---

@@ -4,9 +4,9 @@ category: AWS
 date: 2020-03-21
 ---
 
------
+---
 
-*Setup parser:*
+*Setup parser:
 ```bash
 # Ubuntu
 $ sudo apt install jq
@@ -14,11 +14,11 @@ $ sudo apt install jq
 $ brew install jq
 ```
 
-*Open `~/.aws/credentials` and change profile name from `[default]` to `[get_mfa]`*
+*Open `~/.aws/credentials` and change profile name from `[default]` to `[get_mfa]`
 
-*Login to AWS admin console and get your MFA ARN from account security settings*
+*Login to AWS admin console and get your MFA ARN from account security settings
 
-*Create script for get temp profile and insert you MFA ARN:*
+*Create script for get temp profile and insert you MFA ARN:
 ```bash
 #!/bin/bash
 
@@ -45,4 +45,4 @@ fi
 $ chmod +x get_mfa.sh
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-11-11
 ---
 
------
+---
 
 * Install (JDK or Java Development Kit, full version):
 ```bash
@@ -21,4 +21,4 @@ $ sudo apt install openjdk-8-jre
 $ java -version
 ```
 
------
+---

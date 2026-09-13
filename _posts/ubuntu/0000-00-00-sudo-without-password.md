@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 1. Start editing sudoers:
 ```bash
@@ -16,4 +16,4 @@ $ sudo visudo
 YOUR_USER ALL=(ALL:ALL) NOPASSWD:ALL
 ```
 
------
+---

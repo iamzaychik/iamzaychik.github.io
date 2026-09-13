@@ -4,7 +4,7 @@ category: Lubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 * Open hotkeys configuration:
 ```bash
@@ -22,4 +22,4 @@ to
 amixer -D pulse set Master 1+ toggle
 ```
 
------
+---

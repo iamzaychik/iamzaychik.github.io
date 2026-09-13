@@ -4,7 +4,7 @@ category: CentOS
 date: 2019-04-15
 ---
 
------
+---
 
 * Load in-flight:
 ```bash
@@ -21,4 +21,4 @@ $ lsmod | grep 8021q
 $ echo 8021q >> /etc/modules-load.d/8021q.conf
 ```
 
------
+---

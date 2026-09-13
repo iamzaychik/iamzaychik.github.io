@@ -4,7 +4,7 @@ category: Docker
 date: 2023-02-06
 ---
 
------
+---
 
 ```docker
 FROM golang:1.9.0-alpine3.6 as builder
@@ -32,4 +32,4 @@ COPY --from=builder /go/src/source.domain.com/user/project/src/binary ./
 ENTRYPOINT ./binary
 ```
 
------
+---

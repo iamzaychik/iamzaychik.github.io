@@ -4,7 +4,7 @@ category: Excel
 date: 2026-04-24
 ---
 
------
+---
 
 * Open only needed hidden rows:
 
@@ -23,8 +23,7 @@ End Sub
 Натисніть F5 або виберіть Run для виконання коду.
 ```
 
------
-
+---
 
 * Insert current date dynamically:
 
@@ -33,4 +32,4 @@ Ctrl f9
 { DATE \@ "yyyy" }
 ```
 
------
+---

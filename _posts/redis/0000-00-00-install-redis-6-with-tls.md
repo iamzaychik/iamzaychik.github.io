@@ -4,11 +4,11 @@ category: Redis
 date: 2022-07-23
 ---
 
------
+---
 
 [Download](https://redis.io/download)
 
------
+---
 
 * [Installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
 
@@ -24,7 +24,7 @@ $ rm -rf redis-6.2.4
 $ rm redis-6.2.4.tar.gz
 ```
 
------
+---
 
 * Setup Redis files and directories:
 
@@ -48,7 +48,7 @@ $ touch /etc/default/redis
 $ echo 'ULIMIT=65536' > /etc/default/redis
 ```
 
------
+---
 
 * [Create Root CA](https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309):
 
@@ -82,7 +82,7 @@ $ cd ~
 $ rm server.csr
 ```
 
------
+---
 
 * [Encryption](https://redis.io/topics/encryption):
 
@@ -110,7 +110,7 @@ $ echo 'rdbchecksum yes' >> /etc/redis/redis.conf
 $ echo 'dbfilename dump.rdb' >> /etc/redis/redis.conf
 ```
 
------
+---
 
 * [Security](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04):
 
@@ -125,7 +125,7 @@ $ echo 'rename-command SHUTDOWN SHUTDOWN_MENOT' >> /etc/redis/redis.conf
 $ echo 'rename-command CONFIG ASC12_CONFIG' >> /etc/redis/redis.conf
 ```
 
------
+---
 
 * Edit */etc/systemd/system/redis.service*:
 
@@ -178,7 +178,7 @@ WantedBy=multi-user.target
 Alias=redis.service
 ```
 
------
+---
 
 * Start Redis:
 
@@ -188,7 +188,7 @@ $ systemctl status redis
 $ systemctl enable redis
 ```
 
------
+---
 
 * Connecting to Redis:
 
@@ -196,8 +196,8 @@ $ systemctl enable redis
 $ redis-cli --tls --cert /etc/redis/server.crt --key /etc/redis/server.key --cacert /etc/redis/rootCA.crt --askpass
 ```
 
------
+---
 
 [Source](https://gist.github.com/fritsstegmann/316cc0d458604d08bf1b9ac517c1428f)
 
------
+---

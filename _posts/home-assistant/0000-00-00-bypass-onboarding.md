@@ -4,7 +4,7 @@ category: Home Assistant
 date: 2026-04-24
 ---
 
------
+---
 
 ```bash
 .homeassistant/.storage/onboarding
@@ -24,4 +24,4 @@ date: 2026-04-24
 }
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2020-04-14
 ---
 
------
+---
 
 ```bash
 function allcrontab() {
@@ -19,4 +19,4 @@ function allcrontab() {
 }
 ```
 
------
+---

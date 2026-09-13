@@ -4,7 +4,7 @@ category: Raspberry Pi
 date: 2019-04-15
 ---
 
------
+---
 
 * Edit `/boot/config.txt`
 * Change HDMI settings:
@@ -17,8 +17,8 @@ hdmi_force_hotplug=1
 hdmi_drive=2
 ```
 
------
+---
 
 [Source](http://blog.mivia.dk/solved-hdmi-working-raspberry-pi)
 
------
+---

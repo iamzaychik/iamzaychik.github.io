@@ -4,16 +4,16 @@ category: OpenMediaVault
 date: 2019-05-06
 ---
 
------
+---
 
-**Install extra plugins:**
+*Install extra plugins:*
 ```bash
 $ wget -O - http://omv-extras.org/install | bash
 ```
 
------
+---
 
-**Disable beeper:**
+*Disable beeper:*
 ```bash
 $ systemctl stop openmediavault-beep-down
 $ systemctl disable openmediavault-beep-down
@@ -22,9 +22,9 @@ $ systemctl stop openmediavault-beep-up
 $ systemctl disable openmediavault-beep-up
 ```
 
------
+---
 
-**Error during update/install:**
+*Error during update/install:*
 ```bash
 Traceback (most recent call last):
   File "/usr/lib/python3.5/weakref.py", line 117, in remove
@@ -50,7 +50,7 @@ _remove_dead_weakref(d, wr.key)
 _atomic_removal(d, wr.key)
 ```
 
------
+---
 
 *No execution of EXE-files:*
 ```bash
@@ -58,7 +58,7 @@ _atomic_removal(d, wr.key)
 acl allow execute always = yes
 ```
 
------
+---
 
 *Samba service additional options:*
 ```bash
@@ -69,7 +69,7 @@ min protocol = SMB2
 write cache size = 524288
 ```
 
------
+---
 
 * Fix media folders permissions:
 ```bash
@@ -77,4 +77,4 @@ find ./ -type d -exec chmod 2775 {} \;
 find ./ -type f -exec chmod 664 {} \;
 ```
 
------
+---

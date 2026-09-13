@@ -4,16 +4,18 @@ category: Telegram
 date: 2019-06-19
 ---
 
------
+---
 
-### After you created own bot and get TOKEN for it:
+### After you created own bot and get TOKEN for it
 * add the BOT to the group
 * get the list of updates for your BOT:
+
 ```bash
 $ curl --silent https://api.telegram.org/bot{TOKEN}/getUpdates
 ```
 
 * look for the "chat" object (you can do install jq for pretty output):
+
 ```json
 {
   "ok": true,
@@ -42,4 +44,4 @@ $ curl --silent https://api.telegram.org/bot{TOKEN}/getUpdates
 * in this example the Chat ID to look out for is 22031984. Replace {TOKEN} with your Telegram bot token.
 * use the "id" of the "chat" object to send your messages
 
------
+---

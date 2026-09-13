@@ -4,9 +4,9 @@ category: Nginx
 date: 2019-05-10
 ---
 
------
+---
 
-**Add to `/etc/sites-enabled/vhost.conf` for needed location:**
+*Add to `/etc/sites-enabled/vhost.conf` for needed location:*
 
 ```bash
 alias /var/www/files;
@@ -17,4 +17,4 @@ autoindex_localtime on;
 
 ```
 
------
+---

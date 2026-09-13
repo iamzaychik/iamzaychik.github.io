@@ -4,7 +4,7 @@ category: Docker
 date: 2023-02-06
 ---
 
------
+---
 
 ```docker
 FROM node:12
@@ -24,4 +24,4 @@ EXPOSE 8080
 CMD [ "node", "server.js" ]
 ```
 
------
+---

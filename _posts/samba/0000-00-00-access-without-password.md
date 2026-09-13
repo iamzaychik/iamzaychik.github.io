@@ -4,7 +4,7 @@ category: Samba
 date: 2019-04-15
 ---
 
------
+---
 
 ```bash
 $ cat /etc/smb.conf
@@ -20,4 +20,4 @@ writeable = yes
 guest ok = yes
 ```
 
------
+---

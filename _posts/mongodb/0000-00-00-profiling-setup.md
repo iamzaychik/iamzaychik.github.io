@@ -4,7 +4,7 @@ category: MongoDB
 date: 2020-03-21
 ---
 
------
+---
 * Check current profiling:
 ```bash
 db.getProfilingStatus()
@@ -25,4 +25,4 @@ db.setProfilingLevel(1, { slowms: 1 })
 db.setProfilingLevel(0)
 ```
 
------
+---

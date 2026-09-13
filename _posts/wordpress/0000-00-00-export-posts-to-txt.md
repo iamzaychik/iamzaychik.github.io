@@ -4,7 +4,7 @@ category: WordPress
 date: 2019-04-22
 ---
 
------
+---
 
 ```php
 #!/usr/local/bin/php
@@ -38,8 +38,8 @@ endwhile;
 ?>
 ```
 
------
+---
 
 [Source](https://wordpress.stackexchange.com/a/61640)
 
------
+---

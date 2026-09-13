@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 1. Reboot your computer
 2. Hold `Shift` during boot to start GRUB menu
@@ -15,4 +15,4 @@ date: 2019-04-15
 7. Set your password
 8. Type in `reboot`. If that doesn't work, hit `Ctrl+Alt+Del`
 
------
+---

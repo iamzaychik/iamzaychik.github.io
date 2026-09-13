@@ -4,9 +4,9 @@ category: Ubuntu
 date: 2019-05-02
 ---
 
------
+---
 
-**Installing Windows after Ubuntu is not the recommended process for a dual boot Windows and Ubuntu system, but it is possible.**
+*Installing Windows after Ubuntu is not the recommended process for a dual boot Windows and Ubuntu system, but it is possible.*
 
 * Make sure that the 50GB free space is available, resizing your Ubuntu by using gParted if necessary.
 
@@ -28,8 +28,8 @@ $ sudo apt-get install -y boot-repair && boot-repair
 
 * You should now have a Grub menu on boot, allowing you to choose from Ubuntu, memtest, and Windows 7
 
------
+---
 
 [Source](https://askubuntu.com/a/158319)
 
------
+---

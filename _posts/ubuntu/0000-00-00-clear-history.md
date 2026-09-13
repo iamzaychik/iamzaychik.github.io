@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 * Clear history for current session:
 ```bash
@@ -33,8 +33,8 @@ $ <SPACE> <COMMAND>
 $ unset HISTFILE
 ```
 
------
+---
 
 [Source](http://www.shellhacks.com/ru/Kak-Ochistit-Istoriyu-Komand-v-BASH)
 
------
+---

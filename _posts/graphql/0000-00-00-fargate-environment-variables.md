@@ -4,7 +4,7 @@ category: GraphQL
 date: 2021-02-17
 ---
 
------
+---
 
 ```bash
 # Enable the Hasura Console (served by the server on / and /console) (default: false)
@@ -17,8 +17,8 @@ HASURA_GRAPHQL_ENABLE_TELEMETRY - false
 HASURA_GRAPHQL_DATABASE_URL
 ```
 
------
+---
 
 [Source](https://hasura.io/docs/1.0/graphql/core/deployment/graphql-engine-flags/reference.html)
 
------
+---

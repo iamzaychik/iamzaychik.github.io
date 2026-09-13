@@ -4,7 +4,7 @@ category: GitLab
 date: 2020-03-21
 ---
 
------
+---
 
 ```yaml
 build site:
@@ -33,8 +33,8 @@ deploy:
       - publish
 ```
 
------
+---
 
 [Source](https://medium.com/@rosswritescode/deploy-your-site-with-gitlab-ci-cd-2944816dcb4a)
 
------
+---

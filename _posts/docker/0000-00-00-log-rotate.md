@@ -4,7 +4,7 @@ category: Docker
 date: 2021-02-17
 ---
 
------
+---
 
 ```bash
 $ sudo nano /etc/logrotate.d/docker_logs
@@ -20,4 +20,4 @@ $ sudo nano /etc/logrotate.d/docker_logs
 }
 ```
 
------
+---

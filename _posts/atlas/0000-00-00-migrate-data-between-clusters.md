@@ -4,7 +4,7 @@ category: Atlas
 date: 2026-04-24
 ---
 
------
+---
 
 ```bash
 1. Add user with next permissions on source (looks like ReadWriteAll is not enough):
@@ -24,4 +24,4 @@ date: 2026-04-24
 9. After the migration is finished, it keeping destination in sync before cutover
 ```
 
------
+---

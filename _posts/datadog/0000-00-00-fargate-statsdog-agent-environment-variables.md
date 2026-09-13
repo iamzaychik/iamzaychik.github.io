@@ -4,10 +4,10 @@ category: Datadog
 date: 2021-02-17
 ---
 
------
+---
 
 ```bash
-# Your Datadog API key (**required**)
+# Your Datadog API key (*required*)
 DD_API_KEY
 
 # Listen to DogStatsD packets from other containers (required to send custom metrics)
@@ -20,8 +20,8 @@ DD_DOGSTATSD_TAGS - ["Environment:production"]
 DD_HEALTH_PORT - 5555
 ```
 
------
+---
 
 [Source](https://docs.datadoghq.com/agent/docker/?tab=standard)
 
------
+---

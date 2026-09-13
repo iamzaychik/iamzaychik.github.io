@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2020-10-21
 ---
 
------
+---
 
 ```bash
 # Install good resolver
@@ -20,8 +20,8 @@ dns=default
 rc-manager=resolvconf
 ```
 
------
+---
 
 [Source](https://cdnnow.ru/blog/dnslocal/)
 
------
+---

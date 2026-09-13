@@ -4,13 +4,13 @@ category: Docker-compose
 date: 2020-02-05
 ---
 
------
+---
 
 ```bash
 $ git clone https://github.com/mattermost/mattermost-docker.git
 ```
 
------
+---
 
 ```yaml
 version: '3.4'
@@ -54,4 +54,4 @@ services:
       #- MM_CONFIG=/mattermost/config/config.json
 ```
 
------
+---

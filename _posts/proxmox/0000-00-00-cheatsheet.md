@@ -4,7 +4,7 @@ category: Proxmox
 date: 2026-04-24
 ---
 
------
+---
 
 * Alpine samba mount:
 
@@ -25,7 +25,7 @@ password=1" > /root/.smb-credentials
 $ mkdir /mnt/share
 ```
 
------
+---
 
 * Check CPU updates:
 
@@ -33,7 +33,7 @@ $ mkdir /mnt/share
 $ journalctl -k | grep -E "microcode: microcode"
 ```
 
------
+---
 
 * Add space to VM/CT:
 
@@ -42,7 +42,7 @@ $ qm resize 105 scsi0 +6G
 $ pct resize 102 rootfs +10G
 ```
 
------
+---
 
 * Pass disk to VM:
 
@@ -51,7 +51,7 @@ $ lsblk -o +MODEL,SERIAL,WWN
 $ qm set 592 -scsi2 /dev/disk/by-id/ata-STCHCJCJCKKC-MMEJEN_3AFAV334
 ```
 
------
+---
 
 * Remove thin-lvm:
 
@@ -71,4 +71,4 @@ $ resize2fs /dev/mapper/pve-root
 $ xfs_growfs /dev/mapper/pve-root
 ```
 
------
+---

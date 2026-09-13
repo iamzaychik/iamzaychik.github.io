@@ -4,14 +4,9 @@ category: Python
 date: 2019-04-15
 ---
 
-_Отвергая законы природы
-Стоит у перил моста
-Безумно глядя на воду
-Совершенная красота._
+---
 
------
-
-### PEP 8
+* PEP 8:
 
 [PEP 8](https://peps.python.org/pep-0008/) defines style guidelines for Python code.
 
@@ -44,29 +39,33 @@ _Отвергая законы природы
 * Use `isinstance()` for type checks.
 * Do not compare Boolean variables with `True` or `False`.
 
------
+---
 
-**Copy/move/remove files**
-`#!/usr/bin/python
+* Copy/move/remove files:
+
+```python3
+#!/usr/bin/python
 import os
 import shutil
 os.rename('name1','name2') # переименовать
 shutil.copy('name1','name2') # копировать
 shutil.move('name1', 'name2') # переместить
-os.remove('name1') # удалить`
+os.remove('name1') # удалить
+```
 
------
+---
 
-**Зворотній відлік**
-`#!/usr/bin/python3
+* Зворотній відлік:
+
+```python3
+#!/usr/bin/python3
 import time
 def countdown(count):
 while (count >= 0):
 print("Time left:", count, "sec")
 count -= 1
 time.sleep(1)
-countdown(10)`
+countdown(10)
+```
 
------
-
------
+---

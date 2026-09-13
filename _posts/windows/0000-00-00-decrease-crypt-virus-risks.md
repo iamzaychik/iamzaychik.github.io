@@ -4,11 +4,11 @@ category: Windows
 date: 2019-04-15
 ---
 
-**Change potentially dangerous extensions associations to open as `.txt`**
+*Change potentially dangerous extensions associations to open as `.txt`*
 
------
+---
 
-1. Створюємо файл із розширенням .bat;**
+1. Створюємо файл із розширенням .bat;*
 2. Insert:
 ```bash
 assoc .js=txtfile
@@ -29,4 +29,4 @@ assoc .wsh=txtfile
 ```
 3. Run script
 
------
+---

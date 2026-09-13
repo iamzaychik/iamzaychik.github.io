@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 * Install archivers for all formats:
 ```bash
@@ -21,4 +21,4 @@ $ zip -er folder.zip file
 $ zip -P password -r folder.zip folder
 ```
 
------
+---

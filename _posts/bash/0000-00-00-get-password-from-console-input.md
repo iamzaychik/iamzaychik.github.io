@@ -4,7 +4,7 @@ category: Bash
 date: 2019-07-05
 ---
 
------
+---
 
 ```bash
 #!/bin/bash
@@ -16,4 +16,4 @@ echo
 echo $password
 ```
 
------
+---

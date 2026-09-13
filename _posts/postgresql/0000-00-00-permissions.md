@@ -4,7 +4,7 @@ category: PostgreSQL
 date: 2023-08-10
 ---
 
-```
+```bash
 -- Create read_write_role with read/write permissions
 CREATE ROLE read_write_role;
 
@@ -35,7 +35,7 @@ END;
 $$;
 
 
------
+---
 
 -- Create read_only_role with read-only permissions
 CREATE ROLE read_only_role;
@@ -67,7 +67,7 @@ END;
 $$;
 
 
------
+---
 
 -- Create needed users
 CREATE USER admin_user WITH PASSWORD '111111';
@@ -79,21 +79,21 @@ GRANT rds_superuser TO admin_user;
 GRANT read_write_role TO rw_user;
 GRANT read_only_role TO ro_user;
 
------
+---
 
 -- Change password for user
 ALTER USER username WITH PASSWORD 'new_password';
 
------
+---
 
 -- Change role for user
 REVOKE read_only_role FROM username;
 GRANT read_write_role TO username;
 
------
+---
 -- Drop old role and user
 DROP ROLE app_readonly_all_data;
 DROP USER username;
 ```
 
------
+---

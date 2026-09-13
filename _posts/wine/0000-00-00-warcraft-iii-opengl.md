@@ -4,16 +4,18 @@ category: Wine
 date: 2020-04-17
 ---
 
------
+---
 
-**Manual**
+* Manual:
+
 ```bash
 HKEY_CURRENT_USER\Software\Blizzard Entertainment\Warcraft III\Gfx OpenGL -> DWORD 1
 ```
 
------
+---
 
-**Create w3_ogl.reg**
+* Create w3_ogl.reg:
+
 ```bash
 Windows Registry Editor Version 5.00
 
@@ -21,4 +23,4 @@ Windows Registry Editor Version 5.00
 "Gfx OpenGL"=dword:00000001
 ```
 
------
+---

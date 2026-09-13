@@ -4,7 +4,7 @@ category: Datadog
 date: 2020-08-26
 ---
 
------
+---
 
 * Enable jxm console for service:
 
@@ -28,10 +28,10 @@ $ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
     rmi_client_timeout: 15000
 ```
 
------
+---
 
 [Source flags](https://stackoverflow.com/a/856882)
 
 [Source agent](https://docs.datadoghq.com/integrations/java/?tab=host)
 
------
+---

@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-05-29
 ---
 
------
+---
 
 ```bash
 $ fallocate -l <SWAP SIZE> /swapfile
@@ -14,4 +14,4 @@ $ swapon /swapfile
 $ echo "/swapfile none swap sw 0 0" >> /etc/fstab
 ```
 
------
+---

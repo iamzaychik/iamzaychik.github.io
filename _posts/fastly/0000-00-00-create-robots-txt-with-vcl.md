@@ -4,7 +4,7 @@ category: Fastly
 date: 2020-02-05
 ---
 
------
+---
 
 ```bash
 sub vcl_recv {
@@ -26,8 +26,8 @@ Disallow: /"};
 }
 ```
 
------
+---
 
 [Source](https://serverfault.com/a/371781)
 
------
+---

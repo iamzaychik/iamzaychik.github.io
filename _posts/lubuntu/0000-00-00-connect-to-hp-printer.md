@@ -4,7 +4,7 @@ category: Lubuntu
 date: 2019-04-15
 ---
 
------
+---
 
 Modern Linux distributions support a large number of peripheral devices, including scanners, plotters, and printers. People new to Linux can encounter problems when installing a new printer. This article covers installing an HP printer on Ubuntu.
 
@@ -23,28 +23,29 @@ HPLIP includes the following:
    *the HPAIO driver for SANE (`hpaio`), which supports scanning on flatbed multifunction devices and devices with automatic document feeders.
 </ul>
 
-
 The latest HPLIP version (2.8.12) is available on the * <a href="https://hplipopensource.com/hplip-web/index.html">official website</a>. At the time of writing, it supported more than 1,536 printer models.
 
-To determine whether **HPLIP** supports your HP printer model, follow this * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">link</a>.
+To determine whether *HPLIP* supports your HP printer model, follow this * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">link</a>.
 
-After finding your printer model in the list of HPLIP-supported printers, note the recommended HPLIP version (_requires HPLIP version_ …). It specifies the _minimum version_ of **HPLIP** needed for your HP device to work correctly.
+After finding your printer model in the list of HPLIP-supported printers, note the recommended HPLIP version (_requires HPLIP version_ …). It specifies the _minimum version_ of *HPLIP* needed for your HP device to work correctly.
 
-To view the installed **HPLIP** version, run:
+To view the installed *HPLIP* version, run:
 
-**dpkg -l hplip**
+```bash
+$ dpkg -l hplip
+```
 
 The output will look similar to this:
 
-Look for the line beginning with `ii`. Its third column contains the installed **HPLIP** version (2.8.7 in this example).
+Look for the line beginning with `ii`. Its third column contains the installed *HPLIP* version (2.8.7 in this example).
 
-If your Ubuntu installation has an older **HPLIP** version than your printer requires, update it.
+If your Ubuntu installation has an older *HPLIP* version than your printer requires, update it.
 
 <h3>Install the printer</h3>
 
 To install the printer, run `<span style="color: #0000ff;">sudo hp-setup</span>` in a terminal, then complete the following steps:
 <ol>
-   *Choose the connection type. Modern devices usually connect through USB, so select **USB**, then click _Next_.
+   *Choose the connection type. Modern devices usually connect through USB, so select *USB*, then click _Next_.
    *Choose your printer model. It should be detected automatically; otherwise, select it manually from the supported-printers list.
    *Click _Next_ in the following two windows.
    *Finish the installation by clicking _Finish_.
@@ -52,10 +53,10 @@ To install the printer, run `<span style="color: #0000ff;">sudo hp-setup</span>`
 
 After these steps, the printer is installed and a test page is printed.
 
-**Set the default printer.**
+*Set the default printer.*
 
-To make your HP printer the default, choose **System** — **Preferences** — **Default Printer**. In the list of available printers, select the required printer and click _Use as Default_.
+To make your HP printer the default, choose *System* — *Preferences* — *Default Printer*. In the list of available printers, select the required printer and click _Use as Default_.
 
-In Lubuntu, open **System** → **Printers** and add the network printer.
+In Lubuntu, open *System* → *Printers* and add the network printer.
 
------
+---

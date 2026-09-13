@@ -4,7 +4,7 @@ category: Text edit
 date: 2019-04-22
 ---
 
------
+---
 
 * Add at first line:
 ```bash
@@ -16,8 +16,8 @@ $ sed -i '1iTEXT GOES HERE' file.txt
 $ sed -i '2iTEXT GOES HERE' file.txt
 ```
 
------
+---
 
 [Source](https://superuser.com/a/246841)
 
------
+---

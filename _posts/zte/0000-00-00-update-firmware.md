@@ -4,7 +4,7 @@ category: ZTE
 date: 2019-04-15
 ---
 
------
+---
 
 * SI-series:
 ```bash
@@ -16,7 +16,7 @@ FW=kernel.z
 FW=zImage
 ```
 
------
+---
 
 * Via telnet:
 ```bash
@@ -28,7 +28,7 @@ exit
 reboot
 ```
 
------
+---
 
 * Via BootManager:
 After boot wait for `Press any key to stop auto-boot...` and press any key:
@@ -49,4 +49,4 @@ MAC : 00:22:93:65:36:64
 [BootManager]:reboot
 ```
 
------
+---

@@ -4,21 +4,21 @@ category: Docker
 date: 2019-04-15
 ---
 
------
+---
 
 * Show detailed image history:
 ```bash
 $ docker history --no-trunc alpine:latest
 ```
 
------
+---
 
 * Healthcheck in the Dockerfile:
 ```bash
 HEALTHCHECK CMD curl --fail http://localhost:80 || exit 1
 ```
 
------
+---
 
 * Logs rotation:
 ```yaml
@@ -29,7 +29,7 @@ logging:
             max-size: "500m"
 ```
 
------
+---
 
 * Resources limits:
 But what you need to make that works is to run the docker-compose using `--compatibility` flag `docker-compose --compatibility up --build`
@@ -54,7 +54,7 @@ services:
           memory: 150M
 ```
 
------
+---
 
 * Elasticsearch:
 ```bash
@@ -62,8 +62,8 @@ $ sudo echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
 $ sudo sysctl -p
 ```
 
------
+---
 
 [Source](https://stackoverflow.com/a/61427151)
 
------
+---

@@ -4,24 +4,22 @@ category: Juniper
 date: 2019-04-15
 ---
 
-_Всьо не так і всьо не то, коли твоя дівчина - пальто._
-_Або як зробить странне, коли люди його хотять._
------
-
-
-**1. Створюємо інтерфейсік:**
+---
+*1. Створюємо інтерфейсік:
 `set interfaces xe-0/0/0 unit 482 proxy-arp
 set interfaces xe-0/0/0 unit 482 vlan-id 482
 set interfaces xe-0/0/0 unit 482 family inet unnumbered-address lo0.0`
 
-**2. Додаємо маршрутік:**
+*2. Додаємо маршрутік:
 `set routing-options static route xxx.xxx.xxx.xxx/xx qualified-next-hop xe-0/0/0.482`
 
-**3. Додаємо IP в префікс-лістік для OSPF:**
+*3. Додаємо IP в префікс-лістік для OSPF:
 `set policy-options prefix-list SR xxx.xxx.xxx.xxx/xx`
 
-**4. Пишемо policy для OSPF:**
-`term t1 {
+*4. Пишемо policy для OSPF:
+
+```bash
+term t1 {
 from {
 route-filter 10.0.0.0/8 orlonger;
 route-filter 172.16.0.0/12 orlonger;
@@ -46,9 +44,9 @@ term t5 {
 from protocol static;
 then accept;
 }
-`
+```
 
-**5. Щоб не робити зле OSPF всяким спамом, пишемо policy з префікс-лістом, а в ньому - IP, який патрєбно анонсувати повністю цілодобово.**
+*5. Щоб не робити зле OSPF всяким спамом, пишемо policy з префікс-лістом, а в ньому - IP, який патрєбно анонсувати повністю цілодобово.*
 Коротко, сіль цеї процедури ось в чому:
 а) створити на інтерфейсіку новий вланчик;
 б) повісити на нього unnumbered-ip з lo0.0;
@@ -56,12 +54,14 @@ then accept;
 г) додати вищезгаданий IP у префікс-лістік;
 д) споглядаємо прекрасне!
 
-`unit 482 {
+```bash
+unit 482 {
 proxy-arp;
 vlan-id 482;
 family inet {
 unnumbered-address lo0.0;
 route xxx.xxx.xxx.xxx/xx {
-qualified-next-hop xe-0/0/0.482;`
+qualified-next-hop xe-0/0/0.482;
+```
 
------
+---

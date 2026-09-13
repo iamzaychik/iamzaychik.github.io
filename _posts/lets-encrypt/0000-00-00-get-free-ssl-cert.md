@@ -4,7 +4,7 @@ category: Lets Encrypt
 date: 2019-04-15
 ---
 
------
+---
 
 * <a href="http://habrahabr.ru/post/270273/">Отримуємо сертифікат</a>
 
@@ -14,4 +14,4 @@ date: 2019-04-15
 
 * <a href="https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04">DigitalOcean в тємі</a>
 
------
+---

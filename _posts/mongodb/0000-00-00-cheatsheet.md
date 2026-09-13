@@ -4,7 +4,7 @@ category: MongoDB
 date: 2021-02-17
 ---
 
------
+---
 
 * Fix mongod service after no space left:
 ```bash
@@ -16,4 +16,4 @@ $ mongod --repair --dbpath /var/lib/mongo
 {email: { \$not: {\$in: ["example@domain.com"]} }}
 ```
 
------
+---

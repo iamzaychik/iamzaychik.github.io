@@ -4,7 +4,7 @@ category: GitLab
 date: 2020-03-21
 ---
 
------
+---
 
 * Adds a new configuration entry, it doesn’t remove the previous ones:
 ```bash
@@ -21,4 +21,4 @@ $ gitlab-runner verify
 $ gitlab-runner verify --delete
 ```
 
------
+---

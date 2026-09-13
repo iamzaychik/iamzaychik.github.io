@@ -4,9 +4,9 @@ category: Nginx
 date: 2019-04-15
 ---
 
------
+---
 
-**Enable basic auth:**
+*Enable basic auth:*
 ```bash
 server
 {
@@ -20,9 +20,9 @@ $ cat /etc/nginx/users
 john:$apr1$IHaD0/..$N9ne/Bqnh8.MyOtvKU56j1
 ```
 
------
+---
 
-**Disable basic auth for some IPs ([satisfy](https://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy) module):**
+*Disable basic auth for some IPs ([satisfy](https://nginx.org/en/docs/http/ngx_http_core_module.html#satisfy) module):*
 ```bash
 server
 {
@@ -35,8 +35,8 @@ server
 }
 ```
 
------
+---
 
 [Source](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
 
------
+---

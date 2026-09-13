@@ -4,7 +4,7 @@ category: AWS
 date: 2019-10-10
 ---
 
------
+---
 
 ```bash
 $ aws lambda invoke \
@@ -17,8 +17,8 @@ $ aws lambda invoke \
 outputfile.txt
 ```
 
------
+---
 
 [Source](https://medium.com/@jacobsteeves/aws-lambda-from-the-command-line-7efab7f3ebd9)
 
------
+---

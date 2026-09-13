@@ -4,7 +4,7 @@ category: Network
 date: 2021-11-03
 ---
 
------
+---
 
 1. *Create a new file, curl-format.txt, and paste in:*
 ```bash
@@ -14,7 +14,7 @@ date: 2021-11-03
     time_pretransfer:  %{time_pretransfer}s\n
        time_redirect:  %{time_redirect}s\n
   time_starttransfer:  %{time_starttransfer}s\n
-                     ----------\n
+                     ------\n
           time_total:  %{time_total}s\n
 ```
 
@@ -23,8 +23,8 @@ date: 2021-11-03
 $ curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
 ```
 
------
+---
 
 [Source](https://stackoverflow.com/a/22625150)
 
------
+---

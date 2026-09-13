@@ -4,12 +4,13 @@ category: Alcatel
 date: 2019-04-15
 ---
 
------
+---
 
 1. Press `Enter` on boot
 2. Wait for `=>`
 3. Run commands for remove users file:
-```
+
+```text
 =>fatls ide :1,0
 =>fatls ide :1,0 /network
 =>fatdelete ide :1,0 /network/usertableX (X = 4 or 5)
@@ -17,9 +18,10 @@ date: 2019-04-15
 ```
 
 4. After reboot:
-```
+
+```text
 login:    admin
 password: switch
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: Ubuntu
 date: 2019-11-29
 ---
 
------
+---
 
 ```bash
 0. ---  No access.
@@ -17,7 +17,7 @@ date: 2019-11-29
 7. rwx  Read, write and execute access.
 ```
 
------
+---
 
 * Set different permissions for files and dirs:
 ```bash
@@ -25,4 +25,4 @@ $ find /var/www/nextcloud/ -type f -print0 | sudo xargs -0 chmod 0644
 $ find /var/www/nextcloud/ -type d -print0 | sudo xargs -0 chmod 0755
 ```
 
------
+---

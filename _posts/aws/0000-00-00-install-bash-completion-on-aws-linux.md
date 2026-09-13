@@ -4,7 +4,7 @@ category: AWS
 date: 2020-10-21
 ---
 
------
+---
 
 ```bash
 ## Install bash-completion on Amazon Linux
@@ -13,4 +13,4 @@ $ rpm -ivh bash-completion-20060301-1.noarch.rpm
 $ . /etc/bash_completion
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: LXC, LXD
 date: 2019-05-12
 ---
 
------
+---
 
 * Create directory on the host:
 ```bash
@@ -22,4 +22,4 @@ devices:
     type: disk
 ```
 
------
+---

@@ -4,7 +4,7 @@ category: WordPress
 date: 2020-02-16
 ---
 
------
+---
 
 ```sql
 INSERT INTO `DATABASE`.`wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES ('100', 'USERNAME', MD5('PASSWORD'), 'Your Name', 'test@yourdomain.com', 'http://www.test.com/', '2011-06-07 00:00:00', '', '0', 'Your Name');
@@ -16,4 +16,4 @@ INSERT INTO `DATABASE`.`wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_v
 INSERT INTO `DATABASE`.`wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES (NULL, '100', 'wp_user_level', '10');
 ```
 
------
+---

@@ -22,3 +22,8 @@ repos:
     rev: v1.37.1
     hooks:
       - id: yamllint
+
+  - repo: https://github.com/jackdewinter/pymarkdown
+    rev: v0.9.31
+    hooks:
+      - id: pymarkdown
