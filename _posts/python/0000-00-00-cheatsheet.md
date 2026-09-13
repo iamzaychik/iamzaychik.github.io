@@ -11,37 +11,38 @@ _Отвергая законы природы
 
 -----
 
-* <a href="http://www.python.org/dev/peps/pep-0008/">PEP8</a> - это стилевые правила для кода на языке Python.
-<ul>
- 	*используйте 4 пробела для отступа и не используйте табы, не смешивайте их
- 	*максимальная длина строки 79 символов; для разрыва строки используйте отступы или бэкслеш
- 	*функции верхнего уровня и определения классов отделяйте двумя пустыми строками
- 	*определения методов внутри класса отделяйте одной пустой строкой
- 	*дополнительные пустые строки используйте для логической группировки методов
- 	*кодировка файлов должна быть Latin-1, а в Питоне 3 и выше - utf-8
- 	*каждый импортируемый модуль с новой строки
- 	*порядок импортов: стандартные модули, third-party модули, локальные модули приложения
- 	*пустая строка между каждой группой импортов
- 	*избегайте лишних пробелов внутри скобок; перед запятыми, точкой с запятой и двоеточиями
- 	*избегайте лишних пробелов перед скобками с аргументами функций и скобками с индексами
- 	*избегайте больше чем одного пробела между операторами (= - + итд)
- 	*используйте одиночный пробел для выделения операторов
- 	*избегайте пробелов вокруг '=', который используется для параметров по-умолчанию и keyword аргументов
- 	*обновляйте комментарии вместе с кодом
- 	*пишите комментарии по-английски
- 	*избегайте имён из одиночных l, O, I
- 	*для модулей и пакетов используйте короткие `всестрочные` имена
- 	*для классов используйте `СловаНачинаютсяЗаглавными` имена
- 	*для функций используйте `слова_с_подчёркиваниями` (или `смешанныйРегистр` если так получилось исторически)
- 	*для методов используйте `слова_с_подчёркиваниями` имена
- 	*для внутренних методов и переменных `_подчёркивание_перед_словом`
- 	*для проверки на `None` используйте `is` или `is not`, не используйте операторы сравнения
- 	*используйте исключения основанные на классах -- наследованные от Exception
- 	*используйте методы класса string вместо строковых функций
- 	*используйте ''.startswith() и ''.endswith() вместо вырезки из строк для проверки префиксов и суффиксов
- 	*используйте isinstance() для проверки типа
- 	*не сравнивайте булевы переменные с True и False
-</ul>
+### PEP 8
+
+[PEP 8](https://peps.python.org/pep-0008/) defines style guidelines for Python code.
+
+* Use four spaces for indentation; do not use or mix tabs.
+* Keep lines to a maximum of 79 characters; use indentation or a backslash for line continuations.
+* Separate top-level functions and class definitions with two blank lines.
+* Separate method definitions inside a class with one blank line.
+* Use additional blank lines to group related methods logically.
+* Use UTF-8 source files without an encoding declaration.
+* Put each imported module on its own line.
+* Order imports as standard-library modules, third-party modules, and local application modules.
+* Separate each import group with a blank line.
+* Avoid unnecessary whitespace inside parentheses or before commas, semicolons, and colons.
+* Avoid unnecessary whitespace before function-argument and index brackets.
+* Avoid more than one space between operators such as `=`, `-`, and `+`.
+* Use a single space around operators.
+* Avoid spaces around `=` when it is used for default parameters and keyword arguments.
+* Update comments together with code.
+* Write comments in English.
+* Avoid single-character names such as `l`, `O`, and `I`.
+* Use short, lowercase names for modules and packages.
+* Use `CapWords` names for classes.
+* Use `lowercase_with_underscores` names for functions, or `mixedCase` when required by existing conventions.
+* Use `lowercase_with_underscores` names for methods.
+* Prefix internal methods and variables with an underscore, such as `_internal_name`.
+* Use `is` or `is not` to compare with `None`; do not use comparison operators.
+* Use class-based exceptions derived from `Exception`.
+* Use string methods instead of string functions.
+* Use `str.startswith()` and `str.endswith()` instead of string slicing to test prefixes and suffixes.
+* Use `isinstance()` for type checks.
+* Do not compare Boolean variables with `True` or `False`.
 
 -----
 
@@ -67,7 +68,5 @@ time.sleep(1)
 countdown(10)`
 
 -----
-
-* <a href="http://rukeba.com/by-the-way/pep8-korotko-i-po-russki/">Пишуть люди</a>
 
 -----

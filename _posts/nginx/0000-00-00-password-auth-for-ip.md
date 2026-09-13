@@ -10,7 +10,7 @@ date: 2019-04-15
 ```bash
 server
 {
-	# Title for auth window
+  # Title for auth window
     auth_basic "Closed site";
     # Path to file with user:password in MD5
     auth_basic_user_file /etc/nginx/users;

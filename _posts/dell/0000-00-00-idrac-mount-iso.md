@@ -19,7 +19,7 @@ System > Console/Media > Configuration > Plug-In Type > change to HTML5
 System > Console/Media > Virtual Console and Virtual Media > Launch Virtual Console
 ```
 
-* Configure source in the new window 
+* Configure source in the new window
 ```bash
 Virtual media > Launch virtual media > Add image > Select your ISO (or CD/DVD install media) file > Put a check mark in the "Mapped" check box on the device you wish to use
 ```

@@ -18,7 +18,8 @@ date: 2019-04-15
 
 ### Ports
 
-* Show all:     
+* Show all:
+
 ```
 show interfaces port
 ```
@@ -28,32 +29,38 @@ show interfaces port
 show interfaces 1/1 port
 ```
 
-* Full status:  
+* Full status:
+
 ```
 show interfaces 1/1
 ```
 
-* On/off:       
+* On/off:
+
 ```
 interfaces 1/1 admin [up | down]
 ```
 
-* Rename:       
+* Rename:
+
 ```
 interfaces 1/1 alias dl:new:port:alias
 ```
 
-* Get MACs:     
+* Get MACs:
+
 ```
 show mac-address-table 1/1
 ```
 
-* Get errors:   
+* Get errors:
+
 ```
 show interfaces 1/1 counters errors
 ```
 
-* Clear stats:  
+* Clear stats:
+
 ```
 interfaces 1/1 no l2 statistics
 ```
@@ -62,12 +69,14 @@ interfaces 1/1 no l2 statistics
 
 ### VLAN
 
-* Show all:          
+* Show all:
+
 ```
 show vlan
 ```
 
-* Show vlan tag 111: 
+* Show vlan tag 111:
+
 ```
 show vlan 111
 ```
@@ -77,42 +86,50 @@ show vlan 111
 show vlan port 1/1
 ```
 
-* Create:            
+* Create:
+
 ```
 vlan 111 1x1 stp disable flat stp disable name new_vlan
 ```
 
-* Remove:            
+* Remove:
+
 ```
 no vlan 111
 ```
 
-* On/off:            
+* On/off:
+
 ```
 vlan 111 [enable | disable]
 ```
 
-* Set tagged:        
+* Set tagged:
+
 ```
 vlan 111 802.1q 1/1
 ```
 
-* Remove tagged:     
+* Remove tagged:
+
 ```
 vlan 111 no 802.1q 1/1
 ```
 
-* Set untagged:      
+* Set untagged:
+
 ```
 vlan 111 port default 1/1
 ```
 
-* Remove untagged:   
+* Remove untagged:
+
 ```
 vlan 111 no port default 1/1
 ```
 
-* Get MACs:          
+* Get MACs:
+
 ```
 show mac-address-table 111
 ```
@@ -126,7 +143,8 @@ mac-address-table 11:11:11:11:11:11 1/25 111
 
 ### IP
 
-* Show interfaces:  
+* Show interfaces:
+
 ```
 show ip interface
 ```
@@ -140,7 +158,8 @@ ip interface Management address 111.111.111.111 mask 255.255.255.0 vlan 111 no f
 
 ### SNMP:
 
-* Start service:         
+* Start service:
+
 ```
 ip service snmp
 ```
@@ -177,7 +196,8 @@ snmp station A.B.C.D 162 "snmp]v2 enable
 ntp client enable
 ```
 
-* Set server:   
+* Set server:
+
 ```
 ntp server 111.111.111.111 prefer
 ```
@@ -192,7 +212,8 @@ system daylight savings time enable
 
 ### Stacking
 
-* Status:            
+* Status:
+
 ```
 show stack topology
 ```
@@ -213,17 +234,20 @@ stack set slot 1 saved-mode os6850
 
 **If you get `Out Of Memory` error - delete `K2diag.img` from `working/` and `certified/`.**
 
-* Show config:   
+* Show config:
+
 ```
 show configuration snapshot
 ```
 
-* Sync config:   
+* Sync config:
+
 ```
 copy working certified flash-synchro
 ```
 
-* Save config:   
+* Save config:
+
 ```
 write memory
 ```
@@ -233,27 +257,32 @@ write memory
 show health all cpu
 ```
 
-* Show logs:     
+* Show logs:
+
 ```
 show log swlog
 ```
 
-* Show services: 
+* Show services:
+
 ```
 show ip service
 ```
 
-* Create user:   
+* Create user:
+
 ```
 user admin password qwerty read-write all
 ```
 
-* Get slot MAC:  
+* Get slot MAC:
+
 ```
 show chassis
 ```
 
-* Reboot:        
+* Reboot:
+
 ```
 reload working no rollback-timeout
 ```

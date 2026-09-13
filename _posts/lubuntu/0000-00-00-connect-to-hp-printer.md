@@ -6,47 +6,56 @@ date: 2019-04-15
 
 -----
 
-Современные дистрибутивы Linux поддерживают большое количество различных периферийных устройств — сканеры, плоттеры, принтеры и т.д. Зачастую, у новичков, недавно перешедших на Linux, возникают проблемы с установкой нового принтера. В этой статье мы рассмотрим установку принтера HP в Linux Ubuntu.
-Специально для обеспечения печати на большинстве струйных (inkjet) и многих лазерных (LaserJet) принтеров, а также сканирования, отправки факсов и работы с картами памяти, была разработана система печати HPLIP (HP Linux Printing and Imaging System).
-HPLIP включает в себя следующее:
+Modern Linux distributions support a large number of peripheral devices, including scanners, plotters, and printers. People new to Linux can encounter problems when installing a new printer. This article covers installing an HP printer on Ubuntu.
+
+HPLIP (HP Linux Printing and Imaging System) was developed to support printing on most inkjet and many LaserJet printers, as well as scanning, faxing, and memory-card access.
+
+HPLIP includes the following:
 <ul>
- 	*системные службы для связи с принтерами;
- 	*драйвер HP CUPS для двустороннего обмена данными с принтерами HP (hp:);
- 	*драйвер HP CUPS для отправки факсов (hpfax:);
- 	*драйвер HPIJS Ghostscript IJS созданный для растеризации из файлов PostScript или Ghostscript, а также преобразования факсов в PostScript;
- 	*утилиты для обслуживания принтеров (слежение за количеством чернил, очистки головки и ее калибрации);
- 	*утилиты для скачивания данных с карт памяти, вставляемых в современные многофункциональные устройства (типа «сканер-принтер-копир»);
- 	*утилиты для работы с факсом;
- 	*графическая панель для доступа ко всем фунциям вышеуказанных инструментов;
- 	*драйвер HPAIO для SANE (hpaio), поддерживающий сканирование в многофункционльных устройствах планшетного типа и устройствах с автоматической подачей документов.
+   *system services for communicating with printers;
+   *the HP CUPS driver for two-way communication with HP printers (`hp:`);
+   *the HP CUPS driver for sending faxes (`hpfax:`);
+   *the HPIJS Ghostscript IJS driver for rasterizing PostScript or Ghostscript files and converting faxes to PostScript;
+   *utilities for printer maintenance, including ink-level monitoring, print-head cleaning, and calibration;
+   *utilities for downloading data from memory cards in modern multifunction devices, such as scanner-printer-copiers;
+   *fax utilities;
+   *a graphical interface for accessing these tools;
+   *the HPAIO driver for SANE (`hpaio`), which supports scanning on flatbed multifunction devices and devices with automatic document feeders.
 </ul>
 
 
-На * <a href="https://hplipopensource.com/hplip-web/index.html">официальном сайте</a> **HPLIP** доступна самая последняя версия (2.8.12), которая на настоящий момент поддерживает более 1,536 моделей принтеров.
-Для того, чтобы определить, поддерживает ли **HPLIP** модель вашего принтера HP, перейдите по этой * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">ссылке</a>.
-После того, как вы нашли и выбрали модель своего принтера в списке поддерживаемых **HPLIP** принтеров, обратите внимание на строчку с рекомендованной версией **HPLIP** (_requires HPLIP version_ …). В ней указана _минимальная версия_ **HPLIP**, которую необходимо установить для корректной работы вашего устройства HP.
-Для того, чтобы посмотреть какая версия системы **HPLIP** установлена у вас, выполните в командной строке:
+The latest HPLIP version (2.8.12) is available on the * <a href="https://hplipopensource.com/hplip-web/index.html">official website</a>. At the time of writing, it supported more than 1,536 printer models.
+
+To determine whether **HPLIP** supports your HP printer model, follow this * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">link</a>.
+
+After finding your printer model in the list of HPLIP-supported printers, note the recommended HPLIP version (_requires HPLIP version_ …). It specifies the _minimum version_ of **HPLIP** needed for your HP device to work correctly.
+
+To view the installed **HPLIP** version, run:
+
 **dpkg -l hplip**
 
-Результатом выполнения этой команды будет примерно следующее:
+The output will look similar to this:
 
-Обратим внимание на строку, начинающуюся с символов «ii». В этой строке (в третьей колонке) мы увидим версию установленной **HPLIP** (в моем случае это версия 2.8.7).
-Если в вашем Ubuntu присутствует более ранняя версия **HPLIP**, чем требуется для успешной установки вашего принтера, вам следует выполнить ее обновление.
-<h3>Установка принтера</h3>
-Для того, чтобы установить принтер, выполните в консоли «<span style="color: #0000ff;">sudo hp-setup</span>«, а затем следующие действия:
+Look for the line beginning with `ii`. Its third column contains the installed **HPLIP** version (2.8.7 in this example).
+
+If your Ubuntu installation has an older **HPLIP** version than your printer requires, update it.
+
+<h3>Install the printer</h3>
+
+To install the printer, run `<span style="color: #0000ff;">sudo hp-setup</span>` in a terminal, then complete the following steps:
 <ol>
- 	*Выберите тип подключения (современные устройства подключаются через USB, поэтому выбираем — **USB**) и нажмите на «_Далее_» (_Next_);
- 	*Выберите модель вашего принтера (он должен опознаться системой автоматически, а если не опознался, то выберите его вручную из списка поддерживаемых принтеров);
- 	*Смело нажимайте на «_Далее_» (_Next_) в двух последующих окнах;
- 	*В завершении установки нажмите на «_Завершить_» (_Finish_).
+   *Choose the connection type. Modern devices usually connect through USB, so select **USB**, then click _Next_.
+   *Choose your printer model. It should be detected automatically; otherwise, select it manually from the supported-printers list.
+   *Click _Next_ in the following two windows.
+   *Finish the installation by clicking _Finish_.
 </ol>
-После этих действий ваш принтер будет установлен в систему и будет распечатана тестовая страница.
-**Установка принтера по умолчанию.**
-Для того, чтобы установить ваш принтер HP, принтером по умолчанию, выберите **Система** — **Параметры** — **Принтер по умолчанию**.
-Откроется окно со списком доступных принтеров в системе, в котором вам следует выделить курсором необходимый принтер и нажать на кнопку «_Использовать по умолчанию_.
 
-В Lubuntu идем в Системные\Принтеры и добавляем сетевой принтер.
+After these steps, the printer is installed and a test page is printed.
 
------
-* <a href="http://linuxway.ru/poleznoe/ustanovka-printera-hp-v-linux-ubuntu/" target="_blank">Пишуть люди</a>
+**Set the default printer.**
+
+To make your HP printer the default, choose **System** — **Preferences** — **Default Printer**. In the list of available printers, select the required printer and click _Use as Default_.
+
+In Lubuntu, open **System** → **Printers** and add the network printer.
+
 -----

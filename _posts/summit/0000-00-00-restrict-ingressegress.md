@@ -17,12 +17,12 @@ _Обрізання невірним!_
 `configure meter "meter_name" committed-rate "speed" Mbps max-burst-size "speed" Mb out-actions drop`
 2.3 Створюємо Policy:
 `edit policy "policy_name"
-entry cl { 
-if match all { 
-} 
-then { 
-meter "meter_name" ; 
-} 
+entry cl {
+if match all {
+}
+then {
+meter "meter_name" ;
+}
 }`
 2.3 Зв'язуємо policy і порт:
 `configure access-list "policy_name" ports 1:5 ingress`
@@ -35,12 +35,12 @@ meter "meter_name" ;
 `configure meter "meter_name" committed-rate "speed" Mbps max-burst-size "speed" Mb out-actions drop`
 3. Створюємо Policy:
 `edit policy "policy_name"
-entry cl { 
-if match all { 
-} 
-then { 
-meter "meter_name" ; 
-} 
+entry cl {
+if match all {
+}
+then {
+meter "meter_name" ;
+}
 }`
 4. Зв'язуємо policy і vlan:
 `configure access-list "policy_name" vlan "vlan_name" ingress`

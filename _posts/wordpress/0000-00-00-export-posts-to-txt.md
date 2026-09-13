@@ -27,7 +27,7 @@ while ( $query->have_posts() ) : $query->the_post();
     $content .= 'Category: ';
     foreach (get_the_category() as $cat) {
         $content .= $cat->cat_name . ', ';
-    }       
+    }
     $content .= PHP_EOL . PHP_EOL;
     $content .= get_the_content();
 

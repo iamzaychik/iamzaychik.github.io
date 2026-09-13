@@ -16,7 +16,7 @@ date: 2019-04-15
   * bundle
 
 * FULLCHAIN:
-  *	chain
+  * chain
   * key
 
 -----

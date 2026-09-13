@@ -11,7 +11,7 @@ date: 2019-04-15
 * [Ports](#ports)
 * [Templates](#templates)
 * [Speed](#speed)
-* [Optic diagnostics](#optic-diagnostics) 
+* [Optic diagnostics](#optic-diagnostics)
 * [SNMP](#snmp)
 * [TFTP](#tftp)
 

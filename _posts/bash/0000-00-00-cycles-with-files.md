@@ -17,8 +17,8 @@ $ for file in /etc/config/*;do wc -l $file; stat -c %s $file; done
 ```bash
 for file in `find /etc -type f -name "*.conf"
 do
-	wc -l $file;
-	stat -c %s $file;
+  wc -l $file;
+  stat -c %s $file;
 done
 ```
 
