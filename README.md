@@ -1,5 +1,7 @@
 ---
 
+## Forest Notes
+
 Hello, %user%!
 
 ---
