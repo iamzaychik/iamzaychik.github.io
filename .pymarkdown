@@ -79,7 +79,7 @@
     },
 
     // Jekyll має YAML front matter перед заголовками.
-    // TODO: set Codex to remove first line.
+    // TODO: set Codex to remove duplicated ---.
     "MD041": {
       "enabled": false
     }
