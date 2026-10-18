@@ -13,6 +13,7 @@ date: 2019-04-15
 ---
 
 *Compile mtpass on Ubuntu 16.04+:*
+
 ```bash
 $ g++ mtpass.cpp -o mtpass -lssl -lcrypto
 ```

@@ -9,16 +9,19 @@ date: 2019-04-15
 *Configure a PPTP client connection.*
 
 1. Встановлюємо клієнт:
+
 ```bash
 $ sudo apt-get install pptp-linux
 ```
 
 2. Створюємо файл нового підключення:
+
 ```bash
 $ mcedit /etc/ppp/peers/new-vpn
 ```
 
 2.1 Вставляємо туди:
+
 ```bash
 pty "pptp A.B.C.D —nolaunchpppd" # тип та адреса сервера
 name vpnuser # користувач
@@ -35,16 +38,19 @@ ipparam $TUNNEL
 ```
 
 3. Додаємо дані користувача у файл:
+
 ```bash
 $ mcedit /etc/ppp/chap-secrets
 ```
 
 3.1 Ctrl+V
+
 ```bash
 "vpnuser" NEW-VPN "vpnpassword"
 ```
 
 4. Запуск підключення у дебаг-режимі:
+
 ```bash
 pon new-vpn nodetach
 ```

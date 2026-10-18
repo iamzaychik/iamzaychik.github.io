@@ -9,11 +9,13 @@ date: 2019-04-15
 *Update ZTE switch firmware through Telnet or BootManager.*
 
 - SI-series:
+
 ```bash
 FW=kernel.z
 ```
 
 - E-series:
+
 ```bash
 FW=zImage
 ```
@@ -21,6 +23,7 @@ FW=zImage
 ---
 
 - Via telnet:
+
 ```bash
 conf tffs
 cd /img
@@ -34,6 +37,7 @@ reboot
 
 - Via BootManager:
 After boot wait for `Press any key to stop auto-boot...` and press any key:
+
 ```bash
 [ZXR10 Boot]: c
 boot location [0:Net,1:Flash] : 1

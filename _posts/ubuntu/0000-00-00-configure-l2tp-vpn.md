@@ -9,6 +9,7 @@ date: 2020-10-21
 *Configure L2TP VPN on Ubuntu.*
 
 - Install packages
+
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install network-manager-l2tp
@@ -20,7 +21,8 @@ $ sudo apt-get install network-manager-l2tp-gnome
 - Enter anything you like in the *Name* field.
 - Enter `Your VPN Server IP` for the *Gateway*.
 - Enter `Your VPN Username` for the *User name*.
-- Right-click the *?* in the *Password* field, select *Store the password only for this user*.
+- Right-click the *?* in the *Password* field, select *Store the password only
+  for this user*.
 - Enter `Your VPN Password` for the *Password*.
 - Leave the *NT Domain* field blank.
 - Click the *IPsec Settings...* button.

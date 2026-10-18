@@ -6,7 +6,8 @@ date: 2026-04-24
 
 ---
 
-*Migrate data between MongoDB Atlas clusters while keeping the destination synchronized.*
+*Migrate data between MongoDB Atlas clusters while keeping the destination
+synchronized.*
 
 ### Migrate between clusters
 
@@ -24,6 +25,7 @@ date: 2026-04-24
 6. Clear any existing data on your target cluster? -> YES
 7. Check if all OK with Validate button
 8. Migrate
-9. After the migration is finished, it keeping destination in sync before cutover
+9. After the migration is finished, it keeping destination in sync before
+   cutover
 
 ---

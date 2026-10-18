@@ -9,6 +9,7 @@ date: 2019-04-15
 *Disable WordPress emoji detection and styles.*
 
 *Insert into `/wp-content/themes/<YOUR THEME>/functions.php`*
+
 ```php
 // REMOVE WP EMOJI
 remove_action('wp_head', 'print_emoji_detection_script', 7);

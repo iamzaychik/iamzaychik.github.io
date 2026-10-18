@@ -9,16 +9,19 @@ date: 2019-04-15
 *Archivers on Ubuntu.*
 
 - Install archivers for all formats:
+
 ```bash
 $ sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
 ```
 
 - Archive with password:
+
 ```bash
 $ zip -er folder.zip file
 ```
 
 - Unarchive with password:
+
 ```bash
 $ zip -P password -r folder.zip folder
 ```

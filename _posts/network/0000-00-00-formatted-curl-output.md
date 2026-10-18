@@ -9,6 +9,7 @@ date: 2021-11-03
 *Format curl timing output for troubleshooting.*
 
 1. *Create a new file, curl-format.txt, and paste in:*
+
 ```bash
      time_namelookup:  %{time_namelookup}s\n
         time_connect:  %{time_connect}s\n
@@ -21,6 +22,7 @@ date: 2021-11-03
 ```
 
 2. *Make a request:*
+
 ```bash
 $ curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
 ```

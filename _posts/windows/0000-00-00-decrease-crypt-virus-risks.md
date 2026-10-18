@@ -14,6 +14,7 @@ date: 2019-04-15
 
 1. Створюємо файл із розширенням .bat;*
 2. Insert:
+
 ```bash
 assoc .js=txtfile
 assoc .CMD=txtfile
@@ -31,6 +32,7 @@ assoc .wsf=txtfile
 assoc .wsc=txtfile
 assoc .wsh=txtfile
 ```
+
 3. Run script
 
 ---

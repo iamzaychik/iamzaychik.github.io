@@ -13,12 +13,14 @@ set interfaces xe-0/0/0 unit 482 vlan-id 482
 set interfaces xe-0/0/0 unit 482 family inet unnumbered-address lo0.0`
 
 2. Add a route:
-`set routing-options static route xxx.xxx.xxx.xxx/xx qualified-next-hop xe-0/0/0.482`
+`set routing-options static route xxx.xxx.xxx.xxx/xx qualified-next-hop
+xe-0/0/0.482`
 
 3. Add the IP address to the OSPF prefix list:
 `set policy-options prefix-list SR xxx.xxx.xxx.xxx/xx`
 
 4. Create an OSPF policy:
+
 ```text
 term t1 {
 from {
@@ -47,7 +49,8 @@ then accept;
 }
 ```
 
-5. To avoid overloading OSPF, create a prefix-list policy for continuously advertising the IP address.
+5. To avoid overloading OSPF, create a prefix-list policy for continuously
+   advertising the IP address.
 The procedure is:
 a) create a new VLAN on the interface;
 b) assign it an unnumbered IP address from lo0.0;

@@ -246,7 +246,8 @@ stack set slot 1 saved-mode os6850
 
 ### System
 
-*Delete `K2diag.img` from `working/` and `certified/` after an `Out Of Memory` error.*
+*Delete `K2diag.img` from `working/` and `certified/` after an `Out Of Memory`
+error.*
 
 - Show config:
 

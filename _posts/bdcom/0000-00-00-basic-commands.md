@@ -19,7 +19,9 @@ date: 2019-04-15
 
 ---
 
-- Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням, необхідно підключитися через консольний порт і при завантаженні комутатора натиснути комбінацію Ctrl+P.
+- Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням,
+  необхідно підключитися через консольний порт і при завантаженні комутатора
+  натиснути комбінацію Ctrl+P.
 
 ---
 
@@ -115,6 +117,7 @@ epon pre-config-template xxxxxx binded-onu-llid xx
 ---
 
 ### Speed
+
 - Restrict speed to 512/512 Kbps:
 
 ```text
@@ -134,11 +137,13 @@ epon sla downstream pir 1000000 cir 950000
 ### Optic diagnostics
 
 - From OLT:
+
 ```text
 show epon optical-transceiver-diagnosis interface epon 0/x
 ```
 
 - From ONU:
+
 ```text
 show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis
 ```

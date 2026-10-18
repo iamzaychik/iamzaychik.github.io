@@ -22,7 +22,8 @@ configure vlan "Mgmt" ipaddress summit_ip/netmask
 
 This address will not respond to ping requests.
 
-3. Download the firmware to the secondary configuration. Summit boots from primary by default:
+3. Download the firmware to the secondary configuration. Summit boots from
+   primary by default:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6.xos vr "VR-Mgmt" secondary

@@ -9,6 +9,7 @@ date: 2019-04-15
 *Configure a Dell Force10 S4810 with management, SSH, and stacking settings.*
 
 1. Clearing the Current Configuration on switch:
+
 ```bash
 Force10>
 Force10>enable
@@ -20,12 +21,17 @@ Proceed with reload [confirm yes/no]yes
 ```
 
 2. Disable Jumpstart Mode and set normal boot mode:Jumpstart-mode
-Jumpstart (BMP) mode is the default boot mode configured for a new switch arriving from Dell Force10. This mode obtains the FTOS image and configuration file from a network source (DHCP server and file server).
-When the force10 is reloaded it always starts with thtis image if its not disabled, as I found after setting a few parameters and having to end my afternoon at work with a reset switch.
+Jumpstart (BMP) mode is the default boot mode configured for a new switch
+arriving from Dell Force10. This mode obtains the FTOS image and configuration
+file from a network source (DHCP server and file server).
+When the force10 is reloaded it always starts with thtis image if its not
+disabled, as I found after setting a few parameters and having to end my
+afternoon at work with a reset switch.
 
 `FTOS# reload-type normal-reload`
 
 3. Upgrade the FTOS and Uboot Version:
+
 ```bash
 #Upgrade system ftp: A:
 Address or name of remote host []: 192.168.176.60
@@ -36,8 +42,21 @@ Password to login remote host:
 Erasing Sseries Primary Image, please wait
 ```
 
-4. Setting the switch hostname, and date and time:First we can set the hostname, which appears in prompts at the keyboard, and the timezone and corresponding time and date in the software clock, and then send that information to the hardware clock ("calendar") so that it survives a re-boot.
-Note added later: setting a hostname can be misleading within a stack. If the switch becomes part of a stack, not the master, then it adopts the hostname of the stack master, and this is written into the startup-config file and thus retained even if the power is removed from the switch, the stacking cable removed, and then power restored. This could be a bug (as of version 8.3.10.2). Consequently where switches might be stacked, it could be more sense not to set a hostname, but to rely on the stack-unit number (visible in the first page of show running-config), or the assigned management IP address, as a means of verification of which switch you are managing. Alternatively, keep a back-up of the original configuration, see later section, so that it can be restored if de-stacked.
+4. Setting the switch hostname, and date and time:First we can set the hostname,
+   which appears in prompts at the keyboard, and the timezone and corresponding
+   time and date in the software clock, and then send that information to the
+   hardware clock ("calendar") so that it survives a re-boot.
+Note added later: setting a hostname can be misleading within a stack. If the
+switch becomes part of a stack, not the master, then it adopts the hostname of
+the stack master, and this is written into the startup-config file and thus
+retained even if the power is removed from the switch, the stacking cable
+removed, and then power restored. This could be a bug (as of version 8.3.10.2).
+Consequently where switches might be stacked, it could be more sense not to set
+a hostname, but to rely on the stack-unit number (visible in the first page of
+show running-config), or the assigned management IP address, as a means of
+verification of which switch you are managing. Alternatively, keep a back-up of
+the original configuration, see later section, so that it can be restored if
+de-stacked.
 
 ```bash
 > enable
@@ -57,7 +76,13 @@ Disable logging to the logging buffer: `no logging buffer CONFIGURATION`
 Disable logging to terminal lines: `no logging monitor CONFIGURATION`
 Disable console logging: `no logging console CONFIGURATION`
 
-6. Stacking preliminaries:If a particular S4810 might be part of a stack, sooner or later, some preliminary settings are best done now. You can set the stack-number to some value 0-11, in place of the stand-alone default of 0. This avoids the stack master dynamically re-assigning the stack-number of a joined stack-member if there is a number conflict/clash. If the switches have some sort of external label number anyway, this would be a good choice, so for my switch number 3:
+6. Stacking preliminaries:If a particular S4810 might be part of a stack, sooner
+   or later, some preliminary settings are best done now. You can set the
+   stack-number to some value 0-11, in place of the stand-alone default of 0.
+   This avoids the stack master dynamically re-assigning the stack-number of a
+   joined stack-member if there is a number conflict/clash. If the switches have
+   some sort of external label number anyway, this would be a good choice, so
+   for my switch number 3:
 
 ```bash
 # show system stack-unit 0
@@ -67,16 +92,27 @@ Disable console logging: `no logging console CONFIGURATION`
 # show system brief
 ```
 
-NOTE: changing the stack-unit number causes a reload of the firmware, ie after the renumber command above, even if the switch is currently standalone!
-NOTE: the stack-unit number appears to be recorded in flash memory in a hidden location, and not in the startup-config file.
+NOTE: changing the stack-unit number causes a reload of the firmware, ie after
+the renumber command above, even if the switch is currently standalone!
+NOTE: the stack-unit number appears to be recorded in flash memory in a hidden
+location, and not in the startup-config file.
 
 7. Enable SSH:
+
 ```bash
 ip ssh server enable
 ip ssh server version 2
 ```
 
-8. Configuring an IP address on the management ethernet port:The management ethernet port is located below the console RJ45 port. It supports 100Mb/s connections (and probably others). I needed to configure it so that I could download new software, and so that I could later remotely login to the switch via a connection to that port. So it needed to be configured with an IP address and to be cabled to the corresponding network. The IP address and network can of course be any network suitable for administration: not necessarily related to the network handled by the switch. Here's an example with a slot-number of 3 (see previous section about slot-numbers):
+8. Configuring an IP address on the management ethernet port:The management
+   ethernet port is located below the console RJ45 port. It supports 100Mb/s
+   connections (and probably others). I needed to configure it so that I could
+   download new software, and so that I could later remotely login to the switch
+   via a connection to that port. So it needed to be configured with an IP
+   address and to be cabled to the corresponding network. The IP address and
+   network can of course be any network suitable for administration: not
+   necessarily related to the network handled by the switch. Here's an example
+   with a slot-number of 3 (see previous section about slot-numbers):
 
 ```bash
 # enable

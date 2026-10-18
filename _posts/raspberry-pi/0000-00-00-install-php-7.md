@@ -21,7 +21,8 @@ date: 2019-04-15
 
 4. Оновлюємося і встановлюємо PHP 7:
 `apt-get update`
-`apt-get install php7.0 php7.0-curl php7.0-gd php7.0-imap php7.0-json php7.0-mcrypt php7.0-mysql php7.0-opcache php7.0-xmlrpc`
+`apt-get install php7.0 php7.0-curl php7.0-gd php7.0-imap php7.0-json
+php7.0-mcrypt php7.0-mysql php7.0-opcache php7.0-xmlrpc`
 
 5. Для Apache 2 встановлюємо mod_php:
 `apt-get install libapache2-mod-php7.0`

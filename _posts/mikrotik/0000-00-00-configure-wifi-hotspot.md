@@ -6,7 +6,8 @@ date: 2019-04-15
 
 ---
 
-*Configure a legacy RouterOS wireless hotspot with separate guest and work networks.*
+*Configure a legacy RouterOS wireless hotspot with separate guest and work
+networks.*
 
 ### Configure the provider connection
 
@@ -174,7 +175,8 @@ $(link-login-only)?dst=http://google.ru/&amp;username=T-$(mac-esc)
 - Add an `Access List` rule.
 - Set `Signal Strength Range` to `-77..120`.
 - Use `-90` when roaming is not required.
-- Create a separate phone profile when client transmit power differs significantly.
+- Create a separate phone profile when client transmit power differs
+  significantly.
 - Clear `Forwarding` to isolate wireless clients.
 
 ### Attach wireless interfaces to bridges
@@ -196,7 +198,8 @@ $(link-login-only)?dst=http://google.ru/&amp;username=T-$(mac-esc)
 - Set `In. Bridge` and `Out. Bridge` to `bridge_hotspot`.
 - Set the action to `drop`.
 - The bridge filter blocks client-to-client traffic on `bridge_hotspot`.
-- Clients can still reach the central router and the services explicitly allowed by firewall rules.
+- Clients can still reach the central router and the services explicitly allowed
+  by firewall rules.
 
 [Official HotSpot documentation](https://manual.mikrotik.com/docs/authentication-authorization-accounting/hotspot-captive-portal/)
 

@@ -8,7 +8,8 @@ date: 2019-04-15
 
 *Обробляйте локально адміністровані MAC-адреси у BDCOM PON.*
 
-- Starting from FW version 10.1.0E_36039, all mac-addresses with masks, which are listed below, will be rejected by PON interface:
+- Starting from FW version 10.1.0E_36039, all mac-addresses with masks, which
+  are listed below, will be rejected by PON interface:
 
 ```text
 X2:XX:XX:XX:XX:XX  Local Administered

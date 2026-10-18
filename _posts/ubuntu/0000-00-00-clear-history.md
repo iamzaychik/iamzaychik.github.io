@@ -9,11 +9,13 @@ date: 2019-04-15
 *Clear history on Ubuntu.*
 
 - Clear history for current session:
+
 ```bash
 $ history -r
 ```
 
 - Completely clear history:
+
 ```bash
 $ history -cw
 -c - clear file
@@ -21,16 +23,19 @@ $ history -cw
 ```
 
 - Remove specific line:
+
 ```bash
 $ history -dw 352
 ```
 
 - Don't save command:
+
 ```bash
 $ <SPACE> <COMMAND>
 ```
 
 - Don't save commands for current session:
+
 ```bash
 $ unset HISTFILE
 ```

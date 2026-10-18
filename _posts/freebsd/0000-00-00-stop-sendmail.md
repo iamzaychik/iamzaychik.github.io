@@ -11,11 +11,13 @@ date: 2019-04-15
 `sendmail_enable="NO"` is not enough.
 
 1. Open config:
+
 ```bash
 ee /etc/rc.conf
 ```
 
 2. Disable all:
+
 ```bash
 sendmail_enable="NO"
 sendmail_submit_enable="NO"
@@ -24,6 +26,7 @@ sendmail_msp_queue_enable="NO"
 ```
 
 3. Try if daemon can run:
+
 ```bash
 ./sendmail start
 ```

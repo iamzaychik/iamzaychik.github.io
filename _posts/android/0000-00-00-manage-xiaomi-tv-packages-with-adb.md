@@ -6,7 +6,8 @@ date: 2026-10-18
 
 ---
 
-*Disable unwanted Xiaomi TV applications without removing them from the system image.*
+*Disable unwanted Xiaomi TV applications without removing them from the system
+image.*
 
 ### Connect to the TV
 

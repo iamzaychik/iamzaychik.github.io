@@ -9,6 +9,7 @@ date: 2019-06-19
 *Find a Telegram group chat ID through the Bot API.*
 
 ### After you created own bot and get TOKEN for it
+
 - add the BOT to the group
 - get the list of updates for your BOT:
 
@@ -43,7 +44,8 @@ $ curl --silent https://api.telegram.org/bot{TOKEN}/getUpdates
 }
 ```
 
-- in this example the Chat ID to look out for is 22031984. Replace {TOKEN} with your Telegram bot token.
+- in this example the Chat ID to look out for is 22031984. Replace {TOKEN} with
+  your Telegram bot token.
 - use the "id" of the "chat" object to send your messages
 
 ---

@@ -27,6 +27,7 @@ $ sudo systemctl restart systemd-resolved
 ```bash
 $ sudo systemd-resolve --statistics
 ```
+
 ---
 
 [Source](https://linuxhint.com/flush_dns_cache_ubuntu/)

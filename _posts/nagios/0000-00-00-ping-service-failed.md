@@ -12,6 +12,7 @@ date: 2019-04-15
 `check_icmp: Failed to obtain ICMP socket: Operation not permitted`
 
 *Add next permissions to it:*
+
 ```bash
 $ chown root check_icmp
 $ chgrp root check_icmp

@@ -79,21 +79,25 @@ show configuration | inc ** - grep
 ### VMAN
 
 - Змінюємо тип заголовка:
+
 ```bash
 configure vman ethertype 0x8100`
 ```
 
 - Створити VMAN:
+
 ```bash
 create vman user_** tag **
 ```
 
 - Прийняти:
+
 ```bash
 configure vman user_** add port *:* tagged
 ```
 
 - Вимикаємо снупінг, бо IPTV працює через MVR:
+
 ```bash
 disable igmp snooping vlan user_**
 ```
@@ -103,12 +107,14 @@ disable igmp snooping vlan user_**
 ### SNMP-traps
 
 - Видалення старих даних:
+
 ```bash
 configure snmpv3 delete target-addr all
 configure snmpv3 delete target-params all
 ```
 
 - Вкажемо нову адресу сервера і його SNMP:
+
 ```bash
 configure snmp add trapreceiver xxx.xxx.xxx.xxx community ***
 ```
@@ -118,6 +124,7 @@ configure snmp add trapreceiver xxx.xxx.xxx.xxx community ***
 ### Pending AAA Authentication
 
 - Enter in the login prompt:
+
 ```bash
 REBOOT AS MASTER-CAPABLE
 ```
@@ -128,6 +135,7 @@ REBOOT AS MASTER-CAPABLE
 
 *Дізнатися рівень ліцензій слотів стека:
 1. Заходимо на потрібний слот стека:
+
 ```bash
 telnet slot *
 ```
@@ -135,6 +143,7 @@ telnet slot *
 2. Вводимо свої логін/пароль
 
 3. Щоб дізнатися рівень ліцензії, пишемо:
+
 ```bash
 show licenses
 ```

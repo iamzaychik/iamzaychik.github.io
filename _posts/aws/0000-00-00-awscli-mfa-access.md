@@ -19,15 +19,18 @@ $ brew install jq
 
 ### Configure the AWS profile
 
-- Open `~/.aws/credentials` and change the profile name from `[default]` to `[get_mfa]`.
+- Open `~/.aws/credentials` and change the profile name from `[default]` to
+  `[get_mfa]`.
 
 ### Find the MFA ARN
 
-- Log in to the AWS administrator console and get the MFA ARN from account security settings.
+- Log in to the AWS administrator console and get the MFA ARN from account
+  security settings.
 
 ### Create the MFA script
 
 - Create a script for a temporary profile and insert your MFA ARN:
+
 ```bash
 #!/bin/bash
 

@@ -9,6 +9,7 @@ date: 2019-05-07
 *Disable browser dark mode with a startup flag or Chrome settings.*
 
 *Add to shortcut:*
+
 ```text
 --disable-features=DarkMode
 ```

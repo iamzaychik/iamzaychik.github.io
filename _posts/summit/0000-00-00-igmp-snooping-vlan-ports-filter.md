@@ -8,8 +8,10 @@ date: 2019-04-15
 
 *Filter multicast traffic with an Extreme Summit IGMP snooping policy.*
 
-- The policy file used by this command is a text file that contains the class-D addresses of the multicast groups that you wish to block.
-- To remove IGMP snooping filtering from a port, use the *none* keyword version of the command.
+- The policy file used by this command is a text file that contains the class-D
+  addresses of the multicast groups that you wish to block.
+- To remove IGMP snooping filtering from a port, use the *none* keyword version
+  of the command.
 - Use the following template to create a snooping filter policy file:
 
 ```text
@@ -36,7 +38,8 @@ entry catch_all
 ---
 
 *Example:*
-The following example configures the policy file ap_multicast to filter multicast packets forwarded to VLAN marketing on ports 2:1-2:4:
+The following example configures the policy file ap_multicast to filter
+multicast packets forwarded to VLAN marketing on ports 2:1-2:4:
 `configure igmp snooping marketing ports 2:1-2:4 filter ap_multicast`
 
 ---

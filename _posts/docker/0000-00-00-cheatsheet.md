@@ -9,6 +9,7 @@ date: 2019-04-15
 *Collect common Docker commands and configuration snippets.*
 
 - Show detailed image history:
+
 ```bash
 $ docker history --no-trunc alpine:latest
 ```
@@ -16,6 +17,7 @@ $ docker history --no-trunc alpine:latest
 ---
 
 - Healthcheck in the Dockerfile:
+
 ```dockerfile
 HEALTHCHECK CMD curl --fail http://localhost:80 || exit 1
 ```
@@ -23,6 +25,7 @@ HEALTHCHECK CMD curl --fail http://localhost:80 || exit 1
 ---
 
 - Logs rotation:
+
 ```yaml
 logging:
         driver: "json-file"
@@ -34,6 +37,7 @@ logging:
 ---
 
 - Enable resource limits with `docker-compose --compatibility up --build`.
+
 ```yaml
 version: "3.7"
 services:
@@ -58,6 +62,7 @@ services:
 ---
 
 - Elasticsearch:
+
 ```bash
 $ sudo echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
 $ sudo sysctl -p

@@ -6,7 +6,8 @@ date: 2019-04-15
 
 ---
 
-*Grant Step Functions permissions for describing, starting, stopping, and deleting executions.*
+*Grant Step Functions permissions for describing, starting, stopping, and
+deleting executions.*
 
 ```json
 {

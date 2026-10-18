@@ -9,11 +9,13 @@ date: 2019-04-15
 *Connect to an SSH server that offers only the deprecated DSS key type.*
 
 *Issue when connecting via ssh:*
+
 ```bash
 Unable to negotiate with A.B.C.D: no matching host key type found. Their offer: ssh-dss
 ```
 
 *Regarding to security reasons with disabled dss. Use:*
+
 ```bash
 $ ssh -oHostKeyAlgorithms=+ssh-dss <USER>@<A.B.C.D>
 ```

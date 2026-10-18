@@ -6,9 +6,11 @@ date: 2026-04-24
 
 ---
 
-*Apply practical security, deployment, and observability practices to Kubernetes clusters.*
+*Apply practical security, deployment, and observability practices to
+Kubernetes clusters.*
 
 ### Containers
+
 - Containers should be ephemeral.
 - Use a `.dockerignore` file.
 - Use multi-stage builds.
@@ -22,6 +24,7 @@ date: 2026-04-24
 - Use the builder pattern.
 
 ### Inside Container
+
 - Use a non-root user inside a container.
 - Make the file system read-only.
 - One process per container.
@@ -30,6 +33,7 @@ date: 2026-04-24
 - Add `dumb-init` to prevent zombie processes.
 
 ### Deployment
+
 - Use the “record” option for easier rollbacks.
 - Use plenty of descriptive labels.
 - Use sidecar containers for proxies, watchers, etc.
@@ -39,6 +43,7 @@ date: 2026-04-24
 - Readiness and liveness probes are your friends.
 
 ### Security Best Practices
+
 - Ensure that images are free of vulnerabilities.
 - Ensure that only authorized images are used in your environment.
 - Limit direct access to Kubernetes nodes.
@@ -54,6 +59,7 @@ date: 2026-04-24
 - Make sure you only push approved images to these registries.
 
 ### Services
+
 - Don’t always use `type: LoadBalancer`.
 - Ingress is great.
 - `type: NodePort` is good enough.
@@ -61,12 +67,14 @@ date: 2026-04-24
 - Map external services to internal ones.
 
 ### Application architecture
+
 - Use a Helm chart.
 - All downstream dependencies are unreliable.
 - Make sure your microservices aren’t too micro.
 - Use a service mesh.
 
 ### Cluster Management
+
 - Use Google Container Engine.
 - Resources, anti-affinity, and scheduling.
 - Use namespaces to split up your cluster.
@@ -77,6 +85,7 @@ date: 2026-04-24
 - Implement network segmentation.
 
 ### Monitoring and visibility
+
 - Cluster-based logging.
 - Log container activity into a central log hub.
 - Use a Fluentd agent on each node.
