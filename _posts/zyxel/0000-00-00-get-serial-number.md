@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Display the serial number of a Zyxel switch.*
+
 1. Connect via telnet
 2. Run:
 ```bash
