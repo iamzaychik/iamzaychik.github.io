@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Python style rules and small file-management examples.*
+
 * PEP 8:
 
 [PEP 8](https://peps.python.org/pep-0008/) defines style guidelines for Python code.
@@ -55,7 +57,7 @@ os.remove('name1') # удалить
 
 ---
 
-* Зворотній відлік:
+* Countdown:
 
 ```python3
 #!/usr/bin/python3
