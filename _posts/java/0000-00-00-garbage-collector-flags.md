@@ -6,6 +6,8 @@ date: 2020-08-26
 
 ---
 
+*Configure Java garbage collector logging flags.*
+
 ```bash
 -XX:+PrintGCDetails
 -XX:+PrintGCDateStamps
