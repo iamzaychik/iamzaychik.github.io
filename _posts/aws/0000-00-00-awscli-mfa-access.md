@@ -6,7 +6,10 @@ date: 2020-03-21
 
 ---
 
-*Setup parser:
+*Create temporary AWS credentials from an IAM MFA token.*
+
+### Install jq
+
 ```bash
 # Ubuntu
 $ sudo apt install jq
@@ -14,11 +17,17 @@ $ sudo apt install jq
 $ brew install jq
 ```
 
-*Open `~/.aws/credentials` and change profile name from `[default]` to `[get_mfa]`
+### Configure the AWS profile
 
-*Login to AWS admin console and get your MFA ARN from account security settings
+- Open `~/.aws/credentials` and change the profile name from `[default]` to `[get_mfa]`.
 
-*Create script for get temp profile and insert you MFA ARN:
+### Find the MFA ARN
+
+- Log in to the AWS administrator console and get the MFA ARN from account security settings.
+
+### Create the MFA script
+
+- Create a script for a temporary profile and insert your MFA ARN:
 ```bash
 #!/bin/bash
 
@@ -40,7 +49,8 @@ else
 fi
 ```
 
-*Add execution permissions for script:*
+### Make the script executable
+
 ```bash
 $ chmod +x get_mfa.sh
 ```

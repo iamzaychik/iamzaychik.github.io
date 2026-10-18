@@ -6,7 +6,9 @@ date: 2020-04-10
 
 ---
 
-```javascript
+*Restrict S3 object access to Cloudflare source IP ranges.*
+
+```json
 {
     "Version": "2012-10-17",
     "Statement": [

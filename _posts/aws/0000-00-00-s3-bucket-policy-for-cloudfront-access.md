@@ -6,7 +6,9 @@ date: 2020-04-10
 
 ---
 
-```javascript
+*Allow CloudFront Origin Access Identity access to private S3 objects.*
+
+```json
 {
     "Version": "2012-10-17",
     "Id": "PolicyForCloudFrontPrivateContent",

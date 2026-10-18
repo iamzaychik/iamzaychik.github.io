@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Invoke an AWS Lambda function from the command line.*
+
 ```bash
 $ aws lambda invoke \
 --invocation-type RequestResponse \

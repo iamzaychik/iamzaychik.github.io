@@ -6,7 +6,9 @@ date: 2019-04-15
 
 ---
 
-```javascript
+*Grant Step Functions permissions for describing, starting, stopping, and deleting executions.*
+
+```json
 {
   "Version": "2012-10-17",
   "Statement": [

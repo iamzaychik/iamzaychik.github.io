@@ -6,6 +6,8 @@ date: 2020-10-21
 
 ---
 
+*Install Bash completion on Amazon Linux.*
+
 ```bash
 ## Install bash-completion on Amazon Linux
 $ wget http://www.caliban.org/files/redhat/RPMS/noarch/bash-completion-20060301-1.noarch.rpm

@@ -6,6 +6,8 @@ date: 2022-07-23
 
 ---
 
+*Build and install `redis-cli` on Amazon Linux.*
+
 ```bash
 $ sudo yum -y install gcc make # install GCC compiler
 $ cd /usr/local/src

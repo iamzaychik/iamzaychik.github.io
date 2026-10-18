@@ -6,7 +6,9 @@ date: 2026-04-24
 
 ---
 
-```bash
+*Create an Amazon EMR cluster with selected Hadoop ecosystem services.*
+
+```text
 1. Go to `EMR -> Create Cluster`
 2. Select `Go to advanced options` at the top
 3. Select needed release (now it's `emr-6.0.0`), then check `Hadoop, Livy and Spark` for installing to cluster
