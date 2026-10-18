@@ -6,10 +6,12 @@ date: 2019-04-15
 
 ---
 
+*Configure filesystem partitions monitored by snmpd.*
+
 Add to `/etc/snmp/snmpd.conf`:
 * `includeAllDisks`
-or
-*
+or:
+
 ```bash
 disk /
 disk /usr
