@@ -6,6 +6,8 @@ date: 2020-03-21
 
 ---
 
+*Find files modified during the last 24 hours.*
+
 ```bash
 $ find /<directory> -newermt "-24 hours" -ls
 

@@ -6,6 +6,8 @@ date: 2021-02-17
 
 ---
 
+*Install ShellCheck and scan shell scripts for common issues.*
+
 * Install:
 ```bash
 $ sudo apt install shellcheck

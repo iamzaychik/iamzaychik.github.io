@@ -6,6 +6,8 @@ date: 2020-08-26
 
 ---
 
+*Remove ANSI color escape sequences from text streams.*
+
 * Bash examples:
 ```bash
 $ sed 's/\x1b\[[0-9;]*m//g'           # Remove color sequences only

@@ -6,6 +6,8 @@ date: 2021-02-17
 
 ---
 
+*Sort a Bash array line by line.*
+
 ```bash
 IFS=$'\n' sorted=($(sort <<<"${array[*]}"))
 unset IFS

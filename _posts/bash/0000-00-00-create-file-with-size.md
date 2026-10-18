@@ -6,6 +6,8 @@ date: 2019-05-29
 
 ---
 
+*Create a file with a defined size using Bash utilities.*
+
 ```bash
 $ dd if=/dev/zero of=/path/to/file/filename bs=1M count=1024
 ```

@@ -6,6 +6,8 @@ date: 2026-07-12
 
 ---
 
+*Confirm each Bash command before execution.*
+
 **Confirm next command before execution:**
 
 ```bash

@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Chain Bash commands with sequential, conditional, or background execution.*
+
 ```bash
 A; B    # Run A and then B, regardless of success of A
 A && B  # Run B if and only if A succeeded

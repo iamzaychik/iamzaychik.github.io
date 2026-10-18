@@ -6,6 +6,8 @@ date: 2019-05-29
 
 ---
 
+*Print the user running a Bash script.*
+
 ```bash
 name="$(whoami)";
 echo $name;
