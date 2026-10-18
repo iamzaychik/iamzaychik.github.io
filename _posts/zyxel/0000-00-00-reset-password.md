@@ -6,43 +6,42 @@ date: 2019-04-15
 
 ---
 
-* Сбросить системный пароль (по умолчанию в устройствах ZyXEL пароль 1234) можно только сбросив все настройки устройства на заводские установки.
-В данной инструкции мы представим два варианта сброса настроек устройства на заводские установки.
+*Reset a ZyXEL system password by restoring factory settings.*
 
-1. Сброс настроек с помощью кнопки RESET (Сброс) в пользовательских устройствах ZyXEL.
+The ZyXEL system password can be reset only by restoring the device to its factory settings.
 
-2. На некоторых устройствах (например, в Ethernet-коммутаторах) отсутствует кнопка RESET и для сброса пароля нужно записать в устройство файл конфигурации (*.rom) с заводскими настройками по умолчанию (как правило, rom-файл находится в архиве с микропрограммой). Также данный вариант может быть актуальным для сброса настроек через консольный порт (Console) устройства.
+1. On ZyXEL consumer devices, reset the settings with the RESET button.
 
-Для этого вам необходимо сделать следующее:
+2. Some devices, such as Ethernet switches, do not have a RESET button. To reset the password, write a `*.rom` configuration file with factory settings to the device. The ROM file is usually included in the firmware archive. This method also supports resetting the password through the device console port.
 
-2.1. Подключите устройство ZyXEL через консольный порт к последовательному порту (COM-порту) компьютера. Введите команду ATBA5 для изменения скорости порта на 115200.
+Perform the following steps:
 
-2.2. Запустите терминальную программу (например, HyperTerminal из состава Windows) со следующими настройками: Скорость - 9600 бит/с; Биты данных - 8; Четность - Нет; Стоповые биты - 1; Управление потоком - Нет.
+2.1. Connect the ZyXEL device console port to the computer serial port (COM port). Enter `ATBA5` to change the port speed to 115200.
 
-2.3. Включите устройство. В терминальной программе вы должны увидеть сообщения о загрузке устройства.
+2.2. Start a terminal program, such as HyperTerminal on Windows, with these settings: speed — 9600 bits/s; data bits — 8; parity — none; stop bits — 1; flow control — none.
 
-2.4. Во время загрузки выводится приглашение вида "Press any key to enter Debug Mode within 3 seconds". Нажмите любую клавишу для входа в режим отладки (Debug mode).
+2.3. Power on the device. The terminal program should display the device boot messages.
 
-2.5. Введите команду ATSH для проверки версии программного обеспечения установленного в устройстве.
+2.4. During boot, the prompt `Press any key to enter Debug Mode within 3 seconds` appears. Press any key to enter Debug mode.
 
-2.6. Предварительно скачайте файл (zip-архив) с микропрограммным обеспечением для вашего устройства с нашего [site](http://zyxel.ru/support/download)
+2.5. Enter `ATSH` to check the device software version.
 
-2.7. Распакуйте архив на жесткий диск. В архиве с микропрограммой находится также файл конфигурации (rom-файл) с настройками по умолчанию.
+2.6. Download the firmware ZIP archive for your device from the [ZyXEL website](http://zyxel.ru/support/download).
 
-2.8.Введите команду ATBA5. Переключите терминал в режим скорости 115200.
+2.7. Extract the archive to disk. The firmware archive also contains a configuration file (ROM file) with default settings.
 
-2.9 Введите команду ATLC для начала записи rom-файла в устройство.
+2.8. Enter `ATBA5`. Set the terminal speed to 115200.
 
-2.10. В программе HyperTerminal зайдите в меню Передача (Transfer) > Отправить файл (Send file) и выберите протокол передачи файлов Xmodem.
-Затем нажмите кнопку Обзор и укажите путь к rom-файлу на жестком диске.
-Нажмите кнопку Отправить (Send) для старта записи rom-файла в устройство.
+2.9. Enter `ATLC` to start writing the ROM file to the device.
 
-2.10. После успешной записи файла введите команду ATGO для перезагрузки устройства.
+2.10. In HyperTerminal, open Transfer > Send file and select the Xmodem protocol. Select Browse and specify the path to the ROM file on disk. Select Send to start writing the ROM file.
 
-Внимание! Все пользовательские настройки будут потеряны после выполнения аппаратного сброса настроек на заводские установки (по умолчанию в устройствах ZyXEL пароль 1234).
+2.10. After the file is written successfully, enter `ATGO` to reboot the device.
 
-Для прошивки *.bin файла необходимо в пункте 2.9 вместо команды ATLC ввести ATUR.
+Attention: A factory reset deletes all user settings. The default password for ZyXEL devices is `1234`.
 
-После успешной записи файла устройство перезагрузится само.
+To flash a `*.bin` file, enter `ATUR` instead of `ATLC` in step 2.9.
+
+After the file is written successfully, the device reboots automatically.
 
 ---
