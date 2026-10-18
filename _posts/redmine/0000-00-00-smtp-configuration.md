@@ -6,6 +6,8 @@ date: 2019-12-20
 
 ---
 
+*Configure SMTP delivery for a Redmine production environment.*
+
 ```yaml
 production:
 
