@@ -6,7 +6,9 @@ date: 2020-02-05
 
 ---
 
-```bash
+*Serve a custom robots.txt response from Fastly VCL.*
+
+```vcl
 sub vcl_recv {
     #...
         if (req.url ~ "^/robots.txt$") {

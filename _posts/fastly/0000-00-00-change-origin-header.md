@@ -6,7 +6,9 @@ date: 2019-07-23
 
 ---
 
-```bash
+*Rewrite and remove the origin header in Fastly VCL.*
+
+```vcl
 set req.http.origin = if(req.http.host ~ "^example.com", req.http.host, resp.http.origin);
 unset resp.http.origin;
 ```
