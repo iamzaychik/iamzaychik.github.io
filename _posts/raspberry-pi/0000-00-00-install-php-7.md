@@ -4,6 +4,10 @@ category: Raspberry Pi
 date: 2019-04-15
 ---
 
+---
+
+*Install PHP 7 and Apache support on Raspberry Pi.*
+
 *1. Редагуємо список репозиторіїв:*
 `mcedit /etc/apt/sources.list`
 
