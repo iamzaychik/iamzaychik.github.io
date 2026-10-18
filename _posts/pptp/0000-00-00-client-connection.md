@@ -4,6 +4,10 @@ category: PPTP
 date: 2019-04-15
 ---
 
+---
+
+*Configure a PPTP client connection.*
+
 1. Встановлюємо клієнт:
 ```bash
 $ sudo apt-get install pptp-linux
