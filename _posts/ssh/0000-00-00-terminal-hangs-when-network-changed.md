@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Keep SSH sessions responsive when the network changes.*
+
 ```bash
 ssh_conn_params='ssh -o ServerAliveInterval=5 -o ServerAliveCountMax=1'
 alias my_ssh_server='$ssh_conn_params <USER>@<A.B.C.D>'

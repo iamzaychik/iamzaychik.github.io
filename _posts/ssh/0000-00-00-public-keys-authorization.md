@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Configure SSH public-key authentication.*
+
 1. Generate own ssh-key:
 
 ```bash
