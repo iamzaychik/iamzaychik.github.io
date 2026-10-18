@@ -6,6 +6,8 @@ date: 2020-04-17
 
 ---
 
+*Enable OpenGL rendering for Warcraft III through Wine.*
+
 * Manual:
 
 ```bash
