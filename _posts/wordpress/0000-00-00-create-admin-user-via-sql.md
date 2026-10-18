@@ -6,6 +6,8 @@ date: 2020-02-16
 
 ---
 
+*Create a WordPress administrator user with SQL.*
+
 ```sql
 INSERT INTO `DATABASE`.`wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES ('100', 'USERNAME', MD5('PASSWORD'), 'Your Name', 'test@yourdomain.com', 'http://www.test.com/', '2011-06-07 00:00:00', '', '0', 'Your Name');
 

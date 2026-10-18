@@ -6,6 +6,8 @@ date: 2019-04-22
 
 ---
 
+*Export published WordPress posts to text files.*
+
 ```php
 #!/usr/local/bin/php
 
