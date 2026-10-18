@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Update ZTE switch firmware through Telnet or BootManager.*
+
 * SI-series:
 ```bash
 FW=kernel.z

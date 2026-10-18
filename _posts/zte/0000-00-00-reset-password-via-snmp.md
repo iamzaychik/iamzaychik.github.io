@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset a ZTE switch password through SNMP.*
+
 1. Get mibs [archive](ftp://91.206.19.52/frimware/ZTE/)
 2. Open file `ES2900E.mib` with `mibbrowser`
 3. Search for `loginUser/userTable`

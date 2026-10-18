@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset a ZTE switch to factory defaults from BootManager.*
+
 1. After boot wait for `Press any key to stop auto-boot...` and press any key:
 
 ```txt

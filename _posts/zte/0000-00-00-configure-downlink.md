@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Configure ZTE downlink loop detection, DHCP snooping, and IPTV.*
+
 * Loopback:
 ```bash
 set loopdetect port 25 enable
