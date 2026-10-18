@@ -18,9 +18,11 @@ category: Category name
 date: YYYY-MM-DD
 ---
 
+Subtitle.
+
 ---
 
-Post content here.
+Post content.
 
 ---
 ```
