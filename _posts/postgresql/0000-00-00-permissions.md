@@ -4,6 +4,10 @@ category: PostgreSQL
 date: 2023-08-10
 ---
 
+---
+
+*Create PostgreSQL roles and grant schema, table, and sequence permissions.*
+
 ```bash
 -- Create read_write_role with read/write permissions
 CREATE ROLE read_write_role;
