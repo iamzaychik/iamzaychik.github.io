@@ -6,12 +6,15 @@ date: 2019-04-15
 
 ---
 
-1. В меню пуск вводим "regedit" и нажимаем Enter — открывается редактор реестра;
-2. Нажимаем правой кнопкой мыши на HKEY_LOCAL_MACHINE и выбираем "Найти";
-3. В окне вводим OEMBackground и нажимаем "Найти далее";
-4. Нажимаем правой кнопкой мыши на OEMBackground, потом "Изменить" и в новом окне, в разделе "Значения", меняем 0 на 1;
-5. Закрываем все и заходим в C:\Windows\System32\oobe и создаем там новую папку "info", и в этой папке создаем папку "backgrounds";
-6. Сюда и вставляем картинку заднего фона.
-Важно: Размер картинки не должен превышать 245 kb, а имя картинки должно быть "backgroundDefault"
+*Change the Windows logon screen background.*
+
+1. Enter `regedit` in the Start menu and press Enter.
+2. Right-click `HKEY_LOCAL_MACHINE` and select Find.
+3. Enter `OEMBackground` and select Find Next.
+4. Open `OEMBackground`, select Modify, and change `0` to `1`.
+5. Open `C:\Windows\System32\oobe`, then create the `info` and `backgrounds` folders.
+6. Add the logon screen background image.
+
+The image must not exceed 245 KB and must be named `backgroundDefault`.
 
 ---
