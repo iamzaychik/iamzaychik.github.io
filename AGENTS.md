@@ -33,7 +33,7 @@ date: YYYY-MM-DD
 * **Automatic Language Correction:** During editing, normalisation, or content creation, if you encounter any historical text or notes written in Russian or any other unsupported language, you MUST automatically translate and rewrite that content into pure Ukrainian (or English if the surrounding context requires it).
 * **Telegraphic Style:** Write in brief, highly scannable sentences using active voice. Avoid deep tutorials and narrative storytelling.
 * **Strict Category Reuse:** Before assigning or creating a category, scan existing folders under `_posts/`. Reuse an existing category if it fits. Create a new category *only* if no existing one matches the topic.
-* **No Redundancy:** Check existing posts to prevent layout fragmentation or overlapping topics.
+* **No Redundancy:** Check existing posts to prevent layout fragmentation or overlapping topics. Do not modify post date when updating it with new content.
 * **Command Accuracy:** Ensure commands, code snippets, and path names are verified and production-ready.
 * **Reference Links:** Append an optional `[Source](url)` link at the very end of the file if the solution relies on external documentation.
 
