@@ -1,12 +1,16 @@
 ---
-title: htaccess for Wordpress
+title: htaccess for WordPress
 category: Apache
 date: 2019-04-15
 ---
 
+*Redirect WordPress traffic to HTTPS with Apache rewrite rules.*
+
 ---
 
-```bash
+*.htaccess:*
+
+```apache
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTPS} off
