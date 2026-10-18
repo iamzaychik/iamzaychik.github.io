@@ -5,6 +5,9 @@ date: 2020-03-21
 ---
 
 ---
+
+*Configure MongoDB query profiling levels.*
+
 * Check current profiling:
 ```bash
 db.getProfilingStatus()
