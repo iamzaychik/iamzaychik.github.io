@@ -6,6 +6,8 @@ date: 2019-05-12
 
 ---
 
+*Mount and unmount remote directories with SSHFS.*
+
 * Install
 ```bash
 $ sudo apt install sshfs -y
