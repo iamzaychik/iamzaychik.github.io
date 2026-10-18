@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Швидка шпаргалка команд для налаштування BDCOM OLT і ONU.*
+
 * [ONU](#onu)
 * [VLAN](#vlan)
 * [Ports](#ports)
