@@ -6,6 +6,8 @@ date: 2019-05-06
 
 ---
 
+*Common OpenMediaVault maintenance and Samba settings.*
+
 *Install extra plugins:*
 ```bash
 $ wget -O - http://omv-extras.org/install | bash

@@ -6,6 +6,8 @@ date: 2026-04-24
 
 ---
 
+*Restore an OpenMediaVault disk image and boot configuration.*
+
 ```bash
 # 1️⃣ Підключіть новий USB-диск та визначте його ім'я
 lsblk
