@@ -4,6 +4,10 @@ category: Dell
 date: 2019-04-15
 ---
 
+---
+
+*Configure LACP between a Dell Force10 switch and an OpenIndiana host.*
+
 Link aggregation is a method of bundling interfaces together to act as one for increased bandwidth and/or failover. One of the most commonly used protocols, next to a couple of proprietary ones, for controlling such a channel bond is [LACP](https://en.wikipedia.org/wiki/Link_aggregation#Link_Aggregation_Control_Protocol), the Link Aggregation Control Protocol.
 
 ## 1. Configuring LACP on Dell S4810
@@ -147,5 +151,7 @@ root@Server47:~# ipadm create-addr -T static -a 10.11.20.6/16 aggr1/v4
 ```
 
 Again, depending on your topology, you might want to **add or edit your default route** to go over the aggregate interface.
+
+---
 
 ---

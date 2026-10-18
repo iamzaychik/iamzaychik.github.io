@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Configure a Dell Force10 S4810 with management, SSH, and stacking settings.*
+
 *1. Clearing the Current Configuration on switch:*
 ```bash
 Force10>
@@ -94,6 +96,6 @@ The management ethernet port is located below the console RJ45 port. It supports
 
 ---
 
-* <a href="http://sillymachines.blogspot.com/2013/09/force10-s4810-initial-configuation.html" target="_blank">Пишуть люди</a>
+* [Пишуть люди](http://sillymachines.blogspot.com/2013/09/force10-s4810-initial-configuation.html)
 
 ---

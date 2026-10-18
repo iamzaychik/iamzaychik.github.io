@@ -6,6 +6,8 @@ date: 2019-07-16
 
 ---
 
+*Mount an ISO through Dell iDRAC virtual media.*
+
 *If you don't have Java:*
 ```bash
 System > Console/Media > Configuration > Plug-In Type > change to HTML5
