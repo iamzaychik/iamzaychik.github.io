@@ -3,18 +3,12 @@ title: Головна
 layout: no-date
 lang: uk
 permalink: /uk/
+hide_description: true
+hide_page_title: true
+language_switcher: true
 ---
 
 ---
-
-* [English](/)
-* [Українська](/uk/)
-
----
-
-Forest Notes — це особистий технічний блог, робочий нотатник і база знань.
-Тут зібрані практичні нотатки, шпаргалки, конфігурації та фрагменти коду з
-повсякденної роботи з інфраструктурою і програмним забезпеченням.
 
 * [Категорії](/categories)
 * [Публікації](/posts)

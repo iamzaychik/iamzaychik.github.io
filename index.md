@@ -2,18 +2,12 @@
 title: Home
 layout: no-date
 lang: en
+hide_description: true
+hide_page_title: true
+language_switcher: true
 ---
 
 ---
-
-* [English](/)
-* [Українська](/uk/)
-
----
-
-Forest Notes is a personal technology blog, working notebook, and knowledge
-base. It contains practical notes, cheat sheets, configurations, and code
-snippets from daily infrastructure and software work.
 
 * [Categories](/categories)
 * [Posts](/posts)
