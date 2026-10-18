@@ -6,6 +6,8 @@ date: 2019-06-19
 
 ---
 
+*Find a Telegram group chat ID through the Bot API.*
+
 ### After you created own bot and get TOKEN for it
 * add the BOT to the group
 * get the list of updates for your BOT:

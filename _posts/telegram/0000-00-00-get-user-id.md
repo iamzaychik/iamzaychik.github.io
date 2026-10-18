@@ -6,6 +6,8 @@ date: 2019-06-19
 
 ---
 
+*Find a Telegram user ID with userinfobot.*
+
 * Open Telegram，Type *userinfobot* in the search bar
 * Then choose the contact
 * Click *Start*
