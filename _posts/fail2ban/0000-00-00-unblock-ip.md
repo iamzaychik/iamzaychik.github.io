@@ -4,6 +4,10 @@ category: Fail2Ban
 date: 2019-04-15
 ---
 
+---
+
+*Unblock an IP address in Fail2Ban with version-specific commands.*
+
 * Before v0.8.8:
 ```bash
 $ fail2ban-client get <JAILNAME> actionunban <IP>
