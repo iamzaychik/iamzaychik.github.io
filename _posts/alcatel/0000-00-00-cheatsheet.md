@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Quickly inspect and configure Alcatel OmniSwitch services from the CLI.*
+
 * [Ports](#ports)
 * [VLAN](#vlan)
 * [IP](#ip)
@@ -243,7 +245,8 @@ stack set slot 1 saved-mode os6850
 ---
 
 ### System
-If you get `Out Of Memory` error - delete `K2diag.img` from `working/` and `certified/`.
+
+*Delete `K2diag.img` from `working/` and `certified/` after an `Out Of Memory` error.*
 
 * Show config:
 

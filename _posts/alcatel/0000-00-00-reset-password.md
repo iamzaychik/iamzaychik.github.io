@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Remove the local user database from an Alcatel OmniSwitch console.*
+
 1. Press `Enter` on boot
 2. Wait for `=>`
 3. Run commands for remove users file:

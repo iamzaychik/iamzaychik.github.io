@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Save and restore Alcatel OmniSwitch configuration files through TFTP.*
+
 * [Save](#save)
 * [Restore](#restore)
 

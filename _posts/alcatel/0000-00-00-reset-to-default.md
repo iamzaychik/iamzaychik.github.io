@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset an Alcatel OmniSwitch to factory-default configuration files.*
+
 1. Login to switch via console
 2. List `working/` dir:
 
