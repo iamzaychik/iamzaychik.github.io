@@ -6,6 +6,8 @@ date: 2020-05-13
 
 ---
 
+*Enable PostgreSQL statement logging in a Docker Compose service.*
+
 ```yaml
 version: "2.2"
 services:

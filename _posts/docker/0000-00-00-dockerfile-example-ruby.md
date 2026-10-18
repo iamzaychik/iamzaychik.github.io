@@ -6,7 +6,9 @@ date: 2023-02-06
 
 ---
 
-```docker
+*Build a Ruby application with a multi-stage Dockerfile.*
+
+```dockerfile
 FROM ruby:2.3 as builder
 
 WORKDIR /myapp

@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Collect common Docker commands and configuration snippets.*
+
 * Show detailed image history:
 ```bash
 $ docker history --no-trunc alpine:latest
@@ -14,7 +16,7 @@ $ docker history --no-trunc alpine:latest
 ---
 
 * Healthcheck in the Dockerfile:
-```bash
+```dockerfile
 HEALTHCHECK CMD curl --fail http://localhost:80 || exit 1
 ```
 
@@ -31,8 +33,7 @@ logging:
 
 ---
 
-* Resources limits:
-But what you need to make that works is to run the docker-compose using `--compatibility` flag `docker-compose --compatibility up --build`
+* Enable resource limits with `docker-compose --compatibility up --build`.
 ```yaml
 version: "3.7"
 services:

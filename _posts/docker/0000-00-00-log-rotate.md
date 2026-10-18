@@ -6,7 +6,9 @@ date: 2021-02-17
 
 ---
 
-```bash
+*Rotate Docker container logs with logrotate.*
+
+```text
 $ sudo nano /etc/logrotate.d/docker_logs
 
 /var/lib/docker/containers/*/*.log {

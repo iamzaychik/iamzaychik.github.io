@@ -6,7 +6,9 @@ date: 2023-02-06
 
 ---
 
-```docker
+*Build a Node.js application with a Dockerfile.*
+
+```dockerfile
 FROM node:12
 
 WORKDIR /usr/src/app

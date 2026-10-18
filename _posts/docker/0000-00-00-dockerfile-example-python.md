@@ -6,7 +6,9 @@ date: 2023-02-06
 
 ---
 
-```docker
+*Build a Python application with a Dockerfile.*
+
+```dockerfile
 FROM python:3.7-alpine
 
 WORKDIR /app
