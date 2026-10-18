@@ -6,6 +6,8 @@ date: 2021-02-17
 
 ---
 
+*Enable verbose Git tracing for network and SSH operations.*
+
 ```bash
 $ GIT_TRACE=true \
 GIT_CURL_VERBOSE=true \

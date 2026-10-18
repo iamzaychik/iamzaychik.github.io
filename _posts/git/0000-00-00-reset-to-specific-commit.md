@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset a Git branch to a specific commit and force-push changes.*
+
 * Find needed commit:
 ```bash
 $ git log

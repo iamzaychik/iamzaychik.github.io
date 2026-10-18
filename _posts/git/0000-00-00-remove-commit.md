@@ -6,7 +6,9 @@ date: 2026-04-24
 
 ---
 
-```bash
+*Remove a Git commit by cherry-picking the commits to keep.*
+
+```text
 You can use git cherry-pick for this. Let's say your git log looks like this. and you want to remove the 2nd commit from your branch.
 
 COMMITS    MESSAGES
