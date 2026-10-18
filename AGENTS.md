@@ -14,7 +14,7 @@ Maintain strict, clean Markdown without wrapping HTML elements unless required b
 ```yaml
 ---
 title: Exact topic description
-category: category name
+category: Category name
 date: YYYY-MM-DD
 ---
 ```
