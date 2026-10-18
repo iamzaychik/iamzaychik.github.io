@@ -6,6 +6,8 @@ date: 2026-04-24
 
 ---
 
+*Install ClamAV and schedule recurring scans on Amazon Linux.*
+
 ```bash
 # Add Epel repository to download ClamAV in your Amazon Linux.
 $ sudo amazon-linux-extras install epel

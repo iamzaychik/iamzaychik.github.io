@@ -6,6 +6,8 @@ date: 2026-04-24
 
 ---
 
+*Test antivirus detection with the standard EICAR test string.*
+
 * Test string for antivirus check:
 
 ```bash
