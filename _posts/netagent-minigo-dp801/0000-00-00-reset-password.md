@@ -4,16 +4,16 @@ category: NetAgent MiniGo DP801
 date: 2019-04-15
 ---
 
-_Паролим парольчики на платку упсіка. Бо дорога._
-
 ---
 
-1. Перевертаємо платку догори дригом і виписуємо собі парольчик з наклейки;
-2. Заходимо в браузеріку на <http://xxx.xxx.xxx.xxx/password.cgi>, де xxx.xxx.xxx.xxx - IP платки;
-3. Пробуємо вводить admin і наше виписане;
-4. Якщо не пустили, жамкаємо "Отмена";
-5. Тикаємо "Clear";
-6. ???????
-7. PROFIT
+*Reset a NetAgent MiniGo DP801 administrator password.*
+
+1. Turn over the board and note the password on the label.
+2. Open <http://xxx.xxx.xxx.xxx/password.cgi> in a browser, where xxx.xxx.xxx.xxx is the board IP address.
+3. Enter `admin` and the noted password.
+4. If access is denied, click `Cancel`.
+5. Click `Clear`.
+6. Verify that the device functions correctly.
+7. The password reset is complete.
 
 ---
