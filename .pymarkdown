@@ -67,9 +67,8 @@
     },
 
     // HTML у блозі не використовується.
-    // TODO: set Codex to rewrite HTML stuff.
     "MD033": {
-      "enabled": false
+      "enabled": true
     },
 
     // Кожен fenced code block має мати мову.
