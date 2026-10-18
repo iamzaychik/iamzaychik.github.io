@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Configure VLAN translation on Extreme Summit switches.*
+
 ## The example in the following figure configures a basic VLAN translation network. This network provides VLAN translation between four member VLANs and a single translation VLAN
 
 ### VLAN Translation Configuration Example

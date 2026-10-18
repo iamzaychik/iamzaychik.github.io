@@ -4,6 +4,10 @@ category: Summit
 date: 2019-04-15
 ---
 
+---
+
+*Common Extreme Summit switch commands.*
+
 ### Basic
 
 ```bash

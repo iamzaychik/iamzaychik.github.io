@@ -4,6 +4,10 @@ category: Summit
 date: 2019-04-15
 ---
 
+---
+
+*Configure sFlow on a Summit switch and forward data with sflowtool.*
+
 *Налаштування комутатора.*
 *1. Описуємо колектор. Це сервер, на якому встановлено sflowtool. Його налаштування буде розглянуто в кінці статті.*
 `configure sflow collector A.B.C.D port 6343 vr "VR-Management"`

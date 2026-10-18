@@ -4,7 +4,10 @@ category: Summit
 date: 2019-04-15
 ---
 
-_Обрізання невірним!_
+---
+
+*Limit ingress and egress traffic on Summit switches.*
+
 ---
 
 *Для того, щоб обмежити швидкість на порту:*
