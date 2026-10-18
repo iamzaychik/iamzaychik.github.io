@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Load Linux kernel modules now and during boot.*
+
 * Load in-flight:
 ```bash
 $ modprobe 8021q

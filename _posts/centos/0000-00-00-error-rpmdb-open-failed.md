@@ -4,9 +4,9 @@ category: CentOS
 date: 2019-04-15
 ---
 
-*`Error: rpmdb open failed` when trying to `yum update`*
-
 ---
+
+*`Error: rpmdb open failed` when trying to `yum update`*
 
 * Backup rpm database:
 

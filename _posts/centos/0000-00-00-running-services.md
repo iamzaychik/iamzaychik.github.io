@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Inspect running services on CentOS and RHEL systems.*
+
 * The syntax is as follows for CentOS/RHEL 6.x and older (pre systemd):
 
 ```bash

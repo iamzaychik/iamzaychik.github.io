@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Check the installed CentOS release and RHEL version macros.*
+
 ```bash
 $ rpm -q centos-release      # CentOS version valid for CentOS 6 and higher. Causes to reveal major, minor and asynchronous CentOS version.
 $ lsb_release -d             # Requires redhat-lsb package to be installed before execution.
