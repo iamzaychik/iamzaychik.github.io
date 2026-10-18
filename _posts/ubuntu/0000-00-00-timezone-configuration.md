@@ -8,12 +8,12 @@ date: 2019-05-29
 
 *Timezone configuration on Ubuntu.*
 
-* First:
+- First:
 ```bash
 $ dpkg-reconfigure tzdata
 ```
 
-* Second:
+- Second:
 ```bash
 $ ln -fs /usr/share/zoneinfo/Europe/Kiev /etc/localtime
 ```

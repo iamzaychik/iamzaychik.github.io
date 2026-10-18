@@ -21,7 +21,7 @@ date: 2019-11-29
 
 ---
 
-* Set different permissions for files and dirs:
+- Set different permissions for files and dirs:
 ```bash
 $ find /var/www/nextcloud/ -type f -print0 | sudo xargs -0 chmod 0644
 $ find /var/www/nextcloud/ -type d -print0 | sudo xargs -0 chmod 0755

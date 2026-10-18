@@ -8,29 +8,29 @@ date: 2019-04-15
 
 *Clear history on Ubuntu.*
 
-* Clear history for current session:
+- Clear history for current session:
 ```bash
 $ history -r
 ```
 
-* Completely clear history:
+- Completely clear history:
 ```bash
 $ history -cw
 -c - clear file
 -w - append current session commands to file
 ```
 
-* Remove specific line:
+- Remove specific line:
 ```bash
 $ history -dw 352
 ```
 
-* Don't save command:
+- Don't save command:
 ```bash
 $ <SPACE> <COMMAND>
 ```
 
-* Don't save commands for current session:
+- Don't save commands for current session:
 ```bash
 $ unset HISTFILE
 ```

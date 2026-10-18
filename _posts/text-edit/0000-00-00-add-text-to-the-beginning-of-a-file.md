@@ -8,12 +8,12 @@ date: 2019-04-22
 
 *Insert text at the beginning of a file with sed.*
 
-* Add at first line:
+- Add at first line:
 ```bash
 $ sed -i '1iTEXT GOES HERE' file.txt
 ```
 
-* Add at second line:
+- Add at second line:
 ```bash
 $ sed -i '2iTEXT GOES HERE' file.txt
 ```

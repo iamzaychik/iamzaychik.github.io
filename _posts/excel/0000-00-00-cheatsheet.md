@@ -8,7 +8,7 @@ date: 2026-04-24
 
 *Unhide selected Excel rows and insert the current date dynamically.*
 
-* Open only needed hidden rows:
+- Open only needed hidden rows:
 
 ```text
 Відкрийте ваш файл Excel.
@@ -27,7 +27,7 @@ End Sub
 
 ---
 
-* Insert current date dynamically:
+- Insert current date dynamically:
 
 ```text
 Ctrl f9

@@ -78,22 +78,22 @@ show configuration | inc ** - grep
 
 ### VMAN
 
-* Змінюємо тип заголовка:
+- Змінюємо тип заголовка:
 ```bash
 configure vman ethertype 0x8100`
 ```
 
-* Створити VMAN:
+- Створити VMAN:
 ```bash
 create vman user_** tag **
 ```
 
-* Прийняти:
+- Прийняти:
 ```bash
 configure vman user_** add port *:* tagged
 ```
 
-* Вимикаємо снупінг, бо IPTV працює через MVR:
+- Вимикаємо снупінг, бо IPTV працює через MVR:
 ```bash
 disable igmp snooping vlan user_**
 ```
@@ -102,13 +102,13 @@ disable igmp snooping vlan user_**
 
 ### SNMP-traps
 
-* Видалення старих даних:
+- Видалення старих даних:
 ```bash
 configure snmpv3 delete target-addr all
 configure snmpv3 delete target-params all
 ```
 
-* Вкажемо нову адресу сервера і його SNMP:
+- Вкажемо нову адресу сервера і його SNMP:
 ```bash
 configure snmp add trapreceiver xxx.xxx.xxx.xxx community ***
 ```
@@ -117,12 +117,12 @@ configure snmp add trapreceiver xxx.xxx.xxx.xxx community ***
 
 ### Pending AAA Authentication
 
-* Enter in the login prompt:
+- Enter in the login prompt:
 ```bash
 REBOOT AS MASTER-CAPABLE
 ```
 
-* After reboot, login as `admin` without password
+- After reboot, login as `admin` without password
 
 ---
 

@@ -8,12 +8,12 @@ date: 2019-04-15
 
 *Restore media-key unmute behavior in Lubuntu.*
 
-* Open hotkeys configuration:
+- Open hotkeys configuration:
 ```bash
 $ mcedit ~/.config/openbox/lubuntu-rc.xml
 ```
 
-* Change:
+- Change:
 ```bash
 amixer -q set Master toggle
 ```

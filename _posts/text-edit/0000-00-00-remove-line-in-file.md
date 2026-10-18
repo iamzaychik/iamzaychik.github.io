@@ -8,18 +8,18 @@ date: 2019-04-22
 
 *Remove specific lines from a file with sed.*
 
-* Delete first or header line:
+- Delete first or header line:
 ```bash
 $ sed 'Nd' file.text
 $ sed '1d' file
 ```
 
-* Delete second line:
+- Delete second line:
 ```bash
 $ sed '2d' file
 ```
 
-* Delete last line or footer line or trailer line:
+- Delete last line or footer line or trailer line:
 ```bash
 $ sed '$d' file
 ```

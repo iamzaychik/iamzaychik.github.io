@@ -16,6 +16,6 @@ date: 2019-04-15
 
 ---
 
-* [Source](http://blogo-daru.ru/2015/10/07/kak-udalit-pustye-strochki-v-kode-napisannom-v-sublimetext)
+- [Source](http://blogo-daru.ru/2015/10/07/kak-udalit-pustye-strochki-v-kode-napisannom-v-sublimetext)
 
 ---

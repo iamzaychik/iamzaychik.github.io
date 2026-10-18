@@ -8,7 +8,7 @@ date: 2019-04-15
 
 *Configure LACP link aggregation between Alcatel OmniSwitch ports.*
 
-* `LAG - Link Aggregation Group`
+- `LAG - Link Aggregation Group`
 
 ```text
 lacp linkagg 1 size 2 admin state enable

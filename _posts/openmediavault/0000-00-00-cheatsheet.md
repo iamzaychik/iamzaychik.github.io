@@ -73,7 +73,7 @@ write cache size = 524288
 
 ---
 
-* Fix media folders permissions:
+- Fix media folders permissions:
 ```bash
 find ./ -type d -exec chmod 2775 {} \;
 find ./ -type f -exec chmod 664 {} \;

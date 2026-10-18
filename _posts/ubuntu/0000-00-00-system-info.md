@@ -8,7 +8,7 @@ date: 2019-05-29
 
 *System info on Ubuntu.*
 
-* OS version:
+- OS version:
 
 ```bash
 $ cat /etc/*-release
@@ -16,7 +16,7 @@ $ lsb_release -a
 $ cat /proc/version
 ```
 
-* Core version, architecture:
+- Core version, architecture:
 
 ```bash
 $ uname -a

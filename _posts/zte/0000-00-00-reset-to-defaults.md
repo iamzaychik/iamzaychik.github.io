@@ -23,14 +23,14 @@ date: 2019-04-15
 
 3. Remove configuration files:
 
-* SI-series:
+- SI-series:
 
 ```txt
 [BootManager]:del running.cfg
 [BootManager]:del startcfg.txt
 ```
 
-* E-series:
+- E-series:
 
 ```txt
 [BootManager]:cd cfg

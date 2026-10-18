@@ -8,14 +8,14 @@ date: 2019-04-15
 
 *Common MySQL administration and maintenance commands.*
 
-* If you want to work with db, which contains dot - quote it:
+- If you want to work with db, which contains dot - quote it:
 ```bash
 ``db.name``.
 ```
 
 ---
 
-* Drop all databases:
+- Drop all databases:
 ```bash
 $ echo "SET FOREIGN_KEY_CHECKS = 0;" > ./temp.sql
 $ mysqldump --add-drop-table --no-data -u root -p db_name | grep 'DROP TABLE' >> ./temp.sql
@@ -25,56 +25,56 @@ $ mysql -u root -p db_name < ./temp.sql
 
 ---
 
-* Create database:
+- Create database:
 ```sql
 CREATE DATABASE dbname;
 ```
 
 ---
 
-* Create user:
+- Create user:
 ```sql
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 ```
 
 ---
 
-* Give permissions to the user:
+- Give permissions to the user:
 ```sql
 GRANT ALL PRIVILEGES ON dbname . * TO 'user'@'localhost';
 ```
 
 ---
 
-* Update permissions of all users:
+- Update permissions of all users:
 ```sql
 FLUSH PRIVILEGES;
 ```
 
 ---
 
-* Remove user:
+- Remove user:
 ```sql
 DROP USER 'user'@'localhost';
 ```
 
 ---
 
-* Show users:
+- Show users:
 ```sql
 SELECT User,Host FROM mysql.user;
 ```
 
 ---
 
-* Show permissions:
+- Show permissions:
 ```sql
 SHOW GRANTS;
 ```
 
 ---
 
-* Reset password for root user:
+- Reset password for root user:
 ```sql
 DROP USER 'root'@'localhost';
 DROP USER 'root'@'127.0.0.1';
@@ -85,17 +85,17 @@ FLUSH PRIVILEGES;
 
 ---
 
-* Backup db:
+- Backup db:
 ```bash
 $ mysqldump -u USER -p -f mydatabase > /path/to/backup/dump.sql
 ```
 
-* Restore db:
+- Restore db:
 ```bash
 $ mysql -u USER -p < /path/to/backup/dump.sql DB_NAME
 ```
 
-* Backup all dbs:
+- Backup all dbs:
 ```bash
 $ mysqldump -u root -p --all-databases > alldb.sql
 ```
@@ -107,14 +107,14 @@ mysql -u root -p < alldb.sql
 
 ---
 
-* Repair dbs:
+- Repair dbs:
 ```bash
 $ mysqlcheck -u root -p --auto-repair --all-databases
 ```
 
 ---
 
-* `Table In Use` error:
+- `Table In Use` error:
 1. Go to database dir:
 ```bash
 $ cd /var/lib/mysql/mydatabase
@@ -126,28 +126,28 @@ $ myisamchk --safe-recover mytable
 
 ---
 
-* Replacing values:
+- Replacing values:
 ```sql
 UPDATE mytable SET value = REPLACE(value, "xxx", "yyy");
 ```
 
 ---
 
-* Replace wrong dates for current date for WordPress:
+- Replace wrong dates for current date for WordPress:
 ```sql
 UPDATE `wp_posts` SET `post_date`=NOW() WHERE `post_date` LIKE '0000%'
 ```
 
 ---
 
-* Check duplicates:
+- Check duplicates:
 ```sql
 SELECT mac, COUNT(mac) AS cnt FROM leases GROUP BY mac HAVING ( COUNT(mac) > 1 )
 ```
 
 ---
 
-* Clear column values:
+- Clear column values:
 ```sql
 UPDATE table SET column = '';
 
@@ -158,7 +158,7 @@ UPDATE table SET column = NULL;
 
 ---
 
-* How to store IPs:
+- How to store IPs:
 ```sql
 ip int(10) unsigned NOT NULL
 ```

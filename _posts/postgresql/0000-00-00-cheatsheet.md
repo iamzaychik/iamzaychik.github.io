@@ -8,7 +8,7 @@ date: 2019-04-15
 
 *Common PostgreSQL backup, restore, and administration commands.*
 
-* Backup:
+- Backup:
 
 ```bash
 pg_dump -h DB_HOST -p 5432 -U DB_USER -f dump.sql DB_NAME
@@ -16,7 +16,7 @@ pg_dump -h DB_HOST -p 5432 -U DB_USER -f dump.sql DB_NAME
 
 ---
 
-* Restore:
+- Restore:
 
 ```bash
 psql -h DB_HOST -p 5432 -U DB_USER -d DB_NAME -W -f dump.sql
@@ -24,7 +24,7 @@ psql -h DB_HOST -p 5432 -U DB_USER -d DB_NAME -W -f dump.sql
 
 ---
 
-* Create DB:
+- Create DB:
 
 ```bash
 createdb -h DB_HOST -p 5432 -U DB_USER -E DB_ENCODING -e DB_NAME
@@ -32,7 +32,7 @@ createdb -h DB_HOST -p 5432 -U DB_USER -E DB_ENCODING -e DB_NAME
 
 ---
 
-* Drop DB:
+- Drop DB:
 
 ```bash
 dropdb -h DB_HOST -p 5432 -U DB_USER -i -e DB_NAME
@@ -40,7 +40,7 @@ dropdb -h DB_HOST -p 5432 -U DB_USER -i -e DB_NAME
 
 ---
 
-* Add repository to install version higher than 9.5:
+- Add repository to install version higher than 9.5:
 
 ```bash
 $ add-apt-repository "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main"
@@ -51,7 +51,7 @@ $ apt install postgresql-client-9.6
 
 ---
 
-* Check last user activities:
+- Check last user activities:
 
 ```SQL
 SELECT DISTINCT usename FROM pg_stat_activity;
@@ -59,7 +59,7 @@ SELECT DISTINCT usename FROM pg_stat_activity;
 
 ---
 
-* Check long running queries:
+- Check long running queries:
 
 ```SQL
 SELECT pid, usename, now() - query_start AS duration FROM pg_stat_activity WHERE state = 'active' AND now() - query_start > interval '${query_timeout}';

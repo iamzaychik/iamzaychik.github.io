@@ -8,24 +8,24 @@ date: 2019-11-11
 
 *Setup Bluetooth on Ubuntu.*
 
-* Install packages:
+- Install packages:
 ```bash
 $ sudo apt install bluetooth bluez bluez-tools rfkill
 ```
 
-* Make sure your Bluetooth device is not blocked:
+- Make sure your Bluetooth device is not blocked:
 ```bash
 $ sudo apt install rfkill
 $ sudo rfkill list
 ```
 
-* If blocked:
+- If blocked:
 ```bash
 $ sudo rfkill unblock bluetooth
 $ sudo service bluetooth start
 ```
 
-* Scanning for devices:
+- Scanning for devices:
 ```bash
 $ sudo apt-get install blueman
 ```

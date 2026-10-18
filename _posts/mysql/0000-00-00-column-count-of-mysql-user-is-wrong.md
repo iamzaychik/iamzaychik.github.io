@@ -8,15 +8,15 @@ date: 2019-05-28
 
 *Repair a MySQL system table after an incompatible upgrade.*
 
-* It probably happens if you update directly bypassing the sequences of versions
+- It probably happens if you update directly bypassing the sequences of versions
 
-* Method one:
+- Method one:
 
 ```bash
 $ mysql_upgrade --force -uroot -p
 ```
 
-* Method two:
+- Method two:
 
 ```bash
 $ mysql -u root -p

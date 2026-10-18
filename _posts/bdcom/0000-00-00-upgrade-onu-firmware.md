@@ -67,7 +67,7 @@ Switch# epon commit-onu-image-update int epon 0/*:*
 
 ### Manually
 
-* Configure FileZilla FTP server:
+- Configure FileZilla FTP server:
 
 ```text
 username=a
@@ -82,9 +82,9 @@ your_ip=10.0.0.2
 
 ---
 
-* [FORA](#fora)
-* [BDCOM p1501c](#bdcom-p1501c)
-* [BDCOM 3024](#bdcom-3024)
+- [FORA](#fora)
+- [BDCOM p1501c](#bdcom-p1501c)
+- [BDCOM 3024](#bdcom-3024)
 
 ---
 

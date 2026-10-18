@@ -10,7 +10,7 @@ date: 2019-05-10
 
 *You cannot delete keys nor modify UIDs for keys uploaded to PGP key servers.*
 
-* To change your email, you must add a new UID:
+- To change your email, you must add a new UID:
 ```bash
 $ gpg --list-keys
 $ gpg --edit-key <keyID>
@@ -23,7 +23,7 @@ You need a passphrase to unlock the secret key for
 user: "NAME SURNAME <user@example.com>"
 ```
 
-* Update the trust level of the new UID:
+- Update the trust level of the new UID:
 ```bash
 gpg> uid <new uid number>
 gpg> trust
@@ -32,7 +32,7 @@ Do you really want to set this key to ultimate trust? (y/N) y
 gpg> uid <new uid number>
 ```
 
-* Revoke the old UID:
+- Revoke the old UID:
 ```bash
 gpg> uid <old uid number>
 gpg> revuid
@@ -42,7 +42,7 @@ Enter an optional description; end it with an empty line: <description>
 Is this okay? (y/N) y
 ```
 
-* Save the changes. Upload the updated key to your PGP key server:
+- Save the changes. Upload the updated key to your PGP key server:
 ```bash
 gpg> save
 $ gpg --keyserver hkp://pgp.mit.edu --send-keys <keyID>

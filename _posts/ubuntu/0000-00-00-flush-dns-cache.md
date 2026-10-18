@@ -8,13 +8,13 @@ date: 2019-10-10
 
 *Flush DNS cache on Ubuntu.*
 
-* Flush dns cache:
+- Flush dns cache:
 
 ```bash
 $ sudo systemd-resolve --flush-caches
 ```
 
-* OR:
+- OR:
 
 ```bash
 $ sudo systemctl restart systemd-resolved
@@ -22,7 +22,7 @@ $ sudo systemctl restart systemd-resolved
 
 ---
 
-* Check status:
+- Check status:
 
 ```bash
 $ sudo systemd-resolve --statistics

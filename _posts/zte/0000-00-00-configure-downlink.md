@@ -8,18 +8,18 @@ date: 2019-04-15
 
 *Configure ZTE downlink loop detection, DHCP snooping, and IPTV.*
 
-* Loopback:
+- Loopback:
 ```bash
 set loopdetect port 25 enable
 set loopdetect extend port 25 enable
 ```
 
-* DHCP-snooping:
+- DHCP-snooping:
 ```bash
 set dhcp port 25 cascade
 ```
 
-* IPTV:
+- IPTV:
 ```bash
 config nas
 iptv port 25 service start

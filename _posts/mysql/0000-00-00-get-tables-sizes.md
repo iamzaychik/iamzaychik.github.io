@@ -8,7 +8,7 @@ date: 2019-08-27
 
 *Find MySQL table sizes with information schema queries.*
 
-* You can use this query to show the size of a table (although you need to substitute the variables first):
+- You can use this query to show the size of a table (although you need to substitute the variables first):
 
 ```sql
 SELECT
@@ -19,7 +19,7 @@ WHERE table_schema = "DB_NAME"
     AND table_name = "TABLE_NAME";
 ```
 
-* This query to list the size of every table in every database, largest first:
+- This query to list the size of every table in every database, largest first:
 
 ```sql
 SELECT

@@ -12,7 +12,7 @@ date: 2022-07-23
 
 ---
 
-* [Installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
+- [Installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-redis-on-ubuntu-16-04)
 
 ```bash
 $ apt update
@@ -28,7 +28,7 @@ $ rm redis-6.2.4.tar.gz
 
 ---
 
-* Setup Redis files and directories:
+- Setup Redis files and directories:
 
 ```bash
 $ sudo adduser --system --group --no-create-home redis
@@ -52,7 +52,7 @@ $ echo 'ULIMIT=65536' > /etc/default/redis
 
 ---
 
-* [Create Root CA](https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309):
+- [Create Root CA](https://gist.github.com/fntlnz/cf14feb5a46b2eda428e000157447309):
 
 ```bash
 $ cd ~
@@ -86,7 +86,7 @@ $ rm server.csr
 
 ---
 
-* [Encryption](https://redis.io/topics/encryption):
+- [Encryption](https://redis.io/topics/encryption):
 
 ```bash
 $ echo 'tls-cert-file /etc/redis/server.crt' > /etc/redis/redis.conf
@@ -114,7 +114,7 @@ $ echo 'dbfilename dump.rdb' >> /etc/redis/redis.conf
 
 ---
 
-* [Security](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04):
+- [Security](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04):
 
 ```bash
 $ export REDIS_PASSWORD=$(openssl rand 60 | openssl base64 -A)
@@ -129,7 +129,7 @@ $ echo 'rename-command CONFIG ASC12_CONFIG' >> /etc/redis/redis.conf
 
 ---
 
-* Edit */etc/systemd/system/redis.service*:
+- Edit */etc/systemd/system/redis.service*:
 
 ```bash
 
@@ -182,7 +182,7 @@ Alias=redis.service
 
 ---
 
-* Start Redis:
+- Start Redis:
 
 ```bash
 $ systemctl start redis
@@ -192,7 +192,7 @@ $ systemctl enable redis
 
 ---
 
-* Connecting to Redis:
+- Connecting to Redis:
 
 ```bash
 $ redis-cli --tls --cert /etc/redis/server.crt --key /etc/redis/server.key --cacert /etc/redis/rootCA.crt --askpass

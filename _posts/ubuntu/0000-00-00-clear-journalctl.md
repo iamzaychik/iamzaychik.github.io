@@ -8,12 +8,12 @@ date: 2019-10-10
 
 *Clear journalctl on Ubuntu.*
 
-* Retain only the past two days:
+- Retain only the past two days:
 ```bash
 $ sudo journalctl --vacuum-time=2d
 ```
 
-* Retain only the past 500 MB:
+- Retain only the past 500 MB:
 ```bash
 $ journalctl --vacuum-size=500M
 ```

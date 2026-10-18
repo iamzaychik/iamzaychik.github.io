@@ -13,6 +13,6 @@ date: 2019-04-15
 3. Search for `loginUser/userTable`
 4. Press `Table View`
 5. Use `SNMP SET` for changing `priviledge` and `loginPass` values to our password
-* ![reset-pass](/assets/img/zte/reset-pass.jpg)
+- ![reset-pass](/assets/img/zte/reset-pass.jpg)
 
 ---

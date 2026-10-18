@@ -8,61 +8,61 @@ date: 2019-04-15
 
 *Quickly inspect and configure Alcatel OmniSwitch services from the CLI.*
 
-* [Ports](#ports)
-* [VLAN](#vlan)
-* [IP](#ip)
-* [SNMP](#snmp)
-* [NTP](#ntp)
-* [Stacking](#stacking)
-* [System](#system)
+- [Ports](#ports)
+- [VLAN](#vlan)
+- [IP](#ip)
+- [SNMP](#snmp)
+- [NTP](#ntp)
+- [Stacking](#stacking)
+- [System](#system)
 
 ---
 
-### Ports
+### Inspect ports
 
-* Show all:
+- Show all:
 
 ```text
 show interfaces port
 ```
 
-* Show port 1/1:
+- Show port 1/1:
 
 ```text
 show interfaces 1/1 port
 ```
 
-* Full status:
+- Full status:
 
 ```text
 show interfaces 1/1
 ```
 
-* On/off:
+- On/off:
 
 ```text
 interfaces 1/1 admin [up | down]
 ```
 
-* Rename:
+- Rename:
 
 ```text
 interfaces 1/1 alias dl:new:port:alias
 ```
 
-* Get MACs:
+- Get MACs:
 
 ```text
 show mac-address-table 1/1
 ```
 
-* Get errors:
+- Get errors:
 
 ```text
 show interfaces 1/1 counters errors
 ```
 
-* Clear stats:
+- Clear stats:
 
 ```text
 interfaces 1/1 no l2 statistics
@@ -72,73 +72,73 @@ interfaces 1/1 no l2 statistics
 
 ### VLAN
 
-* Show all:
+- Show all:
 
 ```text
 show vlan
 ```
 
-* Show vlan tag 111:
+- Show vlan tag 111:
 
 ```text
 show vlan 111
 ```
 
-* Show vlans on port:
+- Show vlans on port:
 
 ```text
 show vlan port 1/1
 ```
 
-* Create:
+- Create:
 
 ```text
 vlan 111 1x1 stp disable flat stp disable name new_vlan
 ```
 
-* Remove:
+- Remove:
 
 ```text
 no vlan 111
 ```
 
-* On/off:
+- On/off:
 
 ```text
 vlan 111 [enable | disable]
 ```
 
-* Set tagged:
+- Set tagged:
 
 ```text
 vlan 111 802.1q 1/1
 ```
 
-* Remove tagged:
+- Remove tagged:
 
 ```text
 vlan 111 no 802.1q 1/1
 ```
 
-* Set untagged:
+- Set untagged:
 
 ```text
 vlan 111 port default 1/1
 ```
 
-* Remove untagged:
+- Remove untagged:
 
 ```text
 vlan 111 no port default 1/1
 ```
 
-* Get MACs:
+- Get MACs:
 
 ```text
 show mac-address-table 111
 ```
 
-* Bind NAS mac on UL:
+- Bind NAS mac on UL:
 
 ```text
 mac-address-table 11:11:11:11:11:11 1/25 111
@@ -148,13 +148,13 @@ mac-address-table 11:11:11:11:11:11 1/25 111
 
 ### IP
 
-* Show interfaces:
+- Show interfaces:
 
 ```text
 show ip interface
 ```
 
-* Set MNG interface:
+- Set MNG interface:
 
 ```text
 ip interface Management address 111.111.111.111 mask 255.255.255.0 vlan 111 no forward
@@ -164,19 +164,19 @@ ip interface Management address 111.111.111.111 mask 255.255.255.0 vlan 111 no f
 
 ### SNMP
 
-* Start service:
+- Start service:
 
 ```text
 ip service snmp
 ```
 
-* Accept local passwords:
+- Accept local passwords:
 
 ```text
 aaa authentication snmp "local"
 ```
 
-* Set password:
+- Set password:
 
 ```text
 snmp security no security
@@ -184,13 +184,13 @@ user snmp password qwerty123 READ-ONLY all no auth
 snmp community map qwerty123 user "snmp]on
 ```
 
-* Get traps recipient:
+- Get traps recipient:
 
 ```text
 show snmp station
 ```
 
-* Set traps recipient:
+- Set traps recipient:
 
 ```text
 snmp authentication trap disable
@@ -201,19 +201,19 @@ snmp station A.B.C.D 162 "snmp]v2 enable
 
 ### NTP
 
-* Start service:
+- Start service:
 
 ```text
 ntp client enable
 ```
 
-* Set server:
+- Set server:
 
 ```text
 ntp server 111.111.111.111 prefer
 ```
 
-* Set timezone:
+- Set timezone:
 
 ```text
 system timezone eet
@@ -224,19 +224,19 @@ system daylight savings time enable
 
 ### Stacking
 
-* Status:
+- Status:
 
 ```text
 show stack topology
 ```
 
-* Rename slot 2 to 4:
+- Rename slot 2 to 4:
 
 ```text
 stack set slot 2 saved-slot 4
 ```
 
-* Mode 6850Е to 6850:
+- Mode 6850Е to 6850:
 
 ```text
 stack set slot 1 saved-mode os6850
@@ -248,55 +248,55 @@ stack set slot 1 saved-mode os6850
 
 *Delete `K2diag.img` from `working/` and `certified/` after an `Out Of Memory` error.*
 
-* Show config:
+- Show config:
 
 ```text
 show configuration snapshot
 ```
 
-* Sync config:
+- Sync config:
 
 ```text
 copy working certified flash-synchro
 ```
 
-* Save config:
+- Save config:
 
 ```text
 write memory
 ```
 
-* Show CPU usage:
+- Show CPU usage:
 
 ```text
 show health all cpu
 ```
 
-* Show logs:
+- Show logs:
 
 ```text
 show log swlog
 ```
 
-* Show services:
+- Show services:
 
 ```text
 show ip service
 ```
 
-* Create user:
+- Create user:
 
 ```text
 user admin password qwerty read-write all
 ```
 
-* Get slot MAC:
+- Get slot MAC:
 
 ```text
 show chassis
 ```
 
-* Reboot:
+- Reboot:
 
 ```text
 reload working no rollback-timeout

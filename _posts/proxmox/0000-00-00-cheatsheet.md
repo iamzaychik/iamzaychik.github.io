@@ -8,7 +8,7 @@ date: 2026-04-24
 
 *Common Proxmox storage, VM, and container commands.*
 
-* Alpine samba mount:
+- Alpine samba mount:
 
 ```bash
 $ apk add openssh cifs-utils nano
@@ -29,7 +29,7 @@ $ mkdir /mnt/share
 
 ---
 
-* Check CPU updates:
+- Check CPU updates:
 
 ```bash
 $ journalctl -k | grep -E "microcode: microcode"
@@ -37,7 +37,7 @@ $ journalctl -k | grep -E "microcode: microcode"
 
 ---
 
-* Add space to VM/CT:
+- Add space to VM/CT:
 
 ```bash
 $ qm resize 105 scsi0 +6G
@@ -46,7 +46,7 @@ $ pct resize 102 rootfs +10G
 
 ---
 
-* Pass disk to VM:
+- Pass disk to VM:
 
 ```bash
 $ lsblk -o +MODEL,SERIAL,WWN
@@ -55,7 +55,7 @@ $ qm set 592 -scsi2 /dev/disk/by-id/ata-STCHCJCJCKKC-MMEJEN_3AFAV334
 
 ---
 
-* Remove thin-lvm:
+- Remove thin-lvm:
 
 ```bash
 # Remove pve-data logical volume.

@@ -8,13 +8,13 @@ date: 2020-08-26
 
 *Monitor JVM applications through the Datadog JMX integration.*
 
-* Enable jxm console for service:
+- Enable jxm console for service:
 
 ```bash
 -Dcom.sun.management.jmxremote -Djava.rmi.server.hostname=127.0.0.1 -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
 ```
 
-* Add agent listener:
+- Add agent listener:
 
 ```bash
 $ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml

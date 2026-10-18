@@ -14,15 +14,15 @@ HPLIP (HP Linux Printing and Imaging System) was developed to support printing o
 
 HPLIP includes the following:
 
-* System services for communicating with printers.
-* The HP CUPS driver for two-way communication with HP printers (`hp:`).
-* The HP CUPS driver for sending faxes (`hpfax:`).
-* The HPIJS Ghostscript IJS driver for rasterizing PostScript or Ghostscript files.
-* Utilities for printer maintenance, including ink-level monitoring and calibration.
-* Utilities for downloading data from memory cards in multifunction devices.
-* Fax utilities.
-* A graphical interface for accessing these tools.
-* The HPAIO driver for SANE (`hpaio`) and supported scanners.
+- System services for communicating with printers.
+- The HP CUPS driver for two-way communication with HP printers (`hp:`).
+- The HP CUPS driver for sending faxes (`hpfax:`).
+- The HPIJS Ghostscript IJS driver for rasterizing PostScript or Ghostscript files.
+- Utilities for printer maintenance, including ink-level monitoring and calibration.
+- Utilities for downloading data from memory cards in multifunction devices.
+- Fax utilities.
+- A graphical interface for accessing these tools.
+- The HPAIO driver for SANE (`hpaio`) and supported scanners.
 
 The latest HPLIP version (2.8.12) is available on the [official website](https://hplipopensource.com/hplip-web/index.html). At the time of writing, it supported more than 1,536 printer models.
 

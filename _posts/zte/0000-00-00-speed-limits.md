@@ -8,14 +8,14 @@ date: 2019-04-15
 
 *Configure ingress and egress speed limits on ZTE switches.*
 
-* SI-series:
+- SI-series:
 ```bash
 set bandwidth feport [ 1-24 ] ingress session 2 rate 512
 set bandwidth feport [ 1-24 ] ingress session 2 enable
 set bandwidth feport [ 1-24 ] egress on rate 512
 ```
 
-* E-series:
+- E-series:
 ```bash
 set qos traffic-limit fe-port [ 1-24 ] data-rate 10000
 set qos traffic-shaping fe-port [ 1-24 ] data-rate 10000 burst-size 64

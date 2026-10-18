@@ -8,10 +8,10 @@ date: 2019-04-15
 
 *Block external DNS queries to reduce DNS-based abuse.*
 
-* ![close-port-53](/assets/img/mikrotik/1-close-port-53.png)
-* ![close-port-53](/assets/img/mikrotik/2-close-port-53.png)
+- ![close-port-53](/assets/img/mikrotik/1-close-port-53.png)
+- ![close-port-53](/assets/img/mikrotik/2-close-port-53.png)
 
-* Checking:
+- Checking:
 
 ```bash
 $ nslookup google.com 203.0.113.1

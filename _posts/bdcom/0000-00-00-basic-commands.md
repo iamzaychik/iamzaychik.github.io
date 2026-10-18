@@ -8,42 +8,42 @@ date: 2019-04-15
 
 *Швидка шпаргалка команд для налаштування BDCOM OLT і ONU.*
 
-* [ONU](#onu)
-* [VLAN](#vlan)
-* [Ports](#ports)
-* [Templates](#templates)
-* [Speed](#speed)
-* [Optic diagnostics](#optic-diagnostics)
-* [SNMP](#snmp)
-* [TFTP](#tftp)
+- [ONU](#onu)
+- [VLAN](#vlan)
+- [Ports](#ports)
+- [Templates](#templates)
+- [Speed](#speed)
+- [Optic diagnostics](#optic-diagnostics)
+- [SNMP](#snmp)
+- [TFTP](#tftp)
 
 ---
 
-* Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням, необхідно підключитися через консольний порт і при завантаженні комутатора натиснути комбінацію Ctrl+P.
+- Для того, щоб скинути пароль або повернутися до налаштувань за замовчуванням, необхідно підключитися через консольний порт і при завантаженні комутатора натиснути комбінацію Ctrl+P.
 
 ---
 
 ### ONU
 
-* List active:
+- List active:
 
 ```text
 show epon active-onu interface epON 0/1 1
 ```
 
-* Get basic info:
+- Get basic info:
 
 ```text
 show epon int epoN 0/1:1 onu ctc basic-info
 ```
 
-* Settings database:
+- Settings database:
 
 ```text
 show run db-llid
 ```
 
-* Deregister:
+- Deregister:
 
 ```text
 gepon_xxxx#config
@@ -51,7 +51,7 @@ gepon_xxxx_config#interface epon 0/1
 gepon_xxxx_config_epon0/1#no epon bind-onu mac xxxx.xxxx.xxxx
 ```
 
-* Enable traffic between ONU's in one PON:
+- Enable traffic between ONU's in one PON:
 
 ```text
 gepon_xxxx# config
@@ -65,7 +65,7 @@ gepon_xxxx_config# write
 
 ### VLAN
 
-* Tagged and untagged on the same port (xxxx - untagged, yyy - tagged):
+- Tagged and untagged on the same port (xxxx - untagged, yyy - tagged):
 
 ```text
 epon onu port 1 ctc vlan mode trunk xxxx yyy
@@ -75,7 +75,7 @@ epon onu port 1 ctc vlan mode trunk xxxx yyy
 
 ### Ports
 
-* Clear errors:
+- Clear errors:
 
 ```text
 gepon_xxxx_config#clear mib
@@ -85,7 +85,7 @@ gepon_xxxx_config#clear mib
 
 ### Templates
 
-* Create:
+- Create:
 
 ```text
 gepon_xxxx#config
@@ -100,13 +100,13 @@ epon onu-config-template PON1
  cmd-sequence 8 switchport port-security mode dynamic
 ```
 
-* Remove:
+- Remove:
 
 ```text
 no epon onu-config-template
 ```
 
-* Bind to ONU:
+- Bind to ONU:
 
 ```text
 epon pre-config-template xxxxxx binded-onu-llid xx
@@ -115,14 +115,14 @@ epon pre-config-template xxxxxx binded-onu-llid xx
 ---
 
 ### Speed
-* Restrict speed to 512/512 Kbps:
+- Restrict speed to 512/512 Kbps:
 
 ```text
 epon onu port 1 ctc rate-limit 512 egress
 epon onu port 1 ctc rate-limit 512 ingress
 ```
 
-* Remove restriction from UL port:
+- Remove restriction from UL port:
 
 ```text
 epon sla upstream pir 1000000 cir 950000
@@ -133,12 +133,12 @@ epon sla downstream pir 1000000 cir 950000
 
 ### Optic diagnostics
 
-* From OLT:
+- From OLT:
 ```text
 show epon optical-transceiver-diagnosis interface epon 0/x
 ```
 
-* From ONU:
+- From ONU:
 ```text
 show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis
 ```
@@ -147,7 +147,7 @@ show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis
 
 ### SNMP
 
-* Reboot OLT:
+- Reboot OLT:
 
 ```text
 .1.3.6.1.4.1.3320.9.184.7.0
@@ -157,13 +157,13 @@ show epon interface epON 0/x:x onu ctc optical-transceiver-diagnosis
 
 ### TFTP
 
-* Download to OLT:
+- Download to OLT:
 
 ```text
 copy tftp:startup-config flash XXX.XXX.XXX.XXX [ENTER]
 ```
 
-* Upload to TFTP:
+- Upload to TFTP:
 
 ```text
 copy flash:startup-config tftp XXX.XXX.XXX.XXX [ENTER]

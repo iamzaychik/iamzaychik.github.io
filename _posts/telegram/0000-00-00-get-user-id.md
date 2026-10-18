@@ -8,10 +8,10 @@ date: 2019-06-19
 
 *Find a Telegram user ID with userinfobot.*
 
-* Open Telegram，Type *userinfobot* in the search bar
-* Then choose the contact
-* Click *Start*
-* You will see your UserID as the userinfobot sent to you
+- Open Telegram，Type *userinfobot* in the search bar
+- Then choose the contact
+- Click *Start*
+- You will see your UserID as the userinfobot sent to you
 
 ---
 
