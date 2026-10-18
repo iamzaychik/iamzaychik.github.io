@@ -4,11 +4,14 @@ category: Android
 date: 2026-10-18
 ---
 
+---
+
 *Disable unwanted Xiaomi TV applications without removing them from the system image.*
 
 ### Connect to the TV
 
-Enable network debugging on the TV, then connect from the same network:
+- Enable network debugging on the TV.
+- Connect from the same network.
 
 ```bash
 $ adb connect 192.168.0.100
@@ -17,7 +20,7 @@ $ adb shell pm list packages
 
 ### Disable or enable a package
 
-Replace `<PACKAGE_NAME>` with the package to manage:
+- Replace `<PACKAGE_NAME>` with the package to manage.
 
 ```bash
 $ adb shell pm disable-user --user 0 <PACKAGE_NAME>
@@ -70,3 +73,5 @@ $ adb shell pm disable-user --user 0 com.google.android.tungsten.setupwraith
 
 - Keep an alternative launcher available before disabling the default.
 - Avoid disabling Live TV if HDMI inputs are required.
+
+---
