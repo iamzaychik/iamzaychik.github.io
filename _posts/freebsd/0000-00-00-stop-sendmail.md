@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Disable all Sendmail services on FreeBSD.*
+
 `sendmail_enable="NO"` is not enough.
 
 1. Open config:
