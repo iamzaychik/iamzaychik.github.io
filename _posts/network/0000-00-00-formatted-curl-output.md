@@ -6,6 +6,8 @@ date: 2021-11-03
 
 ---
 
+*Format curl timing output for troubleshooting.*
+
 1. *Create a new file, curl-format.txt, and paste in:*
 ```bash
      time_namelookup:  %{time_namelookup}s\n

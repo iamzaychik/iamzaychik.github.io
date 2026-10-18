@@ -6,6 +6,8 @@ date: 2021-11-28
 
 ---
 
+*Check certificate validity and HTTP response codes.*
+
 * Check if cert is valid:
 
 ```bash
