@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset Remmina certificate state and restart the client.*
+
 ```bash
 #!/bin/bash
 gksu bash
