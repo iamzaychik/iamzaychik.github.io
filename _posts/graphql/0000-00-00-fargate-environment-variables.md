@@ -6,7 +6,9 @@ date: 2021-02-17
 
 ---
 
-```bash
+*Configure Hasura GraphQL Engine environment variables for Fargate.*
+
+```text
 # Enable the Hasura Console (served by the server on / and /console) (default: false)
 HASURA_GRAPHQL_ENABLE_CONSOLE - true
 
