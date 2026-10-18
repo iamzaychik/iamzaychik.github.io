@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Allow guest Samba access without a password.*
+
 ```bash
 $ cat /etc/smb.conf
 [global]
