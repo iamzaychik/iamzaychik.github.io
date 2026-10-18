@@ -13,8 +13,8 @@ Maintain strict, clean Markdown without wrapping HTML elements unless required b
 ### Front Matter Required Template
 ```yaml
 ---
-title: "Exact Topic Description"
-category: [category-name]
+title: [Exact topic description]
+category: [category name]
 date: YYYY-MM-DD
 ---
 ```
