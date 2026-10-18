@@ -4,11 +4,13 @@ category: LSI
 date: 2019-04-15
 ---
 
-_LSI 9212 - контролер 6Гбіт SAS HBA з чотирма портами._
+---
+
+*LSI 9212 — контролер SAS HBA 6 Гбіт/с із чотирма портами.*
 
 ---
 
-1. Завантажуємо останню версію * <a href="https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=">Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows</a>*
+1. Завантажуємо останню версію [Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows](https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=).
 
 2. За допомогою Rufus робимо флешку з DOS*
 
