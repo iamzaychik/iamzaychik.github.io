@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Understand common SSL certificate bundle structures.*
+
 * BUNDLE:
   * intermediate-1
   * intermediate-N

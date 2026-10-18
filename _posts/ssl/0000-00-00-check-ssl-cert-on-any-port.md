@@ -6,6 +6,8 @@ date: 2020-07-07
 
 ---
 
+*Inspect an SSL certificate on any TCP port.*
+
 ```bash
 # Certs
 $ openssl s_client -servername example.com -connect example.com:993 -showcerts
