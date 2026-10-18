@@ -6,6 +6,8 @@ date: 2023-02-05
 
 ---
 
+*Run common Kubernetes context, inspection, scaling, and cleanup commands.*
+
 * Cluster contexts:
 ```bash
 # Check current contexts
@@ -53,7 +55,7 @@ $ kubectl logs -f -l app=application
 
 * Scale application deployment to needed replicas count:
 ```bash
-$ kubectl scale --replicas 0 deployment <deployment}>
+$ kubectl scale --replicas 0 deployment <deployment>
 ```
 
 ---

@@ -6,6 +6,8 @@ date: 2026-04-24
 
 ---
 
+*Apply practical security, deployment, and observability practices to Kubernetes clusters.*
+
 ### Containers
 * Containers should be ephemeral.
 * Use a `.dockerignore` file.
