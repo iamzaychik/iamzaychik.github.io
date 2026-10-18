@@ -6,7 +6,9 @@ date: 2026-04-24
 
 ---
 
-```bash
+*Bypass Home Assistant onboarding by editing its storage metadata.*
+
+```text
 .homeassistant/.storage/onboarding
 
 {
