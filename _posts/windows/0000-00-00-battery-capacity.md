@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Check Windows battery capacity and full-charge history.*
+
 1. Win+R -> cmd -> `powercfg energy` -> Enter
 2. Wait
 3. Check report path

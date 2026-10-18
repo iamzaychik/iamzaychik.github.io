@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Batch-rename files with a PowerShell template.*
+
 *Execute in powershell:*
 ```powershell
 Get-ChildItem "D:\Music" -Recurse |

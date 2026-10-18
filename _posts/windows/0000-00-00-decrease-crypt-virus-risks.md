@@ -4,6 +4,10 @@ category: Windows
 date: 2019-04-15
 ---
 
+---
+
+*Associate potentially dangerous Windows extensions with text files.*
+
 *Change potentially dangerous extensions associations to open as `.txt`*
 
 ---

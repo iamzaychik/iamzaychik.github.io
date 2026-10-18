@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Enable anonymous SMB connections in Windows 10.*
+
 * Manual:
 
 ```bash

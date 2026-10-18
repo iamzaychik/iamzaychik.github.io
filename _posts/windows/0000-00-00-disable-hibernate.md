@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Disable hibernation in Windows.*
+
 1. Win + R -> `powercfg -h off`
 2. You can now close the "Command Prompt" window, and you should find that the `hiberfil.sys` file has disappeared.
 
