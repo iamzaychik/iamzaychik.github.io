@@ -1,82 +1,83 @@
 {
   "plugins": {
 
-    // Заголовки у форматі #, ##, ###.
+    // Headings use the #, ##, ### format.
     // TODO: set Codex to rewrite headers.
     "MD003": {
       "enabled": false,
       "style": "atx"
     },
 
-    // Маркери невпорядкованого списку.
+    // Unordered list markers.
     // set Codex to rewrite unordered lists.
     "MD004": {
       "enabled": false,
       "style": "dash"
     },
 
-    // Відступ вкладених невпорядкованих списків.
+    // Indentation for nested unordered lists.
     "MD007": {
       "enabled": true,
       "indent": 2
     },
 
-    // Не перевіряємо нумерацію впорядкованих списків.
-    // set Codex to rewrite ordered lists.
-    "MD029": {
-      "enabled": false,
-      "style": "one"
-    },
-
-    // Не перевіряємо довжину рядка.
+    // Do not check line length.
     "MD013": {
       "enabled": false
     },
 
-    // Не перевіряємо $ перед Bash-командами.
+    // Do not require $ before Bash commands.
     "MD014": {
       "enabled": false
     },
 
-    // Не перевіряємо blank lines навколо заголовків.
+    // Do not check blank lines around headings.
     // set Codex to add blank lines around headers.
     "MD022": {
       "enabled": false
     },
 
-    // Jekyll title використовується замість H1 у Markdown.
+    // Jekyll title is used instead of an H1 in Markdown.
     "MD025": {
       "enabled": true
     },
 
-    // Дозволяємо пунктуацію наприкінці заголовків.
+    // Allow punctuation at the end of headings.
     "MD026": {
       "enabled": true
     },
 
-    // Тимчасово не перевіряємо blank lines навколо code fences.
+    // Do not check ordered-list numbering.
+    // set Codex to rewrite ordered lists.
+    "MD029": {
+      "enabled": true,
+      "style": "one"
+    },
+
+    // Temporarily do not check blank lines around code fences.
     // set Codex to add blank lines around code.
     "MD031": {
       "enabled": false
     },
 
-    // Тимчасово не перевіряємо blank lines навколо lists.
+    // Temporarily do not check blank lines around lists.
     // set Codex to add blank lines around lists.
     "MD032": {
       "enabled": false
     },
 
-    // HTML у блозі не використовується.
+    // HTML is not used in blog content.
+    // Except in posts/categories.
     "MD033": {
-      "enabled": true
+      "enabled": false
     },
 
-    // Кожен fenced code block має мати мову.
+    // Every fenced code block must specify a language.
     "MD040": {
       "enabled": true
     },
 
-    // Jekyll має YAML front matter перед заголовками.
+    // Jekyll requires YAML front matter before headings.
     // TODO: set Codex to remove duplicated ---.
     "MD041": {
       "enabled": false
