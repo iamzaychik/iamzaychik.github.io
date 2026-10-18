@@ -4,6 +4,10 @@ category: MySQL
 date: 2019-04-15
 ---
 
+---
+
+*Remove an incompatible ROW_FORMAT value from a MySQL dump.*
+
 * This error appears, when DB type was changed from MyISAM to InnoDB. After that option ROW_FORMAT is wrong:
 
 ```bash

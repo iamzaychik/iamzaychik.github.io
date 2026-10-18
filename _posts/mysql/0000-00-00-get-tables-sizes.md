@@ -4,6 +4,10 @@ category: MySQL
 date: 2019-08-27
 ---
 
+---
+
+*Find MySQL table sizes with information schema queries.*
+
 * You can use this query to show the size of a table (although you need to substitute the variables first):
 
 ```sql

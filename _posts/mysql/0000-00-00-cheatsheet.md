@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Common MySQL administration and maintenance commands.*
+
 * If you want to work with db, which contains dot - quote it:
 ```bash
 ``db.name``.
@@ -116,7 +118,7 @@ $ mysqlcheck -u root -p --auto-repair --all-databases
 1. Go to database dir:
 ```bash
 $ cd /var/lib/mysql/mydatabase
-````
+```
 2. Repair it:
 ```bash
 $ myisamchk --safe-recover mytable
