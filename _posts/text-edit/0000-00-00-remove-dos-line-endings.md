@@ -6,9 +6,11 @@ date: 2019-04-22
 
 ---
 
+*Convert DOS line endings with dos2unix.*
+
 1. Install [`dos2unix`](http://dos2unix.sourceforge.net/):
 ```bash
-$ sudp apt install dos2unix
+$ sudo apt install dos2unix
 ```
 
 2. Convert files:

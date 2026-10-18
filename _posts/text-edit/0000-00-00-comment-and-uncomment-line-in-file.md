@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Comment or uncomment matching lines with sed.*
+
 * Comment line, which contains `example`:
 ```bash
 $ sed -i '/example/s/^/#/g' test.file

@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Select columns and delimiters with awk.*
+
 * Вивести всі стовпці:
 ```bash
 awk '{print $0}'
