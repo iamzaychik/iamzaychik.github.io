@@ -6,9 +6,11 @@ date: 2026-04-24
 
 ---
 
+*Unhide selected Excel rows and insert the current date dynamically.*
+
 * Open only needed hidden rows:
 
-```bash
+```text
 Відкрийте ваш файл Excel.
 Натисніть Alt + F11, щоб відкрити редактор VBA.
 В редакторі VBA створіть новий модуль:
@@ -27,7 +29,7 @@ End Sub
 
 * Insert current date dynamically:
 
-```bash
+```text
 Ctrl f9
 { DATE \@ "yyyy" }
 ```
