@@ -6,6 +6,8 @@ date: 2019-05-02
 
 ---
 
+*Fix Grub after Windows on Ubuntu.*
+
 *Installing Windows after Ubuntu is not the recommended process for a dual boot Windows and Ubuntu system, but it is possible.*
 
 * Make sure that the 50GB free space is available, resizing your Ubuntu by using gParted if necessary.

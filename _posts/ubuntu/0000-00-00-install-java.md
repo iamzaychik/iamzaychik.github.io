@@ -6,6 +6,8 @@ date: 2019-11-11
 
 ---
 
+*Install Java on Ubuntu.*
+
 * Install (JDK or Java Development Kit, full version):
 ```bash
 $ sudo apt install openjdk-8-jdk

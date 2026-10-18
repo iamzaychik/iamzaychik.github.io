@@ -6,6 +6,8 @@ date: 2019-04-22
 
 ---
 
+*Rename files with regexp on Ubuntu.*
+
 *Lets change spaces to underscores:*
 
 1. Install `rename`, if you not had it yet:

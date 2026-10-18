@@ -6,6 +6,8 @@ date: 2019-05-29
 
 ---
 
+*Create swap on Ubuntu.*
+
 ```bash
 $ fallocate -l <SWAP SIZE> /swapfile
 $ chmod 600 /swapfile

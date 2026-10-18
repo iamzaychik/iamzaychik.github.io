@@ -6,6 +6,8 @@ date: 2019-05-29
 
 ---
 
+*System info on Ubuntu.*
+
 * OS version:
 
 ```bash

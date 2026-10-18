@@ -6,6 +6,8 @@ date: 2020-10-21
 
 ---
 
+*Fix VPN local resolving on 20.04 on Ubuntu.*
+
 ```bash
 # Install good resolver
 $ sudo apt install resolvconf

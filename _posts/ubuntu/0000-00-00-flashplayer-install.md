@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Flashplayer install on Ubuntu.*
+
 ### Install via apt
 
 ```bash

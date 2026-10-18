@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*UnicodeEncodeError on Ubuntu.*
+
 *When during systen update getting error:*
 ```bash
 UnicodeEncodeError: 'ascii' codec can't encode character '\xab' in position 170: ordinal not in range(128)

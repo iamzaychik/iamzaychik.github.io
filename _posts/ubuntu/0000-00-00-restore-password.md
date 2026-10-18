@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Restore password on Ubuntu.*
+
 1. Reboot your computer
 2. Hold `Shift` during boot to start GRUB menu
 3. Highlight your image and press `E` to edit

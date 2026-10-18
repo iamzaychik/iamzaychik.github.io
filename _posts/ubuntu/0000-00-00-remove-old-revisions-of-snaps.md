@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Remove old revisions of snaps on Ubuntu.*
+
 ```bash
 # CLOSE ALL SNAPS BEFORE RUNNING THIS
 set -eu

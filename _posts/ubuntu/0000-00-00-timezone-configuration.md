@@ -6,6 +6,8 @@ date: 2019-05-29
 
 ---
 
+*Timezone configuration on Ubuntu.*
+
 * First:
 ```bash
 $ dpkg-reconfigure tzdata

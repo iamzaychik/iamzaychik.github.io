@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Run cron randomly on Ubuntu.*
+
 1. To run the script 2 times per day:
 ```bash
 0 0,12 * * * sleep $(( $$ \% 21600 )); /path/to/script.sh

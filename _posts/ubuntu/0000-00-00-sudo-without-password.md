@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Sudo without password on Ubuntu.*
+
 1. Start editing sudoers:
 ```bash
 $ sudo visudo

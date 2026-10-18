@@ -6,6 +6,8 @@ date: 2019-11-11
 
 ---
 
+*Setup Bluetooth on Ubuntu.*
+
 * Install packages:
 ```bash
 $ sudo apt install bluetooth bluez bluez-tools rfkill

@@ -6,6 +6,8 @@ date: 2020-10-21
 
 ---
 
+*Uninstall JDK on Ubuntu.*
+
 ```bash
 # Check what you have installed
 $ java -version

@@ -6,6 +6,8 @@ date: 2019-11-29
 
 ---
 
+*Permissions on Ubuntu.*
+
 ```bash
 0. ---  No access.
 1. -x-  Execute access.

@@ -6,6 +6,8 @@ date: 2020-04-14
 
 ---
 
+*Check cron for all users on Ubuntu.*
+
 ```bash
 function allcrontab() {
      for user in $(cut -d':' -f1 /etc/passwd); do

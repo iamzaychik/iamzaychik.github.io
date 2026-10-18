@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Clear journalctl on Ubuntu.*
+
 * Retain only the past two days:
 ```bash
 $ sudo journalctl --vacuum-time=2d

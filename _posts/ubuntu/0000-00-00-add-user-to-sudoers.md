@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Add user to sudoers on Ubuntu.*
+
 ```bash
 $ usermod -aG sudo,adm  USER
 OR

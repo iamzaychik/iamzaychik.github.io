@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*gfxboot c32 not a valid COM32R image on Ubuntu.*
+
 1. Press `TAB`
 2. Enter  `live` or `install`
 3. Press `Enter`;

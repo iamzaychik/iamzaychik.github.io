@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Clear history on Ubuntu.*
+
 * Clear history for current session:
 ```bash
 $ history -r

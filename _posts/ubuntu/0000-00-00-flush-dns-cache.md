@@ -6,6 +6,8 @@ date: 2019-10-10
 
 ---
 
+*Flush DNS cache on Ubuntu.*
+
 * Flush dns cache:
 
 ```bash

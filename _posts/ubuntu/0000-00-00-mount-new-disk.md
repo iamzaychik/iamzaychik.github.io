@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Mount new disk on Ubuntu.*
+
 1. Create folder:
 ```bash
 $ mkdir /data

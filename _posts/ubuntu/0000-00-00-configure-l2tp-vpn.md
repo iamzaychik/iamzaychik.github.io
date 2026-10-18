@@ -6,6 +6,8 @@ date: 2020-10-21
 
 ---
 
+*Configure L2TP VPN on Ubuntu.*
+
 * Install packages
 ```bash
 $ sudo apt-get update
