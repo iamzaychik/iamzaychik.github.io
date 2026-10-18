@@ -6,26 +6,27 @@ date: 2020-02-05
 
 ---
 
+*Run a PvPGN Battle.net server with Docker Compose.*
+
 ```yaml
-version: '3.4'
-
 services:
-
   bnet:
-    restart: always
-    container_name: battle-net
+    restart: 'always'
+    container_name: 'battle-net'
     build:
-      context: .
-      dockerfile: Dockerfile_minimal
+      context: '.'
+      dockerfile: 'Dockerfile_minimal'
     ports:
-      - "6112:6112/tcp"
-      - "6112:6112/udp"
-      - "6200:6200/tcp"
+      - '6112:6112/tcp'
+      - '6112:6112/udp'
+      - '6200:6200/tcp'
     volumes:
-      - ./pvpgn/:/usr/local/var/pvpgn/
+      - './pvpgn/:/usr/local/var/pvpgn/'
 ```
 
 ---
+
+*Dockerfile_minimal:*
 
 ```bash
 FROM ubuntu:18.04
