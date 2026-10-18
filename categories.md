@@ -1,6 +1,9 @@
 ---
 title: Categories
 layout: no-date
+lang: en
+language_switcher: true
+translation_url: /uk/categories/
 ---
 
 ---

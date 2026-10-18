@@ -52,8 +52,13 @@
         </div>
         {% if page.language_switcher %}
           <nav class="language-switcher" aria-label="Language selection">
-            <a href="{{ '/' | relative_url }}">English</a>
-            <a href="{{ '/uk/' | relative_url }}">Українська</a>
+            {% if page.lang == 'uk' %}
+              <a href="{{ page.translation_url | relative_url }}">English</a>
+              <a href="{{ page.url | relative_url }}">Українська</a>
+            {% else %}
+              <a href="{{ page.url | relative_url }}">English</a>
+              <a href="{{ page.translation_url | relative_url }}">Українська</a>
+            {% endif %}
           </nav>
         {% endif %}
         {% unless page.hide_page_title %}
