@@ -17,6 +17,12 @@ title: Exact topic description
 category: Category name
 date: YYYY-MM-DD
 ---
+
+---
+
+Post content here.
+
+---
 ```
 
 ### Content Layout Rules (Based on Blog Style)
