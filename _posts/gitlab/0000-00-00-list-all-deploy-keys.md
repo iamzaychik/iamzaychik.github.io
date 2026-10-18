@@ -6,6 +6,8 @@ date: 2019-07-24
 
 ---
 
+*List GitLab deploy keys through the API.*
+
 1. Get access token with api permissions from your GitLab account
 2. Request api:
 

@@ -6,9 +6,11 @@ date: 2019-12-19
 
 ---
 
-*Use apt-get install gitlab-ce=x.xx.x-ce.x to install the right update, then:*
+*Upgrade GitLab from version 7.x through supported intermediate releases.*
 
-```bash
+*Use `apt-get install gitlab-ce=x.xx.x-ce.x` to install the right update, then:*
+
+```text
 Install the version 7.14.3 (7.14.3-ce.1)
 Install the version 8.0.0 (8.0.0-ce.0)
 Install the version 8.10.0 (8.10.0-ce.1)

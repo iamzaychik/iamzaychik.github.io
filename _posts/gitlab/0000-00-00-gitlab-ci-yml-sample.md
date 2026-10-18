@@ -6,6 +6,8 @@ date: 2020-03-21
 
 ---
 
+*Build and deploy a site with GitLab CI/CD.*
+
 ```yaml
 build site:
   image: node:7

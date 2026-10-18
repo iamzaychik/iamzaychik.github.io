@@ -6,6 +6,8 @@ date: 2019-12-19
 
 ---
 
+*Fix GitLab Registry upload permissions on the registry directory.*
+
 ```bash
 $ chown -R registry:registry /var/opt/gitlab/gitlab-rails/shared/registry/docker/registry
 ```

@@ -6,6 +6,8 @@ date: 2020-03-21
 
 ---
 
+*Register, verify, and remove GitLab Runner entries.*
+
 * Adds a new configuration entry, it doesn’t remove the previous ones:
 ```bash
 $ gitlab-runner register --name my-runner --url http://gitlab.example.com --registration-token my-registration-token

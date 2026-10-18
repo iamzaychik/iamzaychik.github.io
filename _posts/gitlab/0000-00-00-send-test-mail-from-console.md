@@ -6,6 +6,8 @@ date: 2019-12-19
 
 ---
 
+*Send a test email from the GitLab Rails console.*
+
 ```bash
 $ docker exec -it gitlab_app bash
 $ gitlab-rails console
