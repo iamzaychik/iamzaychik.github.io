@@ -6,26 +6,27 @@ date: 2019-04-15
 
 ---
 
+*Install and configure an HP printer on Lubuntu with HPLIP.*
+
 Modern Linux distributions support a large number of peripheral devices, including scanners, plotters, and printers. People new to Linux can encounter problems when installing a new printer. This article covers installing an HP printer on Ubuntu.
 
 HPLIP (HP Linux Printing and Imaging System) was developed to support printing on most inkjet and many LaserJet printers, as well as scanning, faxing, and memory-card access.
 
 HPLIP includes the following:
-<ul>
-   *system services for communicating with printers;
-   *the HP CUPS driver for two-way communication with HP printers (`hp:`);
-   *the HP CUPS driver for sending faxes (`hpfax:`);
-   *the HPIJS Ghostscript IJS driver for rasterizing PostScript or Ghostscript files and converting faxes to PostScript;
-   *utilities for printer maintenance, including ink-level monitoring, print-head cleaning, and calibration;
-   *utilities for downloading data from memory cards in modern multifunction devices, such as scanner-printer-copiers;
-   *fax utilities;
-   *a graphical interface for accessing these tools;
-   *the HPAIO driver for SANE (`hpaio`), which supports scanning on flatbed multifunction devices and devices with automatic document feeders.
-</ul>
 
-The latest HPLIP version (2.8.12) is available on the * <a href="https://hplipopensource.com/hplip-web/index.html">official website</a>. At the time of writing, it supported more than 1,536 printer models.
+* System services for communicating with printers.
+* The HP CUPS driver for two-way communication with HP printers (`hp:`).
+* The HP CUPS driver for sending faxes (`hpfax:`).
+* The HPIJS Ghostscript IJS driver for rasterizing PostScript or Ghostscript files.
+* Utilities for printer maintenance, including ink-level monitoring and calibration.
+* Utilities for downloading data from memory cards in multifunction devices.
+* Fax utilities.
+* A graphical interface for accessing these tools.
+* The HPAIO driver for SANE (`hpaio`) and supported scanners.
 
-To determine whether *HPLIP* supports your HP printer model, follow this * <a href="https://hplipopensource.com/hplip-web/supported_devices/index.html">link</a>.
+The latest HPLIP version (2.8.12) is available on the [official website](https://hplipopensource.com/hplip-web/index.html). At the time of writing, it supported more than 1,536 printer models.
+
+To determine whether *HPLIP* supports your HP printer model, follow this [link](https://hplipopensource.com/hplip-web/supported_devices/index.html).
 
 After finding your printer model in the list of HPLIP-supported printers, note the recommended HPLIP version (_requires HPLIP version_ …). It specifies the _minimum version_ of *HPLIP* needed for your HP device to work correctly.
 
@@ -41,15 +42,14 @@ Look for the line beginning with `ii`. Its third column contains the installed *
 
 If your Ubuntu installation has an older *HPLIP* version than your printer requires, update it.
 
-<h3>Install the printer</h3>
+### Install the printer
 
-To install the printer, run `<span style="color: #0000ff;">sudo hp-setup</span>` in a terminal, then complete the following steps:
-<ol>
-   *Choose the connection type. Modern devices usually connect through USB, so select *USB*, then click _Next_.
-   *Choose your printer model. It should be detected automatically; otherwise, select it manually from the supported-printers list.
-   *Click _Next_ in the following two windows.
-   *Finish the installation by clicking _Finish_.
-</ol>
+To install the printer, run `sudo hp-setup` in a terminal, then complete the following steps:
+
+1. Choose the connection type and select *USB* for modern devices.
+2. Choose your printer model from the supported-printers list.
+3. Click *Next* in the following two windows.
+4. Finish the installation by clicking *Finish*.
 
 After these steps, the printer is installed and a test page is printed.
 
