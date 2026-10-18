@@ -6,6 +6,8 @@ date: 2019-11-29
 
 ---
 
+*Reference Slack logo colors in common color formats.*
+
 * Light Blue:
 ```bash
 Hex color:  #36C5F0
