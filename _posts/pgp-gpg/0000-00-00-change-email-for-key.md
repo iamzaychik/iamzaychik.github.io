@@ -6,6 +6,8 @@ date: 2019-05-10
 
 ---
 
+*Change the email address associated with a PGP key.*
+
 *You cannot delete keys nor modify UIDs for keys uploaded to PGP key servers.*
 
 * To change your email, you must add a new UID:
