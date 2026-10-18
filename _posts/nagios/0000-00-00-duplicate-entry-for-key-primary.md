@@ -4,6 +4,10 @@ category: Nagios
 date: 2019-04-15
 ---
 
+---
+
+*Fix repeated Nagios duplicate-primary-key errors in Centreon.*
+
 *If your syslog contains a lot of errors like this:*
 `nagios ndo2db: mysql_error: 'Duplicate entry '2147483647' for key 'PRIMARY''`
 

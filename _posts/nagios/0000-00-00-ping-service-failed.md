@@ -4,6 +4,10 @@ category: Nagios
 date: 2019-04-15
 ---
 
+---
+
+*Fix Nagios ICMP checks that cannot obtain a privileged socket.*
+
 *If your Ping service fails with:*
 `check_icmp: Failed to obtain ICMP socket: Operation not permitted`
 
