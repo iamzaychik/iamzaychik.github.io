@@ -6,13 +6,23 @@ date: 2019-04-15
 
 ---
 
-1. Проверяем версию прошивки:
-`show switch`
+*Upgrade Extreme Summit firmware in both primary and secondary images.*
 
-2. Cтавим айпи:
-`configure vlan "Mgmt" ipaddress summit_ip/netmask` (пинговаться ничего не будет)
+1. Check the firmware version:
 
-3. Заливаем прошивку в secondary configuration (по дефолту саммит грузится в primary):
+```text
+show switch
+```
+
+2. Configure the IP address:
+
+```text
+configure vlan "Mgmt" ipaddress summit_ip/netmask
+```
+
+This address will not respond to ping requests.
+
+3. Download the firmware to the secondary configuration. Summit boots from primary by default:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6.xos vr "VR-Mgmt" secondary
@@ -20,7 +30,7 @@ _Do you want to install image after downloading ? (y—yes, n—no, —cancel)
 Say Yes to install image after downloading_
 ```
 
-4. Заливаем ssh:
+4. Download SSH:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6-ssh.xmod
@@ -34,7 +44,7 @@ restart process "thttpd"
 enable ssh2
 ```
 
-5. Переключаемся в secondary для возможности заливки в primary:
+5. Switch to secondary to download the firmware to primary:
 
 ```bash
 use configuration secondary
@@ -42,7 +52,7 @@ use image secondary
 reboot
 ```
 
-6. Заливаем прошивку в primary configuration:
+6. Download the firmware to the primary configuration:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6.xos vr "VR-Mgmt" primary
@@ -50,7 +60,7 @@ _Do you want to install image after downloading ? (y—yes, n—no, —cancel)
 Say Yes to install image after downloading_
 ```
 
-7. Заливаем ssh:
+7. Download SSH:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6-ssh.xmod
@@ -64,7 +74,7 @@ restart process "thttpd"
 enable ssh2
 ```
 
-8. Переключаемся в primary:
+8. Switch to primary:
 
 ```bash
 use configuration primary
