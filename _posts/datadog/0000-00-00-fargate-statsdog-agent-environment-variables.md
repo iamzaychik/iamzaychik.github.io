@@ -6,6 +6,8 @@ date: 2021-02-17
 
 ---
 
+*Configure Datadog Agent environment variables for Fargate StatsD metrics.*
+
 ```bash
 # Your Datadog API key (*required*)
 DD_API_KEY
