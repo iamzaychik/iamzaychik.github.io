@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Protect an Nginx site with basic authentication and IP exceptions.*
+
 *Enable basic auth:*
 ```bash
 server

@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Resolve an Nginx port binding conflict on port 80.*
+
 * If having next error, when starting Nginx:
 
 ```bash
@@ -16,7 +18,7 @@ date: 2019-04-15
 
 ```bash
 $ sudo fuser -k 80/tcp
- ```
+```
 
 2. Restart Nginx:
 

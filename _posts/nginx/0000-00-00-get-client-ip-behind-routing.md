@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Configure the real client IP behind a proxy or router.*
+
 *Add to `/etc/nginx.conf` as client header source:*
 
 ```bash
