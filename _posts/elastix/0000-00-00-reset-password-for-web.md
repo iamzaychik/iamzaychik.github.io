@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Reset the Elastix web administrator password from an SSH session.*
+
 * Before v3.0:
 1. Connect to ssh
 2. Change `admin` password to `password`:
