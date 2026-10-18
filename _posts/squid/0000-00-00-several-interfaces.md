@@ -6,6 +6,8 @@ date: 2019-04-15
 
 ---
 
+*Route authenticated Squid users through different interfaces.*
+
 * After login to proxy user will have IP, which used for connection
 
 ```bash
