@@ -6,6 +6,8 @@ date: 2022-07-23
 
 ---
 
+*Install Redis 6 with TLS, authentication, and a systemd service.*
+
 [Download](https://redis.io/download)
 
 ---
