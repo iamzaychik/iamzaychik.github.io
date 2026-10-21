@@ -11,6 +11,7 @@ All posts must reside in the `_posts/` directory. File name format: `0000-00-00-
 Maintain strict, clean Markdown without wrapping HTML elements unless required by Jekyll.
 
 ### Front Matter Required Template
+
 ```yaml
 ---
 title: Exact topic description
@@ -28,6 +29,7 @@ Post content.
 ```
 
 ### Content Layout Rules (Based on Blog Style)
+
 1. **Subtitle:** A single italicized sentence right below front matter explaining the core problem (e.g., *AWS instances not asking password, when users escalating to root using sudo*).
 2. **Headings:** Use `###` for sub-sections. Keep headers action-oriented.
 3. **Lists over Paragraphs:** Convert conceptual explanations into short bullet points. Each bullet point must be a punchy fragment under 15 words.
