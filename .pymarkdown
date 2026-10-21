@@ -50,20 +50,18 @@
     // Do not check ordered-list numbering.
     // set Codex to rewrite ordered lists.
     "MD029": {
-      "enabled": true,
+      "enabled": false,
       "style": "one"
     },
 
-    // Temporarily do not check blank lines around code fences.
-    // set Codex to add blank lines around code.
+    // Check blank lines around code fences.
     "MD031": {
-      "enabled": false
+      "enabled": true
     },
 
-    // Temporarily do not check blank lines around lists.
-    // set Codex to add blank lines around lists.
+    // Check blank lines around lists.
     "MD032": {
-      "enabled": false
+      "enabled": true
     },
 
     // HTML is not used in blog content.
