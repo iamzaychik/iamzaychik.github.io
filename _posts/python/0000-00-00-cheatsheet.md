@@ -56,10 +56,10 @@ date: 2019-04-15
 #!/usr/bin/python
 import os
 import shutil
-os.rename('name1','name2') # переименовать
-shutil.copy('name1','name2') # копировать
-shutil.move('name1', 'name2') # переместить
-os.remove('name1') # удалить
+os.rename('name1','name2') # rename
+shutil.copy('name1','name2') # copy
+shutil.move('name1', 'name2') # move
+os.remove('name1') # remove
 ```
 
 ---
