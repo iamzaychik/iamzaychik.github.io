@@ -1,15 +1,15 @@
 ---
 title: Публікації
 layout: no-date
-lang: uk
-permalink: /uk/posts/
+lang: ua
+permalink: /ua/posts/
 language_switcher: true
 translation_url: /posts/
 ---
 
 ---
 
-* [Категорії](/uk/categories/)
+* [Категорії](/ua/categories/)
 
 ---
 

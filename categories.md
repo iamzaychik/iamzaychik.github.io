@@ -3,7 +3,7 @@ title: Categories
 layout: no-date
 lang: en
 language_switcher: true
-translation_url: /uk/categories/
+translation_url: /ua/categories/
 ---
 
 ---

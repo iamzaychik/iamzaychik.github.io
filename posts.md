@@ -3,7 +3,7 @@ title: Posts
 layout: no-date
 lang: en
 language_switcher: true
-translation_url: /uk/posts/
+translation_url: /ua/posts/
 ---
 
 ---

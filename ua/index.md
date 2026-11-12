@@ -1,17 +1,17 @@
 ---
 title: Головна
 layout: no-date
-lang: uk
+lang: ua
 hide_description: false
 hide_page_title: true
-permalink: /uk/
+permalink: /ua/
 language_switcher: true
 translation_url: /
 ---
 
 ---
 
-* [Категорії](/uk/categories/)
-* [Публікації](/uk/posts/)
+* [Категорії](/ua/categories/)
+* [Публікації](/ua/posts/)
 
 ---
