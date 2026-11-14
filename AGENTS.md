@@ -5,12 +5,39 @@ This is a minimalist personal tech blog, notebook, and knowledge base (`iamzaych
 
 ---
 
-## 1. Core Post Structure
+## Content Editing & Style Rules
 
-All posts must reside in the `_posts/` directory. File name format: `0000-00-00-simplified-lowercase-title.md`.
-Maintain strict, clean Markdown without wrapping HTML elements unless required by Jekyll.
+- **Language Strictness:** The blog officially supports ONLY Ukrainian and English.
+- **Automatic Language Correction:** During editing, normalization, or content creation, translate unsupported-language content into Ukrainian or English, depending on context.
+    Preserve technical terms, commands, and code.
+- **Telegraphic Style:** Use brief, highly scannable sentences and active voice.
+    Avoid deep tutorials and narrative storytelling.
+- **Strict Category Reuse:** Before assigning a category, inspect existing folders under `_posts/`.
+    Reuse an existing category whenever possible.
+    Create a new one only if none fits.
+- **No Redundancy:** Check existing posts to prevent duplicate topics and fragmented content.
+    Do not change a post's original date when updating it.
+- **Command Accuracy:** Verify commands, code snippets, paths, and configuration examples.
+    Ensure they are valid for the documented environment.
 
-### Front Matter Required Template
+### Draft Review & Deduplication
+- Before creating a post, inspect `00_draft` and `_posts/` for related information.
+- If the information is new, create a post.
+- If it already exists, update or merge the relevant content instead of duplicating it.
+- Prioritize current, verified information over outdated content.
+- Preserve older information if it contains critical implementation details. Add it alongside current guidance, clearly distinguishing versions or conditions.
+- Verify existing instructions before replacing them.
+- Preserve relevant sources, commands, and technical details.
+
+---
+
+## Structure
+
+- **Drafts:** `00_draft/`
+- **Published Posts:** `_posts/`
+- **Post Filename:** `YYYY-MM-DD-simplified-lowercase-title.md`
+
+### Post Template
 
 ```yaml
 ---
@@ -19,38 +46,33 @@ category: Category name
 date: YYYY-MM-DD
 ---
 
-Subtitle.
+*Subtitle describing the core problem in one sentence.*
 
 ---
 
 Post content.
 
 ---
+
+[Source](url) link if the solution relies on external documentation.
+
+---
 ```
 
-### Content Layout Rules (Based on Blog Style)
+### Content Layout Rules
 
-1. **Subtitle:** A single italicized sentence right below front matter explaining the core problem (e.g., *AWS instances not asking password, when users escalating to root using sudo*).
-2. **Headings:** Use `###` for sub-sections. Keep headers action-oriented.
-3. **Lists over Paragraphs:** Convert conceptual explanations into short bullet points. Each bullet point must be a punchy fragment under 15 words.
-4. **Code blocks:** Wrap commands and configs in specific language blocks (e.g., bash, yaml, text). Prefix terminal commands with `$`.
-
----
-
-## 2. Content Editing & Style Rules
-
-* **Language Strictness:** The blog officially supports ONLY Ukrainian and English. You must strictly adhere to this constraint.
-* **Automatic Language Correction:** During editing, normalisation, or content creation, if you encounter any historical text or notes written in Russian or any other unsupported language, you MUST automatically translate and rewrite that content into pure Ukrainian (or English if the surrounding context requires it).
-* **Telegraphic Style:** Write in brief, highly scannable sentences using active voice. Avoid deep tutorials and narrative storytelling.
-* **Strict Category Reuse:** Before assigning or creating a category, scan existing folders under `_posts/`. Reuse an existing category if it fits. Create a new category *only* if no existing one matches the topic.
-* **No Redundancy:** Check existing posts to prevent layout fragmentation or overlapping topics. Do not modify post date when updating it with new content.
-* **Command Accuracy:** Ensure commands, code snippets, and path names are verified and production-ready.
-* **Reference Links:** Append an optional `[Source](url)` link at the very end of the file if the solution relies on external documentation.
+1. **Subtitle:** Add one italicized sentence immediately after front matter, describing the core problem or purpose.
+2. **Headings:** Use `###` for subsections. Keep headings concise and action-oriented.
+3. **Lists over Paragraphs:** Prefer short bullet points over lengthy explanations. Keep each bullet under 15 words where practical.
+4. **Code Blocks:** Use language-specific fences (`bash`, `yaml`, `text`, etc.). Prefix terminal commands with `$`.
 
 ---
 
-## 3. Validation & Pre-commit Enforcement
+## Validation
 
-* **Pre-commit Check:** Before completing any task or generating a report, you MUST run the local pre-commit hooks against the modified files using `pre-commit run --files <path_to_modified_files>`.
-* **Auto-Fix:** If pre-commit hooks (like `pymarkdown` or formatters) fail, automatically correct the formatting issues in the file and re-run the check until it passes.
-* **Reporting:** Reflect the pre-commit validation status in the standard task report.
+- **File Checks:** `pre-commit run --files <modified_files>`
+- Run File Checks against all modified files.
+- Use existing project dependencies and configurations.
+- Do not modify validation rules or configuration to bypass errors.
+- Fix safe formatting and lint issues, then rerun the checks.
+- Report validation failures that require manual intervention.
