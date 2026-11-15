@@ -6,7 +6,7 @@ Minimalist personal tech blog, notebook, and knowledge base.
 
 ## Architecture
 
-- **Stack:** `Github Pages, Jekyll, Markdown`.
+- **Stack:** `GitHub Pages, Jekyll, Markdown`.
 - **Tools:** `pre-commit, pymarkdown`.
 - **Drafts:** `00_draft/`.
 - **Published posts:** `_posts/<category>/`.
@@ -19,10 +19,12 @@ Minimalist personal tech blog, notebook, and knowledge base.
 ## Conventions
 
 - **Post filename:** `0000-00-00-simplified-lowercase-title.md`
+- **Updates:** Update existing posts instead of creating duplicates. Preserve the original publication date.
+- **Categories:** Reuse existing category folders.
 - **Language:** Ukrainian or English.
 - **Style:** Telegraphic, concise, scannable sentences.
-- **Syntax:** Follow `pymarkdown` configured rules.
-- **Conflicts:** Reuse existing category folders and posts, preserve the original publication date.
+- **Syntax:** Follow `.pymarkdown` rules.
+- **Sources:** Use verifiable sources and link to original references.
 
 ### Post Template
 
