@@ -19,8 +19,7 @@ Minimalist personal tech blog, notebook, and knowledge base.
 ## Conventions
 
 - **Post filename:** `0000-00-00-simplified-lowercase-title.md`
-- **Updates:** Update existing posts instead of creating duplicates. Preserve the original publication date.
-- **Categories:** Reuse existing category folders.
+- **Updates:** Check existing posts/categoris instead of creating duplicates. Preserve the original date/title.
 - **Language:** Ukrainian or English.
 - **Style:** Telegraphic, concise, scannable sentences.
 - **Syntax:** Follow `.pymarkdown` rules.
