@@ -1,5 +1,4 @@
 ---
-
 title: Time format
 category: Cacti
 date: 2019-04-15

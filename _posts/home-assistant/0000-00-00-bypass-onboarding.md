@@ -1,5 +1,4 @@
 ---
-
 title: Bypass onboarding
 category: Home Assistant
 date: 2026-04-24

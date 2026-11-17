@@ -1,5 +1,4 @@
 ---
-
 title: Ping service failed
 category: Nagios
 date: 2019-04-15

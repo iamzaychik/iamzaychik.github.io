@@ -1,5 +1,4 @@
 ---
-
 title: Find file by content and replace
 category: Bash
 date: 2019-05-29

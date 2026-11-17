@@ -1,5 +1,4 @@
 ---
-
 title: Force10 S4810 initial configuration
 category: Dell
 date: 2019-04-15

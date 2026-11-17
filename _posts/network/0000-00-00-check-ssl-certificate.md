@@ -1,5 +1,4 @@
 ---
-
 title: Check SSL certificate
 category: Network
 date: 2021-11-28

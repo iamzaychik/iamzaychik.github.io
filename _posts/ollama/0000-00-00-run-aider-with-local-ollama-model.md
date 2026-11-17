@@ -1,5 +1,4 @@
 ---
-
 title: Run Aider with a local Ollama model
 category: Ollama
 date: 2026-10-22
@@ -9,7 +8,7 @@ date: 2026-10-22
 
 ---
 
-### Install Ollama and Aider
+## Install Ollama and Aider
 
 - Install Ollama on Linux:
 

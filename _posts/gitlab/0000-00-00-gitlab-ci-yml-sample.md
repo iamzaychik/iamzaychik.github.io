@@ -1,5 +1,4 @@
 ---
-
 title: .gitlab-ci.yml sample
 category: GitLab
 date: 2020-03-21

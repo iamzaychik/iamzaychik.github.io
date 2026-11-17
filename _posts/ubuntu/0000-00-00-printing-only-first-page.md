@@ -1,5 +1,4 @@
 ---
-
 title: Printing only first page
 category: Ubuntu
 date: 2019-04-15

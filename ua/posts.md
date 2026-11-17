@@ -1,5 +1,4 @@
 ---
-
 title: Публікації
 layout: no-date
 lang: ua

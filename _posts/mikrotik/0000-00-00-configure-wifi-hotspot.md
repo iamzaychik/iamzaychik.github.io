@@ -1,5 +1,4 @@
 ---
-
 title: Configure Wi-Fi Hotspot
 category: Mikrotik
 date: 2019-04-15
@@ -8,7 +7,7 @@ date: 2019-04-15
 *Configure a legacy RouterOS wireless hotspot with separate guest and work
 networks.*
 
-### Configure the provider connection
+## Configure the provider connection
 
 - Open `IP->DHCP Client`.
 - Click `+` and select `Interface: Ether1`.

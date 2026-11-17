@@ -1,5 +1,4 @@
 ---
-
 title: Batch rename with template
 category: Windows
 date: 2019-04-15

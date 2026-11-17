@@ -1,5 +1,4 @@
 ---
-
 title: Cheatsheet
 category: Excel
 date: 2026-04-24

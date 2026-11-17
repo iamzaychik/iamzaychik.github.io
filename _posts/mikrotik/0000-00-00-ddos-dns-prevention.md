@@ -1,5 +1,4 @@
 ---
-
 title: DDoS DNS prevention
 category: Mikrotik
 date: 2019-04-15

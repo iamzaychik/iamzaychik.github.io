@@ -1,5 +1,4 @@
 ---
-
 title: Skip the TPM2 wait during systemd startup
 category: Ubuntu
 date: 2026-10-22
@@ -9,7 +8,7 @@ date: 2026-10-22
 
 ---
 
-### Disable the TPM2 synchronization point
+## Disable the TPM2 synchronization point
 
 - Add `systemd.tpm2_wait=false` to the kernel command line.
 - On Ubuntu, edit the default GRUB settings:

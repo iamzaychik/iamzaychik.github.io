@@ -1,5 +1,4 @@
 ---
-
 title: Home
 layout: no-date
 lang: en

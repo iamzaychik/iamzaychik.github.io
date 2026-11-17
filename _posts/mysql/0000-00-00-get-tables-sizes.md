@@ -1,5 +1,4 @@
 ---
-
 title: Get tables sizes
 category: MySQL
 date: 2019-08-27

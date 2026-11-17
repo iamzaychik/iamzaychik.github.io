@@ -1,5 +1,4 @@
 ---
-
 title: Get password from console input
 category: Bash
 date: 2019-07-05

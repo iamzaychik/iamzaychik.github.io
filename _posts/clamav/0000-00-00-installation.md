@@ -1,5 +1,4 @@
 ---
-
 title: Installation
 category: ClamAV
 date: 2026-04-24

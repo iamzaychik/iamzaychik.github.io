@@ -1,5 +1,4 @@
 ---
-
 title: Dockerfile example go
 category: Docker
 date: 2023-02-06

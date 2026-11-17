@@ -1,5 +1,4 @@
 ---
-
 title: Timezone configuration
 category: Ubuntu
 date: 2019-05-29

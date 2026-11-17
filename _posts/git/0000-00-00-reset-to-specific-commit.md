@@ -1,5 +1,4 @@
 ---
-
 title: Reset to specific commit
 category: Git
 date: 2019-04-15

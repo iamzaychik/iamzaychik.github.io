@@ -1,5 +1,4 @@
 ---
-
 title: Configure L2TP VPN
 category: Ubuntu
 date: 2020-10-21

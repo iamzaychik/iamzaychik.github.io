@@ -1,5 +1,4 @@
 ---
-
 title: Cycles with files
 category: Bash
 date: 2019-04-15

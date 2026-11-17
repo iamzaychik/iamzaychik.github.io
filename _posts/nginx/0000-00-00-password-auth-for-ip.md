@@ -1,5 +1,4 @@
 ---
-
 title: Password auth for IP
 category: Nginx
 date: 2019-04-15

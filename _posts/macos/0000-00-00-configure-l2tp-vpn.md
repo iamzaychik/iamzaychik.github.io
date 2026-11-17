@@ -1,5 +1,4 @@
 ---
-
 title: Configure L2TP VPN
 category: MacOS
 date: 2020-10-21

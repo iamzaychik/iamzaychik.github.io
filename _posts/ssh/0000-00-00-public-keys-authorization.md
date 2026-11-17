@@ -1,5 +1,4 @@
 ---
-
 title: Public keys authorization
 category: SSH
 date: 2019-04-15

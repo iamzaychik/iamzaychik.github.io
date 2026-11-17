@@ -1,5 +1,4 @@
 ---
-
 title: Drop outgoing traffic for client
 category: Mikrotik
 date: 2026-04-24

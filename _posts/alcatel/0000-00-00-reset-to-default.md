@@ -1,5 +1,4 @@
 ---
-
 title: Reset to default
 category: Alcatel
 date: 2019-04-15

@@ -1,5 +1,4 @@
 ---
-
 title: Configuring LACP between OpenIndiana and a Dell Force10 switch
 category: Dell
 date: 2019-04-15

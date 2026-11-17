@@ -1,5 +1,4 @@
 ---
-
 title: State machine execution describe policy
 category: AWS
 date: 2019-04-15

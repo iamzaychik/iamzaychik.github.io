@@ -1,5 +1,4 @@
 ---
-
 title: Update from 7.x
 category: GitLab
 date: 2019-12-19

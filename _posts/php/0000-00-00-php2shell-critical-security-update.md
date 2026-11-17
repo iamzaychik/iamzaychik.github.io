@@ -1,6 +1,5 @@
 ---
-
-title: PHP2Shell: critical PHP security update
+title: PHP2Shell critical PHP security update
 category: PHP
 date: 2026-10-21
 ---
@@ -16,7 +15,7 @@ PHP fixed two critical unauthenticated remote-code-execution vulnerabilities:
 
 Affected web-serving deployments include PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP, and LiteSpeed. Risk is highest with mod_php.
 
-### Fixed versions
+## Fixed versions
 
 - PHP 8.5: 8.5.12 or later.
 - PHP 8.4: 8.4.27 or later.
@@ -25,7 +24,7 @@ Affected web-serving deployments include PHP-FPM, Apache with mod_php, php-cgi, 
 
 Check distribution, container-image, and appliance updates. PHP 8.1 and older are unsupported upstream; use a vendor backport or upgrade to a supported branch.
 
-### Temporary mitigation
+## Temporary mitigation
 
 Updating is the only complete solution. Until then, disable session upload progress before request parsing and restart all PHP workers:
 

@@ -1,5 +1,4 @@
 ---
-
 title: Remove emoji code
 category: WordPress
 date: 2019-04-15

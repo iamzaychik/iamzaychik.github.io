@@ -1,5 +1,4 @@
 ---
-
 title: Reset password for web
 category: Elastix
 date: 2019-04-15

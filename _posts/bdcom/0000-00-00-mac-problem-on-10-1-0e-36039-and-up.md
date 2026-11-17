@@ -1,5 +1,4 @@
 ---
-
 title: MAC problem on 10.1.0E.36039 and up
 category: BDCOM
 date: 2019-04-15

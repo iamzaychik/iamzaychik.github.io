@@ -1,5 +1,4 @@
 ---
-
 title: Add user to sudoers
 category: Ubuntu
 date: 2019-04-15

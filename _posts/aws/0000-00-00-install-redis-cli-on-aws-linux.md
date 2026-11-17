@@ -1,5 +1,4 @@
 ---
-
 title: Install redis-cli on AWS Linux
 category: AWS
 date: 2022-07-23

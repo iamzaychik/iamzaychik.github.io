@@ -1,5 +1,4 @@
 ---
-
 title: Share directory from host
 category: LXC, LXD
 date: 2019-05-12

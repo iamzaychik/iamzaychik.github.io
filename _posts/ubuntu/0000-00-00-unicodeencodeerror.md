@@ -1,5 +1,4 @@
 ---
-
 title: UnicodeEncodeError
 category: Ubuntu
 date: 2019-04-15

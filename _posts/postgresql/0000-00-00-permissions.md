@@ -1,5 +1,4 @@
 ---
-
 title: Permissions
 category: PostgreSQL
 date: 2023-08-10

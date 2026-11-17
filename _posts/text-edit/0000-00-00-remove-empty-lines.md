@@ -1,5 +1,4 @@
 ---
-
 title: Remove empty lines
 category: Text edit
 date: 2019-10-10

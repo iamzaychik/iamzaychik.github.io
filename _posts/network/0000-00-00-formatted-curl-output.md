@@ -1,5 +1,4 @@
 ---
-
 title: Formatted curl output
 category: Network
 date: 2021-11-03

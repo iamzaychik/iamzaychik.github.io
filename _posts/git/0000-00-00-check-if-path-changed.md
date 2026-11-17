@@ -1,5 +1,4 @@
 ---
-
 title: Check if path changed
 category: Git
 date: 2023-12-31

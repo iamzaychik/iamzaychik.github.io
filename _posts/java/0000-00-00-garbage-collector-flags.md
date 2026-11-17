@@ -1,5 +1,4 @@
 ---
-
 title: Garbage collector flags
 category: Java
 date: 2020-08-26

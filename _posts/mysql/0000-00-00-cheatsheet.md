@@ -1,5 +1,4 @@
 ---
-
 title: Cheatsheet
 category: MySQL
 date: 2019-04-15

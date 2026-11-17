@@ -1,5 +1,4 @@
 ---
-
 title: Install bash-completion on AWS Linux
 category: AWS
 date: 2020-10-21

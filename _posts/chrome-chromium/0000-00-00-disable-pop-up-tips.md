@@ -1,5 +1,4 @@
 ---
-
 title: Disable pop-up tips
 category: Chrome, Chromium
 date: 2019-11-11

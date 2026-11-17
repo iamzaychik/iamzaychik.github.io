@@ -1,5 +1,4 @@
 ---
-
 title: Fargate statsdog agent environment variables
 category: Datadog
 date: 2021-02-17

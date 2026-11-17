@@ -1,5 +1,4 @@
 ---
-
 title: Reset to defaults
 category: ZTE
 date: 2019-04-15

@@ -1,5 +1,4 @@
 ---
-
 title: Change email for key
 category: PGP, GPG
 date: 2019-05-10

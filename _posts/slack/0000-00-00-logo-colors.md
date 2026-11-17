@@ -1,5 +1,4 @@
 ---
-
 title: Logo colors
 category: Slack
 date: 2019-11-29

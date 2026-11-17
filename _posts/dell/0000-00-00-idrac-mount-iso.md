@@ -1,5 +1,4 @@
 ---
-
 title: IDRAC. Mount iso
 category: Dell
 date: 2019-07-16

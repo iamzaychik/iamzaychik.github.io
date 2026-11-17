@@ -1,5 +1,4 @@
 ---
-
 title: Nginx PHP-FPM Webserver
 category: Docker-compose
 date: 2020-02-05
@@ -7,7 +6,7 @@ date: 2020-02-05
 
 *Serve local PHP files through the Nginx PHP-FPM container.*
 
-### Run the webserver
+## Run the webserver
 
 ```yaml
 services:

@@ -1,5 +1,4 @@
 ---
-
 title: Connect to HP printer
 category: Lubuntu
 date: 2019-04-15
@@ -55,7 +54,7 @@ Look for the line beginning with `ii`. Its third column contains the installed
 If your Ubuntu installation has an older *HPLIP* version than your printer
 requires, update it.
 
-### Install the printer
+## Install the printer
 
 To install the printer, run `sudo hp-setup` in a terminal, then complete the
 following steps:

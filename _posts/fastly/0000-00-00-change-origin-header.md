@@ -1,5 +1,4 @@
 ---
-
 title: Change origin header
 category: Fastly
 date: 2019-07-23

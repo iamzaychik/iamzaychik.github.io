@@ -1,5 +1,4 @@
 ---
-
 title: Unique lines in file
 category: Bash
 date: 2019-05-29

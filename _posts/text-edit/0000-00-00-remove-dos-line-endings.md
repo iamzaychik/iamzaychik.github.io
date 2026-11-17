@@ -1,5 +1,4 @@
 ---
-
 title: Remove DOS line endings
 category: Text edit
 date: 2019-04-22

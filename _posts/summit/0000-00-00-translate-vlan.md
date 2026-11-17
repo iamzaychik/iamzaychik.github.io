@@ -1,5 +1,4 @@
 ---
-
 title: Translate VLAN
 category: Summit
 date: 2019-04-15

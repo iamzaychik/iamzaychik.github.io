@@ -1,5 +1,4 @@
 ---
-
 title: Stop sendmail
 category: FreeBSD
 date: 2019-04-15

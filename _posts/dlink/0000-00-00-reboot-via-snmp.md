@@ -1,5 +1,4 @@
 ---
-
 title: Reboot via SNMP
 category: Dlink
 date: 2019-04-15

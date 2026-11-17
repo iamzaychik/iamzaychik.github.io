@@ -1,5 +1,4 @@
 ---
-
 title: Check SSL cert on any port
 category: SSL
 date: 2020-07-07

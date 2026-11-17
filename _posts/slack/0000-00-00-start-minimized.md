@@ -1,5 +1,4 @@
 ---
-
 title: Start minimized
 category: Slack
 date: 2020-04-14

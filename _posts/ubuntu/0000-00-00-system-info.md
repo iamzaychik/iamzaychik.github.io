@@ -1,5 +1,4 @@
 ---
-
 title: System info
 category: Ubuntu
 date: 2019-05-29

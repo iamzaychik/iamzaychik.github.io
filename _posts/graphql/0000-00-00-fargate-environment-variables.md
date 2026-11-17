@@ -1,5 +1,4 @@
 ---
-
 title: Fargate environment variables
 category: GraphQL
 date: 2021-02-17

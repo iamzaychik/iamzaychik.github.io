@@ -1,5 +1,4 @@
 ---
-
 title: Warcraft III OpenGL
 category: Wine
 date: 2020-04-17

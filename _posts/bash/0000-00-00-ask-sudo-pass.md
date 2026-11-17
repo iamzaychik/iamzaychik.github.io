@@ -1,5 +1,4 @@
 ---
-
 title: Ask sudo pass
 category: Bash
 date: 2019-08-27

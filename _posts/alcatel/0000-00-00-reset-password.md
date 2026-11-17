@@ -1,5 +1,4 @@
 ---
-
 title: Reset password
 category: Alcatel
 date: 2019-04-15

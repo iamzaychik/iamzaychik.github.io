@@ -1,5 +1,4 @@
 ---
-
 title: Columns cut
 category: Text edit
 date: 2019-04-15

@@ -1,5 +1,4 @@
 ---
-
 title: Категорії
 layout: no-date
 lang: ua

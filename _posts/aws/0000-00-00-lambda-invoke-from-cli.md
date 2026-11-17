@@ -1,5 +1,4 @@
 ---
-
 title: Lambda invoke from cli
 category: AWS
 date: 2019-10-10

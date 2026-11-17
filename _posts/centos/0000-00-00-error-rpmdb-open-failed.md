@@ -1,5 +1,4 @@
 ---
-
 title: Error rpmdb open failed
 category: CentOS
 date: 2019-04-15

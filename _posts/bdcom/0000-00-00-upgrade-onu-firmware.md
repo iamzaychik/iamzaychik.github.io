@@ -1,5 +1,4 @@
 ---
-
 title: Upgrade onu firmware
 category: BDCOM
 date: 2019-04-15
@@ -7,7 +6,7 @@ date: 2019-04-15
 
 *Оновіть прошивку ONU через BDCOM OLT або вручну.*
 
-### From OLT
+## From OLT
 
 1. Для відображення процесу:
 

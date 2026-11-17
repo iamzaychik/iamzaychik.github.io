@@ -1,5 +1,4 @@
 ---
-
 title: Flush DNS cache
 category: Ubuntu
 date: 2019-10-10

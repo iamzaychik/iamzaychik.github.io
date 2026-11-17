@@ -1,5 +1,4 @@
 ---
-
 title: Igmp snooping vlan ports filter
 category: Summit
 date: 2019-04-15

@@ -1,5 +1,4 @@
 ---
-
 title: Commands pipeline
 category: Bash
 date: 2019-10-10

@@ -1,5 +1,4 @@
 ---
-
 title: Comparison
 category: Bash
 date: 2019-05-29

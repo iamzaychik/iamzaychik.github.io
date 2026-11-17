@@ -1,5 +1,4 @@
 ---
-
 title: Categories
 layout: no-date
 lang: en

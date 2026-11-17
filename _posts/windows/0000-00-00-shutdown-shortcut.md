@@ -1,5 +1,4 @@
 ---
-
 title: Shutdown Shortcut
 category: Windows
 date: 2022-07-14

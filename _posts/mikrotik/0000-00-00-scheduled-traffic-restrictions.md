@@ -1,5 +1,4 @@
 ---
-
 title: Scheduled traffic restrictions
 category: Mikrotik
 date: 2019-04-15

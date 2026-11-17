@@ -1,5 +1,4 @@
 ---
-
 title: Setup EMR cluster
 category: AWS
 date: 2026-04-24

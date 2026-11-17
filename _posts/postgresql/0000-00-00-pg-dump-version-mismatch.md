@@ -1,5 +1,4 @@
 ---
-
 title: pg dump version mismatch
 category: PostgreSQL
 date: 2019-04-15

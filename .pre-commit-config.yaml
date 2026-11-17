@@ -28,3 +28,6 @@ repos:
     rev: v0.9.42
     hooks:
       - id: pymarkdown
+        entry: pymarkdown --enable-extensions front-matter
+        args:
+          - scan

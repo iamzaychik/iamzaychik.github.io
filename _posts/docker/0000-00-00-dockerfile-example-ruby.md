@@ -1,5 +1,4 @@
 ---
-
 title: Dockerfile example ruby
 category: Docker
 date: 2023-02-06

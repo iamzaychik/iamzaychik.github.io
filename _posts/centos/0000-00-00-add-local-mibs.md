@@ -1,5 +1,4 @@
 ---
-
 title: Add local mibs
 category: CentOS
 date: 2019-04-15

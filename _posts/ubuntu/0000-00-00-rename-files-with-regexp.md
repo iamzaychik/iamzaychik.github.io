@@ -1,5 +1,4 @@
 ---
-
 title: Rename files with regexp
 category: Ubuntu
 date: 2019-04-22

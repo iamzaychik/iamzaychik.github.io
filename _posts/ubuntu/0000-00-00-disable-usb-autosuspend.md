@@ -1,5 +1,4 @@
 ---
-
 title: Disable USB autosuspend
 category: Ubuntu
 date: 2022-07-23

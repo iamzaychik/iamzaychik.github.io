@@ -1,5 +1,4 @@
 ---
-
 title: Disable dark mode
 category: Chrome, Chromium
 date: 2019-05-07

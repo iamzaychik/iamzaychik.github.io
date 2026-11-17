@@ -1,5 +1,4 @@
 ---
-
 title: aws-cli MFA access
 category: AWS
 date: 2020-03-21
@@ -7,7 +6,7 @@ date: 2020-03-21
 
 *Create temporary AWS credentials from an IAM MFA token.*
 
-### Install jq
+## Install jq
 
 ```bash
 # Ubuntu

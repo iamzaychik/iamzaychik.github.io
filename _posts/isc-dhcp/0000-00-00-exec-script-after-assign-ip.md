@@ -1,5 +1,4 @@
 ---
-
 title: Exec script after IP assign
 category: ISC DHCP
 date: 2019-04-15

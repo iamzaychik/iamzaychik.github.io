@@ -1,5 +1,4 @@
 ---
-
 title: Spam testing string
 category: Mail
 date: 2020-07-23

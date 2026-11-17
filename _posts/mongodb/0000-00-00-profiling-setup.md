@@ -1,5 +1,4 @@
 ---
-
 title: Profiling setup
 category: MongoDB
 date: 2020-03-21

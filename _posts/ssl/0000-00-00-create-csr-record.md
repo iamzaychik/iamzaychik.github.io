@@ -1,5 +1,4 @@
 ---
-
 title: Create CSR record
 category: SSL
 date: 2019-04-15

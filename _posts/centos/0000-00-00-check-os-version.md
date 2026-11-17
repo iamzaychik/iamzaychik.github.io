@@ -1,5 +1,4 @@
 ---
-
 title: Check OS version
 category: CentOS
 date: 2019-10-10

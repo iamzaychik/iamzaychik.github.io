@@ -1,5 +1,4 @@
 ---
-
 title: Battery Capacity
 category: Windows
 date: 2019-04-15

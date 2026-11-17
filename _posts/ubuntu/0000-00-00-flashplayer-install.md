@@ -1,5 +1,4 @@
 ---
-
 title: Flashplayer install
 category: Ubuntu
 date: 2019-04-15
@@ -7,7 +6,7 @@ date: 2019-04-15
 
 *Flashplayer install on Ubuntu.*
 
-### Install via apt
+## Install via apt
 
 ```bash
 $ sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"

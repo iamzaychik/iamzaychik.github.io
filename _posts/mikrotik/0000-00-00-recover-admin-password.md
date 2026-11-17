@@ -1,5 +1,4 @@
 ---
-
 title: Recover admin password
 category: Mikrotik
 date: 2019-04-15

@@ -1,5 +1,4 @@
 ---
-
 title: Update firmware
 category: Alcatel
 date: 2019-04-15

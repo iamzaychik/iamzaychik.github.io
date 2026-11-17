@@ -1,5 +1,4 @@
 ---
-
 title: Localpics
 category: Docker-compose
 date: 2026-10-18
@@ -7,7 +6,7 @@ date: 2026-10-18
 
 *Serve a local image directory with the Localpics container.*
 
-### Run the image server
+## Run the image server
 
 ```yaml
 services:

@@ -1,5 +1,4 @@
 ---
-
 title: Ask password for ubuntu user sudo
 category: AWS
 date: 2019-04-15

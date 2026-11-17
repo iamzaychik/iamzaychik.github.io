@@ -1,5 +1,4 @@
 ---
-
 title: Publickey fingerprint
 category: SSH
 date: 2019-04-15

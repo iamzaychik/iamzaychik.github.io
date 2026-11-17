@@ -1,5 +1,4 @@
 ---
-
 title: Remove old revisions of snaps
 category: Ubuntu
 date: 2019-04-15

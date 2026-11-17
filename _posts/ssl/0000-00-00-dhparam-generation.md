@@ -1,5 +1,4 @@
 ---
-
 title: dhparam generation
 category: SSL
 date: 2019-04-15

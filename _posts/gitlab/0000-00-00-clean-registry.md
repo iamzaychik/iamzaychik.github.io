@@ -1,5 +1,4 @@
 ---
-
 title: Clean registry
 category: GitLab
 date: 2020-10-30

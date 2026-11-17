@@ -1,5 +1,4 @@
 ---
-
 title: Posts
 layout: no-date
 lang: en

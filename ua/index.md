@@ -1,5 +1,4 @@
 ---
-
 title: Головна
 layout: no-date
 lang: ua

@@ -1,5 +1,4 @@
 ---
-
 title: Table storage engine for TABLE doesnt have this option
 category: MySQL
 date: 2019-04-15

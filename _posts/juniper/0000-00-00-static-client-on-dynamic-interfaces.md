@@ -1,5 +1,4 @@
 ---
-
 title: Static client on dynamic interfaces
 category: Juniper
 date: 2019-04-15

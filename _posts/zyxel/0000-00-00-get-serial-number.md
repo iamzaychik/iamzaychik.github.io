@@ -1,5 +1,4 @@
 ---
-
 title: Get serial number
 category: Zyxel
 date: 2019-04-15

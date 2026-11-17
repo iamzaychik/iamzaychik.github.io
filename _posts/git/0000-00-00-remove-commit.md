@@ -1,5 +1,4 @@
 ---
-
 title: Remove commit
 category: Git
 date: 2026-04-24

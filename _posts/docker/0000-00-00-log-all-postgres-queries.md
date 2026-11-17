@@ -1,5 +1,4 @@
 ---
-
 title: Log all postgres queries
 category: Docker
 date: 2020-05-13

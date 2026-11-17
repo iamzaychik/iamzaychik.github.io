@@ -1,5 +1,4 @@
 ---
-
 title: Install pgAdmin
 category: PostgreSQL
 date: 2020-02-19

@@ -1,5 +1,4 @@
 ---
-
 title: Kiosk on multiple monitors
 category: Chrome, Chromium
 date: 2019-05-07

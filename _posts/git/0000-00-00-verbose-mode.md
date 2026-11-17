@@ -1,5 +1,4 @@
 ---
-
 title: Verbose mode
 category: Git
 date: 2021-02-17

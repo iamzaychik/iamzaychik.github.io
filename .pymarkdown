@@ -75,7 +75,7 @@
 
     // Jekyll requires YAML front matter before headings.
     "MD041": {
-      "enabled": false
+      "enabled": true
     },
 
     // Emphasis style

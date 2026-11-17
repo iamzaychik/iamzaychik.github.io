@@ -1,5 +1,4 @@
 ---
-
 title: Basic commands
 category: Summit
 date: 2019-04-15
@@ -7,7 +6,7 @@ date: 2019-04-15
 
 *Common Extreme Summit switch commands.*
 
-### Basic
+## Basic
 
 ```bash
 show ports *:* information detail - детальна інформація порта

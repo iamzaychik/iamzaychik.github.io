@@ -1,5 +1,4 @@
 ---
-
 title: Cheatsheet
 category: Python
 date: 2019-04-15

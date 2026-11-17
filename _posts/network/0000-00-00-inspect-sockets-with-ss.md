@@ -1,5 +1,4 @@
 ---
-
 title: Inspect sockets with ss
 category: Network
 date: 2026-10-18
@@ -7,7 +6,7 @@ date: 2026-10-18
 
 *Useful `ss` commands for finding listening services and active connections.*
 
-### List listening TCP ports
+## List listening TCP ports
 
 ```bash
 $ ss -tln

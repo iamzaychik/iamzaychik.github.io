@@ -1,5 +1,4 @@
 ---
-
 title: Remove files older than
 category: Bash
 date: 2019-05-29
