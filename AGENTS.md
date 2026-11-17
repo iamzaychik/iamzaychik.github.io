@@ -12,6 +12,7 @@ Minimalist personal tech blog, notebook, and knowledge base.
 - **Published posts:** `_posts/<category>/`.
 
 ### Commands
+
 - **Validation:** `pre-commit run --files <path_to_modified_files>`.
 
 ---

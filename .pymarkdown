@@ -79,6 +79,18 @@
     // TODO: set Codex to remove duplicated ---.
     "MD041": {
       "enabled": false
+    },
+
+    // Emphasis style
+    // TODO: set Codex to underscores to asterisks.
+    "MD049": {
+      "enabled": true,
+      "style": "asterisk"
+    },
+
+    // Link fragments should be valid
+    "MD051": {
+      "enabled": false
     }
   }
 }

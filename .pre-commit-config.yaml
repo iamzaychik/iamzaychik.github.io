@@ -6,10 +6,10 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
+      - id: check-added-large-files
       - id: check-json
       - id: check-merge-conflict
       - id: check-yaml
-      - id: detect-private-key
       - id: end-of-file-fixer
       - id: mixed-line-ending
       - id: trailing-whitespace
@@ -17,14 +17,14 @@ repos:
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.30.0
     hooks:
-      - id: gitleaks
+      - id: gitleaks-docker
 
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.37.1
+    rev: v1.38.0
     hooks:
       - id: yamllint
 
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.31
+    rev: v0.9.42
     hooks:
       - id: pymarkdown
