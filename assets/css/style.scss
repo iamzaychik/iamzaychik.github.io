@@ -26,10 +26,14 @@
 
 .site-navigation__link {
   display: block;
+  width: 100%;
   padding: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 0.25rem;
+  background: transparent;
   color: inherit;
+  cursor: pointer;
+  font: inherit;
   text-align: center;
   text-decoration: none;
   transition: border-color 120ms ease, background-color 120ms ease;
@@ -40,6 +44,19 @@
   border-color: #b5e853;
   background: rgba(181, 232, 83, 0.08);
   text-decoration: none;
+}
+
+.site-navigation__link--active {
+  border-color: #b5e853;
+  background: rgba(181, 232, 83, 0.08);
+}
+
+.home-content {
+  margin-top: 2rem;
+}
+
+.home-content__panel[hidden] {
+  display: none;
 }
 
 .category-navigation {
