@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: TOR
 date: 2026-04-24
----
-
 ---
 
 *Configure Tor SOCKS access and excluded exit-node countries.*

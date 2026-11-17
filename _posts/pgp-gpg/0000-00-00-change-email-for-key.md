@@ -1,9 +1,8 @@
 ---
+
 title: Change email for key
 category: PGP, GPG
 date: 2019-05-10
----
-
 ---
 
 *Change the email address associated with a PGP key.*

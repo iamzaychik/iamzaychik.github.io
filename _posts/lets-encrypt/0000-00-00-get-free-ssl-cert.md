@@ -1,9 +1,8 @@
 ---
+
 title: Get free SSL cert
 category: Lets Encrypt
 date: 2019-04-15
----
-
 ---
 
 *Зберіть посилання для отримання безкоштовного SSL-сертифіката.*

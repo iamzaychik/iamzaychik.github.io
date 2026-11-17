@@ -1,9 +1,8 @@
 ---
+
 title: Install pgAdmin
 category: PostgreSQL
 date: 2020-02-19
----
-
 ---
 
 *Install pgAdmin from the PostgreSQL repository.*

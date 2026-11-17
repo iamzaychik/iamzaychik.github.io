@@ -1,9 +1,8 @@
 ---
+
 title: Setup Bluetooth
 category: Ubuntu
 date: 2019-11-11
----
-
 ---
 
 *Setup Bluetooth on Ubuntu.*

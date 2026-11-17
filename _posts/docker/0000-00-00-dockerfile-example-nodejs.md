@@ -1,9 +1,8 @@
 ---
+
 title: Dockerfile example nodejs
 category: Docker
 date: 2023-02-06
----
-
 ---
 
 *Build a Node.js application with a Dockerfile.*

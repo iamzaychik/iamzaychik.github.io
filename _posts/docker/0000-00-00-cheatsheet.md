@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: Docker
 date: 2019-04-15
----
-
 ---
 
 *Collect common Docker commands and configuration snippets.*

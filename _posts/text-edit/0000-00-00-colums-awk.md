@@ -1,9 +1,8 @@
 ---
+
 title: Columns awk
 category: Text edit
 date: 2019-04-15
----
-
 ---
 
 *Select columns and delimiters with awk.*

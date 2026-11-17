@@ -1,9 +1,8 @@
 ---
+
 title: SSL certificates structure
 category: SSL
 date: 2019-04-15
----
-
 ---
 
 *Understand common SSL certificate bundle structures.*

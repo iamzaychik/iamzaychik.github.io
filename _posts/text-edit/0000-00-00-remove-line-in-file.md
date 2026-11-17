@@ -1,9 +1,8 @@
 ---
+
 title: Remove line in file
 category: Text edit
 date: 2019-04-22
----
-
 ---
 
 *Remove specific lines from a file with sed.*

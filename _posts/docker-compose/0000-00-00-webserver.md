@@ -1,9 +1,8 @@
 ---
+
 title: Nginx PHP-FPM Webserver
 category: Docker-compose
 date: 2020-02-05
----
-
 ---
 
 *Serve local PHP files through the Nginx PHP-FPM container.*

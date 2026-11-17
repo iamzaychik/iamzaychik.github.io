@@ -1,9 +1,8 @@
 ---
+
 title: Client connection
 category: PPTP
 date: 2019-04-15
----
-
 ---
 
 *Configure a PPTP client connection.*
@@ -14,7 +13,7 @@ date: 2019-04-15
 $ sudo apt-get install pptp-linux
 ```
 
-2. Створюємо файл нового підключення:
+1. Створюємо файл нового підключення:
 
 ```bash
 $ mcedit /etc/ppp/peers/new-vpn
@@ -37,7 +36,7 @@ file /etc/ppp/options.pptp
 ipparam $TUNNEL
 ```
 
-3. Додаємо дані користувача у файл:
+1. Додаємо дані користувача у файл:
 
 ```bash
 $ mcedit /etc/ppp/chap-secrets
@@ -49,7 +48,7 @@ $ mcedit /etc/ppp/chap-secrets
 "vpnuser" NEW-VPN "vpnpassword"
 ```
 
-4. Запуск підключення у дебаг-режимі:
+1. Запуск підключення у дебаг-режимі:
 
 ```bash
 pon new-vpn nodetach

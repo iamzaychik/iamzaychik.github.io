@@ -1,4 +1,5 @@
 ---
+
 title: Skip the TPM2 wait during systemd startup
 category: Ubuntu
 date: 2026-10-22

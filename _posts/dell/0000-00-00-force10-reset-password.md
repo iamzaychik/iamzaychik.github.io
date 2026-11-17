@@ -1,9 +1,8 @@
 ---
+
 title: Force10 reset password
 category: Dell
 date: 2019-04-15
----
-
 ---
 
 *Відновіть доступ до комутатора Dell Force10 після втрати пароля.*

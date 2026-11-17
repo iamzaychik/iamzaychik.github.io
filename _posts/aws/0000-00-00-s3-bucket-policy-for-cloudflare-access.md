@@ -1,9 +1,8 @@
 ---
+
 title: S3 bucket policy for Cloudflare access
 category: AWS
 date: 2020-04-10
----
-
 ---
 
 *Restrict S3 object access to Cloudflare source IP ranges.*

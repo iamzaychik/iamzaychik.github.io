@@ -1,9 +1,8 @@
 ---
+
 title: Mount new disk
 category: Ubuntu
 date: 2019-04-15
----
-
 ---
 
 *Mount new disk on Ubuntu.*
@@ -14,19 +13,19 @@ date: 2019-04-15
 $ mkdir /data
 ```
 
-2. Find HDD identifier:
+1. Find HDD identifier:
 
 ```bash
 $ fdisk -l
 ```
 
-3. Open disk editor:
+1. Open disk editor:
 
 ```bash
 $ fdisk /dev/sdx
 ```
 
-4. Select needed option:
+1. Select needed option:
 
 ```bash
 d ...to delete the current partition
@@ -36,37 +35,37 @@ p ...to specify it as a PRIMARY partition
 w ...to write the changes.
 ```
 
-5. Check new partition:
+1. Check new partition:
 
 ```bash
 $ fdisk -l
 ```
 
-6. Format partition:
+1. Format partition:
 
 ```bash
 $ mkfs.ext4 /dev/sdx1
 ```
 
-7. Find partition identifier:
+1. Find partition identifier:
 
 ```bash
 $ blkid
 ```
 
-8. Add partition to /etc/fstab for mount at boot:
+1. Add partition to /etc/fstab for mount at boot:
 
 ```bash
 UUID=XXXXX-XXXXX-XXX /data ext4  defaults 0 2
 ```
 
-9. Mount:
+1. Mount:
 
 ```bash
 $ mount -a
 ```
 
-10. Check mounts:
+1. Check mounts:
 
 ```bash
 $ df -h

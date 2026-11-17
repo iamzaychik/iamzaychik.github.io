@@ -1,9 +1,8 @@
 ---
+
 title: Scheduled traffic restrictions
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Schedule MikroTik traffic restrictions for a client.*

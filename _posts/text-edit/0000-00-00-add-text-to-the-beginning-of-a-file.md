@@ -1,9 +1,8 @@
 ---
+
 title: Add text to the beginning of a file
 category: Text edit
 date: 2019-04-22
----
-
 ---
 
 *Insert text at the beginning of a file with sed.*

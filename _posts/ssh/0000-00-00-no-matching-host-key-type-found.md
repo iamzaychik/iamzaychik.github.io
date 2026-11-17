@@ -1,9 +1,8 @@
 ---
+
 title: No matching host key type found
 category: SSH
 date: 2019-04-15
----
-
 ---
 
 *Connect to an SSH server that offers only the deprecated DSS key type.*

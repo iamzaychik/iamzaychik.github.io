@@ -1,9 +1,8 @@
 ---
+
 title: Find files modified in last 24h
 category: Bash
 date: 2020-03-21
----
-
 ---
 
 *Find files modified during the last 24 hours.*

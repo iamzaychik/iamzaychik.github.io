@@ -1,9 +1,8 @@
 ---
+
 title: Upgrade firmware
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Upgrade Extreme Summit firmware in both primary and secondary images.*
@@ -14,7 +13,7 @@ date: 2019-04-15
 show switch
 ```
 
-2. Configure the IP address:
+1. Configure the IP address:
 
 ```text
 configure vlan "Mgmt" ipaddress summit_ip/netmask
@@ -22,7 +21,7 @@ configure vlan "Mgmt" ipaddress summit_ip/netmask
 
 This address will not respond to ping requests.
 
-3. Download the firmware to the secondary configuration. Summit boots from
+1. Download the firmware to the secondary configuration. Summit boots from
    primary by default:
 
 ```bash
@@ -31,7 +30,7 @@ _Do you want to install image after downloading ? (y—yes, n—no, —cancel)
 Say Yes to install image after downloading_
 ```
 
-4. Download SSH:
+1. Download SSH:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6-ssh.xmod
@@ -45,7 +44,7 @@ restart process "thttpd"
 enable ssh2
 ```
 
-5. Switch to secondary to download the firmware to primary:
+1. Switch to secondary to download the firmware to primary:
 
 ```bash
 use configuration secondary
@@ -53,7 +52,7 @@ use image secondary
 reboot
 ```
 
-6. Download the firmware to the primary configuration:
+1. Download the firmware to the primary configuration:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6.xos vr "VR-Mgmt" primary
@@ -61,7 +60,7 @@ _Do you want to install image after downloading ? (y—yes, n—no, —cancel)
 Say Yes to install image after downloading_
 ```
 
-7. Download SSH:
+1. Download SSH:
 
 ```bash
 download image your_ip summitX-15.1.2.12-patch1-6-ssh.xmod
@@ -75,7 +74,7 @@ restart process "thttpd"
 enable ssh2
 ```
 
-8. Switch to primary:
+1. Switch to primary:
 
 ```bash
 use configuration primary

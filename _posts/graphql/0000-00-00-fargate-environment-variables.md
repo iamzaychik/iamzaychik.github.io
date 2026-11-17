@@ -1,9 +1,8 @@
 ---
+
 title: Fargate environment variables
 category: GraphQL
 date: 2021-02-17
----
-
 ---
 
 *Configure Hasura GraphQL Engine environment variables for Fargate.*

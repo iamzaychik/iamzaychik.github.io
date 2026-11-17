@@ -1,9 +1,8 @@
 ---
+
 title: Lambda invoke from cli
 category: AWS
 date: 2019-10-10
----
-
 ---
 
 *Invoke an AWS Lambda function from the command line.*

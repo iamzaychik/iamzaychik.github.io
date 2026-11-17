@@ -1,9 +1,8 @@
 ---
+
 title: Update firmware
 category: Alcatel
 date: 2019-04-15
----
-
 ---
 
 *Upload and activate Alcatel OmniSwitch firmware through FileZilla.*
@@ -17,17 +16,17 @@ ip service ftp
 aaa authentication ftp local
 ```
 
-4. Install FileZilla:
+1. Install FileZilla:
 `$ sudo apt-get install filezilla`
 
-5. Browse Alcatel with FileZilla and upload files to `/flash/working`
-6. Reboot switch:
+2. Browse Alcatel with FileZilla and upload files to `/flash/working`
+3. Reboot switch:
 `reload working no rollback-timeout`
 
-7. Synchronize stack:
+4. Synchronize stack:
 `copy working certified flash-synchro`
 
-8. Check firmware:
+5. Check firmware:
 `show microcode`
 
 ---

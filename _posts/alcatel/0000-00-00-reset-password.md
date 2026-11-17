@@ -1,9 +1,8 @@
 ---
+
 title: Reset password
 category: Alcatel
 date: 2019-04-15
----
-
 ---
 
 *Remove the local user database from an Alcatel OmniSwitch console.*
@@ -19,7 +18,7 @@ date: 2019-04-15
 =>run miniboot
 ```
 
-4. After reboot:
+1. After reboot:
 
 ```text
 login:    admin

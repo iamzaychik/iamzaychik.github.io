@@ -1,9 +1,8 @@
 ---
+
 title: Flashplayer install
 category: Ubuntu
 date: 2019-04-15
----
-
 ---
 
 *Flashplayer install on Ubuntu.*

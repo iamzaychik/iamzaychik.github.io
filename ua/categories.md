@@ -1,4 +1,5 @@
 ---
+
 title: Категорії
 layout: no-date
 lang: ua
@@ -9,7 +10,7 @@ translation_url: /categories/
 
 ---
 
-* [Публікації](/ua/posts/)
+- [Публікації](/ua/posts/)
 
 ---
 

@@ -1,9 +1,8 @@
 ---
+
 title: Who runs script
 category: Bash
 date: 2019-05-29
----
-
 ---
 
 *Print the user running a Bash script.*

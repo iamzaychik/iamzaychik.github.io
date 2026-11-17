@@ -1,9 +1,8 @@
 ---
+
 title: Configuration via SNMP and TFTP
 category: Dlink
 date: 2019-04-15
----
-
 ---
 
 *Керуйте конфігурацією D-Link через SNMP і TFTP.*

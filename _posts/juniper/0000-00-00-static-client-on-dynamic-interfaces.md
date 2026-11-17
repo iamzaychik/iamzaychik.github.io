@@ -1,4 +1,5 @@
 ---
+
 title: Static client on dynamic interfaces
 category: Juniper
 date: 2019-04-15
@@ -49,7 +50,7 @@ then accept;
 }
 ```
 
-5. To avoid overloading OSPF, create a prefix-list policy for continuously
+1. To avoid overloading OSPF, create a prefix-list policy for continuously
    advertising the IP address.
 The procedure is:
 a) create a new VLAN on the interface;

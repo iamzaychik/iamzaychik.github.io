@@ -1,9 +1,8 @@
 ---
+
 title: Get serial number
 category: Zyxel
 date: 2019-04-15
----
-
 ---
 
 *Display the serial number of a Zyxel switch.*

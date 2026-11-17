@@ -1,9 +1,8 @@
 ---
+
 title: Dockerfile example ruby
 category: Docker
 date: 2023-02-06
----
-
 ---
 
 *Build a Ruby application with a multi-stage Dockerfile.*

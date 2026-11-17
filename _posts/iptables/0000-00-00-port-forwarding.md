@@ -1,9 +1,8 @@
 ---
+
 title: Port forwarding
 category: IPtables
 date: 2019-04-15
----
-
 ---
 
 *Forward an external TCP port to an internal destination with iptables.*

@@ -1,9 +1,8 @@
 ---
+
 title: Dockerfile example python
 category: Docker
 date: 2023-02-06
----
-
 ---
 
 *Build a Python application with a Dockerfile.*

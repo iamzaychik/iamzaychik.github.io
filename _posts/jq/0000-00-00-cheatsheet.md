@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: jq
 date: 2021-02-17
----
-
 ---
 
 *Process, query, and transform JSON from the command line with jq.*

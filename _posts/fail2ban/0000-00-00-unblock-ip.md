@@ -1,9 +1,8 @@
 ---
+
 title: Unblock IP
 category: Fail2Ban
 date: 2019-04-15
----
-
 ---
 
 *Unblock an IP address in Fail2Ban with version-specific commands.*

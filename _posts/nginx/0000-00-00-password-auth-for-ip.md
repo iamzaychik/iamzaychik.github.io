@@ -1,9 +1,8 @@
 ---
+
 title: Password auth for IP
 category: Nginx
 date: 2019-04-15
----
-
 ---
 
 *Protect an Nginx site with basic authentication and IP exceptions.*

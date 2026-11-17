@@ -1,9 +1,8 @@
 ---
+
 title: State machine execution describe policy
 category: AWS
 date: 2019-04-15
----
-
 ---
 
 *Grant Step Functions permissions for describing, starting, stopping, and

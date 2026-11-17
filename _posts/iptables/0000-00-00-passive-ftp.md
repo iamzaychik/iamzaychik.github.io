@@ -1,9 +1,8 @@
 ---
+
 title: Passive FTP
 category: IPtables
 date: 2019-04-15
----
-
 ---
 
 *Allow passive FTP connections through iptables and conntrack.*

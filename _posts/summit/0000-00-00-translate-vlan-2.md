@@ -1,9 +1,8 @@
 ---
+
 title: Translate VLAN 2
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Configure VLAN translation on Extreme Summit switches.*

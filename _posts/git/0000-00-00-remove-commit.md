@@ -1,9 +1,8 @@
 ---
+
 title: Remove commit
 category: Git
 date: 2026-04-24
----
-
 ---
 
 *Remove a Git commit by cherry-picking the commits to keep.*

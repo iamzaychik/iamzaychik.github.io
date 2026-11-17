@@ -1,9 +1,8 @@
 ---
+
 title: Decrease crypt virus risks
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Associate potentially dangerous Windows extensions with text files.*
@@ -33,6 +32,6 @@ assoc .wsc=txtfile
 assoc .wsh=txtfile
 ```
 
-3. Run script
+1. Run script
 
 ---

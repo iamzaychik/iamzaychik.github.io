@@ -1,9 +1,8 @@
 ---
+
 title: Vlan traffic monitoring
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Monitor VLAN traffic statistics through Extreme Summit SNMP.*

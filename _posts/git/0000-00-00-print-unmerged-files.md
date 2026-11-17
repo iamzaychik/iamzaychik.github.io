@@ -1,9 +1,8 @@
 ---
+
 title: Print unmerged files
 category: Git
 date: 2021-02-17
----
-
 ---
 
 *List files with unresolved Git merge conflicts.*

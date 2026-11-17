@@ -1,9 +1,8 @@
 ---
+
 title: Configuration via TFTP
 category: Alcatel
 date: 2019-04-15
----
-
 ---
 
 *Save and restore Alcatel OmniSwitch configuration files through TFTP.*

@@ -1,9 +1,8 @@
 ---
+
 title: Igmp snooping vlan ports filter
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Filter multicast traffic with an Extreme Summit IGMP snooping policy.*

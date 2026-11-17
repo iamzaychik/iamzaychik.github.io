@@ -1,9 +1,8 @@
 ---
+
 title: Monitored partitions
 category: SNMPD
 date: 2019-04-15
----
-
 ---
 
 *Configure filesystem partitions monitored by snmpd.*

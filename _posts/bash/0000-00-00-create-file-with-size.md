@@ -1,9 +1,8 @@
 ---
+
 title: Create file with size
 category: Bash
 date: 2019-05-29
----
-
 ---
 
 *Create a file with a defined size using Bash utilities.*

@@ -1,9 +1,8 @@
 ---
+
 title: Disable hibernate
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Disable hibernation in Windows.*

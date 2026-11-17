@@ -1,9 +1,8 @@
 ---
+
 title: Check SSL certificate domains
 category: SSL
 date: 2022-01-18
----
-
 ---
 
 *List domains in an SSL certificate.*

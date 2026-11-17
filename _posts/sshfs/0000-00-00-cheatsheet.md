@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: SSHFS
 date: 2019-05-12
----
-
 ---
 
 *Mount and unmount remote directories with SSHFS.*

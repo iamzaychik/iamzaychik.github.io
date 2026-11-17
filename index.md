@@ -1,4 +1,5 @@
 ---
+
 title: Home
 layout: no-date
 lang: en
@@ -10,7 +11,7 @@ translation_url: /ua/
 
 ---
 
-* [Categories](/categories)
-* [Posts](/posts)
+- [Categories](/categories)
+- [Posts](/posts)
 
 ---

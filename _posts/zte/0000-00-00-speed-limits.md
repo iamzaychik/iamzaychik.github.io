@@ -1,9 +1,8 @@
 ---
+
 title: Speed limits
 category: ZTE
 date: 2019-04-15
----
-
 ---
 
 *Configure ingress and egress speed limits on ZTE switches.*

@@ -1,9 +1,8 @@
 ---
+
 title: Common troubleshooting
 category: Postfix
 date: 2019-04-15
----
-
 ---
 
 *Resolve common Postfix IPv6 and DNS lookup issues.*

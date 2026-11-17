@@ -1,9 +1,8 @@
 ---
+
 title: Install bash-completion on AWS Linux
 category: AWS
 date: 2020-10-21
----
-
 ---
 
 *Install Bash completion on Amazon Linux.*

@@ -1,9 +1,8 @@
 ---
+
 title: Get user id
 category: Telegram
 date: 2019-06-19
----
-
 ---
 
 *Find a Telegram user ID with userinfobot.*

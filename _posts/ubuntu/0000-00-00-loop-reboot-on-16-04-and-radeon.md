@@ -1,9 +1,8 @@
 ---
+
 title: Loop reboot on 16.04 and Radeon
 category: Ubuntu
 date: 2019-04-15
----
-
 ---
 
 *Loop reboot on 16.04 and Radeon on Ubuntu.*

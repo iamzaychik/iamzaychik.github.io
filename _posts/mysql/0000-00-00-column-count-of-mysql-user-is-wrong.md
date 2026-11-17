@@ -1,9 +1,8 @@
 ---
+
 title: Column count of mysql.user is wrong
 category: MySQL
 date: 2019-05-28
----
-
 ---
 
 *Repair a MySQL system table after an incompatible upgrade.*

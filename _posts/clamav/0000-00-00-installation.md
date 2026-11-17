@@ -1,9 +1,8 @@
 ---
+
 title: Installation
 category: ClamAV
 date: 2026-04-24
----
-
 ---
 
 *Install ClamAV and schedule recurring scans on Amazon Linux.*

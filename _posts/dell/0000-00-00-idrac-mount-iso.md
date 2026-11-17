@@ -1,9 +1,8 @@
 ---
+
 title: IDRAC. Mount iso
 category: Dell
 date: 2019-07-16
----
-
 ---
 
 *Mount an ISO through Dell iDRAC virtual media.*

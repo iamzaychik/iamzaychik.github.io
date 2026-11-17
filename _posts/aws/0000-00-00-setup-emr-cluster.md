@@ -1,9 +1,8 @@
 ---
+
 title: Setup EMR cluster
 category: AWS
 date: 2026-04-24
----
-
 ---
 
 *Create an Amazon EMR cluster with selected Hadoop ecosystem services.*

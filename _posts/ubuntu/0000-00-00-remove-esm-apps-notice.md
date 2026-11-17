@@ -1,9 +1,8 @@
 ---
+
 title: Remove esm-apps notice
 category: Ubuntu
 date: 2026-04-24
----
-
 ---
 
 *Remove esm-apps notice on Ubuntu.*

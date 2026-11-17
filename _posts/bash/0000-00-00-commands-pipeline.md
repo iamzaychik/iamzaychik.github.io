@@ -1,9 +1,8 @@
 ---
+
 title: Commands pipeline
 category: Bash
 date: 2019-10-10
----
-
 ---
 
 *Chain Bash commands with sequential, conditional, or background execution.*

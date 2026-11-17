@@ -1,9 +1,8 @@
 ---
+
 title: Update firmware
 category: ZTE
 date: 2019-04-15
----
-
 ---
 
 *Update ZTE switch firmware through Telnet or BootManager.*

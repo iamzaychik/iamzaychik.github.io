@@ -1,9 +1,8 @@
 ---
+
 title: PHP Warning Cannot stat license file
 category: Centreon
 date: 2019-04-15
----
-
 ---
 
 *When clapi logs contains `"PHP Warning: Cannot stat license file"`*

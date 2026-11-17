@@ -1,9 +1,8 @@
 ---
+
 title: Reset password for web
 category: Elastix
 date: 2019-04-15
----
-
 ---
 
 *Reset the Elastix web administrator password from an SSH session.*

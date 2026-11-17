@@ -1,9 +1,8 @@
 ---
+
 title: Garbage collector flags
 category: Java
 date: 2020-08-26
----
-
 ---
 
 *Configure Java garbage collector logging flags.*

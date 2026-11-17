@@ -1,9 +1,8 @@
 ---
+
 title: Configure L2TP VPN
 category: MacOS
 date: 2020-10-21
----
-
 ---
 
 *Configure an L2TP over IPSec VPN connection in macOS.*

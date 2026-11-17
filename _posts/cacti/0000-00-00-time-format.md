@@ -1,9 +1,8 @@
 ---
+
 title: Time format
 category: Cacti
 date: 2019-04-15
----
-
 ---
 
 *Change the displayed Cacti timestamp format in PHP.*

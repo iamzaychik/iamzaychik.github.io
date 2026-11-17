@@ -1,9 +1,8 @@
 ---
+
 title: How to find IPv6 server
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Convert an IPv6 address with an online subnet calculator.*

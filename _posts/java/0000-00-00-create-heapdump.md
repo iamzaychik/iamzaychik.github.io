@@ -1,9 +1,8 @@
 ---
+
 title: Create heapdump
 category: Java
 date: 2021-10-12
----
-
 ---
 
 *Create a Java heap dump with `jmap` or `jcmd`.*

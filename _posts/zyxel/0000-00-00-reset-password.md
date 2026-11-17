@@ -1,9 +1,8 @@
 ---
+
 title: Basic commands
 category: Zyxel
 date: 2019-04-15
----
-
 ---
 
 *Reset a ZyXEL system password by restoring factory settings.*

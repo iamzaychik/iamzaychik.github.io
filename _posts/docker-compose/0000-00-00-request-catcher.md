@@ -1,9 +1,8 @@
 ---
+
 title: HTTP Request Catcher
 category: Docker-compose
 date: 2026-10-18
----
-
 ---
 
 *Capture outbound HTTP requests during webhook and integration testing.*

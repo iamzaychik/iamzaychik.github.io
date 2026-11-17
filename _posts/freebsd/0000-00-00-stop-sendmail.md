@@ -1,9 +1,8 @@
 ---
+
 title: Stop sendmail
 category: FreeBSD
 date: 2019-04-15
----
-
 ---
 
 *Disable all Sendmail services on FreeBSD.*
@@ -16,7 +15,7 @@ date: 2019-04-15
 ee /etc/rc.conf
 ```
 
-2. Disable all:
+1. Disable all:
 
 ```bash
 sendmail_enable="NO"
@@ -25,13 +24,13 @@ sendmail_outbound_enable="NO"
 sendmail_msp_queue_enable="NO"
 ```
 
-3. Try if daemon can run:
+1. Try if daemon can run:
 
 ```bash
 ./sendmail start
 ```
 
-4. If no output - PROFIT!
+1. If no output - PROFIT!
 
 ---
 

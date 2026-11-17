@@ -1,9 +1,8 @@
 ---
+
 title: Migrate data between clusters
 category: Atlas
 date: 2026-04-24
----
-
 ---
 
 *Migrate data between MongoDB Atlas clusters while keeping the destination

@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: Cron
 date: 2020-07-07
----
-
 ---
 
 *Run a command every first Sunday with a day-of-month check.*

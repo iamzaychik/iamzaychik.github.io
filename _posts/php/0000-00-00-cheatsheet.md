@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: PHP
 date: 2019-04-15
----
-
 ---
 
 *Корисні PHP трюки та функції.*

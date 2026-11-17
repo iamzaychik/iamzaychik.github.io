@@ -1,9 +1,8 @@
 ---
+
 title: Winbox passwords
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Locate passwords stored by Winbox.*

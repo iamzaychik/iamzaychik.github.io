@@ -1,9 +1,8 @@
 ---
+
 title: Drop outgoing traffic for client
 category: Mikrotik
 date: 2026-04-24
----
-
 ---
 
 *Block Internet access for one client by source address.*

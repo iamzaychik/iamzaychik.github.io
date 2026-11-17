@@ -1,9 +1,8 @@
 ---
+
 title: Basic
 category: Gluster FS
 date: 2019-04-15
----
-
 ---
 
 *Configure replicated GlusterFS volumes and persistent mounts.*

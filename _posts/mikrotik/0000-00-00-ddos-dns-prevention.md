@@ -1,9 +1,8 @@
 ---
+
 title: DDoS DNS prevention
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Block external DNS queries to reduce DNS-based abuse.*

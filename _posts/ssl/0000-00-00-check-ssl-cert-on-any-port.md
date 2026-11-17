@@ -1,9 +1,8 @@
 ---
+
 title: Check SSL cert on any port
 category: SSL
 date: 2020-07-07
----
-
 ---
 
 *Inspect an SSL certificate on any TCP port.*

@@ -1,9 +1,8 @@
 ---
+
 title: Get group chat id
 category: Telegram
 date: 2019-06-19
----
-
 ---
 
 *Find a Telegram group chat ID through the Bot API.*

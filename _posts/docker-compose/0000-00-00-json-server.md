@@ -1,9 +1,8 @@
 ---
+
 title: JSON Server
 category: Docker-compose
 date: 2026-10-18
----
-
 ---
 
 *Expose a JSON document as a simple HTTP API for development tests.*

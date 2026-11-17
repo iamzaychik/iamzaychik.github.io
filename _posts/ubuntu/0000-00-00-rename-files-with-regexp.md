@@ -1,9 +1,8 @@
 ---
+
 title: Rename files with regexp
 category: Ubuntu
 date: 2019-04-22
----
-
 ---
 
 *Rename files with regexp on Ubuntu.*
@@ -16,13 +15,13 @@ date: 2019-04-22
 $ sudo apt install rename
 ```
 
-2. Rename directories first:
+1. Rename directories first:
 
 ```bash
 $ find -name "* *" -type d | rename 's/ /_/g'
 ```
 
-3. Rename files:
+1. Rename files:
 
 ```bash
 $ find -name "* *" -type f | rename 's/ /_/g'

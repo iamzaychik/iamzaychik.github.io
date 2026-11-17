@@ -1,9 +1,8 @@
 ---
+
 title: Terminal hangs when network changed
 category: SSH
 date: 2019-04-15
----
-
 ---
 
 *Keep SSH sessions responsive when the network changes.*

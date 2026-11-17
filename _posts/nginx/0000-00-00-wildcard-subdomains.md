@@ -1,9 +1,8 @@
 ---
+
 title: Wildcard subdomains
 category: Nginx
 date: 2019-05-02
----
-
 ---
 
 *Route wildcard subdomains to matching upstream paths.*

@@ -1,9 +1,8 @@
 ---
+
 title: Configure sflow with sflowtool
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Configure sFlow on a Summit switch and forward data with sflowtool.*
@@ -14,18 +13,18 @@ date: 2019-04-15
 
 `configure sflow collector A.B.C.D port 6343 vr "VR-Management"`
 
-2. В якості адреси, через яку sFlow буде відправляти датаграми, вказуємо менеджмент-інтерфейс комутатора:
+1. В якості адреси, через яку sFlow буде відправляти датаграми, вказуємо менеджмент-інтерфейс комутатора:
 
 `configure sflow agent ipaddress A.B.C.D`
 
-3. Вмикаємо sFlow на портах, які нас цікавлять:
+1. Вмикаємо sFlow на портах, які нас цікавлять:
 
 `enable sflow ports 1,5`
 
 *Передається інформація тільки про вхідні пакети. Отже для того, щоб отримати
 повну інформацію про трафік, нам потрібно вказувати і downlink і uplink порти.*
 
-4. Тепер увімкнемо sFlow:
+1. Тепер увімкнемо sFlow:
 
 `enable sflow`
 
@@ -43,7 +42,7 @@ $ cd /usr/ports/net/sflowtool/
 $ make install clean
 ```
 
-2. Дописуємо в /etc/rc.conf:
+1. Дописуємо в /etc/rc.conf:
 
 ```bash
 sflowtool_enable="YES"
@@ -53,7 +52,7 @@ sflowtool_flags="-c A.B.C.D -d 3436"
 *Так ми направляємо NetFlow на порт 3436 колектора. Якщо використовується той
 самий сервер, вказуємо IP 127.0.0.1*
 
-3. Запускаємо sflowtool:
+1. Запускаємо sflowtool:
 
 `/usr/local/etc/rc.d/sflowtool start`
 

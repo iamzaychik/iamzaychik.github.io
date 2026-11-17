@@ -1,9 +1,8 @@
 ---
+
 title: Running services
 category: CentOS
 date: 2019-04-15
----
-
 ---
 
 *Inspect running services on CentOS and RHEL systems.*

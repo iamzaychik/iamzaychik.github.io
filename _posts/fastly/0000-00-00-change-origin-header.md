@@ -1,9 +1,8 @@
 ---
+
 title: Change origin header
 category: Fastly
 date: 2019-07-23
----
-
 ---
 
 *Rewrite and remove the origin header in Fastly VCL.*

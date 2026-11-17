@@ -1,9 +1,8 @@
 ---
+
 title: Runner commands
 category: GitLab
 date: 2020-03-21
----
-
 ---
 
 *Register, verify, and remove GitLab Runner entries.*

@@ -1,9 +1,8 @@
 ---
+
 title: Localpics
 category: Docker-compose
 date: 2026-10-18
----
-
 ---
 
 *Serve a local image directory with the Localpics container.*

@@ -1,9 +1,8 @@
 ---
+
 title: Reboot via SNMP
 category: Dlink
 date: 2019-04-15
----
-
 ---
 
 *Перезавантажте комутатор D-Link через SNMP.*

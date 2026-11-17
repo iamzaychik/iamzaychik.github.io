@@ -1,9 +1,8 @@
 ---
+
 title: JVM monitoring
 category: Datadog
 date: 2020-08-26
----
-
 ---
 
 *Monitor JVM applications through the Datadog JMX integration.*

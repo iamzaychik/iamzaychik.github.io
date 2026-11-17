@@ -1,9 +1,8 @@
 ---
+
 title: Reset password via SNMP
 category: ZTE
 date: 2019-04-15
----
-
 ---
 
 *Reset a ZTE switch password through SNMP.*

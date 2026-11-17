@@ -1,9 +1,8 @@
 ---
+
 title: Reset to defaults
 category: ZTE
 date: 2019-04-15
----
-
 ---
 
 *Reset a ZTE switch to factory defaults from BootManager.*
@@ -15,13 +14,13 @@ date: 2019-04-15
 [Password]zxr10
 ```
 
-2. List files:
+1. List files:
 
 ```txt
 [BootManager]:ls
 ```
 
-3. Remove configuration files:
+1. Remove configuration files:
 
 - SI-series:
 
@@ -38,13 +37,13 @@ date: 2019-04-15
 [BootManager]:rm startrun.dat
 ```
 
-4. Reboot:
+1. Reboot:
 
 ```txt
 [BootManager]:reboot
 ```
 
-5. After reboot:
+1. After reboot:
 
 ```txt
 login:admin

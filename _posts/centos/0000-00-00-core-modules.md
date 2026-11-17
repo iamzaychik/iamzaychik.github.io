@@ -1,9 +1,8 @@
 ---
+
 title: Core modules
 category: CentOS
 date: 2019-04-15
----
-
 ---
 
 *Load Linux kernel modules now and during boot.*

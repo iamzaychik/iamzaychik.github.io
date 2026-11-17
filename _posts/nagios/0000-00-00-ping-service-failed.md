@@ -1,9 +1,8 @@
 ---
+
 title: Ping service failed
 category: Nagios
 date: 2019-04-15
----
-
 ---
 
 *Fix Nagios ICMP checks that cannot obtain a privileged socket.*

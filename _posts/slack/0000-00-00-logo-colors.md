@@ -1,9 +1,8 @@
 ---
+
 title: Logo colors
 category: Slack
 date: 2019-11-29
----
-
 ---
 
 *Reference Slack logo colors in common color formats.*

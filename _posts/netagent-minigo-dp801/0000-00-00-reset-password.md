@@ -1,9 +1,8 @@
 ---
+
 title: Reset password
 category: NetAgent MiniGo DP801
 date: 2019-04-15
----
-
 ---
 
 *Reset a NetAgent MiniGo DP801 administrator password.*

@@ -1,9 +1,8 @@
 ---
+
 title: Remove old cores
 category: Ubuntu
 date: 2019-04-15
----
-
 ---
 
 *Remove old cores on Ubuntu.*

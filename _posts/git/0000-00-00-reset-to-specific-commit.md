@@ -1,9 +1,8 @@
 ---
+
 title: Reset to specific commit
 category: Git
 date: 2019-04-15
----
-
 ---
 
 *Reset a Git branch to a specific commit and force-push changes.*

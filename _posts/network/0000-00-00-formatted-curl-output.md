@@ -1,9 +1,8 @@
 ---
+
 title: Formatted curl output
 category: Network
 date: 2021-11-03
----
-
 ---
 
 *Format curl timing output for troubleshooting.*
@@ -21,7 +20,7 @@ date: 2021-11-03
           time_total:  %{time_total}s\n
 ```
 
-2. *Make a request:*
+1. *Make a request:*
 
 ```bash
 $ curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"

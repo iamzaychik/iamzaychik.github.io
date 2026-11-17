@@ -1,4 +1,5 @@
 ---
+
 title: Головна
 layout: no-date
 lang: ua
@@ -11,7 +12,7 @@ translation_url: /
 
 ---
 
-* [Категорії](/ua/categories/)
-* [Публікації](/ua/posts/)
+- [Категорії](/ua/categories/)
+- [Публікації](/ua/posts/)
 
 ---

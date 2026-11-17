@@ -1,9 +1,8 @@
 ---
+
 title: Remove files older than
 category: Bash
 date: 2019-05-29
----
-
 ---
 
 *Remove files older than a specified number of days.*

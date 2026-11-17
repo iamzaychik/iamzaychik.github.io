@@ -1,4 +1,5 @@
 ---
+
 title: Posts
 layout: no-date
 lang: en
@@ -8,7 +9,7 @@ translation_url: /ua/posts/
 
 ---
 
-* [Categories](/categories)
+- [Categories](/categories)
 
 ---
 

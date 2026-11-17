@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: OpenMediaVault
 date: 2019-05-06
----
-
 ---
 
 *Common OpenMediaVault maintenance and Samba settings.*

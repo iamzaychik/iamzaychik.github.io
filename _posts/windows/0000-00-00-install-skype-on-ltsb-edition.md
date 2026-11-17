@@ -1,9 +1,8 @@
 ---
+
 title: Install Skype on LTSB edition
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Install Skype on Windows 10 LTSB without the Microsoft Store.*

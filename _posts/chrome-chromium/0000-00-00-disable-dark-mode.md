@@ -1,9 +1,8 @@
 ---
+
 title: Disable dark mode
 category: Chrome, Chromium
 date: 2019-05-07
----
-
 ---
 
 *Disable browser dark mode with a startup flag or Chrome settings.*

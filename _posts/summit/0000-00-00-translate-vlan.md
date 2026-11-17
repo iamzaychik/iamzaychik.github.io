@@ -1,9 +1,8 @@
 ---
+
 title: Translate VLAN
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Translate VLAN tags on Extreme Summit switches.*

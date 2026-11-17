@@ -1,9 +1,8 @@
 ---
+
 title: Shellcheck
 category: Bash
 date: 2021-02-17
----
-
 ---
 
 *Install ShellCheck and scan shell scripts for common issues.*

@@ -1,9 +1,8 @@
 ---
+
 title: Basic commands
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Common Extreme Summit switch commands.*
@@ -133,7 +132,7 @@ REBOOT AS MASTER-CAPABLE
 
 ---
 
-* Дізнатися рівень ліцензій слотів стека:
+- Дізнатися рівень ліцензій слотів стека:
 
 1. Заходимо на потрібний слот стека:
 
@@ -141,8 +140,8 @@ REBOOT AS MASTER-CAPABLE
 telnet slot *
 ```
 
-2. Вводимо свої логін/пароль
-3. Щоб дізнатися рівень ліцензії, пишемо:
+1. Вводимо свої логін/пароль
+2. Щоб дізнатися рівень ліцензії, пишемо:
 
 ```bash
 show licenses

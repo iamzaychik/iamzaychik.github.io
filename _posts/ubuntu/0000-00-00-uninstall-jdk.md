@@ -1,9 +1,8 @@
 ---
+
 title: Uninstall JDK
 category: Ubuntu
 date: 2020-10-21
----
-
 ---
 
 *Uninstall JDK on Ubuntu.*

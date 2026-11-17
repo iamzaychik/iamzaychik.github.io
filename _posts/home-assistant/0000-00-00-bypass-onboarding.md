@@ -1,9 +1,8 @@
 ---
+
 title: Bypass onboarding
 category: Home Assistant
 date: 2026-04-24
----
-
 ---
 
 *Bypass Home Assistant onboarding by editing its storage metadata.*

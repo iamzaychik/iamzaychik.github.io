@@ -1,9 +1,8 @@
 ---
+
 title: PostgreSQL
 category: Docker-compose
 date: 2020-02-05
----
-
 ---
 
 *Run PostgreSQL with persistent database storage.*

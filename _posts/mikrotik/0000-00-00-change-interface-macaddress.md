@@ -1,9 +1,8 @@
 ---
+
 title: Change interface mac-address
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Change a MikroTik interface MAC address.*

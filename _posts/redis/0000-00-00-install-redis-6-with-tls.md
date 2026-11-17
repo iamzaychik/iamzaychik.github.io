@@ -1,9 +1,8 @@
 ---
+
 title: Install Redis 6 with TLS
 category: Redis
 date: 2022-07-23
----
-
 ---
 
 *Install Redis 6 with TLS, authentication, and a systemd service.*

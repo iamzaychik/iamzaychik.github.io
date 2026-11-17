@@ -1,4 +1,5 @@
 ---
+
 title: Categories
 layout: no-date
 lang: en
@@ -8,13 +9,16 @@ translation_url: /ua/categories/
 
 ---
 
-* [Posts](/posts)
+- [Posts](/posts)
 
 ---
 
 {% comment %}
+
 ## Change date order by adding '| reversed'
+
 ## To sort by title or other variables use {% assign sorted_posts = category[1] | sort: 'title' %}
+
 {% endcomment %}
 
 {% assign sorted_categories = site.categories | sort %}

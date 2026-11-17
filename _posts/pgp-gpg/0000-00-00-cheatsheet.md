@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: PGP, GPG
 date: 2019-07-05
----
-
 ---
 
 *Common GPG key management commands.*

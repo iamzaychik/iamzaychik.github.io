@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: Alcatel
 date: 2019-04-15
----
-
 ---
 
 *Quickly inspect and configure Alcatel OmniSwitch services from the CLI.*

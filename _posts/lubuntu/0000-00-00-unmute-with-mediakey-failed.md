@@ -1,9 +1,8 @@
 ---
+
 title: Unmute with mediakey failed
 category: Lubuntu
 date: 2019-04-15
----
-
 ---
 
 *Restore media-key unmute behavior in Lubuntu.*

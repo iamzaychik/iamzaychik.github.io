@@ -1,9 +1,8 @@
 ---
+
 title: Install UniFi controller
 category: Raspberry Pi
 date: 2019-04-15
----
-
 ---
 
 *Install and configure the UniFi controller on Raspberry Pi.*
@@ -14,21 +13,21 @@ date: 2019-04-15
 `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50`
 `sudo apt-get update`
 
-2. Встановлюємо контролер:
+1. Встановлюємо контролер:
 
 `sudo apt-get install unifi -y`
 
 *Встановлення займає деякий час, але проходить у повністю автоматичному режимі.
 Також будуть встановлені такі пакети, як MongoDB and OpenJDK Java 7.*
 
-3. Вимкнемо запуск дефолтної бази MongoDB:
+1. Вимкнемо запуск дефолтної бази MongoDB:
 
 `echo 'ENABLE_MONGODB=no' | sudo tee -a /etc/mongodb.conf > /dev/null`
 
 *Якщо цього не зробити, то у нас буде запущено дві копії MongoDB - дефолтна та
 та, що використовується UniFi.*
 
-4. Оновлюємо Snappy Java Library:
+1. Оновлюємо Snappy Java Library:
 
 `cd /usr/lib/unifi/lib`
 `sudo rm snappy-java-1.0.5.jar`
@@ -37,11 +36,11 @@ date: 2019-04-15
 
 *Це усуне ряд проблем з старими версіями Raspberry Pi.*
 
-5. Перезавантажуємося:
+1. Перезавантажуємося:
 
 `sudo reboot`
 
-6. Налаштовуємо контролер за адресою:
+1. Налаштовуємо контролер за адресою:
 
 `https://A.B.C.D:8443`
 

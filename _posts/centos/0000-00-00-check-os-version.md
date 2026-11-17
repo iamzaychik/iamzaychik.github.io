@@ -1,9 +1,8 @@
 ---
+
 title: Check OS version
 category: CentOS
 date: 2019-10-10
----
-
 ---
 
 *Check the installed CentOS release and RHEL version macros.*

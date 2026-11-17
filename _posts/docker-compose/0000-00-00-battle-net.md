@@ -1,9 +1,8 @@
 ---
+
 title: BattleNet
 category: Docker-compose
 date: 2020-02-05
----
-
 ---
 
 *Run a PvPGN Battle.net server with Docker Compose.*

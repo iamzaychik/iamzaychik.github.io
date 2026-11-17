@@ -1,9 +1,8 @@
 ---
+
 title: Removing ANSI color codes from text stream
 category: Bash
 date: 2020-08-26
----
-
 ---
 
 *Remove ANSI color escape sequences from text streams.*

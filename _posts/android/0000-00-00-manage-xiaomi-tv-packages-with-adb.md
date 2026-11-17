@@ -1,9 +1,8 @@
 ---
+
 title: Manage Xiaomi TV packages with ADB
 category: Android
 date: 2026-10-18
----
-
 ---
 
 *Disable unwanted Xiaomi TV applications without removing them from the system

@@ -1,9 +1,8 @@
 ---
+
 title: S3 bucket policy for CloudFront access
 category: AWS
 date: 2020-04-10
----
-
 ---
 
 *Allow CloudFront Origin Access Identity access to private S3 objects.*

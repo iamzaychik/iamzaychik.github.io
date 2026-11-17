@@ -1,9 +1,8 @@
 ---
+
 title: Fix Grub after Windows
 category: Ubuntu
 date: 2019-05-02
----
-
 ---
 
 *Fix Grub after Windows on Ubuntu.*

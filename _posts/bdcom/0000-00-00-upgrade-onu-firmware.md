@@ -1,9 +1,8 @@
 ---
+
 title: Upgrade onu firmware
 category: BDCOM
 date: 2019-04-15
----
-
 ---
 
 *Оновіть прошивку ONU через BDCOM OLT або вручну.*
@@ -16,39 +15,39 @@ date: 2019-04-15
 Switch# terminal monitor
 ```
 
-2. Завантажуємо firmware:
+1. Завантажуємо firmware:
 
 ```text
 Switch# epon update onu image uImage int epon 0/*:*
 ```
 
-3. Так закінчується процес завантаження:
+1. Так закінчується процес завантаження:
 
 ```text
 Jan 1 01:27:20 %OLT: Interface EPON0/1:1's OAM Operational Status: Operational
 Jan 1 01:27:23 %OLT: Interface EPON0/1:1's CTC OAM extension negotiated successfully!
 ```
 
-4. Підтверджуємо оновлення прошивки:
+1. Підтверджуємо оновлення прошивки:
 
 ```text
 Switch# epon commit-onu-image-update int epon 0/*:*
 ```
 
-5. Так закінчується процес підтвердження:
+1. Так закінчується процес підтвердження:
 
 ```text
 Jan 1 01:28:58 Commit image request/response successful
 Jan 1 01:28:58 Commit onu image update successfully on EPON0/*:*!
 ```
 
-6. Видаляємо стару прошивку для звільнення місця:
+1. Видаляємо стару прошивку для звільнення місця:
 
 ```text
 Switch# delete uImage
 ```
 
-7. Завантажуємо новий файл прошивки з tftp-сервера:
+1. Завантажуємо новий файл прошивки з tftp-сервера:
 
 ```text
 Switch# copy tftp flash *.*.*.*
@@ -56,7 +55,7 @@ Source file name[]?jffs2_fs.tar.gz
 Destination file name[jffs2_fs.tar.gz]?
 ```
 
-8. Оновлюємо:
+1. Оновлюємо:
 
 ```text
 Switch# epon update onu image jffs2_fs.tar.gz int epon 0/*:*

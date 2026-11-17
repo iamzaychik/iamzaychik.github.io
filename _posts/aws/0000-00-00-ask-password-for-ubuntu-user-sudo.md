@@ -1,9 +1,8 @@
 ---
+
 title: Ask password for ubuntu user sudo
 category: AWS
 date: 2019-04-15
----
-
 ---
 
 *AWS instances not asking password, when users escalating to `root` using
@@ -17,7 +16,7 @@ date: 2019-04-15
 $ passwd ubuntu
 ```
 
-2. Change cloud provider settings:
+1. Change cloud provider settings:
 
 ```bash
 $ cat /etc/sudoers.d/90-cloud-init-users

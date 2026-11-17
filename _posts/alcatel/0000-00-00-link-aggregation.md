@@ -1,9 +1,8 @@
 ---
+
 title: Link aggregation
 category: Alcatel
 date: 2019-04-15
----
-
 ---
 
 *Configure LACP link aggregation between Alcatel OmniSwitch ports.*

@@ -1,9 +1,8 @@
 ---
+
 title: Fargate statsdog agent environment variables
 category: Datadog
 date: 2021-02-17
----
-
 ---
 
 *Configure Datadog Agent environment variables for Fargate StatsD metrics.*

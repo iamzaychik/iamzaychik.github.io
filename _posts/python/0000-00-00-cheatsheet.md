@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: Python
 date: 2019-04-15
----
-
 ---
 
 *Python style rules and small file-management examples.*

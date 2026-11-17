@@ -11,7 +11,7 @@
     // Unordered list markers.
     // set Codex to rewrite unordered lists.
     "MD004": {
-      "enabled": false,
+      "enabled": true,
       "style": "dash"
     },
 
@@ -31,10 +31,9 @@
       "enabled": false
     },
 
-    // Do not check blank lines around headings.
-    // set Codex to add blank lines around headers.
+    // Check blank lines around headings.
     "MD022": {
-      "enabled": false
+      "enabled": true
     },
 
     // Jekyll title is used instead of an H1 in Markdown.
@@ -47,11 +46,10 @@
       "enabled": true
     },
 
-    // Do not check ordered-list numbering.
-    // set Codex to rewrite ordered lists.
+    // Check ordered-list numbering.
     "MD029": {
-      "enabled": false,
-      "style": "one"
+      "enabled": true,
+      "style": "ordered"
     },
 
     // Check blank lines around code fences.
@@ -76,13 +74,11 @@
     },
 
     // Jekyll requires YAML front matter before headings.
-    // TODO: set Codex to remove duplicated ---.
     "MD041": {
       "enabled": false
     },
 
     // Emphasis style
-    // TODO: set Codex to underscores to asterisks.
     "MD049": {
       "enabled": true,
       "style": "asterisk"

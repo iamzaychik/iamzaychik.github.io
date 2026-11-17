@@ -1,9 +1,8 @@
 ---
+
 title: Spam testing string
 category: Mail
 date: 2020-07-23
----
-
 ---
 
 *Test spam filtering with the standard GTUBE string.*

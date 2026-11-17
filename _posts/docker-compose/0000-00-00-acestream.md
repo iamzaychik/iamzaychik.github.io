@@ -1,9 +1,8 @@
 ---
+
 title: AceStream
 category: Docker-compose
 date: 2020-02-05
----
-
 ---
 
 *Stream AceStream content through a Docker Compose service.*

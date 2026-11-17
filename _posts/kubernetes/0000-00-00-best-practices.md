@@ -1,9 +1,8 @@
 ---
+
 title: Best practices
 category: Kubernetes
 date: 2026-04-24
----
-
 ---
 
 *Apply practical security, deployment, and observability practices to

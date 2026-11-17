@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: MongoDB
 date: 2021-02-17
----
-
 ---
 
 *Quick MongoDB repair and query examples.*

@@ -1,9 +1,8 @@
 ---
+
 title: Table storage engine for TABLE doesnt have this option
 category: MySQL
 date: 2019-04-15
----
-
 ---
 
 *Remove an incompatible ROW_FORMAT value from a MySQL dump.*

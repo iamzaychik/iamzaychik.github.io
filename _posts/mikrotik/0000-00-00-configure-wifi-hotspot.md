@@ -1,9 +1,8 @@
 ---
+
 title: Configure Wi-Fi Hotspot
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Configure a legacy RouterOS wireless hotspot with separate guest and work

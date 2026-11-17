@@ -1,9 +1,8 @@
 ---
+
 title: Duplicate entry for key PRIMARY
 category: Nagios
 date: 2019-04-15
----
-
 ---
 
 *Fix repeated Nagios duplicate-primary-key errors in Centreon.*

@@ -1,9 +1,8 @@
 ---
+
 title: Force10 S4810 initial configuration
 category: Dell
 date: 2019-04-15
----
-
 ---
 
 *Configure a Dell Force10 S4810 with management, SSH, and stacking settings.*
@@ -20,7 +19,7 @@ System configuration has been modified. Save? [yes/no]no
 Proceed with reload [confirm yes/no]yes
 ```
 
-2. Disable Jumpstart Mode and set normal boot mode:Jumpstart-mode
+1. Disable Jumpstart Mode and set normal boot mode:Jumpstart-mode
 Jumpstart (BMP) mode is the default boot mode configured for a new switch
 arriving from Dell Force10. This mode obtains the FTOS image and configuration
 file from a network source (DHCP server and file server).
@@ -30,7 +29,7 @@ afternoon at work with a reset switch.
 
 `FTOS# reload-type normal-reload`
 
-3. Upgrade the FTOS and Uboot Version:
+1. Upgrade the FTOS and Uboot Version:
 
 ```bash
 #Upgrade system ftp: A:
@@ -42,7 +41,7 @@ Password to login remote host:
 Erasing Sseries Primary Image, please wait
 ```
 
-4. Setting the switch hostname, and date and time:First we can set the hostname,
+1. Setting the switch hostname, and date and time:First we can set the hostname,
    which appears in prompts at the keyboard, and the timezone and corresponding
    time and date in the software clock, and then send that information to the
    hardware clock ("calendar") so that it survives a re-boot.
@@ -71,12 +70,12 @@ de-stacked.
 # write mem
 ```
 
-5. Disable Logging:Disable all logging except on the console: `no logging`
+1. Disable Logging:Disable all logging except on the console: `no logging`
 Disable logging to the logging buffer: `no logging buffer CONFIGURATION`
 Disable logging to terminal lines: `no logging monitor CONFIGURATION`
 Disable console logging: `no logging console CONFIGURATION`
 
-6. Stacking preliminaries:If a particular S4810 might be part of a stack, sooner
+2. Stacking preliminaries:If a particular S4810 might be part of a stack, sooner
    or later, some preliminary settings are best done now. You can set the
    stack-number to some value 0-11, in place of the stand-alone default of 0.
    This avoids the stack master dynamically re-assigning the stack-number of a
@@ -97,14 +96,14 @@ the renumber command above, even if the switch is currently standalone!
 NOTE: the stack-unit number appears to be recorded in flash memory in a hidden
 location, and not in the startup-config file.
 
-7. Enable SSH:
+1. Enable SSH:
 
 ```bash
 ip ssh server enable
 ip ssh server version 2
 ```
 
-8. Configuring an IP address on the management ethernet port:The management
+1. Configuring an IP address on the management ethernet port:The management
    ethernet port is located below the console RJ45 port. It supports 100Mb/s
    connections (and probably others). I needed to configure it so that I could
    download new software, and so that I could later remotely login to the switch

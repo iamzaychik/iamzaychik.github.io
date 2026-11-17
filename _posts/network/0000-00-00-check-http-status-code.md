@@ -1,9 +1,8 @@
 ---
+
 title: Check HTTP status code
 category: Network
 date: 2019-04-15
----
-
 ---
 
 *Check an HTTP status code with curl.*

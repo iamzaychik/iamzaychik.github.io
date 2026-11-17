@@ -1,9 +1,8 @@
 ---
+
 title: Exec script after IP assign
 category: ISC DHCP
 date: 2019-04-15
----
-
 ---
 
 *Run a script when ISC DHCP assigns, releases, or expires a lease.*

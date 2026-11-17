@@ -1,9 +1,8 @@
 ---
+
 title: Cycles with files
 category: Bash
 date: 2019-04-15
----
-
 ---
 
 *Process files with Bash loops and recursive `find` commands.*

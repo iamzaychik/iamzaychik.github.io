@@ -1,9 +1,8 @@
 ---
+
 title: Basic commands
 category: BDCOM
 date: 2019-04-15
----
-
 ---
 
 *Швидка шпаргалка команд для налаштування BDCOM OLT і ONU.*

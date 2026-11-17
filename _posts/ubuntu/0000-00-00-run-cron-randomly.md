@@ -1,9 +1,8 @@
 ---
+
 title: Run cron randomly
 category: Ubuntu
 date: 2019-10-10
----
-
 ---
 
 *Run cron randomly on Ubuntu.*

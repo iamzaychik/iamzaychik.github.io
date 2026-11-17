@@ -1,9 +1,8 @@
 ---
+
 title: Dockerfile example go
 category: Docker
 date: 2023-02-06
----
-
 ---
 
 *Build a Go application with a multi-stage Dockerfile.*

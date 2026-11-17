@@ -1,9 +1,8 @@
 ---
+
 title: Script options
 category: Bash
 date: 2020-08-26
----
-
 ---
 
 *Document Bash script argument notation with bracket conventions.*

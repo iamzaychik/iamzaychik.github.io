@@ -1,9 +1,8 @@
 ---
+
 title: Serial number
 category: Mikrotik
 date: 2019-04-15
----
-
 ---
 
 *Display the MikroTik router serial number and firmware details.*

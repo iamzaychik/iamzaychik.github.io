@@ -1,9 +1,8 @@
 ---
+
 title: Restrict ingress-egress
 category: Summit
 date: 2019-04-15
----
-
 ---
 
 *Limit ingress and egress traffic on Summit switches.*

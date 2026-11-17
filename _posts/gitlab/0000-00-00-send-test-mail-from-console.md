@@ -1,9 +1,8 @@
 ---
+
 title: Send test mail from console
 category: GitLab
 date: 2019-12-19
----
-
 ---
 
 *Send a test email from the GitLab Rails console.*

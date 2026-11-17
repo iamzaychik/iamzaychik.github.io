@@ -1,4 +1,5 @@
 ---
+
 title: Run Aider with a local Ollama model
 category: Ollama
 date: 2026-10-22

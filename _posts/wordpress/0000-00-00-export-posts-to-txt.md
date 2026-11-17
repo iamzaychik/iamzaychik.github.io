@@ -1,9 +1,8 @@
 ---
+
 title: Export posts to txt
 category: WordPress
 date: 2019-04-22
----
-
 ---
 
 *Export published WordPress posts to text files.*

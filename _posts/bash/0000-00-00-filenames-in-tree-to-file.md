@@ -1,9 +1,8 @@
 ---
+
 title: Filenames in tree to file
 category: Bash
 date: 2019-05-29
----
-
 ---
 
 *Write matching filenames to a text file with `find`.*

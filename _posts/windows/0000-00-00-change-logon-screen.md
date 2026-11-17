@@ -1,9 +1,8 @@
 ---
+
 title: Change logon screen
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Change the Windows logon screen background.*

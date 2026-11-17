@@ -1,9 +1,8 @@
 ---
+
 title: 98 Address already in use
 category: Nginx
 date: 2019-04-15
----
-
 ---
 
 *Resolve an Nginx port binding conflict on port 80.*
@@ -20,7 +19,7 @@ date: 2019-04-15
 $ sudo fuser -k 80/tcp
 ```
 
-2. Restart Nginx:
+1. Restart Nginx:
 
 ```bash
 $ service nginx restart

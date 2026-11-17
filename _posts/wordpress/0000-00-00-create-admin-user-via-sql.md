@@ -1,9 +1,8 @@
 ---
+
 title: Create admin user via sql
 category: WordPress
 date: 2020-02-16
----
-
 ---
 
 *Create a WordPress administrator user with SQL.*

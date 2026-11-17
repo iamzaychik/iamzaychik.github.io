@@ -1,9 +1,8 @@
 ---
+
 title: Battery Capacity
 category: Windows
 date: 2019-04-15
----
-
 ---
 
 *Check Windows battery capacity and full-charge history.*

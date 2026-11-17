@@ -1,9 +1,8 @@
 ---
+
 title: Connect to HP printer
 category: Lubuntu
 date: 2019-04-15
----
-
 ---
 
 *Install and configure an HP printer on Lubuntu with HPLIP.*

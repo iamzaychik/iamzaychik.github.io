@@ -1,9 +1,8 @@
 ---
+
 title: Printing only first page
 category: Ubuntu
 date: 2019-04-15
----
-
 ---
 
 `Printing only first page on Ubuntu`
@@ -22,13 +21,13 @@ date: 2019-04-15
 $ lsmod | grep usblp
 ```
 
-2. Якщо модуль завантажений - примусово відключаємо його:
+1. Якщо модуль завантажений - примусово відключаємо його:
 
 ```bash
 $ rmmod usblp
 ```
 
-3. Забороняємо автоматично завантажувати модуль:
+1. Забороняємо автоматично завантажувати модуль:
 
 ```bash
 $ echo "blacklist usblp" >> /etc/modprobe.d/blacklist

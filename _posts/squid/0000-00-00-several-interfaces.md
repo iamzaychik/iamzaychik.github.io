@@ -1,9 +1,8 @@
 ---
+
 title: Several interfaces
 category: Squid
 date: 2019-04-15
----
-
 ---
 
 *Route authenticated Squid users through different interfaces.*

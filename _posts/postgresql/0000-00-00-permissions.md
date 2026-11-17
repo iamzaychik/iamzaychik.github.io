@@ -1,9 +1,8 @@
 ---
+
 title: Permissions
 category: PostgreSQL
 date: 2023-08-10
----
-
 ---
 
 *Create PostgreSQL roles and grant schema, table, and sequence permissions.*

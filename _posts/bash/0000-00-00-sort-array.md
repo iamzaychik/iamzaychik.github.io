@@ -1,9 +1,8 @@
 ---
+
 title: Sort array
 category: Bash
 date: 2021-02-17
----
-
 ---
 
 *Sort a Bash array line by line.*

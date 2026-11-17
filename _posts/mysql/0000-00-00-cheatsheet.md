@@ -1,9 +1,8 @@
 ---
+
 title: Cheatsheet
 category: MySQL
 date: 2019-04-15
----
-
 ---
 
 *Common MySQL administration and maintenance commands.*
@@ -137,7 +136,7 @@ $ mysqlcheck -u root -p --auto-repair --all-databases
 $ cd /var/lib/mysql/mydatabase
 ```
 
-2. Repair it:
+1. Repair it:
 
 ```bash
 $ myisamchk --safe-recover mytable

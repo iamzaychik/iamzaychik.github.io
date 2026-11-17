@@ -1,9 +1,8 @@
 ---
+
 title: Check if path changed
 category: Git
 date: 2023-12-31
----
-
 ---
 
 *Check whether a path changed between the current branch and origin/develop.*

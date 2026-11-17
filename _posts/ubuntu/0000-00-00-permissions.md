@@ -1,9 +1,8 @@
 ---
+
 title: Permissions
 category: Ubuntu
 date: 2019-11-29
----
-
 ---
 
 *Permissions on Ubuntu.*

@@ -1,9 +1,8 @@
 ---
+
 title: Install Java
 category: Ubuntu
 date: 2019-11-11
----
-
 ---
 
 *Install Java on Ubuntu.*

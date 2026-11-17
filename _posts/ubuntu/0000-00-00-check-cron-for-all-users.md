@@ -1,9 +1,8 @@
 ---
+
 title: Check cron for all users
 category: Ubuntu
 date: 2020-04-14
----
-
 ---
 
 *Check cron for all users on Ubuntu.*

@@ -1,9 +1,8 @@
 ---
+
 title: Clear journalctl
 category: Ubuntu
 date: 2019-10-10
----
-
 ---
 
 *Clear journalctl on Ubuntu.*
