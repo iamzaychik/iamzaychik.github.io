@@ -6,11 +6,12 @@ hide_description: false
 hide_page_title: true
 language_switcher: true
 translation_url: /ua/
+permalink: /
 ---
 
 ---
 
-- [Categories](/categories)
-- [Posts](/posts)
+- [Categories](/categories/)
+- [Posts](/posts/)
 
 ---

@@ -1,0 +1,20 @@
+{% for category in include.sorted_categories %}
+  {% assign sorted_posts = category[1] | sort_natural: 'title' %}
+  {% assign category_id = category[0] | slugify %}
+  <section class="category-group" id="{{ category_id }}" aria-labelledby="{{ category_id }}-title">
+    <header class="category-group__header">
+      <h3 id="{{ category_id }}-title">{{ category[0] }}</h3>
+      <span class="category-group__count">{{ category[1].size }} posts</span>
+    </header>
+    <ul class="content-list">
+      {% for post in sorted_posts %}
+        <li class="content-list__item">
+          <a class="content-list__link" href="{{ post.url | relative_url }}">
+            <span class="content-list__title">{{ post.title }}</span>
+            <time class="content-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}

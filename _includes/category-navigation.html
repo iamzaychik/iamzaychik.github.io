@@ -1,0 +1,13 @@
+<nav class="category-navigation" aria-label="Categories">
+  <ul class="category-grid">
+    {% for category in include.sorted_categories %}
+      {% assign category_id = category[0] | slugify %}
+      <li class="category-card">
+        <a href="#{{ category_id }}">
+          <span class="category-card__name">{{ category[0] }}</span>
+          <span class="category-card__count">{{ category[1].size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

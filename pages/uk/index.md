@@ -1,7 +1,7 @@
 ---
 title: Головна
 layout: no-date
-lang: ua
+lang: uk
 hide_description: false
 hide_page_title: true
 permalink: /ua/

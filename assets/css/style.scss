@@ -1,0 +1,137 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.content-index {
+  margin-top: 2rem;
+}
+
+.category-navigation {
+  margin: 0 0 3rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.65rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category-card {
+  margin: 0;
+}
+
+.category-card a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.25rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+.category-card a:hover,
+.category-card a:focus-visible {
+  border-color: #b5e853;
+  background: rgba(181, 232, 83, 0.08);
+  text-decoration: none;
+}
+
+.category-card__name {
+  overflow-wrap: anywhere;
+}
+
+.category-card__count,
+.category-group__count {
+  flex: 0 0 auto;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.8rem;
+}
+
+.category-group {
+  scroll-margin-top: 1.5rem;
+  margin: 0 0 2.5rem;
+}
+
+.category-group__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.category-group__header h3 {
+  margin: 0;
+}
+
+.content-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content-list__item {
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.content-list__link {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0.25rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.content-list__link:hover,
+.content-list__link:focus-visible {
+  background: rgba(181, 232, 83, 0.08);
+  text-decoration: none;
+}
+
+.content-list__title {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.content-list__date {
+  flex: 0 0 auto;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .category-navigation {
+    margin-bottom: 2rem;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .category-group__header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .content-list__link {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
