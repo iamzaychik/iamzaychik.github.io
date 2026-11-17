@@ -18,11 +18,11 @@ collect that using the following OID:
 
 You can use below command for vlan statistics
 
-*configure ports * [_port_list_ | _all_] *monitor vlan *vlan_name *{_rx-only_ |
-_tx-only_}
+`configure ports [<port_list> | all] monitor vlan *vlan_name* {rx-only |
+tx-only}`
 
-But another point to be noted is , vlan statistics will occupy your ACL slice so
-configuring too many ports can lead to in-sufficient resources . While
+But another point to be noted is, vlan statistics will occupy your ACL slice so
+configuring too many ports can lead to in-sufficient resources. While
 implementing have a check on your ACL slice resources.
 
 ---

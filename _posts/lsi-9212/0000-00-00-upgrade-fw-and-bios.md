@@ -10,33 +10,44 @@ date: 2019-04-15
 
 ---
 
-1. Завантажуємо останню версію [Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows](https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=).
+1. Завантажуємо останню версію:
+[Package_Pxx_IR_IT_Firmware_BIOS_for_MSDOS_Windows](https://www.broadcom.com/support/download-search/?pg=&amp;pf=&amp;pn=SAS+9212-4i4e+Host+Bus+Adapter&amp;po=&amp;pa=&amp;dk=)
 
-2. За допомогою Rufus робимо флешку з DOS*
+2. За допомогою Rufus робимо флешку з DOS
 
 3. Копіюємо на флешку файли:
+
 `sas2flsh.exe` - прошивалка
 `214i4eir.bin` - прошивка з підтримкою RAID
 `214i4et.bin` - прошивка без підтримки RAID
 `mptsas2.rom` - BIOS
-_Рекомендую їх перейменувати, щоб було зручніше._
 
-4.Завантажуємося з флешки*
+*Рекомендую їх перейменувати, щоб було зручніше.*
+
+4. Завантажуємося з флешки
 
 5. Дізнаємося SAS-адресу контролера:
+
 `sas2flsh -o -listsasadd`
-_Записуємо його собі або фотографуємо._
+
+*Записуємо його собі або фотографуємо.*
 
 6. Затираємо повністю флеш контролера:
+
 `sas2flsh -o -e 7`
 
 7. Заливаємо прошивку і BIOS:
+
 `sas2flsh -o -f 214i4eir.bin -b mptsas2.rom`
-_Або sas2flsh -o -f 214i4et.bin -b mptsas2.rom_
+
+Або
+
+`sas2flsh -o -f 214i4et.bin -b mptsas2.rom`
 
 8. Так як ми затерли всі дані контролера включно з адресою, повертаємо її назад:
+
 `sas2flsh -o -sasadd ХХХХХХХХХХХХХХХ` - із пункта 5
 
-9. Перезавантажуємося*
+9. Перезавантажуємося
 
 ---

@@ -36,11 +36,11 @@ The latest HPLIP version (2.8.12) is available on the
 of writing, it supported more than 1,536 printer models.
 
 To determine whether *HPLIP* supports your HP printer model, follow this
-[link](https://hplipopensource.com/hplip-web/supported_devices/index.html).
+[official website](https://hplipopensource.com/hplip-web/supported_devices/index.html)
 
 After finding your printer model in the list of HPLIP-supported printers, note
-the recommended HPLIP version (_requires HPLIP version_ …). It specifies the
-_minimum version_ of *HPLIP* needed for your HP device to work correctly.
+the recommended HPLIP version (*requires HPLIP version* …). It specifies the
+*minimum version* of *HPLIP* needed for your HP device to work correctly.
 
 To view the installed *HPLIP* version, run:
 
@@ -72,7 +72,7 @@ After these steps, the printer is installed and a test page is printed.
 
 To make your HP printer the default, choose *System* — *Preferences* — *Default
 Printer*. In the list of available printers, select the required printer and
-click _Use as Default_.
+click *Use as Default*.
 
 In Lubuntu, open *System* → *Printers* and add the network printer.
 
