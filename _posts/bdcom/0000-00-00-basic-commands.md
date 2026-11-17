@@ -175,7 +175,7 @@ copy flash:startup-config tftp XXX.XXX.XXX.XXX [ENTER]
 ---
 
 [BDCOM basic](http://linuxsnippets.net/ru/snippet/%D0%B7%D0%B0%D0%BC%D0%B5%D1%82%D0%BA%D0%B8-%D0%BF%D0%BE-gpongepon-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%B5-olt-bdcom-p3310b)
-[P3310B manual](/assets/pdf/bdcom/p3310b-manual-rus.pdf)
+[P3310B manual](/attachments/pdf/bdcom/p3310b-manual-rus.pdf)
 [ONU tests](http://incosoft.ua/novosti/test-of-compatibility-onu-fora-na-1001c-with-olt-bdcom-p3310b.html)
 [UA.PON Dropbox](https://www.dropbox.com/sh/xwbmgzj2y26mstv/AAA9r-WYHVT0e8FKKwhVFfV_a?dl=0)
 
