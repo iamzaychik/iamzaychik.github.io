@@ -123,6 +123,23 @@ $ sudo systemctl restart ollama
 - `OLLAMA_NUM_PARALLEL=1` permits one concurrent request per loaded model.
 - `OMP_NUM_THREADS=6` is an optional runtime environment setting from this setup.
 
+### Remove a model or Ollama
+
+- Remove one downloaded model:
+
+```bash
+$ ollama rm <model>
+```
+
+- To uninstall the Linux systemd service, first stop and disable it:
+
+```bash
+$ sudo systemctl stop ollama
+$ sudo systemctl disable ollama
+```
+
+- Follow the [official Linux uninstall instructions](https://github.com/ollama/ollama/blob/main/docs/linux.mdx#uninstall) for the service file, binary, libraries, service user, and downloaded models. Removing `/usr/share/ollama` permanently deletes the service user's models.
+
 ### Start a coding session
 
 - Change to the project directory before launching Aider:
@@ -144,6 +161,6 @@ $ aider --model ollama_chat/qwen2.5-coder:3b --message "Create a backup script"
 
 ---
 
-[Ollama installation](https://ollama.com/download) · [Aider with Ollama](https://aider.chat/docs/llms/ollama.html) · [Aider configuration](https://aider.chat/docs/config/aider_conf.html)
+[Ollama installation and uninstall](https://github.com/ollama/ollama/blob/main/docs/linux.mdx) · [Aider with Ollama](https://aider.chat/docs/llms/ollama.html) · [Aider configuration](https://aider.chat/docs/config/aider_conf.html)
 
 ---
