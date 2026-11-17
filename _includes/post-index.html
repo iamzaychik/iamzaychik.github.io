@@ -1,5 +1,13 @@
-{% assign sorted_categories = site.categories | sort %}
-
-{% include category-navigation.html sorted_categories=sorted_categories %}
-
-{% include category-groups.html sorted_categories=sorted_categories %}
+<ul class="content-list post-list">
+  {% for post in site.posts %}
+    <li class="content-list__item">
+      <a class="content-list__link" href="{{ post.url | relative_url }}">
+        <span class="content-list__title">{{ post.title }}</span>
+        <span class="post-list__meta">
+          <span class="post-list__category">{{ post.category }}</span>
+          <time class="content-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        </span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
