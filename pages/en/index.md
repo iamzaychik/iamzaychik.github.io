@@ -11,7 +11,13 @@ permalink: /
 
 ---
 
-- [Categories](/categories/)
-- [Posts](/posts/)
-
----
+<nav class="site-navigation" aria-label="Site sections">
+  <ul class="site-navigation__grid">
+    <li class="site-navigation__item">
+      <a class="site-navigation__link" href="/categories/">Categories</a>
+    </li>
+    <li class="site-navigation__item">
+      <a class="site-navigation__link" href="/posts/">Posts</a>
+    </li>
+  </ul>
+</nav>

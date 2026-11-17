@@ -11,7 +11,13 @@ translation_url: /
 
 ---
 
-- [Категорії](/ua/categories/)
-- [Публікації](/ua/posts/)
-
----
+<nav class="site-navigation" aria-label="Розділи сайту">
+  <ul class="site-navigation__grid">
+    <li class="site-navigation__item">
+      <a class="site-navigation__link" href="/ua/categories/">Категорії</a>
+    </li>
+    <li class="site-navigation__item">
+      <a class="site-navigation__link" href="/ua/posts/">Публікації</a>
+    </li>
+  </ul>
+</nav>
