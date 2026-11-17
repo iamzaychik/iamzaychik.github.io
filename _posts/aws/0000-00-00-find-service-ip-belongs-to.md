@@ -7,7 +7,7 @@ date: 2020-12-01
 *Identify the AWS service owning a private IP address.*
 
 ```bash
-$ aws ec2 describe-network-interfaces --filters Name=addresses.private-ip-address,Values=10.100.200.200
+aws ec2 describe-network-interfaces --filters Name=addresses.private-ip-address,Values=10.100.200.200
 ```
 
 ---

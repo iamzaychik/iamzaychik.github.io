@@ -10,7 +10,7 @@ date: 2019-07-24
 2. Request api:
 
 ```bash
-$ curl --header "PRIVATE-TOKEN: <TOKEN>" "https://gitlab.example.com/api/v4/deploy_keys"
+curl --header "PRIVATE-TOKEN: <TOKEN>" "https://gitlab.example.com/api/v4/deploy_keys"
 ```
 
 ---

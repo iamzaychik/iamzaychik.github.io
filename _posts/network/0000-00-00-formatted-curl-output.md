@@ -22,7 +22,7 @@ date: 2021-11-03
 1. *Make a request:*
 
 ```bash
-$ curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
+curl -w "@curl-format.txt" -o /dev/null -s "http://wordpress.com/"
 ```
 
 ---

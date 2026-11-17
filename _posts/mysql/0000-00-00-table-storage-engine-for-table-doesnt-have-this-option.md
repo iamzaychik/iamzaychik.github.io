@@ -10,7 +10,7 @@ date: 2019-04-15
   option ROW_FORMAT is wrong:
 
 ```bash
-$ sed -ie 's/ROW_FORMAT=FIXED//g' dump.sql
+sed -ie 's/ROW_FORMAT=FIXED//g' dump.sql
 ```
 
 ---

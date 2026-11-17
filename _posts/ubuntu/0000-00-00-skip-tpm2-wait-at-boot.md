@@ -14,7 +14,7 @@ date: 2026-10-22
 - On Ubuntu, edit the default GRUB settings:
 
 ```bash
-$ sudoedit /etc/default/grub
+sudoedit /etc/default/grub
 ```
 
 - Append the workaround options to the existing `GRUB_CMDLINE_LINUX_DEFAULT` value:
@@ -26,8 +26,8 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash systemd.tpm2_wait=false tpm_tis.force=0
 - Regenerate GRUB configuration and reboot:
 
 ```bash
-$ sudo update-grub
-$ sudo reboot
+sudo update-grub
+sudo reboot
 ```
 
 ### Mask TPM units when the device itself causes failures
@@ -37,13 +37,13 @@ $ sudo reboot
 - Apply these masks only when disabling those TPM units is acceptable:
 
 ```bash
-$ sudo systemctl mask dev-tpm0.device dev-tpmrm0.device tpm2.target
+sudo systemctl mask dev-tpm0.device dev-tpmrm0.device tpm2.target
 ```
 
 - Remove the masks to restore the units:
 
 ```bash
-$ sudo systemctl unmask dev-tpm0.device dev-tpmrm0.device tpm2.target
+sudo systemctl unmask dev-tpm0.device dev-tpmrm0.device tpm2.target
 ```
 
 ### Check the result

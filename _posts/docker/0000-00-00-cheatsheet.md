@@ -9,7 +9,7 @@ date: 2019-04-15
 - Show detailed image history:
 
 ```bash
-$ docker history --no-trunc alpine:latest
+docker history --no-trunc alpine:latest
 ```
 
 ---
@@ -62,8 +62,8 @@ services:
 - Elasticsearch:
 
 ```bash
-$ sudo echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
-$ sudo sysctl -p
+sudo echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
+sudo sysctl -p
 ```
 
 ---

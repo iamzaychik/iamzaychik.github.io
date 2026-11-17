@@ -9,7 +9,7 @@ date: 2019-04-15
 1. Start editing sudoers:
 
 ```bash
-$ sudo visudo
+sudo visudo
 ```
 
 1. Insert at the end of the file:

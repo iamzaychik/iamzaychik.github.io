@@ -11,19 +11,19 @@ date: 2019-04-22
 1. Install `rename`, if you not had it yet:
 
 ```bash
-$ sudo apt install rename
+sudo apt install rename
 ```
 
 1. Rename directories first:
 
 ```bash
-$ find -name "* *" -type d | rename 's/ /_/g'
+find -name "* *" -type d | rename 's/ /_/g'
 ```
 
 1. Rename files:
 
 ```bash
-$ find -name "* *" -type f | rename 's/ /_/g'
+find -name "* *" -type f | rename 's/ /_/g'
 ```
 
 ---

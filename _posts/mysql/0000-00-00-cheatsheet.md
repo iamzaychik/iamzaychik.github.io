@@ -17,10 +17,10 @@ date: 2019-04-15
 - Drop all databases:
 
 ```bash
-$ echo "SET FOREIGN_KEY_CHECKS = 0;" > ./temp.sql
-$ mysqldump --add-drop-table --no-data -u root -p db_name | grep 'DROP TABLE' >> ./temp.sql
-$ echo "SET FOREIGN_KEY_CHECKS = 1;" >> ./temp.sql
-$ mysql -u root -p db_name < ./temp.sql
+echo "SET FOREIGN_KEY_CHECKS = 0;" > ./temp.sql
+mysqldump --add-drop-table --no-data -u root -p db_name | grep 'DROP TABLE' >> ./temp.sql
+echo "SET FOREIGN_KEY_CHECKS = 1;" >> ./temp.sql
+mysql -u root -p db_name < ./temp.sql
 ```
 
 ---
@@ -96,19 +96,19 @@ FLUSH PRIVILEGES;
 - Backup db:
 
 ```bash
-$ mysqldump -u USER -p -f mydatabase > /path/to/backup/dump.sql
+mysqldump -u USER -p -f mydatabase > /path/to/backup/dump.sql
 ```
 
 - Restore db:
 
 ```bash
-$ mysql -u USER -p < /path/to/backup/dump.sql DB_NAME
+mysql -u USER -p < /path/to/backup/dump.sql DB_NAME
 ```
 
 - Backup all dbs:
 
 ```bash
-$ mysqldump -u root -p --all-databases > alldb.sql
+mysqldump -u root -p --all-databases > alldb.sql
 ```
 
 Restore all dbs:
@@ -122,7 +122,7 @@ mysql -u root -p < alldb.sql
 - Repair dbs:
 
 ```bash
-$ mysqlcheck -u root -p --auto-repair --all-databases
+mysqlcheck -u root -p --auto-repair --all-databases
 ```
 
 ---
@@ -132,13 +132,13 @@ $ mysqlcheck -u root -p --auto-repair --all-databases
 1. Go to database dir:
 
 ```bash
-$ cd /var/lib/mysql/mydatabase
+cd /var/lib/mysql/mydatabase
 ```
 
 1. Repair it:
 
 ```bash
-$ myisamchk --safe-recover mytable
+myisamchk --safe-recover mytable
 ```
 
 ---

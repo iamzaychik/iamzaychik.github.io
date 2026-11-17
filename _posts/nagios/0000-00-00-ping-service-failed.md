@@ -12,10 +12,10 @@ date: 2019-04-15
 *Add next permissions to it:*
 
 ```bash
-$ chown root check_icmp
-$ chgrp root check_icmp
-$ chmod u+s check_icmp
-$ chmod g+s check_icmp
+chown root check_icmp
+chgrp root check_icmp
+chmod u+s check_icmp
+chmod g+s check_icmp
 ```
 
 ---

@@ -15,7 +15,7 @@ date: 2020-08-26
 - Add agent listener:
 
 ```bash
-$ nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
+nano /etc/datadog-agent/conf.d/jmx.d/conf.yaml
  instances:
   - host: "127.0.0.1"
     port: "9010"

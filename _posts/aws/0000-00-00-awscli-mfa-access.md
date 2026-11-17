@@ -10,9 +10,9 @@ date: 2020-03-21
 
 ```bash
 # Ubuntu
-$ sudo apt install jq
+sudo apt install jq
 # Mac
-$ brew install jq
+brew install jq
 ```
 
 ### Configure the AWS profile
@@ -53,7 +53,7 @@ fi
 ### Make the script executable
 
 ```bash
-$ chmod +x get_mfa.sh
+chmod +x get_mfa.sh
 ```
 
 ---

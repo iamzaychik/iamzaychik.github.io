@@ -9,7 +9,7 @@ date: 2021-02-17
 - It prints unmerged files. If it prints nothing, there are no unmerged files:
 
 ```bash
-$ git ls-files -u
+git ls-files -u
 ```
 
 ---

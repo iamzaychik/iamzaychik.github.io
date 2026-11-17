@@ -41,10 +41,10 @@ dropdb -h DB_HOST -p 5432 -U DB_USER -i -e DB_NAME
 - Add repository to install version higher than 9.5:
 
 ```bash
-$ add-apt-repository "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main"
-$ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
-$ apt update
-$ apt install postgresql-client-9.6
+add-apt-repository "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main"
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+apt update
+apt install postgresql-client-9.6
 ```
 
 ---

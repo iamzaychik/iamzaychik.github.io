@@ -15,7 +15,7 @@ Unable to negotiate with A.B.C.D: no matching host key type found. Their offer: 
 *Regarding to security reasons with disabled dss. Use:*
 
 ```bash
-$ ssh -oHostKeyAlgorithms=+ssh-dss <USER>@<A.B.C.D>
+ssh -oHostKeyAlgorithms=+ssh-dss <USER>@<A.B.C.D>
 ```
 
 ---

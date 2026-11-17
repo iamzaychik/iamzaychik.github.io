@@ -7,7 +7,7 @@ date: 2019-04-15
 *Tilda 1 and tilda 0 at ctrl-v on Ubuntu.*
 
 ```bash
-$ echo 'printf "\e[?2004l"' >> ~/.bashrc
+echo 'printf "\e[?2004l"' >> ~/.bashrc
 ```
 
 ---

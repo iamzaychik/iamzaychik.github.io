@@ -9,19 +9,19 @@ date: 2019-04-15
 - Backup rpm database:
 
 ```bash
-$ mv /var/lib/rpm/__db* /tmp
+mv /var/lib/rpm/__db* /tmp
 ```
 
 - Clear packages cache:
 
 ```bash
-$ yum clean all
+yum clean all
 ```
 
 - Check:
 
 ```bash
-$ yum update
+yum update
 ```
 
 ---

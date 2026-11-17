@@ -9,7 +9,7 @@ date: 2026-10-18
 ## List listening TCP ports
 
 ```bash
-$ ss -tln
+ss -tln
 ```
 
 - `-t` — show TCP sockets.
@@ -19,8 +19,8 @@ $ ss -tln
 ### Find processes using ports
 
 ```bash
-$ ss -tulpn
-$ ss -tunap
+ss -tulpn
+ss -tunap
 ```
 
 - `-u` — include UDP sockets.
@@ -30,20 +30,20 @@ $ ss -tunap
 ### Find sockets by state
 
 ```bash
-$ ss -tan state time-wait
-$ ss -tan state close-wait
+ss -tan state time-wait
+ss -tan state close-wait
 ```
 
 ### Sort connections by remote address
 
 ```bash
-$ ss -tan | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
+ss -tan | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
 ```
 
 ### Monitor sockets continuously
 
 ```bash
-$ watch 'ss -tulpn'
+watch 'ss -tulpn'
 ```
 
 - `ss` is faster and more capable than `netstat`.

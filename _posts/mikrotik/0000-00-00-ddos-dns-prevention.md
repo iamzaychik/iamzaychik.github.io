@@ -12,7 +12,7 @@ date: 2019-04-15
 - Checking:
 
 ```bash
-$ nslookup google.com 203.0.113.1
+nslookup google.com 203.0.113.1
 DNS request timed out
 ```
 

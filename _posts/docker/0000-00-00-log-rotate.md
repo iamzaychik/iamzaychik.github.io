@@ -7,7 +7,7 @@ date: 2021-02-17
 *Rotate Docker container logs with logrotate.*
 
 ```text
-$ sudo nano /etc/logrotate.d/docker_logs
+sudo nano /etc/logrotate.d/docker_logs
 
 /var/lib/docker/containers/*/*.log {
   rotate 10

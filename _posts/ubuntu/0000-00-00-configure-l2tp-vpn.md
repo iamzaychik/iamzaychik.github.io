@@ -9,9 +9,9 @@ date: 2020-10-21
 - Install packages
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install network-manager-l2tp
-$ sudo apt-get install network-manager-l2tp-gnome
+sudo apt-get update
+sudo apt-get install network-manager-l2tp
+sudo apt-get install network-manager-l2tp-gnome
 ```
 
 - Go to Settings -> Network -> VPN. Click the *+* button.

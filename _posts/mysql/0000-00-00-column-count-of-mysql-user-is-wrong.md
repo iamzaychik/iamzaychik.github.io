@@ -11,13 +11,13 @@ date: 2019-05-28
 - Method one:
 
 ```bash
-$ mysql_upgrade --force -uroot -p
+mysql_upgrade --force -uroot -p
 ```
 
 - Method two:
 
 ```bash
-$ mysql -u root -p
+mysql -u root -p
 mysql> use mysql;
 mysql> alter table mysql.user drop column default_role;
 mysql> alter table mysql.user drop column max_statement_time;

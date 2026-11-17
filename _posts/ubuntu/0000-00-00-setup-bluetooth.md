@@ -9,27 +9,27 @@ date: 2019-11-11
 - Install packages:
 
 ```bash
-$ sudo apt install bluetooth bluez bluez-tools rfkill
+sudo apt install bluetooth bluez bluez-tools rfkill
 ```
 
 - Make sure your Bluetooth device is not blocked:
 
 ```bash
-$ sudo apt install rfkill
-$ sudo rfkill list
+sudo apt install rfkill
+sudo rfkill list
 ```
 
 - If blocked:
 
 ```bash
-$ sudo rfkill unblock bluetooth
-$ sudo service bluetooth start
+sudo rfkill unblock bluetooth
+sudo service bluetooth start
 ```
 
 - Scanning for devices:
 
 ```bash
-$ sudo apt-get install blueman
+sudo apt-get install blueman
 ```
 
 ---

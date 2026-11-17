@@ -7,7 +7,7 @@ date: 2020-02-05
 *Run Mattermost with persistent application data and a PostgreSQL database.*
 
 ```bash
-$ git clone https://github.com/mattermost/mattermost-docker.git
+git clone https://github.com/mattermost/mattermost-docker.git
 ```
 
 ---

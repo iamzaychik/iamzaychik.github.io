@@ -9,13 +9,13 @@ date: 2019-04-15
 1. Встановлюємо клієнт:
 
 ```bash
-$ sudo apt-get install pptp-linux
+sudo apt-get install pptp-linux
 ```
 
 1. Створюємо файл нового підключення:
 
 ```bash
-$ mcedit /etc/ppp/peers/new-vpn
+mcedit /etc/ppp/peers/new-vpn
 ```
 
 2.1 Вставляємо туди:
@@ -38,7 +38,7 @@ ipparam $TUNNEL
 1. Додаємо дані користувача у файл:
 
 ```bash
-$ mcedit /etc/ppp/chap-secrets
+mcedit /etc/ppp/chap-secrets
 ```
 
 3.1 Ctrl+V

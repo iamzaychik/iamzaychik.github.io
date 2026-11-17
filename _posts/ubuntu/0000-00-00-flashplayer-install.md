@@ -9,9 +9,9 @@ date: 2019-04-15
 ## Install via apt
 
 ```bash
-$ sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"
-$ apt update
-$ apt install adobe-flashplugin
+sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"
+apt update
+apt install adobe-flashplugin
 ```
 
 ---

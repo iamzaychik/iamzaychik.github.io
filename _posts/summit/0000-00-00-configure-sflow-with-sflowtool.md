@@ -37,8 +37,8 @@ NetFlow. А вже дані NetFlow можна збирати з допомог�
 1. Встановимо його з портів FreeBSD:
 
 ```bash
-$ cd /usr/ports/net/sflowtool/
-$ make install clean
+cd /usr/ports/net/sflowtool/
+make install clean
 ```
 
 1. Дописуємо в /etc/rc.conf:

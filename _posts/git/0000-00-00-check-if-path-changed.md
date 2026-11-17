@@ -10,7 +10,7 @@ date: 2023-12-31
   origin/develop:
 
 ```bash
-$ git diff origin/develop --name-only --no-color | grep -e ^path_to_check/
+git diff origin/develop --name-only --no-color | grep -e ^path_to_check/
 ```
 
 ---

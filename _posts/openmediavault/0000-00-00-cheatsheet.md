@@ -9,7 +9,7 @@ date: 2019-05-06
 *Install extra plugins:*
 
 ```bash
-$ wget -O - http://omv-extras.org/install | bash
+wget -O - http://omv-extras.org/install | bash
 ```
 
 ---
@@ -17,11 +17,11 @@ $ wget -O - http://omv-extras.org/install | bash
 *Disable beeper:*
 
 ```bash
-$ systemctl stop openmediavault-beep-down
-$ systemctl disable openmediavault-beep-down
+systemctl stop openmediavault-beep-down
+systemctl disable openmediavault-beep-down
 
-$ systemctl stop openmediavault-beep-up
-$ systemctl disable openmediavault-beep-up
+systemctl stop openmediavault-beep-up
+systemctl disable openmediavault-beep-up
 ```
 
 ---

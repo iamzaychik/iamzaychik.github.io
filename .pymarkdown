@@ -1,87 +1,15 @@
 {
   "plugins": {
 
-    // Headings use the #, ##, ### format.
-    // TODO: set Codex to rewrite headers.
-    "MD003": {
-      "enabled": false,
-      "style": "atx"
-    },
-
-    // Unordered list markers.
-    // set Codex to rewrite unordered lists.
-    "MD004": {
-      "enabled": true,
-      "style": "dash"
-    },
-
-    // Indentation for nested unordered lists.
-    "MD007": {
-      "enabled": true,
-      "indent": 2
-    },
-
     // Do not check line length.
     "MD013": {
       "enabled": false
-    },
-
-    // Do not require $ before Bash commands.
-    "MD014": {
-      "enabled": false
-    },
-
-    // Check blank lines around headings.
-    "MD022": {
-      "enabled": true
-    },
-
-    // Jekyll title is used instead of an H1 in Markdown.
-    "MD025": {
-      "enabled": true
-    },
-
-    // Allow punctuation at the end of headings.
-    "MD026": {
-      "enabled": true
-    },
-
-    // Check ordered-list numbering.
-    "MD029": {
-      "enabled": true,
-      "style": "ordered"
-    },
-
-    // Check blank lines around code fences.
-    "MD031": {
-      "enabled": true
-    },
-
-    // Check blank lines around lists.
-    "MD032": {
-      "enabled": true
     },
 
     // HTML is not used in blog content.
     // Except in posts/categories.
     "MD033": {
       "enabled": false
-    },
-
-    // Every fenced code block must specify a language.
-    "MD040": {
-      "enabled": true
-    },
-
-    // Jekyll requires YAML front matter before headings.
-    "MD041": {
-      "enabled": true
-    },
-
-    // Emphasis style
-    "MD049": {
-      "enabled": true,
-      "style": "asterisk"
     },
 
     // Link fragments should be valid

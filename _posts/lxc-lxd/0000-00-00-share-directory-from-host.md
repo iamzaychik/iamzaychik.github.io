@@ -9,14 +9,14 @@ date: 2019-05-12
 - Create directory on the host:
 
 ```bash
-$ mkdir /mnt/share
-$ chmod 777 /mnt/share
+mkdir /mnt/share
+chmod 777 /mnt/share
 ```
 
 - Add shared directory to container config:
 
 ```bash
-$ lxc config edit CONTAINER
+lxc config edit CONTAINER
 ```
 
 ```yaml

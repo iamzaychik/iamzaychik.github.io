@@ -17,7 +17,7 @@ server
     auth_basic_user_file /etc/nginx/users;
 }
 
-$ cat /etc/nginx/users
+cat /etc/nginx/users
 john:$apr1$IHaD0/..$N9ne/Bqnh8.MyOtvKU56j1
 ```
 

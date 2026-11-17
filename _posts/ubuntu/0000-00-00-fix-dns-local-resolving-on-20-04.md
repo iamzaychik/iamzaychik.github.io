@@ -8,13 +8,13 @@ date: 2020-10-21
 
 ```bash
 # Install good resolver
-$ sudo apt install resolvconf
+sudo apt install resolvconf
 
 # Disable default resolver
-$ systemctl disable systemd-resolved
+systemctl disable systemd-resolved
 
 # Add new one to configs
-$ nano /etc/NetworkManager/NetworkManager.conf:
+nano /etc/NetworkManager/NetworkManager.conf:
 [main]
 dns=default
 rc-manager=resolvconf

@@ -17,19 +17,19 @@ date: 2019-04-15
 1. Після підключення принтера:
 
 ```bash
-$ lsmod | grep usblp
+lsmod | grep usblp
 ```
 
 1. Якщо модуль завантажений - примусово відключаємо його:
 
 ```bash
-$ rmmod usblp
+rmmod usblp
 ```
 
 1. Забороняємо автоматично завантажувати модуль:
 
 ```bash
-$ echo "blacklist usblp" >> /etc/modprobe.d/blacklist
+echo "blacklist usblp" >> /etc/modprobe.d/blacklist
 ```
 
 ---

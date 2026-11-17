@@ -43,7 +43,7 @@ the recommended HPLIP version (*requires HPLIP version* …). It specifies the
 To view the installed *HPLIP* version, run:
 
 ```bash
-$ dpkg -l hplip
+dpkg -l hplip
 ```
 
 The output will look similar to this:

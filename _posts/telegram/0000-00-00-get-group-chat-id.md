@@ -12,7 +12,7 @@ date: 2019-06-19
 - get the list of updates for your BOT:
 
 ```bash
-$ curl --silent https://api.telegram.org/bot{TOKEN}/getUpdates
+curl --silent https://api.telegram.org/bot{TOKEN}/getUpdates
 ```
 
 - look for the "chat" object (you can do install jq for pretty output):

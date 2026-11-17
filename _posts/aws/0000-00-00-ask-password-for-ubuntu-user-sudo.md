@@ -12,13 +12,13 @@ date: 2019-04-15
 1. Configure password for user `ubuntu`:
 
 ```bash
-$ passwd ubuntu
+passwd ubuntu
 ```
 
 1. Change cloud provider settings:
 
 ```bash
-$ cat /etc/sudoers.d/90-cloud-init-users
+cat /etc/sudoers.d/90-cloud-init-users
 ubuntu ALL=(ALL) ALL
 ```
 

@@ -7,7 +7,7 @@ date: 2021-02-17
 *Extract combined user names from JSON with `jq`.*
 
 ```bash
-$ echo "${json}" | jq '.users[] | "\(.first) \(.last)"'
+echo "${json}" | jq '.users[] | "\(.first) \(.last)"'
 ```
 
 ---

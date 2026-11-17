@@ -7,7 +7,7 @@ date: 2019-10-10
 *Remove empty lines with grep.*
 
 ```bash
-$ grep -v -e '^$'
+grep -v -e '^$'
 ```
 
 ---

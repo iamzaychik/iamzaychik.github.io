@@ -9,13 +9,13 @@ date: 2019-04-22
 1. Install [`dos2unix`](http://dos2unix.sourceforge.net/):
 
 ```bash
-$ sudo apt install dos2unix
+sudo apt install dos2unix
 ```
 
 1. Convert files:
 
 ```bash
-$ find . -type f -exec dos2unix -k -s -o {} ';'
+find . -type f -exec dos2unix -k -s -o {} ';'
 ```
 
 ---

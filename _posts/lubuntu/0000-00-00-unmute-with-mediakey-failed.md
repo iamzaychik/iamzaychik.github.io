@@ -9,7 +9,7 @@ date: 2019-04-15
 - Open hotkeys configuration:
 
 ```bash
-$ mcedit ~/.config/openbox/lubuntu-rc.xml
+mcedit ~/.config/openbox/lubuntu-rc.xml
 ```
 
 - Change:

@@ -7,7 +7,7 @@ date: 2019-05-29
 *Remove files older than a specified number of days.*
 
 ```bash
-$ find /mnt -type f -mtime +14 -print0 | xargs -0 rm -rf
+find /mnt -type f -mtime +14 -print0 | xargs -0 rm -rf
 ```
 
 ---

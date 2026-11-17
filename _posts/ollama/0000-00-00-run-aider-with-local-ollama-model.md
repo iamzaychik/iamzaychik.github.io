@@ -13,29 +13,29 @@ date: 2026-10-22
 - Install Ollama on Linux:
 
 ```bash
-$ curl -fsSL https://ollama.com/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 - Install Aider using its installer:
 
 ```bash
-$ curl -LsSf https://aider.chat/install.sh | sh
+curl -LsSf https://aider.chat/install.sh | sh
 ```
 
 - Alternatively, install Aider with `pipx`:
 
 ```bash
-$ sudo apt update
-$ sudo apt install pipx -y
-$ pipx ensurepath
-$ pipx install aider-chat
+sudo apt update
+sudo apt install pipx -y
+pipx ensurepath
+pipx install aider-chat
 ```
 
 - Restart the shell after `pipx ensurepath` if the `aider` command is unavailable.
 - Verify the installed Aider version:
 
 ```bash
-$ aider --version
+aider --version
 ```
 
 ### Download and verify a model
@@ -43,14 +43,14 @@ $ aider --version
 - Download a coding model while connected to the internet:
 
 ```bash
-$ ollama pull qwen2.5-coder:3b
-$ ollama run qwen2.5-coder:3b
+ollama pull qwen2.5-coder:3b
+ollama run qwen2.5-coder:3b
 ```
 
 - Exit the model prompt with `/bye`, then list downloaded models:
 
 ```bash
-$ ollama list
+ollama list
 ```
 
 - Pull the selected model before disconnecting from the internet.
@@ -94,7 +94,7 @@ read:
 - Disable Aider update checks before working offline:
 
 ```bash
-$ export AIDER_CHECK_UPDATE=false
+export AIDER_CHECK_UPDATE=false
 ```
 
 ### Limit concurrent Ollama requests
@@ -102,7 +102,7 @@ $ export AIDER_CHECK_UPDATE=false
 - Create a systemd override for the Ollama service:
 
 ```bash
-$ sudo systemctl edit ollama.service
+sudo systemctl edit ollama.service
 ```
 
 - Add the following override:
@@ -116,8 +116,8 @@ Environment="OMP_NUM_THREADS=6"
 - Reload systemd and restart Ollama:
 
 ```bash
-$ sudo systemctl daemon-reload
-$ sudo systemctl restart ollama
+sudo systemctl daemon-reload
+sudo systemctl restart ollama
 ```
 
 - `OLLAMA_NUM_PARALLEL=1` permits one concurrent request per loaded model.
@@ -128,14 +128,14 @@ $ sudo systemctl restart ollama
 - Remove one downloaded model:
 
 ```bash
-$ ollama rm <model>
+ollama rm <model>
 ```
 
 - To uninstall the Linux systemd service, first stop and disable it:
 
 ```bash
-$ sudo systemctl stop ollama
-$ sudo systemctl disable ollama
+sudo systemctl stop ollama
+sudo systemctl disable ollama
 ```
 
 - Follow the [official Linux uninstall instructions](https://github.com/ollama/ollama/blob/main/docs/linux.mdx#uninstall) for the service file, binary, libraries, service user, and downloaded models. Removing `/usr/share/ollama` permanently deletes the service user's models.
@@ -145,8 +145,8 @@ $ sudo systemctl disable ollama
 - Change to the project directory before launching Aider:
 
 ```bash
-$ cd /path/to/repository
-$ aider --model ollama_chat/qwen2.5-coder:3b
+cd /path/to/repository
+aider --model ollama_chat/qwen2.5-coder:3b
 ```
 
 - Add files explicitly with `/add <path>` when needed.
@@ -154,7 +154,7 @@ $ aider --model ollama_chat/qwen2.5-coder:3b
 - Send a one-shot request without entering the chat prompt:
 
 ```bash
-$ aider --model ollama_chat/qwen2.5-coder:3b --message "Create a backup script"
+aider --model ollama_chat/qwen2.5-coder:3b --message "Create a backup script"
 ```
 
 - Download models and install tools before disconnecting from the internet.

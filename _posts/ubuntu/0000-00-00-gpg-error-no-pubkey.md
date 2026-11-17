@@ -7,7 +7,7 @@ date: 2019-04-15
 *GPG error NO PUBKEY on Ubuntu.*
 
 ```bash
-$ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys YOUR_KEY
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys YOUR_KEY
 ```
 
 ---

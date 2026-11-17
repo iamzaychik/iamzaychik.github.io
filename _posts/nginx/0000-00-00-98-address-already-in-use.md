@@ -15,13 +15,13 @@ date: 2019-04-15
 1. Kill the process using the port:
 
 ```bash
-$ sudo fuser -k 80/tcp
+sudo fuser -k 80/tcp
 ```
 
 1. Restart Nginx:
 
 ```bash
-$ service nginx restart
+service nginx restart
 ```
 
 ---

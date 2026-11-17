@@ -13,8 +13,8 @@ image.*
 - Connect from the same network.
 
 ```bash
-$ adb connect 192.168.0.100
-$ adb shell pm list packages
+adb connect 192.168.0.100
+adb shell pm list packages
 ```
 
 ### Disable or enable a package
@@ -22,14 +22,14 @@ $ adb shell pm list packages
 - Replace `<PACKAGE_NAME>` with the package to manage.
 
 ```bash
-$ adb shell pm disable-user --user 0 <PACKAGE_NAME>
-$ adb shell pm enable --user 0 <PACKAGE_NAME>
+adb shell pm disable-user --user 0 <PACKAGE_NAME>
+adb shell pm enable --user 0 <PACKAGE_NAME>
 ```
 
 Example:
 
 ```bash
-$ adb shell pm disable-user --user 0 com.mitv.tvhome.atv
+adb shell pm disable-user --user 0 com.mitv.tvhome.atv
 ```
 
 - Disabled packages remain installed.
@@ -39,7 +39,7 @@ $ adb shell pm disable-user --user 0 com.mitv.tvhome.atv
 ### Uninstall a package for the current user
 
 ```bash
-$ adb shell pm uninstall -k --user 0 com.google.android.music
+adb shell pm uninstall -k --user 0 com.google.android.music
 ```
 
 - `-k` keeps the package data.
@@ -64,10 +64,10 @@ $ adb shell pm uninstall -k --user 0 com.google.android.music
 ### Disable the default launcher components
 
 ```bash
-$ adb shell pm disable-user --user 0 com.google.android.tvlauncher
-$ adb shell pm disable-user --user 0 com.google.android.leanbacklauncher.recommendations
-$ adb shell pm disable-user --user 0 com.google.android.leanbacklauncher
-$ adb shell pm disable-user --user 0 com.google.android.tungsten.setupwraith
+adb shell pm disable-user --user 0 com.google.android.tvlauncher
+adb shell pm disable-user --user 0 com.google.android.leanbacklauncher.recommendations
+adb shell pm disable-user --user 0 com.google.android.leanbacklauncher
+adb shell pm disable-user --user 0 com.google.android.tungsten.setupwraith
 ```
 
 - Keep an alternative launcher available before disabling the default.

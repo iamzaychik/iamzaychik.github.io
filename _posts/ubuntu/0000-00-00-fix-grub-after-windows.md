@@ -27,8 +27,8 @@ Windows and Ubuntu system, but it is possible.*
   following commands:
 
 ```bash
-$ sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
-$ sudo apt-get install -y boot-repair && boot-repair
+sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+sudo apt-get install -y boot-repair && boot-repair
 ```
 
 - After installation, boot-repair will automatically launch, if is doesn't,

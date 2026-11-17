@@ -11,8 +11,8 @@ date: 2019-05-10
 - To change your email, you must add a new UID:
 
 ```bash
-$ gpg --list-keys
-$ gpg --edit-key <keyID>
+gpg --list-keys
+gpg --edit-key <keyID>
 gpg> adduid
 Real name: <NAME SURNAME>
 Email address: <user@example.com>
@@ -47,7 +47,7 @@ Is this okay? (y/N) y
 
 ```bash
 gpg> save
-$ gpg --keyserver hkp://pgp.mit.edu --send-keys <keyID>
+gpg --keyserver hkp://pgp.mit.edu --send-keys <keyID>
 ```
 
 ---
