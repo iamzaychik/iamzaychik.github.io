@@ -14,7 +14,7 @@
 
     // Link fragments should be valid
     "MD051": {
-      "enabled": false
+      "enabled": true
     }
   }
 }
