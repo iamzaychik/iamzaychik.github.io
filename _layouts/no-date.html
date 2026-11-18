@@ -63,7 +63,7 @@
           </nav>
         {% endif %}
         {% unless page.hide_page_title %}
-          <h2><a href="/{{ page.category | downcase }}">{{ page.category }}</a> {{ page.title }}</h2>
+          <h2><a href="{{ '/' | relative_url }}#{{ page.category | slugify }}">{{ page.category }}</a> {{ page.title }}</h2>
         {% endunless %}
         {{ content }}
 
